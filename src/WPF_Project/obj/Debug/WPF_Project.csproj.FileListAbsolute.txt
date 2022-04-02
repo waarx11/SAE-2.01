@@ -1,0 +1,16 @@
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\bin\Debug\WPF_Project.exe.config
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\bin\Debug\WPF_Project.exe
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\bin\Debug\WPF_Project.pdb
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\WPF_Project.csproj.AssemblyReference.cache
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\WPF_Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\MainWindow.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\App.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\WPF_Project_MarkupCompile.cache
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\WPF_Project_MarkupCompile.lref
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\MainWindow.baml
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\WPF_Project.g.resources
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\WPF_Project.Properties.Resources.resources
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\WPF_Project.csproj.GenerateResource.cache
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\WPF_Project.csproj.CoreCompileInputs.cache
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\WPF_Project.exe
+C:\Users\bapti\Source\Repos\sae-2.01\src\WPF_Project\obj\Debug\WPF_Project.pdb
