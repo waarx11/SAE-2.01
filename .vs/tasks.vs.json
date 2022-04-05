@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tâche-news",
+      "appliesTo": "src/Application/img/news.png",
+      "type": "launch"
+    }
+  ]
+}
