@@ -6,7 +6,11 @@
              xmlns:local="clr-namespace:newPizza"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
-    </Grid>
+    
+    <Button BorderThickness="0" Background="{StaticResource couleurPrincipale}" Width="200" Height="70">
+        <WrapPanel>
+            <Image Source="..\img\news.png" Width="40" Height="40" VerticalAlignment="Center" HorizontalAlignment="Center"></Image>
+            <TextBlock Text="Nouveautés" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0,0,0"/>
+        </WrapPanel>
+    </Button>
 </UserControl>
