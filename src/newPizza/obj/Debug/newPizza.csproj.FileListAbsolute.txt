@@ -17,3 +17,8 @@ C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.Gene
 C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
 C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\newPizza.exe
 C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\newPizza.pdb
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueNews.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueNews.baml

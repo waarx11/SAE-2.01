@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\
 newPizza
 none
 false
 DEBUG;TRACE
-C:\Users\bapti\source\repos\sae-2.01\src\newPizza\App.xaml
-2-1567162624
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\App.xaml
+4-458410713
 
-7379355876
+9228095121
 13-1310406943
-pages\pageCatalogue.xaml;userControl\ucMenuBouton.xaml;
+pages\pageCatalogue.xaml;userControl\ucPizzaBox.xaml;userControl\ucCatalogueNews.xaml;userControl\ucMenuBouton.xaml;
 
-False
+True
 

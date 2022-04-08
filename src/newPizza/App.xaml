@@ -4,8 +4,10 @@
              xmlns:local="clr-namespace:newPizza"
              StartupUri="pages\pageCatalogue.xaml">
     <Application.Resources>
-        <SolidColorBrush Color="#95D1CC" x:Key="couleurPrincipale"/>
-        <SolidColorBrush Color="#5584AC" x:Key="couleurSecondaire"/>
+        <SolidColorBrush Color="#008a47" x:Key="couleurPrincipale"/>
+        <SolidColorBrush Color="#D41E2B" x:Key="couleurSecondaire"/>
         <SolidColorBrush Color="#FAFFAF" x:Key="couleurTexte"/>
+        <SolidColorBrush Color="#85CEB5" x:Key="couleurArrierePlan"/>
+        
     </Application.Resources>
 </Application>
