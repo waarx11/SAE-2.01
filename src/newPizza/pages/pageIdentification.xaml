@@ -7,39 +7,27 @@
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         mc:Ignorable="d"
-        Title="Identification" MaxHeight="600" MaxWidth="600" MinHeight="600" MinWidth="600">
-    <DockPanel Margin="0,0,164,0">
+        Title="Identification" MaxHeight="450" MaxWidth="600" MinHeight="450" MinWidth="600">
+    
+    <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0">
         <ListBox DockPanel.Dock="Left" Background="Gray" MinWidth="120"/>
-        <WrapPanel DockPanel.Dock="Top" Background="Red">
+        <WrapPanel DockPanel.Dock="Top" Background="Red" MinHeight="100" HorizontalAlignment="Stretch">
             <Image></Image>
-            <TextBlock Text="OUI" VerticalAlignment="Center" FontSize="40" FontWeight="DemiBold"></TextBlock>
+            <TextBlock Text="new Pizza()" VerticalAlignment="Center" FontSize="40" FontWeight="DemiBold"/>
         </WrapPanel>
-        <StackPanel Margin="0,20,0,0" HorizontalAlignment="Center" MinWidth="300" MaxWidth="300">
-            <TextBox x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="entrez votre identifiant" Cursor="IBeam" Text="{Binding Identifiant,UpdateSourceTrigger=PropertyChanged}"/>
-            <PasswordBox Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" PasswordBox.PasswordChanged="PasswordBox_PasswordChanged"  Cursor="IBeam"/>
+        <StackPanel Margin="0,50,0,100" HorizontalAlignment="Center" MinWidth="300" MaxWidth="300">
+            <TextBox x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="entrez votre identifiant" Cursor="IBeam"/>
+            <PasswordBox Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" Cursor="IBeam"/>
 
-            <!--<Button Margin="0,40,0,0" Content="Cliquez ici pour visiter" Width="260"  MinHeight="30" Background="White" BorderBrush="White" FontWeight = "UltraBlack" Foreground="{StaticResource defaultColor}"
+            <Button Margin="0,40,0,0" Content="SE CONNECTER" Width="260"  MinHeight="30" Background="Gray" BorderBrush="White" FontWeight = "UltraBlack"
                     materialDesign:ShadowAssist.ShadowDepth="Depth2"
                     materialDesign:ButtonProgressAssist.Value="-1"
                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="false"
                     materialDesign:ButtonProgressAssist.IsIndeterminate="false"
-                    Click="VisiteButton_Click" Cursor="Hand"/>-->
+                    Cursor="Hand"/>
+            <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="Regular">
+                <Span xml:space="preserve"><Run>Pas encore de compte ? </Run><Hyperlink NavigateUri="pageInscription">S'inscrire</Hyperlink></Span>
+            </TextBlock>
         </StackPanel>
     </DockPanel>
 </Window>
-    
-    
-    
-<!--
-        <StackPanel Margin="0,10,0,0" HorizontalAlignment="Center" MinWidth="300" MaxWidth="300">
-            <TextBox x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="entrez votre identifiant" Cursor="IBeam" Text="{Binding Identifiant,UpdateSourceTrigger=PropertyChanged}"/>
-            <PasswordBox Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" PasswordBox.PasswordChanged="PasswordBox_PasswordChanged"  Cursor="IBeam"/>
-
-            <Button Margin="0,40,0,0" Content="Cliquez ici pour visiter" Width="260"  MinHeight="30" Background="White" BorderBrush="White" FontWeight = "UltraBlack" Foreground="{StaticResource defaultColor}"
-                    materialDesign:ShadowAssist.ShadowDepth="Depth2"
-                    materialDesign:ButtonProgressAssist.Value="-1"
-                    materialDesign:ButtonProgressAssist.IsIndicatorVisible="false"
-                    materialDesign:ButtonProgressAssist.IsIndeterminate="false"
-                    Click="VisiteButton_Click" Cursor="Hand"/>
-        </StackPanel>
-    -->

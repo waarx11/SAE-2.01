@@ -82,12 +82,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="pages\pageAdministrateur.xaml.cs">
+      <DependentUpon>pageAdministrateur.xaml</DependentUpon>
+    </Compile>
     <Compile Include="pages\pageIdentification.xaml.cs">
       <DependentUpon>pageIdentification.xaml</DependentUpon>
     </Compile>
     <Compile Include="userControl\ucMenuBouton.xaml.cs">
       <DependentUpon>ucMenuBouton.xaml</DependentUpon>
     </Compile>
+    <Page Include="pages\pageAdministrateur.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="pages\pageIdentification.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
