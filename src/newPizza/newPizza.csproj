@@ -88,11 +88,14 @@
     <Compile Include="pages\pageIdentification.xaml.cs">
       <DependentUpon>pageIdentification.xaml</DependentUpon>
     </Compile>
+    <Compile Include="userControl\ucTopBar.xaml.cs">
+      <DependentUpon>ucTopBar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="userControl\ucPizzaBox.xaml.cs">
       <DependentUpon>ucPizzaBox.xaml</DependentUpon>
     </Compile>
-    <Compile Include="userControl\ucCatalogueNews.xaml.cs">
-      <DependentUpon>ucCatalogueNews.xaml</DependentUpon>
+    <Compile Include="userControl\ucCataloguePizzeta.xaml.cs">
+      <DependentUpon>ucCataloguePizzeta.xaml</DependentUpon>
     </Compile>
     <Compile Include="userControl\ucMenuBouton.xaml.cs">
       <DependentUpon>ucMenuBouton.xaml</DependentUpon>
@@ -117,11 +120,15 @@
       <DependentUpon>pageCatalogue.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="userControl\ucTopBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="userControl\ucPizzaBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="userControl\ucCatalogueNews.xaml">
+    <Page Include="userControl\ucCataloguePizzeta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -175,32 +182,40 @@
     <Resource Include="img\buttons\spicy.png" />
     <Resource Include="img\buttons\vegan.png" />
     <Resource Include="img\buttons\viande.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="img\pizzas\carnivore\3_salumi.png" />
     <Resource Include="img\pizzas\carnivore\BPM.jpeg" />
+    <Resource Include="img\pizzas\carnivore\burrata_e_mortadella.png" />
     <Resource Include="img\pizzas\carnivore\campagnarde.jpeg" />
+    <Resource Include="img\pizzas\carnivore\chevre_miel.png" />
     <Resource Include="img\pizzas\carnivore\chicken_parmesan.jpeg" />
     <Resource Include="img\pizzas\carnivore\del_mare.png" />
+    <Resource Include="img\pizzas\carnivore\diavola.png" />
     <Resource Include="img\pizzas\carnivore\kasbah.jpeg" />
     <Resource Include="img\pizzas\carnivore\montagnarde.jpeg" />
+    <Resource Include="img\pizzas\carnivore\nordique.jpeg" />
     <Resource Include="img\pizzas\carnivore\pepperoni_lovers.jpeg" />
+    <Resource Include="img\pizzas\carnivore\pomodoro_e_burrata.png" />
+    <Resource Include="img\pizzas\carnivore\raclette.jpeg" />
     <Resource Include="img\pizzas\carnivore\regina.png" />
+    <Resource Include="img\pizzas\carnivore\salmone.png" />
     <Resource Include="img\pizzas\carnivore\speciale_pizzaiolo.png" />
     <Resource Include="img\pizzas\carnivore\texane_barbecue.jpeg" />
     <Resource Include="img\pizzas\carnivore\vezuvio.png" />
     <Resource Include="img\pizzas\epicees\chicken_barbecue.jpeg" />
-    <Resource Include="img\pizzas\epicees\diavola.png" />
     <Resource Include="img\pizzas\epicees\orientale.jpeg" />
+    <Resource Include="img\pizzas\epicees\provencale.jpeg" />
     <Resource Include="img\pizzas\epicees\samourai.jpeg" />
     <Resource Include="img\pizzas\epicees\spicy_hot_one.jpeg" />
     <Resource Include="img\pizzas\epicees\supreme.jpeg" />
-    <Resource Include="img\pizzas\news\burrata_e_mortadella.png" />
-    <Resource Include="img\pizzas\news\chevre_miel.png" />
-    <Resource Include="img\pizzas\news\hawaienne_jambon.jpeg" />
-    <Resource Include="img\pizzas\news\nordique.jpeg" />
-    <Resource Include="img\pizzas\news\pomodoro_e_burrata.png" />
-    <Resource Include="img\pizzas\news\provencale.jpeg" />
-    <Resource Include="img\pizzas\news\raclette.jpeg" />
-    <Resource Include="img\pizzas\news\salmone.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_5_fromaggi.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_carbonara.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_chevre_miel.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_regina.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_salmone.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_speciale_pizzaiolo.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_vesuvio.png" />
     <Resource Include="img\pizzas\vegetariennes\5_formaggi.png" />
     <Resource Include="img\pizzas\vegetariennes\bianca.png" />
     <Resource Include="img\pizzas\vegetariennes\carbonara.png" />
@@ -208,6 +223,9 @@
     <Resource Include="img\pizzas\vegetariennes\chevre_miel_vege.jpg" />
     <Resource Include="img\pizzas\vegetariennes\margarita.png" />
     <Resource Include="img\pizzas\vegetariennes\vegetarienne.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\buttons\pizzeta.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets" Condition="Exists('packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets')" />

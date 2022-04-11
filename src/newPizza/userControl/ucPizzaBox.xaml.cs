@@ -24,5 +24,21 @@ namespace newPizza
         {
             InitializeComponent();
         }
+
+        public string setNomPizza
+        {
+            set
+            {
+                nomPizza.Text = value;
+            }
+        }
+
+        public string setImage
+        {
+            set
+            {
+                imgPizza.Source = new BitmapImage(new Uri(value, UriKind.Relative));
+            }
+        }
     }
 }

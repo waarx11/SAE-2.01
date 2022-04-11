@@ -58,7 +58,9 @@ C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.Copy
 C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.exe
 C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.pdb
 C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
-C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueNews.g.cs
 C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
-C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueNews.baml
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTopBar.baml
