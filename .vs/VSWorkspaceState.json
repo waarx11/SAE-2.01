@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\newPizza",
+    "\\src\\newPizza\\pages",
+    "\\src\\newPizza\\userControl"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\newPizza\\App.xaml",
   "PreviewInSolutionExplorer": false
 }

@@ -11,9 +11,9 @@
     
     <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0">
         <ListBox DockPanel.Dock="Left" Background="Gray" MinWidth="120"/>
-        <WrapPanel DockPanel.Dock="Top" Background="Red" MinHeight="100" HorizontalAlignment="Stretch">
+        <WrapPanel DockPanel.Dock="Top" Background="Red" MinHeight="200" HorizontalAlignment="Stretch">
             <Image></Image>
-            <TextBlock Text="new Pizza()" VerticalAlignment="Center" FontSize="40" FontWeight="DemiBold"/>
+            <TextBlock Text="new Pizza()" HorizontalAlignment="Center" FontSize="40" FontWeight="DemiBold"/>
         </WrapPanel>
         <StackPanel Margin="0,50,0,100" HorizontalAlignment="Center" MinWidth="300" MaxWidth="300">
             <TextBox x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="entrez votre identifiant" Cursor="IBeam"/>
