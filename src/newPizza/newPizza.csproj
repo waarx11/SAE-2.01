@@ -88,6 +88,9 @@
     <Compile Include="pages\pageIdentification.xaml.cs">
       <DependentUpon>pageIdentification.xaml</DependentUpon>
     </Compile>
+    <Compile Include="userControl\ucCatalogueEpicees.xaml.cs">
+      <DependentUpon>ucCatalogueEpicees.xaml</DependentUpon>
+    </Compile>
     <Compile Include="userControl\ucTopBar.xaml.cs">
       <DependentUpon>ucTopBar.xaml</DependentUpon>
     </Compile>
@@ -120,6 +123,10 @@
       <DependentUpon>pageCatalogue.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="userControl\ucCatalogueEpicees.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="userControl\ucTopBar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
