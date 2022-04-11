@@ -24,5 +24,20 @@ namespace newPizza
         {
             InitializeComponent();
         }
+        public string setMessage
+        {
+            set
+            {
+                ucBoutonMenuTEXT.Text = value;
+            }
+        }
+
+        public string setImage
+        {
+            set
+            {
+                ucBoutonMenuIMG.Source = new BitmapImage(new Uri(value, UriKind.Relative));
+            }
+        }
     }
 }
