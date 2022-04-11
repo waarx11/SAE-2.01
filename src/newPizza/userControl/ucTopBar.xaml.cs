@@ -16,13 +16,21 @@ using System.Windows.Shapes;
 namespace newPizza
 {
     /// <summary>
-    /// Logique d'interaction pour ucCatalogue.xaml
+    /// Logique d'interaction pour ucTopBar.xaml
     /// </summary>
-    public partial class ucCatalogueNews : UserControl
+    public partial class ucTopBar : UserControl
     {
-        public ucCatalogueNews()
+        public ucTopBar()
         {
             InitializeComponent();
+        }
+
+        public string setTitle
+        {
+            set
+            {
+                Title.Text = value;
+            }
         }
     }
 }

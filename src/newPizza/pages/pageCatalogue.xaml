@@ -22,7 +22,7 @@
 
             <TextBlock Text="NOS PIZZAS" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
             <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1">
-                <local:ucMenuBouton setMessage="Nouveautés" setImage="..\img\buttons\news.png" BorderThickness="0,2,0,0" BorderBrush="Black"/>
+                <local:ucMenuBouton setMessage="Pizzetas" setImage="..\img\buttons\pizzeta.png" BorderThickness="0,2,0,0" BorderBrush="Black"/>
                 <local:ucMenuBouton setMessage="Épicées" setImage="..\img\buttons\spicy.png"/>
                 <local:ucMenuBouton setMessage="Carnivores" setImage="..\img\buttons\viande.png"/>
                 <local:ucMenuBouton setMessage="Végétariennes" setImage="..\img\buttons\vegan.png"/>
@@ -31,7 +31,7 @@
         </Grid>
 
         <ContentControl>
-            <local:ucCatalogueNews/>
+            <local:ucCatalogueEpicees/>
         </ContentControl>
 
     </DockPanel>
