@@ -1,0 +1,18 @@
+﻿<Application x:Class="newPizza.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:newPizza" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             StartupUri="pages\pageIdentification.xaml">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme BaseTheme="Light" PrimaryColor="LightBlue" SecondaryColor="Lime" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <SolidColorBrush Color="#95D1CC" x:Key="couleurPrincipale"/>
+            <SolidColorBrush Color="#5584AC" x:Key="couleurSecondaire"/>
+            <SolidColorBrush Color="#FAFFAF" x:Key="couleurTexte"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
