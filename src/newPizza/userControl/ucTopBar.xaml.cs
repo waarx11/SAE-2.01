@@ -32,5 +32,7 @@ namespace newPizza
                 Title.Text = value;
             }
         }
+
+       
     }
 }

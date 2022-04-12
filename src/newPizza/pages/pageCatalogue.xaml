@@ -31,7 +31,7 @@
         </Grid>
 
         <ContentControl>
-            <local:ucCatalogueEpicees/>
+            <local:ucCataloguePizzeta/>
         </ContentControl>
 
     </DockPanel>
