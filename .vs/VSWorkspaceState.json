@@ -3,8 +3,11 @@
     "",
     "\\src",
     "\\src\\newPizza",
+    "\\src\\newPizza\\img",
+    "\\src\\newPizza\\img\\buttons",
+    "\\src\\newPizza\\pages",
     "\\src\\newPizza\\userControl"
   ],
-  "SelectedNode": "\\src\\newPizza\\userControl\\ucMenuBouton.xaml",
+  "SelectedNode": "\\src\\newPizza\\pages\\pageCatalogue.xaml",
   "PreviewInSolutionExplorer": false
 }
