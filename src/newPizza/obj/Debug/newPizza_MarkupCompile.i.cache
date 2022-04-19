@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\bapti\source\repos\sae-2.01\src\newPizza\App.xaml
-8-1258021614
+91580128724
 
-13156085890
+14-567952904
 17-494031712
-pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
+pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
 
-False
+True
 

@@ -66,3 +66,5 @@ C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTopBar
 C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTopBar.baml
 C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
 C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
