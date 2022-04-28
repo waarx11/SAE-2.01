@@ -213,9 +213,6 @@
     <Resource Include="img\pizzas\carnivore\chicken_parmesan.jpeg" />
     <Resource Include="img\pizzas\carnivore\del_mare.png" />
     <Resource Include="img\pizzas\carnivore\diavola.png" />
-    <Resource Include="img\pizzas\carnivore\kasbah.jpeg" />
-    <Resource Include="img\pizzas\carnivore\montagnarde.jpeg" />
-    <Resource Include="img\pizzas\carnivore\nordique.jpeg" />
     <Resource Include="img\pizzas\carnivore\pepperoni_lovers.jpeg" />
     <Resource Include="img\pizzas\carnivore\pomodoro_e_burrata.png" />
     <Resource Include="img\pizzas\carnivore\raclette.jpeg" />
