@@ -25,7 +25,6 @@
                     <RowDefinition/>
                     <RowDefinition/>
                     <RowDefinition/>
-                    <RowDefinition/>
                 </Grid.RowDefinitions>
                 <local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
                 <local:ucPizzaBox Grid.Row="0" Grid.Column="1" setNomPizza="Burrata e Mortadella" setImage="..\img\pizzas\carnivore\burrata_e_mortadella.png"/>
@@ -43,15 +42,11 @@
                 <local:ucPizzaBox Grid.Row="3" Grid.Column="1" setNomPizza="Campagnarde" setImage="..\img\pizzas\carnivore\campagnarde.jpeg"/>
                 <local:ucPizzaBox Grid.Row="3" Grid.Column="2" setNomPizza="Chicken Parmesan" setImage="..\img\pizzas\carnivore\chicken_parmesan.jpeg"/>
 
-                <local:ucPizzaBox Grid.Row="4" Grid.Column="0" setNomPizza="Kasbah" setImage="..\img\pizzas\carnivore\kasbah.jpeg"/>
-                <local:ucPizzaBox Grid.Row="4" Grid.Column="1" setNomPizza="Montagnarde" setImage="..\img\pizzas\carnivore\montagnarde.jpeg"/>
-                <local:ucPizzaBox Grid.Row="4" Grid.Column="2" setNomPizza="Nordique" setImage="..\img\pizzas\carnivore\nordique.jpeg"/>
+                <local:ucPizzaBox Grid.Row="4" Grid.Column="0" setNomPizza="Pepperoni Lovers" setImage="..\img\pizzas\carnivore\pepperoni_lovers.jpeg"/>
+                <local:ucPizzaBox Grid.Row="4" Grid.Column="1" setNomPizza="Raclette" setImage="..\img\pizzas\carnivore\raclette.jpeg"/>
+                <local:ucPizzaBox Grid.Row="4" Grid.Column="2" setNomPizza="Texane BBQ" setImage="..\img\pizzas\carnivore\texane_barbecue.jpeg"/>
 
-                <local:ucPizzaBox Grid.Row="5" Grid.Column="0" setNomPizza="Pepperoni Lovers" setImage="..\img\pizzas\carnivore\pepperoni_lovers.jpeg"/>
-                <local:ucPizzaBox Grid.Row="5" Grid.Column="1" setNomPizza="Raclette" setImage="..\img\pizzas\carnivore\raclette.jpeg"/>
-                <local:ucPizzaBox Grid.Row="5" Grid.Column="2" setNomPizza="Texane BBQ" setImage="..\img\pizzas\carnivore\texane_barbecue.jpeg"/>
-
-                <local:ucPizzaBox Grid.Row="6" Grid.Column="0" setNomPizza="Regina" setImage="..\img\pizzas\carnivore\regina.png"/>
+                <local:ucPizzaBox Grid.Row="5" Grid.Column="0" setNomPizza="Regina" setImage="..\img\pizzas\carnivore\regina.png"/>
 
             </Grid>
         </ScrollViewer>
