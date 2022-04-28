@@ -24,5 +24,26 @@ namespace newPizza
         {
             InitializeComponent();
         }
+
+        private void MenuBouton_Pizzetas(object sender, RoutedEventArgs e)
+        {
+            ccCatalogue.Content = new ucCataloguePizzeta();
+        }
+
+        private void MenuBouton_Epicees(object sender, RoutedEventArgs e)
+        {
+            ccCatalogue.Content = new ucCatalogueEpicees();
+        }
+
+        private void MenuBouton_Carnivores(object sender, RoutedEventArgs e)
+        {
+            ccCatalogue.Content = new ucCatalogueCarnivore();
+        }
+
+        private void MenuBouton_Vegetariennes(object sender, RoutedEventArgs e)
+        {
+            ccCatalogue.Content = new ucCatalogueVege();
+        }
+
     }
 }

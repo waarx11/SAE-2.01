@@ -22,16 +22,16 @@
 
             <TextBlock Text="NOS PIZZAS" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
             <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1">
-                <local:ucMenuBouton setMessage="Pizzetas" setImage="..\img\buttons\pizzeta.png" BorderThickness="0,2,0,0" BorderBrush="Black"/>
-                <local:ucMenuBouton setMessage="Épicées" setImage="..\img\buttons\spicy.png"/>
-                <local:ucMenuBouton setMessage="Carnivores" setImage="..\img\buttons\viande.png"/>
-                <local:ucMenuBouton setMessage="Végétariennes" setImage="..\img\buttons\vegan.png"/>
+                <local:ucMenuBouton setMessage="Pizzetas" setImage="..\img\buttons\pizzeta.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="MenuBouton_Pizzetas"/>
+                <local:ucMenuBouton setMessage="Épicées" setImage="..\img\buttons\spicy.png" CLICKMENU="MenuBouton_Epicees"/>
+                <local:ucMenuBouton setMessage="Carnivores" setImage="..\img\buttons\viande.png" CLICKMENU="MenuBouton_Carnivores"/>
+                <local:ucMenuBouton setMessage="Végétariennes" setImage="..\img\buttons\vegan.png" CLICKMENU="MenuBouton_Vegetariennes"/>
             </ListBox>
             <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="2"/>
         </Grid>
 
-        <ContentControl>
-            <local:ucCatalogueVege/>
+        <ContentControl x:Name="ccCatalogue">
+            <local:ucCatalogueCarnivore/>
         </ContentControl>
 
     </DockPanel>

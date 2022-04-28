@@ -39,5 +39,14 @@ namespace newPizza
                 ucBoutonMenuIMG.Source = new BitmapImage(new Uri(value, UriKind.Relative));
             }
         }
+
+        public event RoutedEventHandler CLICKMENU;
+        private void MenuBouton_Click(object sender, RoutedEventArgs e)
+        {
+            if (CLICKMENU != null)
+            {
+                CLICKMENU(this, e);
+            }
+        }
     }
 }

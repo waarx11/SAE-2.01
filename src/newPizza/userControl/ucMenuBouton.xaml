@@ -7,10 +7,11 @@
              mc:Ignorable="d" 
              d:DesignHeight="90" d:DesignWidth="220">
 
-    <Button BorderThickness="0,0,0,2" BorderBrush="Black" Background="{StaticResource couleurPrincipale}" Width="200" Height="70" HorizontalAlignment="Left" Style="{x:Null}">
+    <Button BorderThickness="0,0,0,2" BorderBrush="Black" Background="{StaticResource couleurPrincipale}" Width="200" Height="70" HorizontalAlignment="Left" Style="{x:Null}" Click="MenuBouton_Click">
         <WrapPanel Width="200">
             <Image Source="..\img\buttons\news.png" Width="40" Height="40" VerticalAlignment="Center" Margin="10,0,10,0" x:Name="ucBoutonMenuIMG"/>
             <TextBlock Text="Nouveautés" FontSize="20" VerticalAlignment="Center" Margin="0,0,10,0"  x:Name="ucBoutonMenuTEXT"/>
         </WrapPanel>
     </Button>
+    
 </UserControl>
