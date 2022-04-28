@@ -31,7 +31,7 @@
         </Grid>
 
         <ContentControl x:Name="ccCatalogue">
-            <local:ucCatalogueCarnivore/>
+            <local:ucCataloguePizzeta/>
         </ContentControl>
 
     </DockPanel>
