@@ -45,5 +45,10 @@ namespace newPizza
             ccCatalogue.Content = new ucCatalogueVege();
         }
 
+        private void MenuBouton_Deconnexion(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
     }
 }

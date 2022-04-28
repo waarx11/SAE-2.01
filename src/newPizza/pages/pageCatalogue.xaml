@@ -27,7 +27,7 @@
                 <local:ucMenuBouton setMessage="Carnivores" setImage="..\img\buttons\viande.png" CLICKMENU="MenuBouton_Carnivores"/>
                 <local:ucMenuBouton setMessage="Végétariennes" setImage="..\img\buttons\vegan.png" CLICKMENU="MenuBouton_Vegetariennes"/>
             </ListBox>
-            <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="2"/>
+            <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="2" CLICKMENU="MenuBouton_Deconnexion"/>
         </Grid>
 
         <ContentControl x:Name="ccCatalogue">
