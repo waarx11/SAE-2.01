@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:newPizza"
         ResizeMode="NoResize"
         WindowState="Maximized"
+        WindowStyle="None"
         mc:Ignorable="d"
         Title="pageAdministrateur">
     <DockPanel>
@@ -15,6 +16,10 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="70"/>
             </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
 
 
             <TextBlock Text="Administrateur" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
@@ -24,8 +29,8 @@
             </ListBox>
             <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="2"/>
         </Grid>
-        <Grid MinWidth="200" MaxWidth="500">
-
-        </Grid>
+        <ContentControl Grid.Column="2" Background="red" Grid.RowSpan="2">
+            <local:ucAdmninistration setNomEntre="new Pizza()"/>
+        </ContentControl>
     </DockPanel>
 </Window>

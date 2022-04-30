@@ -3,16 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:newPizza"
+             xmlns:local="clr-namespace:newPizza"  xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="70"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
             <RowDefinition Height="70"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -20,29 +22,56 @@
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="Informations de l'entreprise : " Grid.Row="0" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.ColumnSpan="2"/>
-        <TextBlock x:Name="nomEntreprise" Text="XXXXXXX" Grid.Row="0" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Column="2"/>
+        <TextBlock Text="Informations de l'entreprise : " Grid.Row="0" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="3" Margin="0,0,450,0"/>
+        <TextBlock x:Name="nomEntreprise" Text="XXXXXXX" Grid.Row="0" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="3" Margin="450,0,0,0"/>
 
-        <TextBlock Text="Nom du gérant " Grid.Row="1" FontSize="30" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="nomGerant" Text="XXXXXXXX" Grid.Row="1" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        <TextBlock Text="Nom du gérant " Grid.Row="1" FontSize="50" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="nomGerant" Text="XXXXXXXX" Grid.Row="2" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="2" Margin="0,70,0,0" Width="230">
+            <TextBox x:Name="idNomGerant" materialDesign:HintAssist.Hint="Nom du nouveau gerant" Cursor="IBeam"/>
+        </StackPanel>
+
+        <TextBlock Text="E-mail " Grid.Row="2" FontSize="50" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="emailEntreprise" Text="XXXXXXXX" Grid.Row="3" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="3" Margin="0,70,0,0" Width="230">
+            <TextBox x:Name="idEmailEntreprise" materialDesign:HintAssist.Hint="Nouvelle adresse mail" Cursor="IBeam"/>
+        </StackPanel>
         
-        <TextBlock Text="E-mail " Grid.Row="2" FontSize="30" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="emailEntreprise" Text="XXXXXXXX" Grid.Row="2" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        <TextBlock Text="Adresse" Grid.Row="3" FontSize="50" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="adresseEntreprise" Text="XXXXXXXX" Grid.Row="4" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="4" Margin="0,70,0,0" Width="230">
+            <TextBox x:Name="idAdresseEntreprise" materialDesign:HintAssist.Hint="Nouvelle adresse" Cursor="IBeam"/>
+        </StackPanel>
+        
+        <TextBlock Text="Code Postal" Grid.Row="4" FontSize="50" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="postalEntreprise" Text="XXXXXXXX" Grid.Row="5" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="5" Margin="0,70,0,0" Width="230">
+            <TextBox x:Name="idPostalEntreprise" materialDesign:HintAssist.Hint="Nouveau code postal" Cursor="IBeam"/>
+        </StackPanel>
 
-        <TextBlock Text="Adresse " Grid.Row="3" FontSize="30" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="adresseEntreprise" Text="XXXXXXXX" Grid.Row="3" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        <TextBlock Text="Prenom du gérant " Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" FontSize="50" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="prenomGerant" Text="XXXXXXXX" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,70,0,0" Width="230">
+            <TextBox x:Name="idPrenomGerant" materialDesign:HintAssist.Hint="Prenom du nouveau gerant" Cursor="IBeam"/>
+        </StackPanel>
 
-        <TextBlock Text="Adresse " Grid.Row="4" FontSize="30" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="postalEntreprise" Text="XXXXXXXX" Grid.Row="4" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        <TextBlock Text="Téléphone " Grid.Row="2" FontSize="50" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="entrepriseTel" Text="XXXXXXXX" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,70,0,0" Width="230">
+            <TextBox x:Name="idEntrepriseTel" materialDesign:HintAssist.Hint="Nouveau numéro de téléphone" Cursor="IBeam"/>
+        </StackPanel>
 
-        <TextBlock Text="Prenom du gérant " Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" FontSize="30" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="prenomGerant" Text="XXXXXXXX" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
+        <TextBlock Text="Ville " Grid.Row="3" FontSize="50" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
+        <TextBlock x:Name="entrepriseVille" Text="XXXXXXXX" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <StackPanel HorizontalAlignment="Center" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,70,0,0" Width="230">
+            <TextBox x:Name="idEntrepriseVille" materialDesign:HintAssist.Hint="Nouvelle ville" Cursor="IBeam"/>
+        </StackPanel>
 
-        <TextBlock Text="Téléphone " Grid.Row="2" FontSize="30" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="entrepriseTel" Text="XXXXXXXX" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
-
-        <TextBlock Text="Ville " Grid.Row="3" FontSize="30" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Left"/>
-        <TextBlock x:Name="entrepriseVille" Text="XXXXXXXX" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3" FontSize="30" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
-
+        <Button Grid.Row="6" Grid.Column="2" Width="300" Height="70" Cursor="Hand">
+            <WrapPanel>
+                <Image Margin="0,0,10,0" Source="..\img\buttons\sauvegarder.png"/>
+                <TextBlock VerticalAlignment="Center" FontSize="30">Sauvegarder</TextBlock>
+            </WrapPanel>
+        </Button>
     </Grid>
 </UserControl>

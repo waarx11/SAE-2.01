@@ -25,11 +25,67 @@ namespace newPizza
             InitializeComponent();
         }
 
-        public string Message
+        public string setNomEntre
         {
             set
             {
                 nomEntreprise.Text = value;
+            }
+        }
+
+        public string setNom
+        {
+            set
+            {
+                nomGerant.Text = value;
+            }
+        }
+
+        public string setEmail
+        {
+            set
+            {
+                emailEntreprise.Text = value;
+            }
+        }
+
+        public string setAdresse
+        {
+            set
+            {
+                adresseEntreprise.Text = value;
+            }
+        }
+
+        public string setCodePostal
+        {
+            set
+            {
+                postalEntreprise.Text = value;
+            }
+        }
+
+        public string setPrenom
+        {
+            set
+            {
+                prenomGerant.Text = value;
+            }
+        }
+
+        public string setTelephone
+        {
+            set
+            {
+                entrepriseTel.Text = value;
+            }
+        }
+
+        public string setVille
+        {
+            set
+            {
+                entrepriseVille.Text = value;
             }
         }
     }

@@ -88,6 +88,9 @@
     <Compile Include="pages\pageIdentification.xaml.cs">
       <DependentUpon>pageIdentification.xaml</DependentUpon>
     </Compile>
+    <Compile Include="userControl\ucAdmninistration.xaml.cs">
+      <DependentUpon>ucAdmninistration.xaml</DependentUpon>
+    </Compile>
     <Compile Include="userControl\ucCatalogueCarnivore.xaml.cs">
       <DependentUpon>ucCatalogueCarnivore.xaml</DependentUpon>
     </Compile>
@@ -129,6 +132,10 @@
       <DependentUpon>pageCatalogue.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="userControl\ucAdmninistration.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="userControl\ucCatalogueCarnivore.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
