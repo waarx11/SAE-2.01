@@ -156,3 +156,5 @@ C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.Properties.Resources.
 C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
 C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
 C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\pages\pageNewCompte.baml

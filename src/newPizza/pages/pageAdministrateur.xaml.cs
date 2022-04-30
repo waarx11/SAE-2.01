@@ -23,5 +23,10 @@ namespace newPizza
         {
             InitializeComponent();
         }
+
+        private void Bouton_Deconnexion(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }

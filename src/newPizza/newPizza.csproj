@@ -82,7 +82,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="pageNewCompte.xaml.cs">
+    <Compile Include="pages\pageNewCompte.xaml.cs">
       <DependentUpon>pageNewCompte.xaml</DependentUpon>
     </Compile>
     <Compile Include="pages\pageAdministrateur.xaml.cs">
@@ -115,7 +115,7 @@
     <Compile Include="userControl\ucMenuBouton.xaml.cs">
       <DependentUpon>ucMenuBouton.xaml</DependentUpon>
     </Compile>
-    <Page Include="pageNewCompte.xaml">
+    <Page Include="pages\pageNewCompte.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
