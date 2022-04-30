@@ -1,8 +1,9 @@
-﻿
+﻿C:\Users\natha\Desktop\oui\src\newPizza\obj\Release\GeneratedInternalTypeHelper.g.cs
 FC:\Users\natha\Desktop\oui\src\newPizza\App.xaml;;
 FC:\Users\natha\Desktop\oui\src\newPizza\pages\pageAdministrateur.xaml;;
 FC:\Users\natha\Desktop\oui\src\newPizza\pages\pageIdentification.xaml;;
 FC:\Users\natha\Desktop\oui\src\newPizza\pages\pageCatalogue.xaml;;
+FC:\Users\natha\Desktop\oui\src\newPizza\userControl\ucAdmninistration.xaml;;
 FC:\Users\natha\Desktop\oui\src\newPizza\userControl\ucCatalogueCarnivore.xaml;;
 FC:\Users\natha\Desktop\oui\src\newPizza\userControl\ucCatalogueVege.xaml;;
 FC:\Users\natha\Desktop\oui\src\newPizza\userControl\ucCatalogueEpicees.xaml;;
@@ -10,5 +11,4 @@ FC:\Users\natha\Desktop\oui\src\newPizza\userControl\ucTopBar.xaml;;
 FC:\Users\natha\Desktop\oui\src\newPizza\userControl\ucPizzaBox.xaml;;
 FC:\Users\natha\Desktop\oui\src\newPizza\userControl\ucCataloguePizzeta.xaml;;
 FC:\Users\natha\Desktop\oui\src\newPizza\userControl\ucMenuBouton.xaml;;
-FC:\Users\natha\Desktop\oui\src\newPizza\userControl\ucAdmninistration.xaml;;
 
