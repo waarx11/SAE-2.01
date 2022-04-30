@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\natha\Desktop\oui\src\newPizza\obj\Release\
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Release\
 newPizza
 none
 false
 TRACE
-C:\Users\natha\Desktop\oui\src\newPizza\App.xaml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\App.xaml
 12-1590806501
 
 16-161478909
-17-233218770
+17-1479865903
 pages\pageNewCompte.xaml;pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
 
 True
