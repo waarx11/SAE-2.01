@@ -209,3 +209,5 @@ D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
 D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCommande.baml
 D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
 D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\usCommandeEnCours.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\usCommandeEnCours.baml

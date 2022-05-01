@@ -22,9 +22,9 @@
             </Rectangle.Fill>
         </Rectangle>
         <Image x:Name="imgPizCommande" Source="..\img\pizzas\epicees\spicy_hot_one.jpeg" Grid.Row="0" Margin="40,0,0,0" Grid.RowSpan="3" Height="120"/>
-        <WrapPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom">
-            <TextBlock Text="Voici les ingrédient de la pizza"/>
-            <TextBlock x:Name="nomPizza" Text="XXXXXXX"/>
+        <WrapPanel Margin="0,0,200,0" Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <TextBlock FontSize="20" Text="Voici les ingrédient de la pizza "/>
+            <TextBlock FontSize="20" x:Name="nomPizzaEncours" Text="XXXXXXX"/>
         </WrapPanel>
         <Border Margin="0,20,0,0" Grid.Row="1" Grid.Column="1" Height="100" BorderBrush="Black">
             <Border Height="68" Width="1050" BorderBrush="Black" BorderThickness="1,1,1,1" HorizontalAlignment="Left">

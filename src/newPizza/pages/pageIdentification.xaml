@@ -11,10 +11,12 @@
     
     <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0">
         <ListBox DockPanel.Dock="Left" Background="Gray" MinWidth="120"/>
-        <WrapPanel DockPanel.Dock="Top" Background="Red" MinHeight="130" HorizontalAlignment="Stretch">
-            <Image></Image>
-            <TextBlock Text="new Pizza()" HorizontalAlignment="Center" FontSize="40" FontWeight="DemiBold"/>
-        </WrapPanel>
+        <StackPanel DockPanel.Dock="Top" Background="Red" MinHeight="130" HorizontalAlignment="Stretch">
+            <WrapPanel Margin="0,20,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image Margin="0,0,10,0" Width="100" Source="/img/buttons/IdPageSmile.jpg"/>
+                <TextBlock Text="new Pizza()" VerticalAlignment="Center" FontSize="40" FontWeight="DemiBold"/>
+            </WrapPanel>
+        </StackPanel>
         <StackPanel Margin="0,65,0,80" HorizontalAlignment="Center" MinWidth="300" MaxWidth="300">
             <TextBox x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="entrez votre identifiant" Cursor="IBeam"/>
             <PasswordBox Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" Cursor="IBeam"/>

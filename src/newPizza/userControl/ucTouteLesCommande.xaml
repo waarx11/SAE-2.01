@@ -24,9 +24,9 @@
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <local:ucCommande Grid.Row="0"  Height="230" Width="1500" Margin="0,50,0,0"/>
-                <local:ucCommande Grid.Row="1"  Height="230" Width="1500" Margin="0,50,0,0"/>
-                <local:ucCommande Grid.Row="2"  Height="230" Width="1500" Margin="0,50,0,0"/>
+                <local:usCommandeEnCours Grid.Row="0"  Height="230" Width="1500" Margin="0,50,0,0"/>
+                <local:usCommandeEnCours Grid.Row="1"  Height="230" Width="1500" Margin="0,50,0,0"/>
+                <local:usCommandeEnCours Grid.Row="2"  Height="230" Width="1500" Margin="0,50,0,0"/>
                 <local:ucCommande Grid.Row="3"  Height="230" Width="1500" Margin="0,50,0,0"/>
                 <local:ucCommande Grid.Row="4"  Height="230" Width="1500" Margin="0,50,0,0"/>
                 <local:ucCommande Grid.Row="5"  Height="230" Width="1500" Margin="0,50,0,0"/>
