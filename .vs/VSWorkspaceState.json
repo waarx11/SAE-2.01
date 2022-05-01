@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\newPizza",
+    "\\src\\newPizza\\pages"
   ],
-  "SelectedNode": "\\D:\\ProjetWPFPizzeria\\newPizza",
+  "SelectedNode": "\\src\\newPizza\\pages\\pageAdministrateur.xaml",
   "PreviewInSolutionExplorer": false
 }

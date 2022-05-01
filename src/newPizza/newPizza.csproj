@@ -91,6 +91,9 @@
     <Compile Include="pages\pageIdentification.xaml.cs">
       <DependentUpon>pageIdentification.xaml</DependentUpon>
     </Compile>
+    <Compile Include="userControl\ucCommande.xaml.cs">
+      <DependentUpon>ucCommande.xaml</DependentUpon>
+    </Compile>
     <Compile Include="userControl\ucAdmninistration.xaml.cs">
       <DependentUpon>ucAdmninistration.xaml</DependentUpon>
     </Compile>
@@ -139,6 +142,10 @@
       <DependentUpon>pageCatalogue.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="userControl\ucCommande.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="userControl\ucAdmninistration.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -264,6 +271,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\buttons\panier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\buttons\sauvegarder.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets" Condition="Exists('packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets')" />

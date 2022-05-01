@@ -10,11 +10,11 @@ none
 false
 TRACE
 D:\ProjetWPFPizzeria\newPizza\src\newPizza\App.xaml
-12-1590806501
+131625453141
 
-16-161478909
+171896082817
 17-1479865903
-pages\pageNewCompte.xaml;pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
+pages\pageNewCompte.xaml;pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucCommande.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
 
 True
 

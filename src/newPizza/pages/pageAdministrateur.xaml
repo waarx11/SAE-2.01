@@ -24,12 +24,12 @@
 
             <TextBlock Text="Administrateur" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
             <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1">
-                <local:ucMenuBouton setMessage="Restaurant" setImage="..\img\buttons\news.png" BorderThickness="0,2,0,0" BorderBrush="Black"/>
-                <local:ucMenuBouton setMessage="Commandes" setImage="..\img\buttons\spicy.png"/>
+                <local:ucMenuBouton setMessage="Restaurant" setImage="..\img\buttons\news.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
+                <local:ucMenuBouton setMessage="Commandes" setImage="..\img\buttons\spicy.png" CLICKMENU="Bouton_Commandes"/>
             </ListBox>
             <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="2" CLICKMENU="Bouton_Deconnexion"/>
         </Grid>
-        <ContentControl Grid.Column="2" Background="red" Grid.RowSpan="2">
+        <ContentControl x:Name="contControl" Grid.Column="2" Background="red" Grid.RowSpan="2">
             <local:ucAdmninistration setNomEntre="new Pizza()"/>
         </ContentControl>
     </DockPanel>
