@@ -22,9 +22,13 @@
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="Informations de l'entreprise : " Grid.Row="0" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="3" Margin="0,0,450,0"/>
-        <TextBlock x:Name="nomEntreprise" Text="XXXXXXX" Grid.Row="0" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="3" Margin="450,0,0,0"/>
-
+		<Border Height="120" Width="1200" BorderBrush="Black" BorderThickness="0,0,0,1" Grid.Row="0" Grid.ColumnSpan="3">
+			<WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+				<TextBlock Text="Informations de l'entreprise : " FontSize="50"/>
+				<TextBlock x:Name="nomEntreprise" Text="XXXXXXX" FontSize="50"/>
+			</WrapPanel>
+		</Border>
+		
         <TextBlock Text="Nom du gérant " Grid.Row="1" FontSize="50" VerticalAlignment="Bottom" HorizontalAlignment="Center"/>
         <TextBlock x:Name="nomGerant" Text="XXXXXXXX" Grid.Row="2" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
         <StackPanel HorizontalAlignment="Center" Grid.Row="2" Margin="0,70,0,0" Width="230">

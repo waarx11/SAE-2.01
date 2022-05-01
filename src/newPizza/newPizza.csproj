@@ -91,6 +91,9 @@
     <Compile Include="pages\pageIdentification.xaml.cs">
       <DependentUpon>pageIdentification.xaml</DependentUpon>
     </Compile>
+    <Compile Include="userControl\ucTouteLesCommande.xaml.cs">
+      <DependentUpon>ucTouteLesCommande.xaml</DependentUpon>
+    </Compile>
     <Compile Include="userControl\ucCommande.xaml.cs">
       <DependentUpon>ucCommande.xaml</DependentUpon>
     </Compile>
@@ -142,6 +145,10 @@
       <DependentUpon>pageCatalogue.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="userControl\ucTouteLesCommande.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="userControl\ucCommande.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

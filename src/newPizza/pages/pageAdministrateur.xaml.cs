@@ -36,7 +36,7 @@ namespace newPizza
 
         private void Bouton_Commandes(object sender, RoutedEventArgs e)
         {
-            contControl.Content = new ucCommande();
+            contControl.Content = new ucTouteLesCommande();
         }
     }
 }

@@ -1,9 +1,11 @@
-﻿
+﻿D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Release\GeneratedInternalTypeHelper.g.cs
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\App.xaml;;
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\pages\pageNewCompte.xaml;;
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\pages\pageAdministrateur.xaml;;
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\pages\pageIdentification.xaml;;
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\pages\pageCatalogue.xaml;;
+FD:\ProjetWPFPizzeria\newPizza\src\newPizza\userControl\ucTouteLesCommande.xaml;;
+FD:\ProjetWPFPizzeria\newPizza\src\newPizza\userControl\ucCommande.xaml;;
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\userControl\ucAdmninistration.xaml;;
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\userControl\ucCatalogueCarnivore.xaml;;
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\userControl\ucCatalogueVege.xaml;;
@@ -12,5 +14,4 @@ FD:\ProjetWPFPizzeria\newPizza\src\newPizza\userControl\ucTopBar.xaml;;
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\userControl\ucPizzaBox.xaml;;
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\userControl\ucCataloguePizzeta.xaml;;
 FD:\ProjetWPFPizzeria\newPizza\src\newPizza\userControl\ucMenuBouton.xaml;;
-FD:\ProjetWPFPizzeria\newPizza\src\newPizza\userControl\ucCommande.xaml;;
 

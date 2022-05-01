@@ -207,3 +207,5 @@ D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.exe
 D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.pdb
 D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
 D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCommande.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
