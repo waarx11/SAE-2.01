@@ -9,27 +9,30 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="4*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="4*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <Rectangle StrokeThickness="1" Stroke="Gray" RadiusX="50" RadiusY="50" Grid.ColumnSpan="2" Grid.RowSpan="2">
+        <Rectangle StrokeThickness="1" Stroke="Gray" RadiusX="50" RadiusY="50" Grid.ColumnSpan="2" Grid.RowSpan="3">
             <Rectangle.Fill>
-                <SolidColorBrush Opacity="0.7" Color="WhiteSmoke"/>
+                <SolidColorBrush Opacity="0.9" Color="Gray"/>
             </Rectangle.Fill>
         </Rectangle>
-        <Image x:Name="imgPizCommande" Source="..\img\pizzas\epicees\spicy_hot_one.jpeg" Grid.Row="0" Margin="40,0,0,0" Grid.RowSpan="2" Height="120"/>
-        <Border Grid.Row="0" Grid.Column="1" Height="100" BorderBrush="Black">
-            <WrapPanel>
-                <TextBlock Text="Voici les ingrédient de la pizza "/>
-                <TextBlock x:Name="nomPizza" Text="XXXXXXX &#xA;"/>
-                <Border Height="68" Width="470" BorderBrush="Black" BorderThickness="1,1,1,1">
-                        <TextBlock x:Name="textPizza" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse &#xA;lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum &#xA;ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. &#xA;Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam."/>
-                </Border>
-            </WrapPanel>
+        <Image x:Name="imgPizCommande" Source="..\img\pizzas\epicees\spicy_hot_one.jpeg" Grid.Row="0" Margin="40,0,0,0" Grid.RowSpan="3" Height="120"/>
+        <WrapPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom">
+            <TextBlock Text="Voici les ingrédient de la pizza"/>
+            <TextBlock x:Name="nomPizza" Text="XXXXXXX"/>
+        </WrapPanel>
+        <Border Margin="0,20,0,0" Grid.Row="1" Grid.Column="1" Height="100" BorderBrush="Black">
+            <Border Height="68" Width="1050" BorderBrush="Black" BorderThickness="1,1,1,1" HorizontalAlignment="Left">
+                <ScrollViewer>
+                    <TextBlock x:Name="textPizza" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse &#xA;lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum &#xA;ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. &#xA;Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam."/>
+                </ScrollViewer>
+            </Border>
         </Border>
-        <Button Margin="0,0,0,0" Name="OUI"  Grid.Row="1" Grid.Column="1" Width="200" Height="50" Cursor="Hand" FontSize="25">COMMENCER</Button>
+        <Button HorizontalAlignment="Right" Margin="0,0,40,0" Name="OUI"  Grid.Row="2" Grid.Column="1" Width="200" Height="50" Cursor="Hand" FontSize="25">COMMENCER</Button>
     </Grid>
 </UserControl>

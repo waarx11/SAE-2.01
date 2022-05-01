@@ -6,19 +6,33 @@
              xmlns:local="clr-namespace:newPizza"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="140"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="70"/>
-            <RowDefinition Height="70"/>
-        </Grid.RowDefinitions>
-        <Border Height="120" Width="1200" BorderBrush="Black" BorderThickness="0,0,0,1">
-            <TextBlock Text="COMMANDES" Grid.Row="0" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-        </Border>
-    </Grid>
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Top" Height="150">
+            <Border Height="120" Width="1200" BorderBrush="Black" BorderThickness="0,0,0,1">
+                <TextBlock Text="COMMANDES" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Border>
+        </DockPanel>
+
+        <ScrollViewer Height = "auto" Width = "auto" VerticalScrollBarVisibility = "Auto">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <local:ucCommande Grid.Row="0"  Height="230" Width="1500" Margin="0,50,0,0"/>
+                <local:ucCommande Grid.Row="1"  Height="230" Width="1500" Margin="0,50,0,0"/>
+                <local:ucCommande Grid.Row="2"  Height="230" Width="1500" Margin="0,50,0,0"/>
+                <local:ucCommande Grid.Row="3"  Height="230" Width="1500" Margin="0,50,0,0"/>
+                <local:ucCommande Grid.Row="4"  Height="230" Width="1500" Margin="0,50,0,0"/>
+                <local:ucCommande Grid.Row="5"  Height="230" Width="1500" Margin="0,50,0,0"/>
+                <local:ucCommande Grid.Row="6"  Height="230" Width="1500" Margin="0,50,0,0"/>
+            </Grid>
+        </ScrollViewer>
+
+    </DockPanel>
 </UserControl>
