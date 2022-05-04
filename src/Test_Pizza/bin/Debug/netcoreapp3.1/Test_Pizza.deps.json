@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Test_Pizza/1.0.0": {
+        "dependencies": {
+          "Modele": "1.0.0"
+        },
+        "runtime": {
+          "Test_Pizza.dll": {}
+        }
+      },
+      "Modele/1.0.0": {
+        "runtime": {
+          "Modele.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Test_Pizza/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Modele/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
