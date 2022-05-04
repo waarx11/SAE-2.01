@@ -91,6 +91,9 @@
     <Compile Include="pages\pageIdentification.xaml.cs">
       <DependentUpon>pageIdentification.xaml</DependentUpon>
     </Compile>
+    <Compile Include="userControl\ucInfoPizza.xaml.cs">
+      <DependentUpon>ucInfoPizza.xaml</DependentUpon>
+    </Compile>
     <Compile Include="userControl\usCommandeEnCours.xaml.cs">
       <DependentUpon>usCommandeEnCours.xaml</DependentUpon>
     </Compile>
@@ -148,6 +151,10 @@
       <DependentUpon>pageCatalogue.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="userControl\ucInfoPizza.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="userControl\usCommandeEnCours.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -291,6 +298,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\buttons\IdPageSmile.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\autre\fondCatalogue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\autre\fondCatalogue2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\autre\fondCatalogue3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets" Condition="Exists('packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets')" />

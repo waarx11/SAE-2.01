@@ -8,11 +8,12 @@
         WindowState="Maximized"
         WindowStyle="None"
         ResizeMode="NoResize"
-        Title="new Pizza() - Catalogue" Height="450" Width="800">
+        Title="new Pizza() - Catalogue" Height="1080" Width="1920">
 
 
     <DockPanel>
-        <Grid Background="{StaticResource couleurPrincipale}" MinWidth="200" MaxWidth="500">
+        
+        <Grid Background="{StaticResource couleurPrincipale}" Width="300">
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
                 <RowDefinition Height="*"/>
@@ -20,19 +21,28 @@
             </Grid.RowDefinitions>
 
 
-            <TextBlock Text="NOS PIZZAS" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+            <TextBlock Text="NOS PIZZAS" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
             <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1">
                 <local:ucMenuBouton setMessage="Pizzetas" setImage="..\img\buttons\pizzeta.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="MenuBouton_Pizzetas"/>
                 <local:ucMenuBouton setMessage="Épicées" setImage="..\img\buttons\spicy.png" CLICKMENU="MenuBouton_Epicees"/>
                 <local:ucMenuBouton setMessage="Carnivores" setImage="..\img\buttons\viande.png" CLICKMENU="MenuBouton_Carnivores"/>
                 <local:ucMenuBouton setMessage="Végétariennes" setImage="..\img\buttons\vegan.png" CLICKMENU="MenuBouton_Vegetariennes"/>
             </ListBox>
-            <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="2" CLICKMENU="MenuBouton_Deconnexion"/>
+            <DockPanel Grid.Row="2">
+                <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" CLICKMENU="MenuBouton_Deconnexion" HorizontalAlignment="Center"/>
+            </DockPanel>
         </Grid>
+    
+        
 
-        <ContentControl x:Name="ccCatalogue">
+        <DockPanel>
+            <DockPanel.Background>
+                <ImageBrush ImageSource="..\img\autre\fondCatalogue2.jpg" Stretch="Fill"/>
+            </DockPanel.Background>
+            <ContentControl x:Name="ccCatalogue">
             <local:ucCataloguePizzeta/>
         </ContentControl>
+        </DockPanel>
 
     </DockPanel>
 </Window>

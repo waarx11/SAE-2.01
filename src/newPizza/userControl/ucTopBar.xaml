@@ -12,8 +12,8 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="Title" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold">Pizzetas</TextBlock>
-        <Button Width="150" Height="40" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Mon Panier</Button>
-        <Button Width="150" Height="40" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center">Mon Compte</Button>
+        <TextBlock x:Name="Title" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold">Pizzetas</TextBlock>
+        <Button Width="150" Height="40" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Background="{StaticResource couleurArrierePlan}" BorderBrush="{StaticResource couleurPrincipale}">Mon Panier</Button>
+        <Button Width="150" Height="40" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Background="{StaticResource couleurArrierePlan}" BorderBrush="{StaticResource couleurPrincipale}">Mon Compte</Button>
     </Grid>
 </UserControl>
