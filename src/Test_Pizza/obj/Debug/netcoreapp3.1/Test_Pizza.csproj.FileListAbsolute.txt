@@ -1,0 +1,16 @@
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\obj\Debug\netcoreapp3.1\Test_Pizza.csproj.AssemblyReference.cache
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\obj\Debug\netcoreapp3.1\Test_Pizza.AssemblyInfoInputs.cache
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\obj\Debug\netcoreapp3.1\Test_Pizza.AssemblyInfo.cs
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\obj\Debug\netcoreapp3.1\Test_Pizza.csproj.CoreCompileInputs.cache
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\bin\Debug\netcoreapp3.1\Test_Pizza.exe
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\bin\Debug\netcoreapp3.1\Test_Pizza.deps.json
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\bin\Debug\netcoreapp3.1\Test_Pizza.runtimeconfig.json
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\bin\Debug\netcoreapp3.1\Test_Pizza.runtimeconfig.dev.json
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\bin\Debug\netcoreapp3.1\Test_Pizza.dll
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\bin\Debug\netcoreapp3.1\Test_Pizza.pdb
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\bin\Debug\netcoreapp3.1\Modele.dll
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\bin\Debug\netcoreapp3.1\Modele.pdb
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\obj\Debug\netcoreapp3.1\Test_Pizza.csproj.CopyComplete
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\obj\Debug\netcoreapp3.1\Test_Pizza.dll
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\obj\Debug\netcoreapp3.1\Test_Pizza.pdb
+C:\Users\naverdier\source\repos\sae-2.01\src\Test_Pizza\obj\Debug\netcoreapp3.1\Test_Pizza.genruntimeconfig.cache

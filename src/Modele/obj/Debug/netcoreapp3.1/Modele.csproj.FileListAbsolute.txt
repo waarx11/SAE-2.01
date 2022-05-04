@@ -1,0 +1,9 @@
+C:\Users\naverdier\Source\Repos\sae-2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.deps.json
+C:\Users\naverdier\Source\Repos\sae-2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.dll
+C:\Users\naverdier\Source\Repos\sae-2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.pdb
+C:\Users\naverdier\Source\Repos\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.AssemblyReference.cache
+C:\Users\naverdier\Source\Repos\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfoInputs.cache
+C:\Users\naverdier\Source\Repos\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfo.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
+C:\Users\naverdier\Source\Repos\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
+C:\Users\naverdier\Source\Repos\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb
