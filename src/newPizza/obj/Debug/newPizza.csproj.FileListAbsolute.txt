@@ -316,3 +316,5 @@ C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.exe
 C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.pdb
 C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
 C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml

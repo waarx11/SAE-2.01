@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Modele
 {
-    abstract class Utilisateur
+    public abstract class Utilisateur
     {
         /// <summary>
         /// Nom de l'utilisateur
@@ -41,7 +41,7 @@ namespace Modele
         /// </summary>
         public string CodePostal { get; private set; }
 
-        Utilisateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
+        public Utilisateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
         {
             if (string.IsNullOrWhiteSpace(nom) || string.IsNullOrWhiteSpace(prénom) || string.IsNullOrWhiteSpace(email))
             {
@@ -63,13 +63,13 @@ namespace Modele
         
         public override string ToString()
         {
-            string nom = string.IsNullOrWhiteSpace(Nom) ? "" : $"\"{Nom}\"";
-            string prénom = string.IsNullOrWhiteSpace(Prénom) ? "" : $"\"{Prénom}\"";
-            string email = string.IsNullOrWhiteSpace(Email) ? "" : $"\"{Email}\"";
-            string téléphone = string.IsNullOrWhiteSpace(Téléphone) ? "" : $"\"{Téléphone}\"";
-            string adresse = string.IsNullOrWhiteSpace(Adresse) ? "" : $"\"{Adresse}\"";
-            string ville = string.IsNullOrWhiteSpace(Ville) ? "" : $"\"{Ville}\"";
-            string codePostal = string.IsNullOrWhiteSpace(CodePostal) ? "" : $"\"{CodePostal}\"";
+            string nom = string.IsNullOrWhiteSpace(Nom) ? "" : $"{Nom}";
+            string prénom = string.IsNullOrWhiteSpace(Prénom) ? "" : $"{Prénom}";
+            string email = string.IsNullOrWhiteSpace(Email) ? "" : $"{Email}";
+            string téléphone = string.IsNullOrWhiteSpace(Téléphone) ? "" : $"{Téléphone}";
+            string adresse = string.IsNullOrWhiteSpace(Adresse) ? "" : $"{Adresse}";
+            string ville = string.IsNullOrWhiteSpace(Ville) ? "" : $"{Ville}";
+            string codePostal = string.IsNullOrWhiteSpace(CodePostal) ? "" : $"{CodePostal}";
             return $"{nom} {prénom} {email} {téléphone} {adresse} {ville} {codePostal}";
         }
         

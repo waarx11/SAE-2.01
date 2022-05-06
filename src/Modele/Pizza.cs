@@ -60,10 +60,10 @@ namespace Modele
 
         public override string ToString()
         {
-            string nom = string.IsNullOrWhiteSpace(Nom) ? "" : $"\"{Nom}\"";
-            string description = string.IsNullOrWhiteSpace(Description) ? "" : $"\"{Description}\"";
-            string image = string.IsNullOrWhiteSpace(Image) ? "" : $"\"{Image}\"";
-            string prix = string.IsNullOrWhiteSpace(Prix.ToString()) ? "" : $"\"{Prix}\"";
+            string nom = string.IsNullOrWhiteSpace(Nom) ? "" : $"{Nom}";
+            string description = string.IsNullOrWhiteSpace(Description) ? "" : $"{Description}";
+            string image = string.IsNullOrWhiteSpace(Image) ? "" : $"{Image}";
+            string prix = string.IsNullOrWhiteSpace(Prix.ToString()) ? "" : $"{Prix}";
             return $"{nom} \"{description}\" {image} {prix} {Quantité}";
         }
 
