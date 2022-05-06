@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="500" d:DesignWidth="500">
     
-    <Border BorderThickness="5" BorderBrush="{StaticResource couleurSecondaire}" CornerRadius="20" Background="{StaticResource couleurArrierePlan}" Margin="50">
+    <Border BorderThickness="5" BorderBrush="{StaticResource couleurSecondaire}" CornerRadius="20" Background="{StaticResource couleurPrincipale}" Margin="50">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.5*"/>
@@ -26,7 +26,7 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Button Height="auto" Width="auto" Style="{x:Null}" BorderThickness="0" Background="{StaticResource couleurArrierePlan}" Margin="10,15,10,15">
+                <Button Height="auto" Width="auto" Style="{x:Null}" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Margin="10,15,10,15">
                     <TextBlock Text="Plus d'informations" FontSize="20"/>
                 </Button>
 
@@ -39,12 +39,12 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Column="0" Height="50" BorderThickness="0" Background="{StaticResource couleurArrierePlan}" Style="{x:Null}" Width="60" Margin="30,0,0,0">
+                    <Button Grid.Column="0" Height="50" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Width="60" Margin="30,0,0,0">
                         <Image Source="..\img\buttons\panier.png" Margin="5"/>
                     </Button>
-                    <Button Grid.Column="1" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurArrierePlan}" Style="{x:Null}">-</Button>
+                    <Button Grid.Column="1" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}">-</Button>
                     <TextBlock x:Name="quantite" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Medium">1</TextBlock>
-                    <Button Grid.Column="3" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurArrierePlan}" Style="{x:Null}">+</Button>
+                    <Button Grid.Column="3" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}">+</Button>
                 </Grid>
 
             </Grid>
