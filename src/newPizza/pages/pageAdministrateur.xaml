@@ -8,9 +8,10 @@
         WindowState="Maximized"
         WindowStyle="None"
         mc:Ignorable="d"
-        Title="pageAdministrateur">
+        d:DesignHeight="1080" d:DesignWidth="1920"
+        Title="pageAdministrateur" Width="1920" Height="1080">
     <DockPanel>
-        <Grid Background="{StaticResource couleurPrincipale}" MinWidth="200" MaxWidth="500">
+        <Grid Background="{StaticResource couleurPrincipale}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
                 <RowDefinition Height="*"/>
@@ -23,7 +24,7 @@
 
 
             <TextBlock Text="Administrateur" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-            <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1">
+            <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1" Width="300">
                 <local:ucMenuBouton setMessage="Restaurant" setImage="..\img\buttons\news.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
                 <local:ucMenuBouton setMessage="Commandes" setImage="..\img\buttons\spicy.png" CLICKMENU="Bouton_Commandes"/>
             </ListBox>

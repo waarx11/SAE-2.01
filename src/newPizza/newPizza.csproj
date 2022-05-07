@@ -94,8 +94,8 @@
     <Compile Include="userControl\ucInfoPizza.xaml.cs">
       <DependentUpon>ucInfoPizza.xaml</DependentUpon>
     </Compile>
-    <Compile Include="userControl\usCommandeEnCours.xaml.cs">
-      <DependentUpon>usCommandeEnCours.xaml</DependentUpon>
+    <Compile Include="userControl\ucCommandeEnCours.xaml.cs">
+      <DependentUpon>ucCommandeEnCours.xaml</DependentUpon>
     </Compile>
     <Compile Include="userControl\ucTouteLesCommande.xaml.cs">
       <DependentUpon>ucTouteLesCommande.xaml</DependentUpon>
@@ -155,7 +155,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="userControl\usCommandeEnCours.xaml">
+    <Page Include="userControl\ucCommandeEnCours.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

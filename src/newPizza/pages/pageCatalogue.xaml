@@ -36,11 +36,11 @@
         
 
         <DockPanel>
-            <DockPanel.Background>
+            <!--<DockPanel.Background>
                 <ImageBrush ImageSource="..\img\autre\fondCatalogue2.jpg" Stretch="Fill"/>
-            </DockPanel.Background>
+            </DockPanel.Background>-->
             <ContentControl x:Name="ccCatalogue">
-            <local:ucCataloguePizzeta/>
+            <local:ucInfoPizza/>
         </ContentControl>
         </DockPanel>
 
