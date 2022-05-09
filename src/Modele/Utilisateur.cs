@@ -54,7 +54,7 @@ namespace Modele
             {
                 throw new ArgumentException("Un utilisateur doit avoir au moins un nom, un prénom et une adresse email");
             }
-            Nom = Nom;
+            Nom = nom;
             Prénom = prénom;
             Email = email;
             Téléphone = téléphone;
