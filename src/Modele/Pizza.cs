@@ -12,27 +12,32 @@ namespace Modele
         /// <summary>
         /// Nom de la pizaa
         /// </summary>
-        public string Nom { get; private set; }
+        public string Nom { get => nom; set => nom = value; }
+        private string nom;
 
         /// <summary>
         /// Quantité de pizza a commander
         /// </summary>
-        public int Quantité { get; private set; } = 1;
+        public string Quantité { get => quantité; set => quantité = value; }
+        private string quantité;
 
         /// <summary>
         /// Description de la pizza
         /// </summary>
-        public string Description { get; private set; }
+        public string Description { get => description; set => description = value; }
+        private string description;
 
         /// <summary>
         /// Image de la pizza
         /// </summary>
-        public string Image { get; private set; }
+        public string Image { get => image; set => image = value; }
+        private string image;
 
         /// <summary>
         /// Prix de la pizza
         /// </summary>
-        public int Prix { get; private set; }
+        public int Prix { get => prix; set => prix = value; }
+        private int prix;
 
         /// <summary>
         /// Constructeur
@@ -41,6 +46,9 @@ namespace Modele
         /// <param name="description">Description de cette pizza</param>
         /// <param name="image">Image de cette pizza</param>
         /// <param name="prix">Prix de cette pizza</param>
+
+        private List<Ingredients> listIngredient;
+        public List<Ingredients> ListIngredient { get => listIngredient; set => listIngredient = value; }
         public Pizza(string nom, string description, string image, int prix=12)
         {
             if(string.IsNullOrWhiteSpace(nom) || string.IsNullOrWhiteSpace(description) || string.IsNullOrWhiteSpace(image))

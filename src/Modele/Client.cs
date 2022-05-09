@@ -9,8 +9,8 @@ namespace Modele
         /// <summary>
         /// Pseudo de l'utilisateur
         /// </summary>
-        private string Pseudo;
-        public string pseudo { get => Pseudo; set => Pseudo = value; }
+        public string Pseudo { get => pseudo; set => pseudo = value; }
+        private string pseudo;
         /// <summary>
         /// Photo de l'utilisateur
         /// </summary>

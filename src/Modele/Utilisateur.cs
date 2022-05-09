@@ -9,37 +9,44 @@ namespace Modele
         /// <summary>
         /// Nom de l'utilisateur
         /// </summary>
-        public string Nom { get; private set; }
+        public string Nom { get => nom; set => nom = value; }
+        private string nom;
 
         /// <summary>
         /// Quantité de pizza a commander
         /// </summary>
-        public string Prénom { get; private set; }
+        public string Prénom { get => prénom; set => prénom = value; }
+        private string prénom;
 
         /// <summary>
         /// Email de l'utilisateur
         /// </summary>
-        public string Email { get; private set; }
+        public string Email { get => email; set => email = value; }
+        private string email;
 
         /// <summary>
         /// Téléphone de l'utilisateur
         /// </summary>
-        public string Téléphone { get; private set; }
+        public string Téléphone { get => téléphone; set => téléphone = value; }
+        private string téléphone;
 
         /// <summary>
         /// Description de la pizza
         /// </summary>
-        public string Adresse { get; private set; }
+        public string Adresse { get => adresse; set => adresse = value; }
+        private string adresse;
 
         /// <summary>
         /// Image de la pizza
         /// </summary>
-        public string Ville { get; private set; }
+        public string Ville { get => ville; set => ville = value; }
+        private string ville;
 
         /// <summary>
         /// Prix de la pizza
         /// </summary>
-        public string CodePostal { get; private set; }
+        public string CodePostal { get => codePostal; set => codePostal = value; }
+        private string codePostal;
 
         public Utilisateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
         {

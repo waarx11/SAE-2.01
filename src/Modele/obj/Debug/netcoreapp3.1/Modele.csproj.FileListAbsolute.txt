@@ -16,3 +16,13 @@ C:\Users\babonneau\Source\Repos\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Mode
 C:\Users\babonneau\Source\Repos\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
 C:\Users\babonneau\Source\Repos\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
 C:\Users\babonneau\Source\Repos\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb
+D:\ProjetWPFPizzeria1\src\Modele\bin\Debug\netcoreapp3.1\Modele.deps.json
+D:\ProjetWPFPizzeria1\src\Modele\bin\Debug\netcoreapp3.1\Modele.dll
+D:\ProjetWPFPizzeria1\src\Modele\bin\Debug\netcoreapp3.1\Modele.pdb
+D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.AssemblyReference.cache
+D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfoInputs.cache
+D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfo.cs
+D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
+D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
+D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb

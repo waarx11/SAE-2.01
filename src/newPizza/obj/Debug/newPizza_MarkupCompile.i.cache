@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\
 newPizza
 none
 false
 DEBUG;TRACE
-C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\App.xaml
-161685228699
+D:\ProjetWPFPizzeria1\src\newPizza\App.xaml
+161278974517
 
-21-1678984268
-171732687922
+211856062539
+17-2174912
 pages\pageNewCompte.xaml;pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucInfoPizza.xaml;userControl\ucCommandeEnCours.xaml;userControl\ucTouteLesCommande.xaml;userControl\ucCommande.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
 
 True

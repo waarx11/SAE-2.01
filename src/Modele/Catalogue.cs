@@ -7,32 +7,44 @@ namespace Modele
     public class Catalogue
     {
 
-        List<Pizza> CatalogueVegetarien = new List<Pizza>();
-        List<Pizza> CataloguePizzeta = new List<Pizza>();
-        List<Pizza> CatalogueCarnivore = new List<Pizza>();
-        List<Pizza> CatalogueEpice = new List<Pizza>();
+        private List<Pizza> catalogueVegetarien;
+        public List<Pizza> CatalogueVegetarien { get => catalogueVegetarien; set => catalogueVegetarien = value; }
+
+        private List<Pizza> cataloguePizzeta;
+        public List<Pizza> CataloguePizzeta { get => cataloguePizzeta; set => cataloguePizzeta = value; }
+
+        private List<Pizza> catalogueCarnivore;
+        public List<Pizza> CatalogueCarnivore { get => catalogueCarnivore; set => catalogueCarnivore = value; }
+
+        private List<Pizza> catalogueEpice;
+        public List<Pizza> CatalogueEpice { get => catalogueEpice; set => catalogueEpice = value; }
 
         public Catalogue()
-        { }
+        { 
+            catalogueVegetarien = new List<Pizza>();
+            cataloguePizzeta = new List<Pizza>();
+            catalogueCarnivore = new List<Pizza>();
+            catalogueEpice = new List<Pizza>();
+        }
 
         public void ajoutePizzaCatVege(Pizza pizza)
         {
-            CatalogueVegetarien.Add(pizza);
+            catalogueVegetarien.Add(pizza);
         }
 
         public void ajoutePizzaCatPizzeta(Pizza pizza)
         {
-            CataloguePizzeta.Add(pizza);
+            cataloguePizzeta.Add(pizza);
         }
 
         public void ajoutePizzaCatCarni(Pizza pizza)
         {
-            CatalogueCarnivore.Add(pizza);
+            catalogueCarnivore.Add(pizza);
         }
 
         public void ajoutePizzaCatEpice(Pizza pizza)
         {
-            CatalogueEpice.Add(pizza);
+            catalogueEpice.Add(pizza);
         }
 
         /*public override string ToString()
