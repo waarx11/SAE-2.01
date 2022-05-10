@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Modele
 {
@@ -42,6 +42,20 @@ namespace Modele
         Scamorza = 35,
         Thon = 36,
         PersilladeCitronée = 37,
-        Poulet = 38
+        Poulet = 38,
+        SauceBarbecue = 39,
+        Emmental = 40,
+        FourmeAmbert = 41,
+        Boeuf = 42,
+        Pepperoni = 43,
+        FromageARaclette = 44,
+        PommesDeTerre = 45,
+        Lardons = 46,
+        Olives = 47,
+        SauceBlancheKebab = 48,
+        Ananas = 49,
+        Piments = 50,
+        SauceSamourai = 51,
+        ParmigianoReggiano = 52
     }
 }
