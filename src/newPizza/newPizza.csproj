@@ -82,6 +82,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="pages\pageProfil.xaml.cs">
+      <DependentUpon>pageProfil.xaml</DependentUpon>
+    </Compile>
     <Compile Include="pages\pageNewCompte.xaml.cs">
       <DependentUpon>pageNewCompte.xaml</DependentUpon>
     </Compile>
@@ -127,6 +130,10 @@
     <Compile Include="userControl\ucMenuBouton.xaml.cs">
       <DependentUpon>ucMenuBouton.xaml</DependentUpon>
     </Compile>
+    <Page Include="pages\pageProfil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="pages\pageNewCompte.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

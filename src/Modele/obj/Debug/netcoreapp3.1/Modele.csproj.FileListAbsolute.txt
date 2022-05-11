@@ -26,3 +26,13 @@ D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfo.cs
 D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
 D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
 D:\ProjetWPFPizzeria1\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.deps.json
+D:\ProjetsVisualStudio\SAE 2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.dll
+D:\ProjetsVisualStudio\SAE 2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.AssemblyReference.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfoInputs.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfo.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
+D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb

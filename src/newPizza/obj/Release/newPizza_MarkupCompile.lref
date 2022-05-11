@@ -1,19 +1,20 @@
-﻿D:\ProjetWPFPizzeria1\src\newPizza\obj\Release\GeneratedInternalTypeHelper.g.cs
-FD:\ProjetWPFPizzeria1\src\newPizza\App.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\pages\pageNewCompte.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\pages\pageAdministrateur.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\pages\pageIdentification.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\pages\pageCatalogue.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucInfoPizza.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucCommandeEnCours.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucTouteLesCommande.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucCommande.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucAdmninistration.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucCatalogueCarnivore.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucCatalogueVege.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucCatalogueEpicees.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucTopBar.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucPizzaBox.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucCataloguePizzeta.xaml;;
-FD:\ProjetWPFPizzeria1\src\newPizza\userControl\ucMenuBouton.xaml;;
+﻿D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Release\GeneratedInternalTypeHelper.g.cs
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\App.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\pages\pageProfil.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\pages\pageNewCompte.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\pages\pageAdministrateur.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\pages\pageIdentification.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\pages\pageCatalogue.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucInfoPizza.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucCommandeEnCours.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucTouteLesCommande.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucCommande.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucAdmninistration.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucCatalogueCarnivore.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucCatalogueVege.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucCatalogueEpicees.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucTopBar.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucPizzaBox.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucCataloguePizzeta.xaml;;
+FD:\ProjetsVisualStudio\SAE 2.01\src\newPizza\userControl\ucMenuBouton.xaml;;
 

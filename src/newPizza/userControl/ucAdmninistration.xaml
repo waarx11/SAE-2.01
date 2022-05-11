@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:newPizza"  xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignHeight="1080" d:DesignWidth="1620">
-    <Grid Background="AliceBlue">
+    <Grid Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="140"/>
             <RowDefinition Height="*"/>
@@ -130,9 +130,9 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Text="Téléphone:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock x:Name="prenomGerentrepriseTelant" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock x:Name="entrepriseTel" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                    <TextBox x:Name="entrepriseTel" materialDesign:HintAssist.Hint="Nouveau numéro de téléphone" Cursor="IBeam"/>
+                    <TextBox x:Name="idEntrepriseTel" materialDesign:HintAssist.Hint="Nouveau numéro de téléphone" Cursor="IBeam"/>
                 </StackPanel>
             </Grid>
         </Border>
