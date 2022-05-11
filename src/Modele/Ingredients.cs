@@ -56,6 +56,9 @@ namespace Modele
         Ananas = 49,
         Piments = 50,
         SauceSamourai = 51,
-        ParmigianoReggiano = 52
+        ParmigianoReggiano = 52,
+        PateBrisee = 53,
+        PateSablee = 54,
+        PateFeuilletee = 55
     }
 }
