@@ -225,7 +225,6 @@ C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageNewCom
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
-C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\usCommandeEnCours.g.cs
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
@@ -245,7 +244,6 @@ C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageNewCom
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageIdentification.baml
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageCatalogue.baml
-C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\usCommandeEnCours.baml
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCommande.baml
 C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
@@ -372,3 +370,7 @@ D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.c
 D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
 D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.exe
 D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.pdb
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.baml

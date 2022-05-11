@@ -40,6 +40,12 @@ namespace Modele
         private int prix;
 
         /// <summary>
+        /// Liste des ingredient qui constitue la pizza
+        /// </summary>
+        private List<Ingredients> ListIngredient = new List<Ingredients> {(Ingredients)53, (Ingredients)0};
+        public List<Ingredients> listIngredient { get => ListIngredient; set => ListIngredient = value; }
+
+        /// <summary>
         /// Constructeur
         /// </summary>
         /// <param name="nom">Nom de cette pizza</param>
@@ -47,8 +53,6 @@ namespace Modele
         /// <param name="image">Image de cette pizza</param>
         /// <param name="prix">Prix de cette pizza</param>
 
-        private List<Ingredients> listIngredient;
-        public List<Ingredients> ListIngredient { get => listIngredient; set => listIngredient = value; }
         public Pizza(string nom, string description, string image, int prix=12)
         {
             if(string.IsNullOrWhiteSpace(nom) || string.IsNullOrWhiteSpace(description) || string.IsNullOrWhiteSpace(image))
