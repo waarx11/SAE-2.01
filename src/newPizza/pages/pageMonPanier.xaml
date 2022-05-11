@@ -1,0 +1,98 @@
+﻿<Window x:Class="newPizza.pageMonPanier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:newPizza" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        ResizeMode="NoResize"
+        WindowState="Maximized"
+        WindowStyle="None"
+        mc:Ignorable="d"
+        d:DesignHeight="1080" d:DesignWidth="1920"
+        Title="pageMonPanier" Width="1920" Height="1080">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Background="{StaticResource couleurPrincipale}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="160"/>
+            </Grid.RowDefinitions>
+
+
+            <TextBlock Text="MON COMPTE" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline"/>
+
+            <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image Source="..\img\buttons\quitter.png" Width="250" Height="250"/>
+                <TextBlock Text="PSEUDO" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2">
+                <local:ucMenuBouton setMessage="Retour" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center" BorderThickness="0,2,0,0" BorderBrush="Black"/>
+                <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+        <ScrollViewer Grid.Column="1">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
+            <local:ucPizzaBox Grid.Row="0" Grid.Column="1" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
+                <local:ucPizzaBox Grid.Row="1" Grid.Column="0" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
+            </Grid>
+        </ScrollViewer>
+
+        
+        <Grid Background="{StaticResource couleurPrincipale}" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="160"/>
+            </Grid.RowDefinitions>
+
+
+            <TextBlock Text="PAIEMENT" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline"/>
+
+            <StackPanel Grid.Row="1" VerticalAlignment="Center">
+                <Button Width="400" Height="80" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}" Margin="50">
+                    <TextBlock FontSize="30" Text="Paypal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+
+                <Button Width="400" Height="80" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}" Margin="50">
+                    <TextBlock FontSize="30" Text="Carte bancaire" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50">
+                    <TextBlock FontSize="35" Text="PRIX TOTAL" HorizontalAlignment="Center"/>
+                    <TextBlock FontSize="35" Text="XX.XX €" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2">
+                <Button Width="400" Height="80" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}">
+                    <WrapPanel>
+                        <Image Source="..\img\buttons\panier.png" VerticalAlignment="Center" HorizontalAlignment="Center" Width="60" Height="60" Margin="10"/>
+                        <TextBlock FontSize="30" Text="Payer" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </WrapPanel>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>

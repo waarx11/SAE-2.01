@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\App.xaml
-17-352685636
+181725381084
 
-2260807416
+23762238528
 171885960159
-pages\pageProfil.xaml;pages\pageNewCompte.xaml;pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucInfoPizza.xaml;userControl\ucCommandeEnCours.xaml;userControl\ucTouteLesCommande.xaml;userControl\ucCommande.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
+pages\pageMonPanier.xaml;pages\pageProfil.xaml;pages\pageNewCompte.xaml;pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucInfoPizza.xaml;userControl\ucCommandeEnCours.xaml;userControl\ucTouteLesCommande.xaml;userControl\ucCommande.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
 
-True
+False
 
