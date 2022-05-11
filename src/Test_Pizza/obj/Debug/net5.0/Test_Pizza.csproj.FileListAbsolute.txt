@@ -49,3 +49,22 @@ D:\ProjetWPFPizzeria1\src\Test_Pizza\obj\Debug\net5.0\refint\Test_Pizza.dll
 D:\ProjetWPFPizzeria1\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.pdb
 D:\ProjetWPFPizzeria1\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.genruntimeconfig.cache
 D:\ProjetWPFPizzeria1\src\Test_Pizza\obj\Debug\net5.0\ref\Test_Pizza.dll
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.exe
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.deps.json
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.runtimeconfig.json
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.runtimeconfig.dev.json
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.dll
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\bin\Debug\net5.0\Modele.dll
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\bin\Debug\net5.0\Modele.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.csproj.AssemblyReference.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.AssemblyInfoInputs.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.AssemblyInfo.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.csproj.CoreCompileInputs.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.csproj.CopyComplete
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.dll
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\refint\Test_Pizza.dll
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.genruntimeconfig.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\ref\Test_Pizza.dll

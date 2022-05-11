@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Release\
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Release\
 newPizza
 none
 false
 TRACE
-C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\App.xaml
-161685228699
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\App.xaml
+17-352685636
 
-20-836624901
-17893453343
-pages\pageNewCompte.xaml;pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucInfoPizza.xaml;userControl\ucCommandeEnCours.xaml;userControl\ucTouteLesCommande.xaml;userControl\ucCommande.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
+212142896034
+171885960159
+pages\pageProfil.xaml;pages\pageNewCompte.xaml;pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucInfoPizza.xaml;userControl\ucCommandeEnCours.xaml;userControl\ucTouteLesCommande.xaml;userControl\ucCommande.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
 
 True
 
