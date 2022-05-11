@@ -429,3 +429,5 @@ D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.csproj.CoreCompi
 D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
 D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.exe
 D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageMonPanier.baml
