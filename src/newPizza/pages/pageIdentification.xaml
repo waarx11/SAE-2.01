@@ -24,7 +24,7 @@
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
 
-            <Button Grid.Row="1" FontSize="10" HorizontalAlignment="Center" Width="120" VerticalAlignment="Center" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}">Changer de thème</Button>
+            <Button Grid.Row="1" Content="Thème : Clair" FontSize="10" HorizontalAlignment="Center" Width="120" VerticalAlignment="Center" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}"></Button>
 
         </Grid>
 
