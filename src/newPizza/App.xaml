@@ -13,6 +13,16 @@
             <SolidColorBrush Color="#68A7AD" x:Key="couleurPrincipale"/>
             <SolidColorBrush Color="#4d8d93" x:Key="couleurSecondaire"/>
             <SolidColorBrush Color="#3da5ae" x:Key="couleurArrierePlan"/>
+
+            <Style TargetType="Border" x:Key="BorderProfil">
+                <Setter Property="BorderThickness" Value="2"/>
+                <Setter Property="Margin" Value="10"/>
+                <Setter Property="BorderBrush" Value="{StaticResource couleurSecondaire}"/>
+            </Style>
+
         </ResourceDictionary>
+
+
+
     </Application.Resources>
 </Application>

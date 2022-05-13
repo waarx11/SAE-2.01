@@ -431,3 +431,7 @@ D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.exe
 D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.pdb
 D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
 D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageMonPanier.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageProfil.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageMonPanier.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageProfil.baml

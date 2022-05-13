@@ -18,19 +18,19 @@
 
         <Grid Background="{StaticResource couleurPrincipale}">
             <Grid.RowDefinitions>
-                <RowDefinition Height="70" />
+                <RowDefinition Height="140" />
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="160"/>
             </Grid.RowDefinitions>
 
 
-            <TextBlock Text="MON COMPTE" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline"/>
+            <TextBlock Text="MON COMPTE" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline"/>
 
             <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Image Source="..\img\buttons\quitter.png"/>
                 <TextBlock Text="PSEUDO" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,20,0,0"/>
             </StackPanel>
-            
+
             <StackPanel Grid.Row="2">
                 <local:ucMenuBouton setMessage="Retour" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center" BorderThickness="0,2,0,0" BorderBrush="Black"/>
                 <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center"/>
@@ -55,7 +55,7 @@
                 <TextBlock Text="Mes informations: " FontSize="50"/>
             </Border>
 
-            <Border Grid.Column="0" Grid.Row="1" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+            <Border Grid.Column="0" Grid.Row="1" Style="{StaticResource BorderProfil}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -73,7 +73,7 @@
                 </Grid>
             </Border>
 
-            <Border Grid.Column="0" Grid.Row="2" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+            <Border Grid.Column="0" Grid.Row="2" Style="{StaticResource BorderProfil}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -91,7 +91,7 @@
                 </Grid>
             </Border>
 
-            <Border Grid.Column="0" Grid.Row="3" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+            <Border Grid.Column="0" Grid.Row="3" Style="{StaticResource BorderProfil}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -110,7 +110,7 @@
             </Border>
 
 
-            <Border Grid.Column="0" Grid.Row="4" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+            <Border Grid.Column="0" Grid.Row="4" Style="{StaticResource BorderProfil}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -121,14 +121,14 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Text="Code Postal:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <TextBlock x:Name="postale" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="postale" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="114,0,114,20"/>
                     <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
                         <TextBox x:Name="idPostal" materialDesign:HintAssist.Hint="Nouveau code postal" Cursor="IBeam"/>
                     </StackPanel>
                 </Grid>
             </Border>
 
-            <Border Grid.Column="1" Grid.Row="1" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+            <Border Grid.Column="1" Grid.Row="1" Style="{StaticResource BorderProfil}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -147,7 +147,7 @@
             </Border>
 
 
-            <Border Grid.Column="1" Grid.Row="2" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+            <Border Grid.Column="1" Grid.Row="2" Style="{StaticResource BorderProfil}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>
@@ -166,7 +166,7 @@
             </Border>
 
 
-            <Border Grid.Column="1" Grid.Row="3" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+            <Border Grid.Column="1" Grid.Row="3" Style="{StaticResource BorderProfil}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition/>

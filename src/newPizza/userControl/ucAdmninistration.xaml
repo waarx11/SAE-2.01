@@ -27,25 +27,26 @@
             </WrapPanel>
         </Border>
 
-        <Border Grid.Column="0" Grid.Row="1" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+        <Border Grid.Column="0" Grid.Row="1" Style="{StaticResource BorderProfil}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="131*"/>
+                    <ColumnDefinition Width="28*"/>
+                    <ColumnDefinition Width="103*"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Text="Nom du gérant:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock x:Name="nomGerant" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
+                <TextBlock Text="Nom du gérant:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="74,21,74,20"/>
+                <TextBlock x:Name="nomGerant" Text="XXXXXXXX" Grid.Row="0" Grid.Column="2" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="30.066,21,113,20"/>
+                <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="3" VerticalAlignment="Center" Margin="168,32">
                     <TextBox x:Name="idNomGerant" materialDesign:HintAssist.Hint="Nom du nouveau gerant" Cursor="IBeam"/>
                 </StackPanel>
             </Grid>
         </Border>
 
-        <Border Grid.Column="0" Grid.Row="2" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+        <Border Grid.Column="0" Grid.Row="2" Style="{StaticResource BorderProfil}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition/>
@@ -63,26 +64,27 @@
             </Grid>
         </Border>
 
-        <Border Grid.Column="0" Grid.Row="3" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+        <Border Grid.Column="0" Grid.Row="3" Style="{StaticResource BorderProfil}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="131*"/>
+                    <ColumnDefinition Width="31*"/>
+                    <ColumnDefinition Width="100*"/>
                 </Grid.ColumnDefinitions>
-                <TextBlock Text="Adresse:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock x:Name="adresseEntreprise" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
+                <TextBlock Text="Adresse:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="132,21,131,20"/>
+                <TextBlock x:Name="adresseEntreprise" Text="XXXXXXXX" Grid.Row="0" Grid.Column="2" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="21.374,21,113,20"/>
+                <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="3" VerticalAlignment="Center" Margin="168,32">
                     <TextBox x:Name="idAdresseEntreprise" materialDesign:HintAssist.Hint="Nouvelle adresse" Cursor="IBeam"/>
                 </StackPanel>
             </Grid>
         </Border>
 
 
-        <Border Grid.Column="0" Grid.Row="4" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+        <Border Grid.Column="0" Grid.Row="4" Style="{StaticResource BorderProfil}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition/>
@@ -100,7 +102,7 @@
             </Grid>
         </Border>
 
-        <Border Grid.Column="1" Grid.Row="1" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+        <Border Grid.Column="1" Grid.Row="1" Style="{StaticResource BorderProfil}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition/>
@@ -119,7 +121,7 @@
         </Border>
 
 
-        <Border Grid.Column="1" Grid.Row="2" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+        <Border Grid.Column="1" Grid.Row="2" Style="{StaticResource BorderProfil}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition/>
@@ -138,7 +140,7 @@
         </Border>
 
 
-        <Border Grid.Column="1" Grid.Row="3" BorderThickness="2" Margin="10" BorderBrush="{StaticResource couleurSecondaire}">
+        <Border Grid.Column="1" Grid.Row="3" Style="{StaticResource BorderProfil}">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition/>
