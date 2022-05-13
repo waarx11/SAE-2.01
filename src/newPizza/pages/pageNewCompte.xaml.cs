@@ -23,5 +23,12 @@ namespace newPizza
         {
             InitializeComponent();
         }
+
+        private void CloseMenu(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+
     }
 }

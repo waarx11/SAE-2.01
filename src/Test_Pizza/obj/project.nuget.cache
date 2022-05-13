@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ffcItgphD3nsFpufGM82EMNaeBQbbJNSb+HbKsdzdzDYv4H5e/F3JVvI1k1I1wULkZ3iuIH9IAq9Xj5OuFdxmg==",
+  "dgSpecHash": "cdsZeDKPwcMtiggFf43CuAv9eHVy8JVEiFOcq8t3dlCnwe2taLmrv8eY8uMt+/DtVMimU/y/oeV/Op+rQAGkQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\babonneau\\Source\\Repos\\sae-2.01\\src\\Test_Pizza\\Test_Pizza.csproj",
+  "projectFilePath": "C:\\Users\\babonneau\\source\\repos\\sae-2.01\\src\\Test_Pizza\\Test_Pizza.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -68,3 +68,22 @@ D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\refint\Test_Pizz
 D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.pdb
 D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.genruntimeconfig.cache
 D:\ProjetsVisualStudio\SAE 2.01\src\Test_Pizza\obj\Debug\net5.0\ref\Test_Pizza.dll
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.exe
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.deps.json
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.runtimeconfig.json
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.runtimeconfig.dev.json
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.dll
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\bin\Debug\net5.0\ref\Test_Pizza.dll
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\bin\Debug\net5.0\Test_Pizza.pdb
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\bin\Debug\net5.0\Modele.dll
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\bin\Debug\net5.0\Modele.pdb
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.csproj.AssemblyReference.cache
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.AssemblyInfoInputs.cache
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.AssemblyInfo.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.csproj.CoreCompileInputs.cache
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.csproj.CopyComplete
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.dll
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\ref\Test_Pizza.dll
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.pdb
+C:\Users\babonneau\Source\Repos\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.genruntimeconfig.cache

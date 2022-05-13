@@ -5,31 +5,60 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:newPizza" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         WindowStyle="None"
+        ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         mc:Ignorable="d"
-        Title="Identification" MaxHeight="450" MaxWidth="600" MinHeight="450" MinWidth="600">
-    
-    <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0">
-        <ListBox DockPanel.Dock="Left" Background="Gray" MinWidth="120"/>
-        <StackPanel DockPanel.Dock="Top" Background="Red" MinHeight="130" HorizontalAlignment="Stretch">
-            <WrapPanel Margin="0,20,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image Margin="0,0,10,0" Width="100" Source="/img/buttons/IdPageSmile.jpg"/>
-                <TextBlock Text="new Pizza()" VerticalAlignment="Center" FontSize="40" FontWeight="DemiBold"/>
-            </WrapPanel>
-        </StackPanel>
-        <StackPanel Margin="0,65,0,80" HorizontalAlignment="Center" MinWidth="300" MaxWidth="300">
-            <TextBox x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="entrez votre identifiant" Cursor="IBeam"/>
-            <PasswordBox Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" Cursor="IBeam"/>
+        Title="Connexion" Height="450" Width="600"
+        d:DesignHeight="450" d:DesignWidth="600">
 
-            <Button Margin="0,40,0,0" Content="SE CONNECTER" Width="260"  MinHeight="30" Background="Gray" BorderBrush="White" FontWeight = "UltraBlack"
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="0.7*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Background="{StaticResource couleurSecondaire}">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <Button Grid.Row="1" FontSize="10" HorizontalAlignment="Center" Width="120" VerticalAlignment="Center" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}">Changer de thème</Button>
+
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="0.8*"/>
+            </Grid.RowDefinitions>
+
+            <Button Content="X" Width="41" Height="41" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,1,0" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" Click="CloseMenu"/>
+
+            <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1">
+                <Image Source="..\img\autre\IdPageSmile.jpg" Margin="0,20,20,20" />
+                <TextBlock Text="new Pizza()" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" FontFamily="{StaticResource TITLE}"/>
+            </WrapPanel>
+
+            <StackPanel HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center">
+                <TextBlock FontWeight="Bold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center">CONNEXION</TextBlock>
+                <TextBox x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="Entrez votre identifiant" Cursor="IBeam"/>
+                <PasswordBox Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" Cursor="IBeam"/>
+
+                <Button Margin="0,40,0,0" Content="SE CONNECTER" Width="300" FontWeight="Bold" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}"
                     materialDesign:ShadowAssist.ShadowDepth="Depth2"
                     materialDesign:ButtonProgressAssist.Value="-1"
                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="false"
                     materialDesign:ButtonProgressAssist.IsIndeterminate="false"
                     Cursor="Hand"/>
-            <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="Regular">
-                <Span xml:space="preserve"><Run>Pas encore de compte ? </Run><Hyperlink NavigateUri="pageInscription">S'inscrire</Hyperlink></Span>
-            </TextBlock>
-        </StackPanel>
-    </DockPanel>
+                <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="Regular" Margin="0,5,0,0">
+                <Span xml:space="preserve"><Run>Pas de compte ? </Run><Hyperlink NavigateUri="pageNewCompte"> S'inscrire</Hyperlink></Span>
+                </TextBlock>
+            </StackPanel>
+
+        </Grid>
+
+    </Grid>
 </Window>

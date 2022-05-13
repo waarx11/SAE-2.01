@@ -57,8 +57,8 @@ namespace Modele
         Piments = 50,
         SauceSamourai = 51,
         ParmigianoReggiano = 52,
-        PateBrisee = 53,
-        PateSablee = 54,
-        PateFeuilletee = 55
+        PateNormale = 53,
+        PateMoyenne = 54,
+        PateFine = 55
     }
 }

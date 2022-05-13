@@ -232,6 +232,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="font\CHEESEPIZZA.ttf" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -311,7 +312,7 @@
     <Resource Include="img\buttons\sauvegarder.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img\buttons\IdPageSmile.jpg" />
+    <Resource Include="img\autre\IdPageSmile.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="img\autre\fondCatalogue.png" />
@@ -325,6 +326,7 @@
   <ItemGroup>
     <Resource Include="img\buttons\paypal.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets" Condition="Exists('packages\MaterialDesignThemes.4.4.0\build\MaterialDesignThemes.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
