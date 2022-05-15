@@ -18,8 +18,8 @@ namespace Modele
         /// <summary>
         /// Quantité de pizza a commander
         /// </summary>
-        public string Quantité { get => quantité; set => quantité = value; }
-        private string quantité;
+        public int Quantité { get => quantité; set => quantité = value; }
+        private int quantité;
 
         /// <summary>
         /// Description de la pizza
@@ -42,7 +42,7 @@ namespace Modele
         /// <summary>
         /// Liste des ingredient qui constitue la pizza
         /// </summary>
-        private List<Ingredients> ListIngredient = new List<Ingredients> {(Ingredients)53, (Ingredients)0};
+        private List<Ingredients> ListIngredient = new List<Ingredients> {(Ingredients)53, (Ingredients)0 };
         public List<Ingredients> listIngredient { get => ListIngredient; set => ListIngredient = value; }
 
         /// <summary>
@@ -53,7 +53,7 @@ namespace Modele
         /// <param name="image">Image de cette pizza</param>
         /// <param name="prix">Prix de cette pizza</param>
 
-        public Pizza(string nom, string description, string image, int prix=12)
+        public Pizza(string nom, string description, string image, List<Ingredients> lIng, int prix=12)
         {
             if(string.IsNullOrWhiteSpace(nom) || string.IsNullOrWhiteSpace(description) || string.IsNullOrWhiteSpace(image))
             {
@@ -63,20 +63,46 @@ namespace Modele
             Description = description;
             Image = image;
             Prix = prix;
+            foreach (Ingredients Ingre in lIng)
+            {
+                if (Ingre == (Ingredients)53 || Ingre == (Ingredients)54 || Ingre == (Ingredients)55)
+                {
+                    listIngredient.Remove((Ingredients)53);
+                    listIngredient.Remove((Ingredients)54);
+                    listIngredient.Remove((Ingredients)55);
+                    listIngredient.Add(Ingre);
+                }
+                else if (Ingre == (Ingredients)0 || Ingre == (Ingredients)1 || Ingre == (Ingredients)2)
+                {
+                    listIngredient.Remove((Ingredients)0);
+                    listIngredient.Remove((Ingredients)1);
+                    listIngredient.Remove((Ingredients)2);
+                    listIngredient.Add(Ingre);
+                }
+                else
+                    listIngredient.Add(Ingre);
+            }
         }
-       /* public int modifQte(int valeur)
+       public int modifQte(int valeur)
         {
-            if (Quantité > 0)
+            if (Quantité >= 0)
                 Quantité += valeur;
-        }*/
+            return Quantité;
+        }
 
         public override string ToString()
         {
-            string nom = string.IsNullOrWhiteSpace(Nom) ? "" : $"{Nom}";
-            string description = string.IsNullOrWhiteSpace(Description) ? "" : $"{Description}";
-            string image = string.IsNullOrWhiteSpace(Image) ? "" : $"{Image}";
-            string prix = string.IsNullOrWhiteSpace(Prix.ToString()) ? "" : $"{Prix}";
-            return $"{nom} \"{description}\" {image} {prix} {Quantité}";
+            string Afficher = "";
+            Afficher += string.IsNullOrWhiteSpace(Nom) ? "" : $"{Nom}";
+            Afficher += string.IsNullOrWhiteSpace(Description) ? "" : $"{Description}";
+            Afficher += string.IsNullOrWhiteSpace(Image) ? "" : $"{Image}";
+            foreach (Ingredients element in ListIngredient)
+            {
+                Afficher += element.ToString();
+            }
+            Afficher += string.IsNullOrWhiteSpace(Prix.ToString()) ? "" : $"{Prix}";
+            Afficher += Quantité;
+            return Afficher;
         }
 
         public bool Equals(Pizza other)

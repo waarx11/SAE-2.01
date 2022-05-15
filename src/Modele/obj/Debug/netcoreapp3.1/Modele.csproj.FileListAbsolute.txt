@@ -36,3 +36,13 @@ D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.Assemb
 D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
 D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
 D:\ProjetsVisualStudio\SAE 2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb
+D:\ProjetWPFPizzeria\sae-2.01.git\src\Modele\bin\Debug\netcoreapp3.1\Modele.deps.json
+D:\ProjetWPFPizzeria\sae-2.01.git\src\Modele\bin\Debug\netcoreapp3.1\Modele.dll
+D:\ProjetWPFPizzeria\sae-2.01.git\src\Modele\bin\Debug\netcoreapp3.1\Modele.pdb
+D:\ProjetWPFPizzeria\sae-2.01.git\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.AssemblyReference.cache
+D:\ProjetWPFPizzeria\sae-2.01.git\src\Modele\obj\Debug\netcoreapp3.1\Modele.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetWPFPizzeria\sae-2.01.git\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfoInputs.cache
+D:\ProjetWPFPizzeria\sae-2.01.git\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfo.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
+D:\ProjetWPFPizzeria\sae-2.01.git\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
+D:\ProjetWPFPizzeria\sae-2.01.git\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb
