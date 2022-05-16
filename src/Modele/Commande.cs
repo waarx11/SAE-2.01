@@ -13,14 +13,6 @@ namespace Modele
         {
             listCommande = new List<Pizza>();
         }
-        public void ajoutePizzaCommande(Pizza pizza)
-        {
-            listCommande.Add(pizza);
-        }
-        public void suppPizzaCommande(Pizza pizza)
-        {
-            listCommande.Remove(pizza);
-        }
 
     }
 }
