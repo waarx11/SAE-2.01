@@ -35,12 +35,49 @@ namespace Modele
             catalogueEpice = new List<Pizza>();
         }
 
-        /*public override string ToString()
+        public void afficheCatPrecis(List<Pizza> other)
         {
-            foreach (int element in fibNumbers)
+            if(Equals(other))
             {
-                Console.Write($"{} ");
-            })
-        }*/
+                foreach (Pizza p1 in other)
+                {
+                    p1.ToString();
+                }
+            }
+        }
+        public bool Equals(Catalogue other)
+        {
+            return catalogueVegetarien == other.catalogueVegetarien || cataloguePizzeta == other.cataloguePizzeta || catalogueCarnivore == other.catalogueCarnivore || catalogueEpice == other.catalogueEpice;
+        }
+
+        public override string ToString()
+        {
+            string Afficher = "";
+            Afficher += "Voici les pizza présente dans catalogue des Vegetarien : \n";
+            foreach (Pizza element in catalogueVegetarien)
+            {
+                Afficher += $"{element} ";
+            }
+            Afficher += "\n\n";
+            Afficher += "Voici les pizza présente dans catalogue des Pizzeta : \n";
+            foreach (Pizza element in cataloguePizzeta)
+            {
+                Afficher += $"{element} ";
+            }
+            Afficher += "\n\n";
+            Afficher += "Voici les pizza présente dans catalogue des Carnivores : \n";
+            foreach (Pizza element in catalogueCarnivore)
+            {
+                Afficher += $"{element} ";
+            }
+            Afficher += "\n\n";
+            Afficher += "Voici les pizza présente dans catalogue des Epices : \n";
+            foreach (Pizza element in catalogueEpice)
+            {
+                Afficher += $"{element} ";
+            }
+
+            return Afficher;
+        }
     }
 }

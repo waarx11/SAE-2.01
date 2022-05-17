@@ -6,12 +6,15 @@ namespace Modele
 {
     public class Commande
     {
-        private List<Pizza> listCommande;
-        public List<Pizza> ListCommande { get => listCommande; set => listCommande = value; }
+        private List<Pizza> listPizza;
+        public List<Pizza> ListPizza { get => listPizza; set => listPizza = value; }
+        private Client clientActu;
+        public Client ClientActu { get => clientActu; set => clientActu = value; }
 
-        public Commande(Client c1, List<Pizza> listPizza)
+        public Commande(Client c1, List<Pizza> listPzz)
         {
-            listCommande = new List<Pizza>();
+            ListPizza = new List<Pizza>();
+            ClientActu = c1;
         }
 
     }

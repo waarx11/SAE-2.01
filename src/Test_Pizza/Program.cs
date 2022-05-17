@@ -15,13 +15,19 @@ namespace Test_Pizza
             Pizza P2 = new Pizza("tkt", "non", "oui", lIngre1, 102);
             Pizza P3 = new Pizza("Saucisse", "gourmande", "non", lIngre2);
             Pizza P4 = new Pizza("Saucisse", "gourmande", "non", lIngre2);
+            Pizza P5 = new Pizza("Saucisse", "gourmande", "non", lIngre2);
             Catalogue C1 = new Catalogue();
             C1.CatalogueVegetarien.Add(P1);
             C1.CataloguePizzeta.Add(P2);
             C1.CatalogueCarnivore.Add(P3);
             C1.CatalogueEpice.Add(P4);
 
+            Console.WriteLine(P2.Equals(P3));
+            Console.WriteLine(P4.Equals(P3));
 
+            Console.WriteLine(P1);
+            Console.WriteLine(P2);
+            Console.WriteLine(P3);
             Console.WriteLine(C1);
         }
     }
