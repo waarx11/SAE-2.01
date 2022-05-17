@@ -19,7 +19,7 @@ namespace Modele
         /// Quantité de pizza a commander
         /// </summary>
         public int Quantité { get => quantité; set => quantité = value; }
-        private int quantité;
+        private int quantité = 1;
 
         /// <summary>
         /// Description de la pizza
@@ -93,15 +93,12 @@ namespace Modele
         public override string ToString()
         {
             string Afficher = "";
-            Afficher += string.IsNullOrWhiteSpace(Nom) ? "" : $"{Nom}";
-            Afficher += string.IsNullOrWhiteSpace(Description) ? "" : $"{Description}";
-            Afficher += string.IsNullOrWhiteSpace(Image) ? "" : $"{Image}";
+            Afficher += $"{Nom} {Description} {Image} ";
             foreach (Ingredients element in ListIngredient)
             {
-                Afficher += element.ToString();
+                Afficher += $"{element} ";
             }
-            Afficher += string.IsNullOrWhiteSpace(Prix.ToString()) ? "" : $"{Prix}";
-            Afficher += Quantité;
+            Afficher += $"{Prix} {Quantité} ";
             return Afficher;
         }
 
