@@ -1,0 +1,5 @@
+U:\Documents\SAE\2.01\src\UnitTest_PIZZA\obj\Debug\net5.0\UnitTest_PIZZA.csproj.AssemblyReference.cache
+U:\Documents\SAE\2.01\src\UnitTest_PIZZA\obj\Debug\net5.0\UnitTest_PIZZA.GeneratedMSBuildEditorConfig.editorconfig
+U:\Documents\SAE\2.01\src\UnitTest_PIZZA\obj\Debug\net5.0\UnitTest_PIZZA.AssemblyInfoInputs.cache
+U:\Documents\SAE\2.01\src\UnitTest_PIZZA\obj\Debug\net5.0\UnitTest_PIZZA.AssemblyInfo.cs
+U:\Documents\SAE\2.01\src\UnitTest_PIZZA\obj\Debug\net5.0\UnitTest_PIZZA.csproj.CoreCompileInputs.cache
