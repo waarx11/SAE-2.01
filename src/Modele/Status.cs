@@ -8,6 +8,6 @@ namespace Modele
     {
         Commencer = 0,
         EnCours = 1,
-        Finit = 2
+        Finie = 2
     }
 }
