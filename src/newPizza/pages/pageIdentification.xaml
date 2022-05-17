@@ -54,7 +54,7 @@
                     materialDesign:ButtonProgressAssist.IsIndeterminate="false"
                     Cursor="Hand"/>
                 <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="Regular" Margin="0,5,0,0">
-                <Span xml:space="preserve"><Run>Pas de compte ? </Run><Hyperlink NavigateUri="pageNewCompte"> S'inscrire</Hyperlink></Span>
+                <Span xml:space="preserve"><Run>Pas de compte ? </Run><Hyperlink NavigateUri="pageNewCompte">S'inscrire</Hyperlink></Span>
                 </TextBlock>
             </StackPanel>
 
