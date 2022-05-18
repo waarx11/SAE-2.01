@@ -27,5 +27,16 @@ namespace Modele
         {
             NomPizzeria = nomPizzeria;
         }
+
+        public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string nomPizzeria)
+        {
+            EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
+            NomPizzeria = nomPizzeria;
+        }
+
+        public override string ToString()
+        {
+            return $"{base.ToString()} {nomPizzeria}";
+        }
     }
 }

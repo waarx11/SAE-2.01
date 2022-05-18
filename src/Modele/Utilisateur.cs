@@ -71,18 +71,24 @@ namespace Modele
             Ville = ville;
             CodePostal = codePostal;
         }
-        /*
-        public void EnregistrerModif()
+        
+        public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
         {
-
-        }*/
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns>
-        /// return le nom, prénom, email, téléphone, adresse, ville et code postal d'un utilisateur
-        /// </returns>
-        public override string ToString()
+            Nom = nom;
+            Prénom = prénom;
+            Email = email;
+            Téléphone = téléphone;
+            Adresse = adresse;
+            Ville = ville;
+            CodePostal = codePostal;
+        }
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <returns>
+    /// return le nom, prénom, email, téléphone, adresse, ville et code postal d'un utilisateur
+    /// </returns>
+    public override string ToString()
         {
             string nom = string.IsNullOrWhiteSpace(Nom) ? "" : $"{Nom}";
             string prénom = string.IsNullOrWhiteSpace(Prénom) ? "" : $"{Prénom}";

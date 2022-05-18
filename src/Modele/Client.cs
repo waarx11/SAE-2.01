@@ -33,6 +33,13 @@ namespace Modele
             Pseudo = pseudo;
             Photo = photo;
         }
+
+        public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string pseudo, string photo)
+        {
+            EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
+            Pseudo = pseudo;
+            Photo = photo;
+        }
         public override string ToString()
         {
             return $"{base.ToString()} {Pseudo} {Photo}";

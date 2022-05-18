@@ -55,3 +55,12 @@ U:\Documents\SAE\2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfo.cs
 U:\Documents\SAE\2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
 U:\Documents\SAE\2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
 U:\Documents\SAE\2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb
+U:\SAE\sae2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.deps.json
+U:\SAE\sae2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.dll
+U:\SAE\sae2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.pdb
+U:\SAE\sae2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.AssemblyReference.cache
+U:\SAE\sae2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfoInputs.cache
+U:\SAE\sae2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfo.cs
+U:\SAE\sae2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
+U:\SAE\sae2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
+U:\SAE\sae2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb

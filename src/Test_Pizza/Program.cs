@@ -10,7 +10,7 @@ namespace Test_Pizza
         {
             Console.WriteLine("Test de la classe Pizzza");
             List<Ingredients> lIngre1 = new List<Ingredients> { (Ingredients)2, (Ingredients)20 };
-            List<Ingredients> lIngre2 = new List<Ingredients> { (Ingredients)13, (Ingredients)42, (Ingredients)21, (Ingredients)36 };
+            List<Ingredients> lIngre2 = new List<Ingredients> { (Ingredients)55, (Ingredients)13, (Ingredients)42, (Ingredients)21, (Ingredients)36 };
             Pizza P1 = new Pizza("Reine", "Bonne", "oui", lIngre1, 15);
             Pizza P2 = new Pizza("tkt", "non", "oui", lIngre1, 102);
             Pizza P3 = new Pizza("Saucisse", "gourmande", "non", lIngre2);
@@ -24,7 +24,11 @@ namespace Test_Pizza
 
             Console.WriteLine(P2.Equals(P3));
             Console.WriteLine(P4.Equals(P3));
-
+            P1.modifQte(2);
+            P2.modifQte(-2);
+            P3.modifQte(100);
+            P3.modifQte(-80);
+            P4.modifQte(0);
             Console.WriteLine(P1);
             Console.WriteLine(P2);
             Console.WriteLine(P3);

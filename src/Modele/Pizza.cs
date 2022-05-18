@@ -85,8 +85,10 @@ namespace Modele
         }
        public int modifQte(int valeur)
         {
-            if (Quantité >= 0)
-                Quantité += valeur;
+            int valInt=Quantité;
+            valInt += valeur;
+            if (valInt >= 0)
+                Quantité = valInt;
             return Quantité;
         }
 

@@ -1,12 +1,11 @@
 using System;
 using Modele;
 using System.Collections.Generic;
-using Xunit;
 
 namespace TestsUnitaires
 {
     public class UT_Pizza
-    {
+    {/*
         [Theory]
         [InlineData("Nom1", "Description1", "Image1", 15)] // Tout bon
         [InlineData("Nom2", "Description2", "Image2", -1)] // Prix négatif
@@ -21,7 +20,7 @@ namespace TestsUnitaires
             Assert.Equal(description, p.Description);
             Assert.Equal(image, p.Image);
             Assert.Equal(prix, p.Prix);
-            /*Assert.Equal(liste, p.listIngredient);*/
-        }
+            Assert.Equal(liste, p.listIngredient);
+        }*/
     }
 }

@@ -19,13 +19,13 @@
             <ColumnDefinition Width="0.7*"/>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0" Background="{StaticResource couleurSecondaire}">
+        <Grid Grid.Column="0" Background="{DynamicResource couleurSecondaire}">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
 
-            <Button Grid.Row="1" Content="Thème : Clair" FontSize="10" HorizontalAlignment="Center" Width="120" VerticalAlignment="Center" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}"></Button>
+            <Button Click="changeColorGlobal" Grid.Row="1" x:Name="BtnTheme" Content="Thème : Clair" FontSize="10" HorizontalAlignment="Center" Width="120" VerticalAlignment="Center" Background="{DynamicResource couleurPrincipale}" BorderBrush="{DynamicResource couleurSecondaire}"></Button>
 
         </Grid>
 
@@ -36,11 +36,11 @@
                 <RowDefinition Height="0.8*"/>
             </Grid.RowDefinitions>
 
-            <Button Content="X" Width="41" Height="41" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,1,0" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" Click="CloseMenu"/>
+            <Button Content="X" Width="41" Height="41" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,1,0" BorderBrush="{DynamicResource couleurSecondaire}" Background="{DynamicResource couleurPrincipale}" Click="CloseMenu"/>
 
             <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1">
                 <Image Source="..\img\autre\IdPageSmile.jpg" Margin="0,20,20,20" />
-                <TextBlock Text="new Pizza()" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" FontFamily="{StaticResource TITLE}"/>
+                <TextBlock Text="new Pizza()" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" FontFamily="{DynamicResource TITLE}"/>
             </WrapPanel>
 
             <StackPanel HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center">
@@ -48,7 +48,7 @@
                 <TextBox x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="Entrez votre identifiant" Cursor="IBeam"/>
                 <PasswordBox Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" Cursor="IBeam"/>
 
-                <Button Margin="0,40,0,0" Content="SE CONNECTER" Width="300" FontWeight="Bold" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}"
+                <Button Margin="0,40,0,0" Content="SE CONNECTER" Width="300" FontWeight="Bold" Background="{DynamicResource couleurPrincipale}" BorderBrush="{DynamicResource couleurSecondaire}"
                     materialDesign:ShadowAssist.ShadowDepth="Depth2"
                     materialDesign:ButtonProgressAssist.Value="-1"
                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="false"
