@@ -59,17 +59,69 @@ namespace Modele
         /// <param name="codePostal"></param>
         public Utilisateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
         {
-            if (string.IsNullOrWhiteSpace(nom) || string.IsNullOrWhiteSpace(prénom) || string.IsNullOrWhiteSpace(email))
+
+            if (!email.Contains("@"))
             {
-                throw new ArgumentException("Un utilisateur doit avoir au moins un nom, un prénom et une adresse email");
+                throw new ArgumentException("Adresse email invalide");
             }
-            Nom = nom;
-            Prénom = prénom;
-            Email = email;
-            Téléphone = téléphone;
-            Adresse = adresse;
-            Ville = ville;
-            CodePostal = codePostal;
+            else
+            {
+                Email = email;
+            }
+
+            if (string.IsNullOrWhiteSpace(nom))
+            {
+                Nom = "Non-renseigné";
+            }
+            else
+            {
+                Nom = nom;
+            }
+
+            if (string.IsNullOrWhiteSpace(prénom))
+            {
+                Prénom = "Non-renseigné";
+            }
+            else
+            {
+                Prénom = prénom;
+            }
+
+            if (string.IsNullOrWhiteSpace(codePostal))
+            {
+                codePostal = "00000";
+            }
+            else {
+                CodePostal = codePostal;
+            }
+
+            if (string.IsNullOrWhiteSpace(téléphone))
+            {
+                Téléphone = "Non-renseigné";
+            }
+            else
+            {
+                Téléphone = téléphone;
+            }
+
+            if (string.IsNullOrWhiteSpace(adresse))
+            {
+                Adresse = "Non-renseigné";
+            }
+            else
+            {
+                Adresse = adresse;
+            }
+
+            if (string.IsNullOrWhiteSpace(ville))
+            {
+                Ville = "Non-renseigné";
+            }
+            else
+            {
+                Ville = ville;
+            }
+
         }
         /*
         public void EnregistrerModif()
