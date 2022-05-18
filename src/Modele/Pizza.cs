@@ -55,14 +55,43 @@ namespace Modele
 
         public Pizza(string nom, string description, string image, List<Ingredients> lIng, int prix=12)
         {
-            if(string.IsNullOrWhiteSpace(nom) || string.IsNullOrWhiteSpace(description) || string.IsNullOrWhiteSpace(image))
+
+            if (string.IsNullOrWhiteSpace(nom))
             {
-                throw new ArgumentException("Une pizza doit avoir au moins un nom, une description et une image");
+                Nom = "Aucun Nom";
             }
-            Nom =nom;
-            Description = description;
-            Image = image;
-            Prix = prix;
+            else
+            {
+                Nom = nom;
+            }
+
+            if (string.IsNullOrWhiteSpace(description))
+            {
+                Description = "Aucune Description";
+            }
+            else
+            {
+                Description = description;
+            }
+
+            if (string.IsNullOrWhiteSpace(image))
+            {
+                Image = "default\noImg.png";
+            }
+            else
+            {
+                Image = image;
+            }
+
+            if(prix <= 5)
+            {
+                Prix = 12;
+            }
+            else
+            {
+                Prix = prix;
+            }
+
             foreach (Ingredients Ingre in lIng)
             {
                 if (Ingre == (Ingredients)53 || Ingre == (Ingredients)54 || Ingre == (Ingredients)55)
@@ -84,9 +113,14 @@ namespace Modele
             }
         }
        public int modifQte(int valeur)
-        {
-            if (Quantité >= 0)
-                Quantité += valeur;
+       {
+            int qteTmp = Quantité;
+
+            qteTmp += valeur;
+
+            if (qteTmp >= 0)
+                Quantité = qteTmp;
+
             return Quantité;
         }
 
