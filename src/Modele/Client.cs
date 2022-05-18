@@ -14,7 +14,8 @@ namespace Modele
         /// <summary>
         /// Photo de l'utilisateur
         /// </summary>
-        private string Photo;
+        private string photo;
+        public string Photo { get => photo; set => photo = value; }
         /// <summary>
         /// Constructeur d'un Client
         /// </summary>
@@ -30,8 +31,24 @@ namespace Modele
         public Client(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string pseudo, string photo=null)
             :base(nom, prénom, email, téléphone, adresse, ville, codePostal)
         {
-            Pseudo = pseudo;
-            Photo = photo;
+
+            if (string.IsNullOrWhiteSpace(pseudo))
+            {
+                throw new ArgumentException("Pseudo invalide");
+            }
+            else
+            {
+                Pseudo = pseudo;
+            }
+
+            if (string.IsNullOrWhiteSpace(photo))
+            {
+                Photo = "default\noPP.jpg";
+            }
+            else
+            {
+                Photo = photo;
+            }
         }
 
         public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string pseudo, string photo)

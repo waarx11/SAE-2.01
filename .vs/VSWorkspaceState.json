@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\newPizza",
+    "\\src\\TestsUnitaires"
   ],
-  "SelectedNode": "\\newPizza.sln",
+  "SelectedNode": "\\src\\newPizza\\newPizza.sln",
   "PreviewInSolutionExplorer": false
 }

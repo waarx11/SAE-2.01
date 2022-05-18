@@ -493,6 +493,7 @@ U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.c
 U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
 U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.exe
 U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.pdb
+<<<<<<< HEAD
 U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
 U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageProfil.g.cs
 U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
@@ -522,3 +523,64 @@ U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
 U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucTopBar.baml
 U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
 U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+=======
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\newPizza.exe.config
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\newPizza.exe
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\newPizza.pdb
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialDesignColors.dll
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialSkin.dll
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.csproj.SuggestedBindingRedirects.cache
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageProfil.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\App.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\App.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageMonPanier.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageProfil.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageIdentification.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCommande.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.g.resources
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.exe
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.pdb
+>>>>>>> 4480c6f9b585245f53de9aa0b3339274b8559365
