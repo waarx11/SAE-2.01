@@ -4,29 +4,17 @@
 winexe
 C#
 .cs
-<<<<<<< HEAD
 U:\SAE\sae2.01\src\newPizza\obj\Debug\
-=======
-C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\
->>>>>>> 4480c6f9b585245f53de9aa0b3339274b8559365
 newPizza
 none
 false
 DEBUG;TRACE
-<<<<<<< HEAD
 U:\SAE\sae2.01\src\newPizza\App.xaml
 181188780480
 
-23-962771031
+22-120411664
 17-1327499556
-=======
-C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\App.xaml
-181725381084
-
-22-1450640150
-17-1600569689
->>>>>>> 4480c6f9b585245f53de9aa0b3339274b8559365
 pages\pageMonPanier.xaml;pages\pageProfil.xaml;pages\pageNewCompte.xaml;pages\pageAdministrateur.xaml;pages\pageIdentification.xaml;pages\pageCatalogue.xaml;userControl\ucInfoPizza.xaml;userControl\ucCommandeEnCours.xaml;userControl\ucTouteLesCommande.xaml;userControl\ucCommande.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucTopBar.xaml;userControl\ucPizzaBox.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucMenuBouton.xaml;
 
-True
+False
 

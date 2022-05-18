@@ -1,5 +1,4 @@
 ﻿
-<<<<<<< HEAD
 FU:\SAE\sae2.01\src\newPizza\App.xaml;;
 FU:\SAE\sae2.01\src\newPizza\pages\pageMonPanier.xaml;;
 FU:\SAE\sae2.01\src\newPizza\pages\pageProfil.xaml;;
@@ -19,25 +18,4 @@ FU:\SAE\sae2.01\src\newPizza\userControl\ucTopBar.xaml;;
 FU:\SAE\sae2.01\src\newPizza\userControl\ucPizzaBox.xaml;;
 FU:\SAE\sae2.01\src\newPizza\userControl\ucCataloguePizzeta.xaml;;
 FU:\SAE\sae2.01\src\newPizza\userControl\ucMenuBouton.xaml;;
-=======
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\App.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\pages\pageMonPanier.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\pages\pageProfil.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\pages\pageNewCompte.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\pages\pageAdministrateur.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\pages\pageIdentification.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\pages\pageCatalogue.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucInfoPizza.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucCommandeEnCours.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucTouteLesCommande.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucCommande.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucAdmninistration.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucCatalogueCarnivore.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucCatalogueVege.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucCatalogueEpicees.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucTopBar.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucPizzaBox.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucCataloguePizzeta.xaml;;
-FC:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\userControl\ucMenuBouton.xaml;;
->>>>>>> 4480c6f9b585245f53de9aa0b3339274b8559365
 

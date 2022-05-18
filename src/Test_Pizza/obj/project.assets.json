@@ -27,20 +27,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bapti\\.nuget\\packages\\": {}
+    "C:\\Users\\naverdier\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bapti\\OneDrive\\Bureau\\COURS\\SAE\\SAE 2.01\\code\\src\\Test_Pizza\\Test_Pizza.csproj",
+      "projectUniqueName": "U:\\SAE\\sae2.01\\src\\Test_Pizza\\Test_Pizza.csproj",
       "projectName": "Test_Pizza",
-      "projectPath": "C:\\Users\\bapti\\OneDrive\\Bureau\\COURS\\SAE\\SAE 2.01\\code\\src\\Test_Pizza\\Test_Pizza.csproj",
-      "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bapti\\OneDrive\\Bureau\\COURS\\SAE\\SAE 2.01\\code\\src\\Test_Pizza\\obj\\",
+      "projectPath": "U:\\SAE\\sae2.01\\src\\Test_Pizza\\Test_Pizza.csproj",
+      "packagesPath": "C:\\Users\\naverdier\\.nuget\\packages\\",
+      "outputPath": "U:\\SAE\\sae2.01\\src\\Test_Pizza\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\naverdier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -53,8 +61,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\bapti\\OneDrive\\Bureau\\COURS\\SAE\\SAE 2.01\\code\\src\\Modele\\Modele.csproj": {
-              "projectPath": "C:\\Users\\bapti\\OneDrive\\Bureau\\COURS\\SAE\\SAE 2.01\\code\\src\\Modele\\Modele.csproj"
+            "U:\\SAE\\sae2.01\\src\\Modele\\Modele.csproj": {
+              "projectPath": "U:\\SAE\\sae2.01\\src\\Modele\\Modele.csproj"
             }
           }
         }
@@ -83,7 +91,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

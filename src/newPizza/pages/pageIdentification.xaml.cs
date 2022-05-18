@@ -30,18 +30,18 @@ namespace newPizza
 
         private void changeColorGlobal(object sender, RoutedEventArgs e)
         {
-            if (Content.ToString() == "Thème : Clair")
-            {
-                Application.Current.Resources["couleurPrincipale"] = new SolidColorBrush(Color.FromRgb(104, 167, 173));
-                Application.Current.Resources["couleurSecondaire"] = new SolidColorBrush(Color.FromRgb(77, 141, 147));
-                Application.Current.Resources["couleurArrierePlan"] = new SolidColorBrush(Color.FromRgb(61, 155, 174));
-                BtnTheme.Content = "Thème : Sombre";
-            }
-            else
+            if (BtnTheme.Content.ToString() == "Thème : Clair")
             {
                 Application.Current.Resources["couleurPrincipale"] = new SolidColorBrush(Color.FromRgb(75, 72, 72));
                 Application.Current.Resources["couleurSecondaire"] = new SolidColorBrush(Color.FromRgb(115, 110, 110));
                 Application.Current.Resources["couleurArrierePlan"] = new SolidColorBrush(Color.FromRgb(142, 140, 140));
+                BtnTheme.Content = "Thème : Sombre";
+            }
+            else
+            {
+                Application.Current.Resources["couleurPrincipale"] = new SolidColorBrush(Color.FromRgb(104, 167, 173));
+                Application.Current.Resources["couleurSecondaire"] = new SolidColorBrush(Color.FromRgb(77, 141, 147));
+                Application.Current.Resources["couleurArrierePlan"] = new SolidColorBrush(Color.FromRgb(61, 155, 174));
                 BtnTheme.Content = "Thème : Clair";
             }
 

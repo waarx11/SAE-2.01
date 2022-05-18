@@ -112,3 +112,22 @@ C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\Test_User\obj\Debug\n
 C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\Test_User\obj\Debug\net5.0\Test_User.pdb
 C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\Test_User\obj\Debug\net5.0\Test_User.genruntimeconfig.cache
 C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\Test_User\obj\Debug\net5.0\ref\Test_User.dll
+U:\SAE\sae2.01\src\Test_User\bin\Debug\net5.0\Test_User.exe
+U:\SAE\sae2.01\src\Test_User\bin\Debug\net5.0\Test_User.deps.json
+U:\SAE\sae2.01\src\Test_User\bin\Debug\net5.0\Test_User.runtimeconfig.json
+U:\SAE\sae2.01\src\Test_User\bin\Debug\net5.0\Test_User.runtimeconfig.dev.json
+U:\SAE\sae2.01\src\Test_User\bin\Debug\net5.0\Test_User.dll
+U:\SAE\sae2.01\src\Test_User\bin\Debug\net5.0\ref\Test_User.dll
+U:\SAE\sae2.01\src\Test_User\bin\Debug\net5.0\Test_User.pdb
+U:\SAE\sae2.01\src\Test_User\bin\Debug\net5.0\Modele.dll
+U:\SAE\sae2.01\src\Test_User\bin\Debug\net5.0\Modele.pdb
+U:\SAE\sae2.01\src\Test_User\obj\Debug\net5.0\Test_User.csproj.AssemblyReference.cache
+U:\SAE\sae2.01\src\Test_User\obj\Debug\net5.0\Test_User.GeneratedMSBuildEditorConfig.editorconfig
+U:\SAE\sae2.01\src\Test_User\obj\Debug\net5.0\Test_User.AssemblyInfoInputs.cache
+U:\SAE\sae2.01\src\Test_User\obj\Debug\net5.0\Test_User.AssemblyInfo.cs
+U:\SAE\sae2.01\src\Test_User\obj\Debug\net5.0\Test_User.csproj.CoreCompileInputs.cache
+U:\SAE\sae2.01\src\Test_User\obj\Debug\net5.0\Test_User.csproj.CopyComplete
+U:\SAE\sae2.01\src\Test_User\obj\Debug\net5.0\Test_User.dll
+U:\SAE\sae2.01\src\Test_User\obj\Debug\net5.0\ref\Test_User.dll
+U:\SAE\sae2.01\src\Test_User\obj\Debug\net5.0\Test_User.pdb
+U:\SAE\sae2.01\src\Test_User\obj\Debug\net5.0\Test_User.genruntimeconfig.cache
