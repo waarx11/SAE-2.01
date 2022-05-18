@@ -15,7 +15,7 @@ namespace Modele
         /// Photo de l'utilisateur
         /// </summary>
         private string photo;
-        public string Photo { get => pseudo; set => pseudo = value; }
+        public string Photo { get => photo; set => photo = value; }
         /// <summary>
         /// Constructeur d'un Client
         /// </summary>

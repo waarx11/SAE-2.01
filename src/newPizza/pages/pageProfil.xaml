@@ -51,9 +51,11 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
+            
             <Border Height="80" Margin="50,0,50,0" BorderBrush="Black" BorderThickness="0,0,0,1" Grid.Row="0" Grid.ColumnSpan="2">
                 <TextBlock Text="Mes informations: " FontSize="50"/>
             </Border>
+            
 
             <Border Grid.Column="0" Grid.Row="1" Style="{StaticResource BorderProfil}">
                 <Grid>
@@ -164,6 +166,7 @@
                     </StackPanel>
                 </Grid>
             </Border>
+            
 
 
             <Border Grid.Column="1" Grid.Row="3" Style="{StaticResource BorderProfil}">
@@ -190,6 +193,7 @@
                     <TextBlock Text="Enregistrer les modifications" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"/>
                 </WrapPanel>
             </Button>
+            
         </Grid>
 
     </Grid>

@@ -60,7 +60,7 @@ namespace Modele
         public Utilisateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
         {
 
-            if (!email.Contains("@"))
+            if (!email.Contains("@") || string.IsNullOrWhiteSpace(email))
             {
                 throw new ArgumentException("Adresse email invalide");
             }
@@ -89,7 +89,7 @@ namespace Modele
 
             if (string.IsNullOrWhiteSpace(codePostal))
             {
-                codePostal = "00000";
+                CodePostal = "00000";
             }
             else {
                 CodePostal = codePostal;
