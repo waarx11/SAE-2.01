@@ -1,0 +1,645 @@
+U:\SAE\sae2.01\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\App.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+U:\SAE\sae2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+U:\SAE\sae2.01\src\newPizza\bin\Debug\newPizza.exe.config
+U:\SAE\sae2.01\src\newPizza\bin\Debug\newPizza.exe
+U:\SAE\sae2.01\src\newPizza\bin\Debug\newPizza.pdb
+U:\SAE\sae2.01\src\newPizza\bin\Debug\MaterialDesignColors.dll
+U:\SAE\sae2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+U:\SAE\sae2.01\src\newPizza\bin\Debug\MaterialSkin.dll
+U:\SAE\sae2.01\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+U:\SAE\sae2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+U:\SAE\sae2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\App.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageIdentification.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\newPizza.g.resources
+U:\SAE\sae2.01\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+U:\SAE\sae2.01\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+U:\SAE\sae2.01\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+U:\SAE\sae2.01\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+U:\SAE\sae2.01\src\newPizza\obj\Debug\newPizza.exe
+U:\SAE\sae2.01\src\newPizza\obj\Debug\newPizza.pdb
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\bin\Debug\newPizza.exe.config
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\bin\Debug\newPizza.exe
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\bin\Debug\newPizza.pdb
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignColors.dll
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialSkin.dll
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.SuggestedBindingRedirects.cache
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\App.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\App.baml
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageIdentification.baml
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.g.resources
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.exe
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.pdb
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bapti\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+C:\Users\bapti\source\repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+D:\ProjetsVisualStudio\src\newPizza\bin\Debug\newPizza.exe.config
+D:\ProjetsVisualStudio\src\newPizza\bin\Debug\newPizza.exe
+D:\ProjetsVisualStudio\src\newPizza\bin\Debug\newPizza.pdb
+D:\ProjetsVisualStudio\src\newPizza\bin\Debug\MaterialDesignColors.dll
+D:\ProjetsVisualStudio\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\ProjetsVisualStudio\src\newPizza\bin\Debug\MaterialSkin.dll
+D:\ProjetsVisualStudio\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+D:\ProjetsVisualStudio\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\ProjetsVisualStudio\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza.csproj.SuggestedBindingRedirects.cache
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\App.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\App.baml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\pages\pageIdentification.baml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza.g.resources
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza.exe
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\newPizza.pdb
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+D:\ProjetsVisualStudio\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.csproj.SuggestedBindingRedirects.cache
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\App.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\App.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\pages\pageIdentification.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.exe
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.pdb
+C:\Users\natha\Desktop\oui\src\newPizza\bin\Debug\newPizza.exe.config
+C:\Users\natha\Desktop\oui\src\newPizza\bin\Debug\newPizza.exe
+C:\Users\natha\Desktop\oui\src\newPizza\bin\Debug\newPizza.pdb
+C:\Users\natha\Desktop\oui\src\newPizza\bin\Debug\MaterialDesignColors.dll
+C:\Users\natha\Desktop\oui\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\natha\Desktop\oui\src\newPizza\bin\Debug\MaterialSkin.dll
+C:\Users\natha\Desktop\oui\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+C:\Users\natha\Desktop\oui\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\natha\Desktop\oui\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.g.resources
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+C:\Users\natha\Desktop\oui\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\bin\Debug\newPizza.exe.config
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\bin\Debug\newPizza.exe
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\bin\Debug\newPizza.pdb
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\bin\Debug\MaterialDesignColors.dll
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\bin\Debug\MaterialSkin.dll
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.csproj.SuggestedBindingRedirects.cache
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\App.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\App.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\pages\pageIdentification.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.g.resources
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.exe
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\newPizza.pdb
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucCommande.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\usCommandeEnCours.g.cs
+D:\ProjetWPFPizzeria\newPizza\src\newPizza\obj\Debug\userControl\usCommandeEnCours.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\bin\Debug\newPizza.exe.config
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\bin\Debug\newPizza.exe
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\bin\Debug\newPizza.pdb
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignColors.dll
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialSkin.dll
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\usCommandeEnCours.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\App.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\App.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageIdentification.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\usCommandeEnCours.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCommande.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.g.resources
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.exe
+C:\Users\naverdier\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.pdb
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\bin\Debug\newPizza.exe.config
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\bin\Debug\newPizza.exe
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\bin\Debug\newPizza.pdb
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignColors.dll
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialSkin.dll
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\App.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\App.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageIdentification.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCommande.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.g.resources
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.exe
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.pdb
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.baml
+D:\ProjetWPFPizzeria1\src\newPizza\bin\Debug\newPizza.exe.config
+D:\ProjetWPFPizzeria1\src\newPizza\bin\Debug\newPizza.exe
+D:\ProjetWPFPizzeria1\src\newPizza\bin\Debug\newPizza.pdb
+D:\ProjetWPFPizzeria1\src\newPizza\bin\Debug\MaterialDesignColors.dll
+D:\ProjetWPFPizzeria1\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\ProjetWPFPizzeria1\src\newPizza\bin\Debug\MaterialSkin.dll
+D:\ProjetWPFPizzeria1\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+D:\ProjetWPFPizzeria1\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\ProjetWPFPizzeria1\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.csproj.SuggestedBindingRedirects.cache
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\App.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\App.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\pages\pageIdentification.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCommande.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.g.resources
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.exe
+D:\ProjetWPFPizzeria1\src\newPizza\obj\Debug\newPizza.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\bin\Debug\newPizza.exe.config
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\bin\Debug\newPizza.exe
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\bin\Debug\newPizza.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\bin\Debug\MaterialDesignColors.dll
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\bin\Debug\MaterialSkin.dll
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.csproj.SuggestedBindingRedirects.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageProfil.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\App.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\App.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageIdentification.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCommande.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageProfil.baml
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.g.resources
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.exe
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\newPizza.pdb
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
+D:\ProjetsVisualStudio\SAE 2.01\src\newPizza\obj\Debug\pages\pageMonPanier.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageProfil.g.cs
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageMonPanier.baml
+C:\Users\babonneau\Source\Repos\sae-2.01\src\newPizza\obj\Debug\pages\pageProfil.baml
+U:\Documents\SAE\2.01\src\newPizza\bin\Debug\newPizza.exe.config
+U:\Documents\SAE\2.01\src\newPizza\bin\Debug\newPizza.exe
+U:\Documents\SAE\2.01\src\newPizza\bin\Debug\newPizza.pdb
+U:\Documents\SAE\2.01\src\newPizza\bin\Debug\MaterialDesignColors.dll
+U:\Documents\SAE\2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+U:\Documents\SAE\2.01\src\newPizza\bin\Debug\MaterialSkin.dll
+U:\Documents\SAE\2.01\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+U:\Documents\SAE\2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+U:\Documents\SAE\2.01\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageProfil.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\App.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\App.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageMonPanier.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageProfil.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageIdentification.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCommande.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.g.resources
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.exe
+U:\Documents\SAE\2.01\src\newPizza\obj\Debug\newPizza.pdb
+<<<<<<< HEAD
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageProfil.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageMonPanier.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageProfil.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCommande.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+U:\SAE\sae2.01\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+=======
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\newPizza.exe.config
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\newPizza.exe
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\newPizza.pdb
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialDesignColors.dll
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialSkin.dll
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.csproj.SuggestedBindingRedirects.cache
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageProfil.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\App.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\App.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageMonPanier.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageProfil.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageIdentification.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCommande.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.g.resources
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.exe
+C:\Users\bapti\OneDrive\Bureau\COURS\SAE\SAE 2.01\code\src\newPizza\obj\Debug\newPizza.pdb
+>>>>>>> 4480c6f9b585245f53de9aa0b3339274b8559365
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\bin\Debug\newPizza.exe.config
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\bin\Debug\newPizza.exe
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\bin\Debug\newPizza.pdb
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\bin\Debug\MaterialDesignColors.dll
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\bin\Debug\MaterialSkin.dll
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\bin\Debug\MaterialDesignColors.pdb
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza.csproj.AssemblyReference.cache
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza.csproj.SuggestedBindingRedirects.cache
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageMonPanier.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageProfil.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageNewCompte.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageAdministrateur.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageIdentification.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageCatalogue.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucInfoPizza.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCommande.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucAdmninistration.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCatalogueVege.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucTopBar.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucPizzaBox.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucMenuBouton.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\App.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza_MarkupCompile.cache
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza_MarkupCompile.lref
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\App.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageMonPanier.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageProfil.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageNewCompte.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageAdministrateur.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageIdentification.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\pages\pageCatalogue.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucInfoPizza.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCommandeEnCours.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucTouteLesCommande.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCommande.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucAdmninistration.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCatalogueCarnivore.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCatalogueVege.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCatalogueEpicees.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucTopBar.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucPizzaBox.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucCataloguePizzeta.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\userControl\ucMenuBouton.baml
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza.g.resources
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza.Properties.Resources.resources
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza.csproj.GenerateResource.cache
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza.csproj.CoreCompileInputs.cache
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza.csproj.CopyComplete
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza.exe
+D:\ProjetWPFPizzeria\sae-2.01.git\src\newPizza\obj\Debug\newPizza.pdb

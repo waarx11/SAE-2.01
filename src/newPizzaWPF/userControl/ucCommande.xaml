@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="newPizzaWPF.ucCommande"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:newPizzaWPF" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.2*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Rectangle StrokeThickness="1" Stroke="{StaticResource couleurSecondaire}" RadiusX="25" RadiusY="25" Grid.ColumnSpan="2" Grid.RowSpan="3">
+            <Rectangle.Fill>
+                <SolidColorBrush Opacity="0.9" Color="#68A7AD"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Image x:Name="imgPizCommande" Source="..\img\pizzas\epicees\spicy_hot_one.jpeg" Grid.Row="0" Margin="40,0,0,0" Grid.RowSpan="3" Height="120"/>
+        <WrapPanel Margin="0,0,200,0" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock FontSize="20" Text="Voici les ingrédients de la pizza "/>
+            <TextBlock FontSize="20" x:Name="nomPizzaEncours" Text="XXXXXXX"/>
+        </WrapPanel>
+        <Border Margin="0,20,10,0" Grid.Row="1" Grid.Column="1" BorderThickness="0" HorizontalAlignment="Left">
+            <ScrollViewer>
+                <TextBlock x:Name="textPizza" Margin="0,0,20,0" TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam."/>
+            </ScrollViewer>
+        </Border>
+        <Button HorizontalAlignment="Right" Margin="0,0,40,0" Name="OUI"  Grid.Row="2" Grid.Column="1" Width="200" Height="50" Cursor="Hand" FontSize="25" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}">COMMENCER</Button>
+    </Grid>
+</UserControl>
