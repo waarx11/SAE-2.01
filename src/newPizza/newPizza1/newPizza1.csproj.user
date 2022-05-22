@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="userControl\ucAdmninistration.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucCatalogueCarnivore.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucCatalogueEpicees.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucCataloguePizzeta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucCatalogueVege.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucCommande.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucCommandeEnCours.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucInfoPizza.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucMenuBouton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucPizzaBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucTopBar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="userControl\ucTouteLesCommande.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="pages\pageAdministrateur.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\pageCatalogue.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\pageIdentification.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\pageMonPanier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\pageNewCompte.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\pageProfil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucAdmninistration.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucCatalogueCarnivore.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucCatalogueEpicees.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucCataloguePizzeta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucCatalogueVege.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucCommande.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucCommandeEnCours.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucInfoPizza.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucMenuBouton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucPizzaBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucTopBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucTouteLesCommande.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

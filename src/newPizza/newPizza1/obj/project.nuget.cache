@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "75Znbni1YnVB87YoP1gsdJh5YUWRYOzsK7HOzKAC+8KiKAnbN1hz/hwlSxYU1uWrkEoxbDdFeoT+zkyGn3atxg==",
+  "success": true,
+  "projectFilePath": "D:\\newProject\\sae-2.01\\src\\newPizza\\newPizza1\\newPizza1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\natha\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

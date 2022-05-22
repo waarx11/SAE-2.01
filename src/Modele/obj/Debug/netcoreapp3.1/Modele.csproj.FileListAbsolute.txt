@@ -74,3 +74,13 @@ U:\SAE\sae2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfo.cs
 U:\SAE\sae2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
 U:\SAE\sae2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
 U:\SAE\sae2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb
+D:\newProject\sae-2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.deps.json
+D:\newProject\sae-2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.dll
+D:\newProject\sae-2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.pdb
+D:\newProject\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.AssemblyReference.cache
+D:\newProject\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.GeneratedMSBuildEditorConfig.editorconfig
+D:\newProject\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfoInputs.cache
+D:\newProject\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfo.cs
+D:\newProject\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
+D:\newProject\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
+D:\newProject\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb

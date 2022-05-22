@@ -1,0 +1,149 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="font\CHEESEPIZZA.ttf" />
+    <None Remove="img\autre\fondCatalogue.png" />
+    <None Remove="img\autre\fondCatalogue2.jpg" />
+    <None Remove="img\autre\fondCatalogue3.png" />
+    <None Remove="img\autre\IdPageSmile.jpg" />
+    <None Remove="img\buttons\news.png" />
+    <None Remove="img\buttons\panier.png" />
+    <None Remove="img\buttons\paypal.png" />
+    <None Remove="img\buttons\pizzeta.png" />
+    <None Remove="img\buttons\quitter.png" />
+    <None Remove="img\buttons\sauvegarder.png" />
+    <None Remove="img\buttons\spicy.png" />
+    <None Remove="img\buttons\vegan.png" />
+    <None Remove="img\buttons\viande.png" />
+    <None Remove="img\pizzas\carnivore\3_salumi.png" />
+    <None Remove="img\pizzas\carnivore\BPM.jpeg" />
+    <None Remove="img\pizzas\carnivore\burrata_e_mortadella.png" />
+    <None Remove="img\pizzas\carnivore\campagnarde.jpeg" />
+    <None Remove="img\pizzas\carnivore\chevre_miel.png" />
+    <None Remove="img\pizzas\carnivore\chicken_parmesan.jpeg" />
+    <None Remove="img\pizzas\carnivore\del_mare.png" />
+    <None Remove="img\pizzas\carnivore\diavola.png" />
+    <None Remove="img\pizzas\carnivore\pepperoni_lovers.jpeg" />
+    <None Remove="img\pizzas\carnivore\pomodoro_e_burrata.png" />
+    <None Remove="img\pizzas\carnivore\raclette.jpeg" />
+    <None Remove="img\pizzas\carnivore\regina.png" />
+    <None Remove="img\pizzas\carnivore\salmone.png" />
+    <None Remove="img\pizzas\carnivore\speciale_pizzaiolo.png" />
+    <None Remove="img\pizzas\carnivore\texane_barbecue.jpeg" />
+    <None Remove="img\pizzas\carnivore\vezuvio.png" />
+    <None Remove="img\pizzas\epicees\chicken_barbecue.jpeg" />
+    <None Remove="img\pizzas\epicees\orientale.jpeg" />
+    <None Remove="img\pizzas\epicees\provencale.jpeg" />
+    <None Remove="img\pizzas\epicees\samourai.jpeg" />
+    <None Remove="img\pizzas\epicees\spicy_hot_one.jpeg" />
+    <None Remove="img\pizzas\epicees\supreme.jpeg" />
+    <None Remove="img\pizzas\pizzeta\pizzeta_5_fromaggi.png" />
+    <None Remove="img\pizzas\pizzeta\pizzeta_carbonara.png" />
+    <None Remove="img\pizzas\pizzeta\pizzeta_chevre_miel.png" />
+    <None Remove="img\pizzas\pizzeta\pizzeta_regina.png" />
+    <None Remove="img\pizzas\pizzeta\pizzeta_salmone.png" />
+    <None Remove="img\pizzas\pizzeta\pizzeta_speciale_pizzaiolo.png" />
+    <None Remove="img\pizzas\pizzeta\pizzeta_vesuvio.png" />
+    <None Remove="img\pizzas\vegetariennes\3_fromages.jpg" />
+    <None Remove="img\pizzas\vegetariennes\5_formaggi.png" />
+    <None Remove="img\pizzas\vegetariennes\bianca.png" />
+    <None Remove="img\pizzas\vegetariennes\carbonara.png" />
+    <None Remove="img\pizzas\vegetariennes\carciofi.png" />
+    <None Remove="img\pizzas\vegetariennes\chevre_miel_vege.jpg" />
+    <None Remove="img\pizzas\vegetariennes\margarita.png" />
+    <None Remove="img\pizzas\vegetariennes\vegetarienne.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignColors" Version="2.0.6" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.5.0" />
+    <PackageReference Include="MaterialSkin.2" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="font\CHEESEPIZZA.ttf" />
+    <Resource Include="img\autre\fondCatalogue.png" />
+    <Resource Include="img\autre\fondCatalogue2.jpg" />
+    <Resource Include="img\autre\fondCatalogue3.png" />
+    <Resource Include="img\autre\IdPageSmile.jpg" />
+    <Resource Include="img\buttons\news.png" />
+    <Resource Include="img\buttons\panier.png" />
+    <Resource Include="img\buttons\paypal.png" />
+    <Resource Include="img\buttons\pizzeta.png" />
+    <Resource Include="img\buttons\quitter.png" />
+    <Resource Include="img\buttons\sauvegarder.png" />
+    <Resource Include="img\buttons\spicy.png" />
+    <Resource Include="img\buttons\vegan.png" />
+    <Resource Include="img\buttons\viande.png" />
+    <Resource Include="img\pizzas\carnivore\3_salumi.png" />
+    <Resource Include="img\pizzas\carnivore\BPM.jpeg" />
+    <Resource Include="img\pizzas\carnivore\burrata_e_mortadella.png" />
+    <Resource Include="img\pizzas\carnivore\campagnarde.jpeg" />
+    <Resource Include="img\pizzas\carnivore\chevre_miel.png" />
+    <Resource Include="img\pizzas\carnivore\chicken_parmesan.jpeg" />
+    <Resource Include="img\pizzas\carnivore\del_mare.png" />
+    <Resource Include="img\pizzas\carnivore\diavola.png" />
+    <Resource Include="img\pizzas\carnivore\pepperoni_lovers.jpeg" />
+    <Resource Include="img\pizzas\carnivore\pomodoro_e_burrata.png" />
+    <Resource Include="img\pizzas\carnivore\raclette.jpeg" />
+    <Resource Include="img\pizzas\carnivore\regina.png" />
+    <Resource Include="img\pizzas\carnivore\salmone.png" />
+    <Resource Include="img\pizzas\carnivore\speciale_pizzaiolo.png" />
+    <Resource Include="img\pizzas\carnivore\texane_barbecue.jpeg" />
+    <Resource Include="img\pizzas\carnivore\vezuvio.png" />
+    <Resource Include="img\pizzas\epicees\chicken_barbecue.jpeg" />
+    <Resource Include="img\pizzas\epicees\orientale.jpeg" />
+    <Resource Include="img\pizzas\epicees\provencale.jpeg" />
+    <Resource Include="img\pizzas\epicees\samourai.jpeg" />
+    <Resource Include="img\pizzas\epicees\spicy_hot_one.jpeg" />
+    <Resource Include="img\pizzas\epicees\supreme.jpeg" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_5_fromaggi.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_carbonara.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_chevre_miel.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_regina.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_salmone.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_speciale_pizzaiolo.png" />
+    <Resource Include="img\pizzas\pizzeta\pizzeta_vesuvio.png" />
+    <Resource Include="img\pizzas\vegetariennes\3_fromages.jpg" />
+    <Resource Include="img\pizzas\vegetariennes\5_formaggi.png" />
+    <Resource Include="img\pizzas\vegetariennes\bianca.png" />
+    <Resource Include="img\pizzas\vegetariennes\carbonara.png" />
+    <Resource Include="img\pizzas\vegetariennes\carciofi.png" />
+    <Resource Include="img\pizzas\vegetariennes\chevre_miel_vege.jpg" />
+    <Resource Include="img\pizzas\vegetariennes\margarita.png" />
+    <Resource Include="img\pizzas\vegetariennes\vegetarienne.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="pages\pageAdministrateur.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\pageCatalogue.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\pageIdentification.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\pageMonPanier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\pageNewCompte.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="pages\pageProfil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+
+</Project>

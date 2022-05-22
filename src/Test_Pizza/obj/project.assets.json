@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Test_Pizza\\Test_Pizza.csproj",
+      "projectUniqueName": "D:\\newProject\\sae-2.01\\src\\Test_Pizza\\Test_Pizza.csproj",
       "projectName": "Test_Pizza",
-      "projectPath": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Test_Pizza\\Test_Pizza.csproj",
+      "projectPath": "D:\\newProject\\sae-2.01\\src\\Test_Pizza\\Test_Pizza.csproj",
       "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Test_Pizza\\obj\\",
+      "outputPath": "D:\\newProject\\sae-2.01\\src\\Test_Pizza\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\Modele.csproj": {
-              "projectPath": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\Modele.csproj"
+            "D:\\newProject\\sae-2.01\\src\\Modele\\Modele.csproj": {
+              "projectPath": "D:\\newProject\\sae-2.01\\src\\Modele\\Modele.csproj"
             }
           }
         }

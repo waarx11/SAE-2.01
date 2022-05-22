@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Test_User\\Test_User.csproj": {}
+    "D:\\newProject\\sae-2.01\\src\\Test_User\\Test_User.csproj": {}
   },
   "projects": {
-    "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\Modele.csproj": {
+    "D:\\newProject\\sae-2.01\\src\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\Modele.csproj",
+        "projectUniqueName": "D:\\newProject\\sae-2.01\\src\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\Modele.csproj",
+        "projectPath": "D:\\newProject\\sae-2.01\\src\\Modele\\Modele.csproj",
         "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\obj\\",
+        "outputPath": "D:\\newProject\\sae-2.01\\src\\Modele\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -72,14 +72,14 @@
         }
       }
     },
-    "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Test_User\\Test_User.csproj": {
+    "D:\\newProject\\sae-2.01\\src\\Test_User\\Test_User.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Test_User\\Test_User.csproj",
+        "projectUniqueName": "D:\\newProject\\sae-2.01\\src\\Test_User\\Test_User.csproj",
         "projectName": "Test_User",
-        "projectPath": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Test_User\\Test_User.csproj",
+        "projectPath": "D:\\newProject\\sae-2.01\\src\\Test_User\\Test_User.csproj",
         "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Test_User\\obj\\",
+        "outputPath": "D:\\newProject\\sae-2.01\\src\\Test_User\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,8 +96,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\Modele.csproj": {
-                "projectPath": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\Modele.csproj"
+              "D:\\newProject\\sae-2.01\\src\\Modele\\Modele.csproj": {
+                "projectPath": "D:\\newProject\\sae-2.01\\src\\Modele\\Modele.csproj"
               }
             }
           }

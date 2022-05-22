@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\Modele.csproj",
+      "projectUniqueName": "D:\\newProject\\sae-2.01\\src\\Modele\\Modele.csproj",
       "projectName": "Modele",
-      "projectPath": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\Modele.csproj",
+      "projectPath": "D:\\newProject\\sae-2.01\\src\\Modele\\Modele.csproj",
       "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjetWPFPizzeria\\sae-2.01.git\\src\\Modele\\obj\\",
+      "outputPath": "D:\\newProject\\sae-2.01\\src\\Modele\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
