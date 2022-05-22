@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MKntJgBz1TYR/+Awb+Ve5xjq0Kn4TTQkPQ/SlVOecSlZ65TfoSqbxaIanNjUoLfbgRZJ1GKNEvgGLi6YIolKvA==",
+  "dgSpecHash": "95SJBfcAiCXpDSq/XRCTh+kdc42QLylEm94zxRGsXbbstKHfhT3sS91f7AT1wQiKKYB3JjZoX7HlK8TjAY9pMA==",
   "success": true,
-  "projectFilePath": "D:\\newProject\\sae-2.01\\src\\TestsUnitaires\\TestsUnitaires.csproj",
+  "projectFilePath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\TestsUnitaires\\TestsUnitaires.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natha\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

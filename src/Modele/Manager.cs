@@ -10,42 +10,9 @@ using System.Text;
 
 namespace Modele
 {
-    public class Manager /*: INotifyPropertyChanged*/
+    public partial class Manager /*: INotifyPropertyChanged*/
     {
-        public ReadOnlyCollection<Client> Clients { get; private set; }
-        List<Client> clients = new List<Client> ();
-        public ReadOnlyCollection<Administrateur> Administrateurs { get; private set; }
-        List<Administrateur> administrateurs = new List<Administrateur>();
 
-        public bool AjouteClient(Client client)
-        {
-            if (client == null)
-            {
-                return false;
-            }
-
-            if (clients.Contains(client))
-            {
-                return false;
-            }
-            clients.Add(client);
-            return true;
-        }
-
-        public bool AjouteAdministrateur(Client client)
-        {
-            if (client == null)
-            {
-                return false;
-            }
-
-            if (clients.Contains(client))
-            {
-                return false;
-            }
-            clients.Add(client);
-            return true;
-        }
         public Manager(/*IPersistanceManager p*/)
         {
             //Persist = p;
@@ -53,6 +20,19 @@ namespace Modele
             Clients = new ReadOnlyCollection<Client>(clients);
         }
 
+        public void ChargeDonnées()
+        {
+            Administrateur A1 = new Administrateur("Bonneau", "Baptiste", "Baptiste@oui.com", "09.25.25.73.19", "27 rue non", "Clermont-Ferrand", "63000", "nojii");
+            ChargeClient();
+        }
 
+        public void ChargeClient()
+        {
+            clients.AddRange(new Client[]
+            {
+                new Client("Kartal", "Emre", "emre@oui.com", "06.45.85.95.15", "27 rue oui", "Clermont-Ferrand", "63100", "tobiii", "non"),
+                new Client("Verdier", "Nathan", "Baptiste@oui.com", "09.25.25.73.19", "27 rue non", "Clermont-Ferrand", "63000", "nojii"),
+        });
+        }
     }
 }
