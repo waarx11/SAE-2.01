@@ -10,7 +10,7 @@ namespace Modele
         /// nom de la pizzeria 
         /// </summary>
         private string nomPizzeria;
-        public string NomPizzeria { get => nomPizzeria; set => nomPizzeria = value; }
+        public string NomPizzeria { get => nomPizzeria; private set => nomPizzeria = value; }
         /// <summary>
         /// Construteur de la classe Administrateur
         /// </summary>

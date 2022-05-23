@@ -9,13 +9,13 @@ namespace Modele
         /// <summary>
         /// Pseudo de l'utilisateur
         /// </summary>
-        public string Pseudo { get => pseudo; set => pseudo = value; }
+        public string Pseudo { get => pseudo; private set => pseudo = value; }
         private string pseudo;
         /// <summary>
         /// Photo de l'utilisateur
         /// </summary>
         private string photo;
-        public string Photo { get => photo; set => photo = value; }
+        public string Photo { get => photo; private set => photo = value; }
         /// <summary>
         /// Constructeur d'un Client
         /// </summary>

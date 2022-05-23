@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vVwtaVJGpvtTgIbdOoMSkxh3B3HDfVspDzIOa5z8KAoi7+grRbael9fGzAx6FqcZ251DPpc56NQEsnFDw5T6zA==",
+  "dgSpecHash": "UYFkSIAD2sw+qHSuQxukGuYkPoTqScHcnkrGhEIhL3MrLLoo7WakF0eZ3+OOYbkRax6bTEuY0uMMmkc1TMw4JQ==",
   "success": true,
-  "projectFilePath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\newPizza\\newPizza1\\newPizza1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\natha\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512"
-  ],
+  "projectFilePath": "U:\\Documents\\SAE\\2.01\\src\\newPizza\\newPizza1\\newPizza1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

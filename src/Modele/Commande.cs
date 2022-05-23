@@ -7,9 +7,9 @@ namespace Modele
     public class Commande
     {
         private List<Pizza> listPizza;
-        public List<Pizza> ListPizza { get => listPizza; set => listPizza = value; }
+        public List<Pizza> ListPizza { get => listPizza; private set => listPizza = value; }
         private Client clientActu;
-        public Client ClientActu { get => clientActu; set => clientActu = value; }
+        public Client ClientActu { get => clientActu; private set => clientActu = value; }
 
         public Commande(Client c1, List<Pizza> listPzz)
         {

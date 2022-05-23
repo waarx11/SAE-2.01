@@ -10,22 +10,22 @@ namespace Modele
         /// List des pizza présente dans le catalogueVegetarien
         /// </summary>
         private List<Pizza> catalogueVegetarien;
-        public List<Pizza> CatalogueVegetarien { get => catalogueVegetarien; set => catalogueVegetarien = value; }
+        public List<Pizza> CatalogueVegetarien { get => catalogueVegetarien; private set => catalogueVegetarien = value; }
         /// <summary>
         /// List des pizza présente dans le cataloguePizzeta
         /// </summary>
         private List<Pizza> cataloguePizzeta;
-        public List<Pizza> CataloguePizzeta { get => cataloguePizzeta; set => cataloguePizzeta = value; }
+        public List<Pizza> CataloguePizzeta { get => cataloguePizzeta; private set => cataloguePizzeta = value; }
         /// <summary>
         /// List des pizza présente dans le catalogueCarnivore
         /// </summary>
         private List<Pizza> catalogueCarnivore;
-        public List<Pizza> CatalogueCarnivore { get => catalogueCarnivore; set => catalogueCarnivore = value; }
+        public List<Pizza> CatalogueCarnivore { get => catalogueCarnivore; private set => catalogueCarnivore = value; }
         /// <summary>
         /// List des pizza présente dans le catalogueEpice
         /// </summary>
         private List<Pizza> catalogueEpice;
-        public List<Pizza> CatalogueEpice { get => catalogueEpice; set => catalogueEpice = value; }
+        public List<Pizza> CatalogueEpice { get => catalogueEpice; private set => catalogueEpice = value; }
 
         public Catalogue()
         { 

@@ -12,31 +12,31 @@ namespace Modele
         /// <summary>
         /// Nom de la pizaa
         /// </summary>
-        public string Nom { get => nom; set => nom = value; }
+        public string Nom { get => nom; private set => nom = value; }
         private string nom;
 
         /// <summary>
         /// Quantité de pizza a commander
         /// </summary>
-        public int Quantité { get => quantité; set => quantité = value; }
+        public int Quantité { get => quantité; private set => quantité = value; }
         private int quantité = 1;
 
         /// <summary>
         /// Description de la pizza
         /// </summary>
-        public string Description { get => description; set => description = value; }
+        public string Description { get => description; private set => description = value; }
         private string description;
 
         /// <summary>
         /// Image de la pizza
         /// </summary>
-        public string Image { get => image; set => image = value; }
+        public string Image { get => image; private set => image = value; }
         private string image;
 
         /// <summary>
         /// Prix de la pizza
         /// </summary>
-        public int Prix { get => prix; set => prix = value; }
+        public int Prix { get => prix; private set => prix = value; }
         private int prix;
 
         /// <summary>

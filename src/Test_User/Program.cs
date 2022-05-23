@@ -10,7 +10,7 @@ namespace Test_User
             Console.WriteLine("User client");
             Client C1 = new Client("Kartal", "Emre", "emre@oui.com", "06.45.85.95.15", "27 rue oui", "Clermont-Ferrand", "63100", "tobiii", "non");
             Console.WriteLine(C1);
-            C1.EnregistrerModif("Kartal", "Emre", "emre@non.com", "06.45.85.95.15", "27 rue oui", "Clermont-Ferrand", "63100", "emre", "je sais pas");
+            C1.EnregistrerModif("aze", "ertre", "emre@non.com", "06.12.85.95.15", "42 rue oui", "Ferrand", "63100", "dddddd", "je sais pas");
             Console.WriteLine(C1);
 
             Console.WriteLine("Pizzeria");
