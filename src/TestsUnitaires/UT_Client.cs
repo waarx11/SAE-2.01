@@ -95,7 +95,7 @@ namespace TestsUnitaires
         [InlineData("Perret", "Loris", "loris.perret@etu.uca.fr", "0712345678", "38 rue thisIsMonAdresse", "Vichy", "63000")]
         public void TEST_EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
         {
-            Client c1 = new Client("Nom", "Prénom", "Email@mail.fr", "Téléphone", "Adresse", "Ville", "00000", "Pseudo", "mg");
+            Client c1 = new Client("Nom", "Prénom", "nathan.verdier@etu.uca.fr", "0676260411", "Adresse", "Ville", "63000", "Pseudo", "default\noPP.jpg");
             c1.EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
             Assert.Equal(nom, c1.Nom);
             Assert.Equal(prénom, c1.Prénom);
