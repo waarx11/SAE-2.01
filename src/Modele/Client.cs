@@ -28,8 +28,8 @@ namespace Modele
         /// <param name="codePostal"></param>
         /// <param name="pseudo"></param>
         /// <param name="photo"></param>
-        public Client(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string pseudo, string photo=null)
-            :base(nom, prénom, email, téléphone, adresse, ville, codePostal)
+        public Client(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp, string pseudo, string photo=null)
+            :base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
         {
 
             if (string.IsNullOrWhiteSpace(pseudo))

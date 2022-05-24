@@ -40,7 +40,7 @@
                 <ImageBrush ImageSource="..\img\autre\fondCatalogue2.jpg" Stretch="Fill"/>
             </DockPanel.Background>-->
             <ContentControl x:Name="ccCatalogue">
-            <local:ucInfoPizza/>
+                <local:ucCataloguePizzeta/>
         </ContentControl>
         </DockPanel>
 

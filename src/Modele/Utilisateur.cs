@@ -36,6 +36,8 @@ namespace Modele
         public string Adresse { get => adresse; private set => adresse = value; }
         private string adresse;
 
+        public string Mdp { get => mdp; private set => mdp = value; }
+        private string mdp;
         /// <summary>
         /// Image de la pizza
         /// </summary>
@@ -57,7 +59,7 @@ namespace Modele
         /// <param name="adresse"></param>
         /// <param name="ville"></param>
         /// <param name="codePostal"></param>
-        public Utilisateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
+        public Utilisateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp)
         {
 
             if (!email.Contains("@") || string.IsNullOrWhiteSpace(email))
@@ -122,6 +124,15 @@ namespace Modele
                 Ville = ville;
             }
 
+            if (string.IsNullOrWhiteSpace(mdp))
+            {
+                Mdp = "1234";
+            }
+            else
+            {
+                Mdp = mdp;
+            }
+
         }
         
         public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
@@ -134,6 +145,12 @@ namespace Modele
             Ville = ville;
             CodePostal = codePostal;
         }
+
+        public void ModifierMdp(string mdp)
+        {
+            Mdp = mdp;
+        }
+
     /// <summary>
     /// 
     /// </summary>

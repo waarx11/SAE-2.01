@@ -94,3 +94,13 @@ C:\Users\bapti\Desktop\SAE2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.Assembl
 C:\Users\bapti\Desktop\SAE2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
 C:\Users\bapti\Desktop\SAE2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
 C:\Users\bapti\Desktop\SAE2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb
+D:\ProjetWpfPizza\sae-2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.deps.json
+D:\ProjetWpfPizza\sae-2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.dll
+D:\ProjetWpfPizza\sae-2.01\src\Modele\bin\Debug\netcoreapp3.1\Modele.pdb
+D:\ProjetWpfPizza\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.AssemblyReference.cache
+D:\ProjetWpfPizza\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetWpfPizza\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfoInputs.cache
+D:\ProjetWpfPizza\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.AssemblyInfo.cs
+D:\ProjetWpfPizza\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.csproj.CoreCompileInputs.cache
+D:\ProjetWpfPizza\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.dll
+D:\ProjetWpfPizza\sae-2.01\src\Modele\obj\Debug\netcoreapp3.1\Modele.pdb

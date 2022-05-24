@@ -25,8 +25,8 @@
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="Chicken Barbecue" setImage="..\img\pizzas\epicees\chicken_barbecue.jpeg"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="0" setNomPizza="Orientale" setImage="..\img\pizzas\epicees\orientale.jpeg"/>
+                <local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="Chicken Barbecue" setImage="../img/pizzas/epicees/chicken_barbecue.jpeg"/>
+                <local:ucPizzaBox Grid.Row="1" Grid.Column="0" setNomPizza="Orientale" setImage="../img/pizzas/epicees/orientale.jpeg"/>
                 <local:ucPizzaBox Grid.Row="0" Grid.Column="1" setNomPizza="Provencale" setImage="..\img\pizzas\epicees\provencale.jpeg"/>
                 <local:ucPizzaBox Grid.Row="1" Grid.Column="1" setNomPizza="Samourai" setImage="..\img\pizzas\epicees\samourai.jpeg"/>
                 <local:ucPizzaBox Grid.Row="1" Grid.Column="2" setNomPizza="La piquante" setImage="..\img\pizzas\epicees\spicy_hot_one.jpeg"/>

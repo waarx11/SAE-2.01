@@ -12,19 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Modele;
 
 namespace newPizza1
 {
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml
     /// </summary>
+    /// 
+
     public partial class pageCatalogue : Window
     {
+        public Manager Mgr => (App.Current as App).LeManager;
         public pageCatalogue()
         {
             InitializeComponent();
         }
-
         private void MenuBouton_Pizzetas(object sender, RoutedEventArgs e)
         {
             ccCatalogue.Content = new ucCataloguePizzeta();

@@ -86,14 +86,14 @@ namespace Modele
             return clients.SingleOrDefault(a => a.Equals(client));
         }
 
-        public Administrateur GetAdministrateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string nomPizzeria)
+        public Administrateur GetAdministrateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp, string nomPizzeria)
         {
-            return GetAdministrateur(new Administrateur(nom, prénom, email, téléphone, adresse, ville, codePostal, nomPizzeria));
+            return GetAdministrateur(new Administrateur(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp, nomPizzeria));
         }
 
-        public Client GetClient(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string pseudo, string photo = null)
+        public Client GetClient(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp, string pseudo, string photo = null)
         {
-            return GetClient(new Client(nom, prénom, email, téléphone, adresse, ville, codePostal, pseudo, photo));
+            return GetClient(new Client(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp, pseudo, photo));
         }
 
         public Administrateur ModifieAdmin(Administrateur adOld, Administrateur adNew)

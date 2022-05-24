@@ -22,8 +22,8 @@ namespace Modele
         /// <param name="ville"></param>
         /// <param name="codePostal"></param>
         /// <param name="nomPizzeria"></param>
-        public Administrateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string nomPizzeria)
-           : base(nom, prénom, email, téléphone, adresse, ville, codePostal)
+        public Administrateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp,  string nomPizzeria)
+            :base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
         {
             NomPizzeria = nomPizzeria;
         }

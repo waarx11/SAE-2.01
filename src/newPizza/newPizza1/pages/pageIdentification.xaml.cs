@@ -11,7 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-
+using Modele;
 namespace newPizza1
 {
     /// <summary>
@@ -19,6 +19,7 @@ namespace newPizza1
     /// </summary>
     public partial class pageIdentification : Window
     {
+        public Manager Mgr => (App.Current as App).LeManager;
         public pageIdentification()
         {
             InitializeComponent();
@@ -44,6 +45,59 @@ namespace newPizza1
                 Application.Current.Resources["couleurArrierePlan"] = new SolidColorBrush(Color.FromRgb(61, 155, 174));
                 BtnTheme.Content = "Thème : Clair";
             }
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            int rep=Mgr.connecterUtilisateur(idTextBox.Text,PasswordBox.Password);
+            //rien qui marche
+            if (rep == -1)
+            {
+                message.Text = "Login ou mot de pass n'est pas trouver";
+                message.Visibility = Visibility.Visible;
+                this.Show();
+            }
+            //admin a connecter
+            if(rep == 1)
+            {
+                pageAdministrateur p =new pageAdministrateur();
+                this.Close();
+                p.Show();
+            }
+            //admin mot pass faut
+            if (rep == 2)
+            {
+                message.Text = "Login ou mot de pass n'est pas incorrecte";
+                message.Visibility = Visibility.Visible;    
+                this.Show();
+            }
+            //clien a co,nnecter
+            if (rep == 3)
+            {
+                pageCatalogue pClinet =new pageCatalogue();
+                this.Close();
+                pClinet.Show();
+            }
+            //clien mot de pass faut
+            if (rep == 4)
+            {
+                message.Text = "Login ou mot de pass n'est pas incorrecte";
+                message.Visibility = Visibility.Visible;
+                this.Show();
+            }
+        }
+
+        private void idTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            message.Visibility = Visibility.Hidden;
+
+        }
+
+        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
+        {
+            message.Visibility = Visibility.Visible;
 
         }
     }

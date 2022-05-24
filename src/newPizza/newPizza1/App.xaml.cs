@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using Modele;
 
 namespace newPizza1
 {
@@ -13,5 +14,11 @@ namespace newPizza1
     /// </summary>
     public partial class App : Application
     {
+        public Manager LeManager { get; private set; } = new Manager();
+        
+        public App()
+        {
+            LeManager.ChargeDonne();
+        }
     }
 }

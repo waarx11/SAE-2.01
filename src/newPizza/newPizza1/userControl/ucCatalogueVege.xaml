@@ -11,30 +11,25 @@
             <local:ucTopBar setTitle="Vegetariennes"/>
         </DockPanel>
 
-        <ScrollViewer>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="5 Fromages" setImage="..\img\pizzas\vegetariennes\5_formaggi.png"/>
-                <local:ucPizzaBox Grid.Row="2" Grid.Column="0" setNomPizza="Margarita" setImage="..\img\pizzas\vegetariennes\margarita.png"/>
-                <local:ucPizzaBox Grid.Row="0" Grid.Column="1" setNomPizza="Carciofi" setImage="..\img\pizzas\vegetariennes\carciofi.png"/>
-                <local:ucPizzaBox Grid.Row="2" Grid.Column="1" setNomPizza="Carbonara" setImage="..\img\pizzas\vegetariennes\carbonara.png"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="1" setNomPizza="Chevre Miel" setImage="..\img\pizzas\vegetariennes\chevre_miel_vege.jpg"/>
-                <local:ucPizzaBox Grid.Row="0" Grid.Column="2" setNomPizza="Bianca" setImage="..\img\pizzas\vegetariennes\bianca.png"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="0" setNomPizza="Vegetarienne" setImage="..\img\pizzas\vegetariennes\vegetarienne.jpeg"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="2" setNomPizza="3 Fromages" setImage="..\img\pizzas\vegetariennes\3_fromages.jpg"/>
-            </Grid>
-        </ScrollViewer>
+        <ListBox  HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding CatalogueVegetarien}" >
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel  Margin="5" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
 
+            <ListBox.ItemTemplate >
+                <DataTemplate >
+                    <StackPanel>
+                        <TextBlock FontSize="50" Text="{Binding Nom}"></TextBlock>
+                        <Image Width="40" Source="{Binding Image}"></Image>
+                        <local:ucPizzaBox setNomPizza="{Binding Nom}" setImage="{Binding Image}"/>
+                    </StackPanel>
+                    
+                </DataTemplate>
+
+            </ListBox.ItemTemplate>
+
+        </ListBox>
     </DockPanel>
 </UserControl>

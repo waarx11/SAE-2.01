@@ -10,7 +10,7 @@ namespace Modele
 {
     public partial class Manager
     {
-        public readonly Catalogue Catalogues;
+        public  Catalogue Catalogues;
         public Catalogue C1 = new Catalogue();
 
         public bool AjouteCatalogueVegetarien(Pizza pizz)
@@ -133,12 +133,12 @@ namespace Modele
             }
             C1.CatalogueEpice.Remove(pizz);
             return true;
-        }
+        }/*
 
         public Catalogue GetCatalogue(Catalogue c1)
         {
             return Catalogues.SingleOrDefault(a => a.Equals(c1));
-        }
+        }*/
 
         public Administrateur ModifieCatalogue(Catalogue adOld, Catalogue adNew)
         {
