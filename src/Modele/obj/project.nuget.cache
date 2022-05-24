@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OK/LQmiIK9KIK8oezKPd6H7+xF87ZwiR75Jk81HVLduJRxxSNMR3IIefhqnO02R35j13QwDFV1H8f0M46JjhaQ==",
+  "dgSpecHash": "nd+/VzgUm6Z6hbVekDPsoJbE2tpDECwpi7IFQaJJjMr4Dxkypdfr3bjrAlu6QpksNGqYyCsmxdxPDbZr+zuP2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\Modele\\Modele.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\bapti\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\bapti\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\bapti\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\Modele\\Modele.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
