@@ -513,3 +513,12 @@ D:\newProject\sae-2.01\src\TestsUnitaires\obj\Debug\net5.0\refint\TestsUnitaires
 D:\newProject\sae-2.01\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.pdb
 D:\newProject\sae-2.01\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.genruntimeconfig.cache
 D:\newProject\sae-2.01\src\TestsUnitaires\obj\Debug\net5.0\ref\TestsUnitaires.dll
+C:\Users\bapti\Desktop\SAE2.01\src\TestsUnitaires\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\bapti\Desktop\SAE2.01\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.csproj.AssemblyReference.cache
+C:\Users\bapti\Desktop\SAE2.01\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bapti\Desktop\SAE2.01\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.AssemblyInfoInputs.cache
+C:\Users\bapti\Desktop\SAE2.01\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.AssemblyInfo.cs
+C:\Users\bapti\Desktop\SAE2.01\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.csproj.CoreCompileInputs.cache
+C:\Users\bapti\Desktop\SAE2.01\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.dll
+C:\Users\bapti\Desktop\SAE2.01\src\TestsUnitaires\obj\Debug\net5.0\refint\TestsUnitaires.dll
+C:\Users\bapti\Desktop\SAE2.01\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.pdb
