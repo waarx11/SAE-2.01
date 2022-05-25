@@ -11,6 +11,10 @@
         d:DesignHeight="1080" d:DesignWidth="1920"
         Title="pageMonPanier" Width="1920" Height="1080">
     <Grid>
+        <Grid.Resources>
+            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
+        </Grid.Resources>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"/>
             <ColumnDefinition Width="*"/>
@@ -38,7 +42,7 @@
             </StackPanel>
         </Grid>
 
-        <ScrollViewer Grid.Column="1">
+        <ScrollViewer Grid.Column="1" Background="{StaticResource couleurFond}">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition/>

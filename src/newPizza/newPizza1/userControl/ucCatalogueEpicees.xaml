@@ -11,7 +11,7 @@
             <local:ucTopBar setTitle="Epicées"/>
         </DockPanel>
 
-        <ScrollViewer>
+        <ScrollViewer Background="{StaticResource couleurFond}">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>

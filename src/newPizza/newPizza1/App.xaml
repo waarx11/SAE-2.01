@@ -7,12 +7,14 @@
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <materialDesign:BundledTheme BaseTheme="Light" PrimaryColor="LightBlue" SecondaryColor="Lime" />
+                <materialDesign:BundledTheme BaseTheme="Light" PrimaryColor="LightBlue" SecondaryColor="Lime"/>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
             </ResourceDictionary.MergedDictionaries>
             <SolidColorBrush Color="#68A7AD" x:Key="couleurPrincipale"/>
             <SolidColorBrush Color="#4d8d93" x:Key="couleurSecondaire"/>
             <SolidColorBrush Color="#3da5ae" x:Key="couleurArrierePlan"/>
+            <SolidColorBrush Color="#fff" x:Key="couleurFond"/>
+            <SolidColorBrush Color="#000" x:Key="couleurTexte"/>
 
             <Style TargetType="Border" x:Key="BorderProfil">
                 <Setter Property="BorderThickness" Value="2"/>
@@ -20,7 +22,12 @@
                 <Setter Property="BorderBrush" Value="{StaticResource couleurSecondaire}"/>
             </Style>
 
+            <Style TargetType="TextBlock" x:Key="TextColor">
+                <Setter Property="Foreground" Value="{StaticResource couleurTexte}"/>
+            </Style>
+            
             <FontFamily x:Key="TITLE">font\CHEESEPIZZA.ttf#CHEESE PIZZA</FontFamily>
+
 
         </ResourceDictionary>
 

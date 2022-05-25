@@ -7,6 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="1080" d:DesignWidth="1620">
     <DockPanel>
+        <DockPanel.Resources>
+            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
+        </DockPanel.Resources>
         <DockPanel DockPanel.Dock="Top" Height="70" Background="{StaticResource couleurSecondaire}">
             <Grid>
                 <Grid.ColumnDefinitions>

@@ -44,30 +44,28 @@ namespace Modele
             C1.CatalogueVegetarien.Add(new Pizza("Reine", "Bonne", "../img/pizzas/epicees/chicken_barbecue.jpeg", new List<Ingredients> { (Ingredients)2, (Ingredients)20 }, 15));
             /*C1.CatalogueVegetarien.AddRange(new Pizza[]
             {
+                new Pizza("Chèvre Miel Végé", "Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.\n Ingrédients: Pate normale, Base crème, mozzarella, fromage de chèvre, miel", "../img/pizzas/vegetariennes/chevre_miel_vege.jpg", new List<Ingredients> {Ingredients.PateNormale, Ingredients.BaseCreme, Ingredients.Mozzarella, Ingredients.FromageDeChevre, Ingredients.Miel}, 14),
                 new Pizza("Reine", "Bonne", "../img/pizzas/epicees/chicken_barbecue.jpeg", new List<Ingredients> { (Ingredients)2, (Ingredients)20 } , 15),
                 new Pizza("tkt", "non", "../img/pizzas/epicees/chicken_barbecue.jpeg", new List<Ingredients> { (Ingredients)55, (Ingredients)13, (Ingredients)42, (Ingredients)21, (Ingredients)36 }, 102),
                 new Pizza("Saucisse", "gourmande", "../img/pizzas/epicees/chicken_barbecue.jpeg", new List<Ingredients> { (Ingredients)2, (Ingredients)20, (Ingredients)35 }),
-            });*/
+            });
 
             C1.CataloguePizzeta.AddRange(new Pizza[]
             {
-                new Pizza("Reine", "Bonne", "oui", new List<Ingredients> { (Ingredients)2, (Ingredients)20 } , 15),
-                new Pizza("tkt", "non", "oui", new List<Ingredients> { (Ingredients)55, (Ingredients)13, (Ingredients)42, (Ingredients)21, (Ingredients)36 }, 102),
-                new Pizza("Saucisse", "gourmande", "non", new List<Ingredients> { (Ingredients)2, (Ingredients)20, (Ingredients)35 }),
+                new Pizza("5 Fromages", "Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.\n Ingrédients: Pate normale, base crème, mozzarella, gorgonzola, taleggio de Lombardie, fromage de chèvre, scamorza fumée", "../img/pizzas/pizzeta/pizzeta_5_fromaggi.png", new List<Ingredients> {Ingredients.PateNormale, Ingredients.BaseCreme, Ingredients.Mozzarella, Ingredients.Gorgonzola, Ingredients.Taleggio, Ingredients.FromageDeChevre, Ingredients.Scamorza}, 10),
+                new Pizza("Carbonara", "Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.\n Ingrédients: Pate normale, base crème, mozzarella, pancetta, oeuf", "../img/pizzas/pizzeta/pizzeta_carbonara.png", new List<Ingredients> {Ingredients.PateNormale, Ingredients.Creme, Ingredients.Mozzarella, Ingredients.Pancetta, Ingredients.Oeuf}, 10),
+                new Pizza("Chèvre Miel", "Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.\n Ingrédients: Pate normale, base crème, mozzarella, fromage de chèvre, speck, roquette, miel", "../img/pizzas/pizzeta/pizzeta_chevre_miel.png", new List<Ingredients> {Ingredients.PateNormale, Ingredients.Creme, Ingredients.Mozzarella, Ingredients.FromageDeChevre, Ingredients.Speck, Ingredients.Salade, Ingredients.Miel}, 10),
+
             });
 
             C1.CatalogueCarnivore.AddRange(new Pizza[]
             {
                 new Pizza("Reine", "Bonne", "oui", new List<Ingredients> { (Ingredients)2, (Ingredients)20 } , 15),
-                new Pizza("tkt", "non", "oui", new List<Ingredients> { (Ingredients)55, (Ingredients)13, (Ingredients)42, (Ingredients)21, (Ingredients)36 }, 102),
-                new Pizza("Saucisse", "gourmande", "non", new List<Ingredients> { (Ingredients)2, (Ingredients)20, (Ingredients)35 }),
             });
 
             C1.CatalogueEpice.AddRange(new Pizza[]
             {
                 new Pizza("Reine", "Bonne", "oui", new List<Ingredients> { (Ingredients)2, (Ingredients)20 } , 15),
-                new Pizza("tkt", "non", "oui", new List<Ingredients> { (Ingredients)55, (Ingredients)13, (Ingredients)42, (Ingredients)21, (Ingredients)36 }, 102),
-                new Pizza("Saucisse", "gourmande", "non", new List<Ingredients> { (Ingredients)2, (Ingredients)20, (Ingredients)35 }),
             });
         }
 

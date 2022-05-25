@@ -12,7 +12,10 @@
 
 
     <DockPanel>
-        
+        <DockPanel.Resources>
+            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
+        </DockPanel.Resources>
+
         <Grid Background="{StaticResource couleurPrincipale}" Width="300">
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
@@ -41,7 +44,7 @@
             </DockPanel.Background>-->
             <ContentControl x:Name="ccCatalogue">
                 <local:ucCataloguePizzeta/>
-        </ContentControl>
+            </ContentControl>
         </DockPanel>
 
     </DockPanel>

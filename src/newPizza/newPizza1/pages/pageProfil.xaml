@@ -11,6 +11,10 @@
         d:DesignHeight="1080" d:DesignWidth="1920"
         Title="pageProfil" Width="1920" Height="1080">
     <Grid>
+        <Grid.Resources>
+            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
+        </Grid.Resources>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"/>
             <ColumnDefinition/>
@@ -37,7 +41,7 @@
             </StackPanel>
         </Grid>
 
-        <Grid Background="AliceBlue" Grid.Column="1">
+        <Grid Background="{StaticResource couleurFond}" Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="140"/>
                 <RowDefinition Height="200"/>
