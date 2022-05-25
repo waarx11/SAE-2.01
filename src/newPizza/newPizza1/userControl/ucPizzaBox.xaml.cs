@@ -25,20 +25,27 @@ namespace newPizza1
             InitializeComponent();
         }
 
-        public string setNomPizza
+
+        public string Texte
         {
-            set
-            {
-                nomPizza.Text = value;
-            }
+            get { return (string)GetValue(TexteProperty); }
+            set { SetValue(TexteProperty, value); }
         }
 
-        public string setImage
+        // Using a DependencyProperty as the backing store for Texte.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty TexteProperty =
+            DependencyProperty.Register("Texte", typeof(string), typeof(ucPizzaBox), new PropertyMetadata("Je suis un test"));
+
+        public string ImageName
         {
-            set
-            {
-                imgPizza.Source = new BitmapImage(new Uri(value, UriKind.Relative));
-            }
+            get { return (string)GetValue(ImageNameProperty); }
+            set { SetValue(ImageNameProperty, value); }
         }
+
+        // Using a DependencyProperty as the backing store for ImageName.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty ImageNameProperty =
+            DependencyProperty.Register("ImageName", typeof(string), typeof(ucPizzaBox), new PropertyMetadata("noImg.png"));
+
+
     }
 }

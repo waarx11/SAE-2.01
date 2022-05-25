@@ -5,7 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:newPizza1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="500" d:DesignWidth="500">
+             d:DesignHeight="500" d:DesignWidth="500"
+             x:Name="thisPizza">
 
     <Border BorderThickness="5" BorderBrush="{StaticResource couleurSecondaire}" CornerRadius="20" Background="{StaticResource couleurPrincipale}" Margin="50">
         <Grid>
@@ -15,9 +16,12 @@
                 <RowDefinition Height="0.5*"/>
             </Grid.RowDefinitions>
 
-            <TextBlock x:Name="nomPizza" Text="NOM PIZZA" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Bold" Margin="10" />
-            <Image x:Name="imgPizza" Source="..\img\pizzas\carnivore\diavola.png" Grid.Row="1" Margin="10,0,10,0"/>
-
+            <TextBlock Text="{Binding Texte, ElementName=thisPizza}" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Bold" Margin="10" />
+            <Ellipse Grid.Row="1" Margin="10,0,10,0">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="{Binding ImageName, ElementName=thisPizza}" />
+                </Ellipse.Fill>
+            </Ellipse>
 
 
             <Grid Grid.Row="2">

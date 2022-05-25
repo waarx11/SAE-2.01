@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace Modele
@@ -9,8 +10,8 @@ namespace Modele
         /// <summary>
         /// List des pizza présente dans le catalogueVegetarien
         /// </summary>
-        private List<Pizza> catalogueVegetarien;
-        public List<Pizza> CatalogueVegetarien { get => catalogueVegetarien; private set => catalogueVegetarien = value; }
+        private ObservableCollection<Pizza> catalogueVegetarien;
+        public ObservableCollection<Pizza> CatalogueVegetarien { get => catalogueVegetarien; private set => catalogueVegetarien = value; }
         /// <summary>
         /// List des pizza présente dans le cataloguePizzeta
         /// </summary>
@@ -29,7 +30,7 @@ namespace Modele
 
         public Catalogue()
         { 
-            catalogueVegetarien = new List<Pizza>();
+            catalogueVegetarien = new ObservableCollection<Pizza>();
             cataloguePizzeta = new List<Pizza>();
             catalogueCarnivore = new List<Pizza>();
             catalogueEpice = new List<Pizza>();

@@ -10,7 +10,7 @@ namespace Modele
 {
     public partial class Manager
     {
-        public  Catalogue Catalogues;
+        public Catalogue Catalogues;
         public Catalogue C1 = new Catalogue();
 
         public bool AjouteCatalogueVegetarien(Pizza pizz)

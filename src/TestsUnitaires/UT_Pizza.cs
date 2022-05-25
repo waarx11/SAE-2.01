@@ -52,7 +52,7 @@ namespace TestsUnitaires
         {
             List<Ingredients> liste = new List<Ingredients> { (Ingredients)53, (Ingredients)0 };
             Pizza p = new Pizza(nom, description, image, liste, prix);
-            p.Quantité = quantité;
+            //p.Quantité = quantité;
             string expectedAfficher = $"{expectNom} {expectDesc} {expectImage} ";
             foreach (Ingredients element in liste)
             {

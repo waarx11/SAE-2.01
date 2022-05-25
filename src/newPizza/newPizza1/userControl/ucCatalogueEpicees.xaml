@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
               d:DesignHeight="450" d:DesignWidth="800">
     <DockPanel>
-        <DockPanel DockPanel.Dock="Top" Height="70">
+        <!--<DockPanel DockPanel.Dock="Top" Height="70">
             <local:ucTopBar setTitle="Epicées"/>
         </DockPanel>
 
@@ -32,7 +32,7 @@
                 <local:ucPizzaBox Grid.Row="1" Grid.Column="2" setNomPizza="La piquante" setImage="..\img\pizzas\epicees\spicy_hot_one.jpeg"/>
                 <local:ucPizzaBox Grid.Row="0" Grid.Column="2" setNomPizza="Supreme" setImage="..\img\pizzas\epicees\supreme.jpeg"/>
             </Grid>
-        </ScrollViewer>
+        </ScrollViewer>-->
 
     </DockPanel>
 </UserControl>

@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
               d:DesignHeight="450" d:DesignWidth="800">
     <DockPanel>
-        <DockPanel DockPanel.Dock="Top" Height="70">
+        <!--<DockPanel DockPanel.Dock="Top" Height="70">
             <local:ucTopBar setTitle="Carnivores"/>
         </DockPanel>
 
@@ -50,6 +50,6 @@
                 <local:ucPizzaBox Grid.Row="5" Grid.Column="0" setNomPizza="Regina" setImage="..\img\pizzas\carnivore\regina.png"/>
 
             </Grid>
-        </ScrollViewer>
+        </ScrollViewer>-->
     </DockPanel>
 </UserControl>

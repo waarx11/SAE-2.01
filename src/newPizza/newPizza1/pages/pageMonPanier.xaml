@@ -52,9 +52,9 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
+            <!--<local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
             <local:ucPizzaBox Grid.Row="0" Grid.Column="1" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="0" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
+                <local:ucPizzaBox Grid.Row="1" Grid.Column="0" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>-->
             </Grid>
         </ScrollViewer>
 

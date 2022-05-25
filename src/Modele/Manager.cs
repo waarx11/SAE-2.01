@@ -41,12 +41,13 @@ namespace Modele
 
         public void ChargeCatalogue()
         {
-            C1.CatalogueVegetarien.AddRange(new Pizza[]
+            C1.CatalogueVegetarien.Add(new Pizza("Reine", "Bonne", "../img/pizzas/epicees/chicken_barbecue.jpeg", new List<Ingredients> { (Ingredients)2, (Ingredients)20 }, 15));
+            /*C1.CatalogueVegetarien.AddRange(new Pizza[]
             {
                 new Pizza("Reine", "Bonne", "../img/pizzas/epicees/chicken_barbecue.jpeg", new List<Ingredients> { (Ingredients)2, (Ingredients)20 } , 15),
                 new Pizza("tkt", "non", "../img/pizzas/epicees/chicken_barbecue.jpeg", new List<Ingredients> { (Ingredients)55, (Ingredients)13, (Ingredients)42, (Ingredients)21, (Ingredients)36 }, 102),
                 new Pizza("Saucisse", "gourmande", "../img/pizzas/epicees/chicken_barbecue.jpeg", new List<Ingredients> { (Ingredients)2, (Ingredients)20, (Ingredients)35 }),
-            });
+            });*/
 
             C1.CataloguePizzeta.AddRange(new Pizza[]
             {
