@@ -36,6 +36,8 @@ namespace newPizza1
                 Application.Current.Resources["couleurPrincipale"] = new SolidColorBrush(Color.FromRgb(75, 72, 72));
                 Application.Current.Resources["couleurSecondaire"] = new SolidColorBrush(Color.FromRgb(115, 110, 110));
                 Application.Current.Resources["couleurArrierePlan"] = new SolidColorBrush(Color.FromRgb(142, 140, 140));
+                Application.Current.Resources["couleurTexte"] = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+                Application.Current.Resources["couleurFond"] = new SolidColorBrush(Color.FromRgb(83, 82, 81));
                 BtnTheme.Content = "Thème : Sombre";
             }
             else
@@ -43,6 +45,8 @@ namespace newPizza1
                 Application.Current.Resources["couleurPrincipale"] = new SolidColorBrush(Color.FromRgb(104, 167, 173));
                 Application.Current.Resources["couleurSecondaire"] = new SolidColorBrush(Color.FromRgb(77, 141, 147));
                 Application.Current.Resources["couleurArrierePlan"] = new SolidColorBrush(Color.FromRgb(61, 155, 174));
+                Application.Current.Resources["couleurTexte"] = new SolidColorBrush(Color.FromRgb(0, 0, 0));
+                Application.Current.Resources["couleurFond"] = new SolidColorBrush(Color.FromRgb(255, 255, 255));
                 BtnTheme.Content = "Thème : Clair";
             }
 
@@ -55,7 +59,7 @@ namespace newPizza1
             //rien qui marche
             if (rep == -1)
             {
-                message.Text = "Login ou mot de pass n'est pas trouver";
+                message.Text = "Identifiant ou mot de passe incorrect !";
                 message.Visibility = Visibility.Visible;
                 this.Show();
             }
@@ -69,7 +73,7 @@ namespace newPizza1
             //admin mot pass faut
             if (rep == 2)
             {
-                message.Text = "Login ou mot de pass n'est pas incorrecte";
+                message.Text = "Identifiant ou mot de passe incorrect !";
                 message.Visibility = Visibility.Visible;    
                 this.Show();
             }
@@ -83,7 +87,7 @@ namespace newPizza1
             //clien mot de pass faut
             if (rep == 4)
             {
-                message.Text = "Login ou mot de pass n'est pas incorrecte";
+                message.Text = "Identifiant ou mot de passe incorrect !";
                 message.Visibility = Visibility.Visible;
                 this.Show();
             }

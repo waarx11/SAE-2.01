@@ -11,6 +11,10 @@
         d:DesignHeight="1080" d:DesignWidth="1920"
         Title="pageAdministrateur" Width="1920" Height="1080">
     <DockPanel>
+        <DockPanel.Resources>
+            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
+        </DockPanel.Resources>
+        
         <Grid Background="{StaticResource couleurPrincipale}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
@@ -31,7 +35,7 @@
             <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="2" CLICKMENU="Bouton_Deconnexion"/>
         </Grid>
         <ContentControl x:Name="contControl" Grid.Column="2" Background="red" Grid.RowSpan="2">
-            <local:ucAdmninistration setNomEntre="new Pizza()"/>
+            <local:ucAdmninistration setNomEntre="new Pizza()" Background="{StaticResource couleurFond}"/>
         </ContentControl>
     </DockPanel>
 </Window>

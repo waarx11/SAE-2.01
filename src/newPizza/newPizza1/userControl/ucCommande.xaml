@@ -7,6 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="200" d:DesignWidth="1000">
     <Grid>
+        <Grid.Resources>
+            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
+        </Grid.Resources>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="4*"/>
@@ -16,11 +19,10 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <Rectangle StrokeThickness="1" Stroke="{StaticResource couleurSecondaire}" RadiusX="25" RadiusY="25" Grid.ColumnSpan="2" Grid.RowSpan="3">
-            <Rectangle.Fill>
-                <SolidColorBrush Opacity="0.9" Color="#68A7AD"/>
-            </Rectangle.Fill>
-        </Rectangle>
+        
+
+        <Border BorderThickness="1" BorderBrush="{StaticResource couleurArrierePlan}" Background="{StaticResource couleurPrincipale}" Grid.ColumnSpan="2" Grid.RowSpan="3" CornerRadius="25"/>
+
         <Image x:Name="imgPizCommande" Source="..\img\pizzas\epicees\spicy_hot_one.jpeg" Grid.Row="0" Margin="40,0,0,0" Grid.RowSpan="3" Height="120"/>
         <WrapPanel Margin="0,0,200,0" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock FontSize="20" Text="Voici les ingrédients de la pizza "/>

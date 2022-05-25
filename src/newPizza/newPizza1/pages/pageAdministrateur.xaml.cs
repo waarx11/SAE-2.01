@@ -38,5 +38,10 @@ namespace newPizza1
         {
             contControl.Content = new ucTouteLesCommande();
         }
+
+        private void ucAdmninistration_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

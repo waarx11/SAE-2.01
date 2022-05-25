@@ -7,6 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="500" d:DesignWidth="500">
 
+    <UserControl.Resources>
+        <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
+    </UserControl.Resources>
+
     <Border BorderThickness="5" BorderBrush="{StaticResource couleurSecondaire}" CornerRadius="20" Background="{StaticResource couleurPrincipale}" Margin="50">
         <Grid>
             <Grid.RowDefinitions>
