@@ -43,7 +43,7 @@
                 <ImageBrush ImageSource="..\img\autre\fondCatalogue2.jpg" Stretch="Fill"/>
             </DockPanel.Background>-->
             <ContentControl x:Name="ccCatalogue">
-                <local:ucCataloguePizzeta Background="{StaticResource couleurFond}"/>
+                <local:ucCataloguePizzeta/>
         </ContentControl>
         </DockPanel>
 
