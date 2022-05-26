@@ -20,15 +20,15 @@
                 <RowDefinition Height="70" />
                 <RowDefinition Height="90" />
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="70"/>
+                <RowDefinition Height="77"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="300"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Text="Administrateur" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-            <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1" Width="300" Grid.RowSpan="2">
+            <TextBlock Text="Administrateur" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline"/>
+            <ListBox BorderThickness="0" Grid.Row="1" Width="300" Grid.RowSpan="2">
                 <local:ucMenuBouton setMessage="Restaurant" setImage="..\img\buttons\news.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
                 <local:ucMenuBouton setMessage="Commandes" setImage="..\img\buttons\spicy.png" CLICKMENU="Bouton_Commandes"/>
             </ListBox>
@@ -37,7 +37,7 @@
 
 
             <ContentControl x:Name="contControl1" Grid.Column="1" Grid.RowSpan="2">
-                <local:ucTopAdministrateur setInfo="Informations de l'entreprise : " TextNomEnt="{Binding nomPizzeria}"/>
+                <local:ucTopAdministrateur setInfo="Informations de mon entreprise : " TextNomEnt="{Binding NomPizzeria}"/>
             </ContentControl>
             <ContentControl x:Name="contControl" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2">
                 <local:ucAdmninistration TextName="{Binding Nom}" TextEMail="{Binding Email}" TextAdresse="{Binding Adresse}" TextCodeP="{Binding CodePostal}" TextPrenom="{Binding Prénom}" TextTelephone="{Binding Téléphone}" TextVille="{Binding Ville}"/>

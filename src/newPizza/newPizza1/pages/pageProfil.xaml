@@ -10,195 +10,40 @@
         mc:Ignorable="d"
         d:DesignHeight="1080" d:DesignWidth="1920"
         Title="pageProfil" Width="1920" Height="1080">
-    <Grid>
-        <Grid.Resources>
+    <DockPanel  Background="{StaticResource couleurFond}">
+        <DockPanel.Resources>
             <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
-        </Grid.Resources>
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="300"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
+        </DockPanel.Resources>
 
         <Grid Background="{StaticResource couleurPrincipale}">
             <Grid.RowDefinitions>
-                <RowDefinition Height="140" />
+                <RowDefinition Height="70" />
+                <RowDefinition Height="90" />
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="160"/>
             </Grid.RowDefinitions>
-
-
-            <TextBlock Text="MON COMPTE" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline"/>
-
-            <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Image Source="..\img\buttons\quitter.png"/>
-                <TextBlock Text="PSEUDO" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,20,0,0"/>
-            </StackPanel>
-
-            <StackPanel Grid.Row="2">
-                <local:ucMenuBouton CLICKMENU="RetourWindow" setMessage="Retour" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center" BorderThickness="0,2,0,0" BorderBrush="Black"/>
-                <local:ucMenuBouton CLICKMENU="DecoWindow" setMessage="Déconnexion" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center"/>
-            </StackPanel>
-        </Grid>
-
-        <Grid Background="{StaticResource couleurFond}" Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="140"/>
-                <RowDefinition Height="200"/>
-                <RowDefinition Height="10*"/>
-                <RowDefinition Height="10*"/>
-                <RowDefinition Height="10*"/>
-                <RowDefinition Height="7*"/>
-            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="300"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            
-            <Border Height="80" Margin="50,0,50,0" BorderBrush="Black" BorderThickness="0,0,0,1" Grid.Row="0" Grid.ColumnSpan="2">
-                <TextBlock Text="Mes informations: " FontSize="50"/>
-            </Border>
-            
 
-            <Border Grid.Column="0" Grid.Row="1" Style="{StaticResource BorderProfil}">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Text="Nom:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <TextBlock x:Name="nom" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idNom" materialDesign:HintAssist.Hint="Nouveau nom" Cursor="IBeam"/>
-                    </StackPanel>
-                </Grid>
-            </Border>
-
-            <Border Grid.Column="0" Grid.Row="2" Style="{StaticResource BorderProfil}">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Text="E-mail:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <TextBlock x:Name="email" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idEmail" materialDesign:HintAssist.Hint="Nouvelle adresse mail" Cursor="IBeam"/>
-                    </StackPanel>
-                </Grid>
-            </Border>
-
-            <Border Grid.Column="0" Grid.Row="3" Style="{StaticResource BorderProfil}">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Text="Adresse:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <TextBlock x:Name="adresse" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idAdresse" materialDesign:HintAssist.Hint="Nouvelle adresse" Cursor="IBeam"/>
-                    </StackPanel>
-                </Grid>
-            </Border>
+            <TextBlock Text="Mon compte" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline"/>
+            <ListBox Grid.Row="2" Width="300" Grid.RowSpan="2" VerticalAlignment="Center">
+                <Image Source="..\img\buttons\quitter.png"/>
+            </ListBox>
+            <StackPanel Grid.Row="3">
+                <local:ucMenuBouton CLICKMENU="RetourWindow" setMessage="Retour" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center" BorderThickness="0,2,0,0" BorderBrush="Black"/>
+                <local:ucMenuBouton CLICKMENU="DecoWindow" setMessage="Déconnexion" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center"/>
+            </StackPanel>
 
 
-            <Border Grid.Column="0" Grid.Row="4" Style="{StaticResource BorderProfil}">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Text="Code Postal:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <TextBlock x:Name="postale" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="114,0,114,20"/>
-                    <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idPostal" materialDesign:HintAssist.Hint="Nouveau code postal" Cursor="IBeam"/>
-                    </StackPanel>
-                </Grid>
-            </Border>
-
-            <Border Grid.Column="1" Grid.Row="1" Style="{StaticResource BorderProfil}">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Text="Prenom:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <TextBlock x:Name="prenom" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idPrenom" materialDesign:HintAssist.Hint="Nouveau prénom" Cursor="IBeam"/>
-                    </StackPanel>
-                </Grid>
-            </Border>
-
-
-            <Border Grid.Column="1" Grid.Row="2" Style="{StaticResource BorderProfil}">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Text="Téléphone:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <TextBlock x:Name="tel" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idTel" materialDesign:HintAssist.Hint="Nouveau numéro de téléphone" Cursor="IBeam"/>
-                    </StackPanel>
-                </Grid>
-            </Border>
-            
-
-
-            <Border Grid.Column="1" Grid.Row="3" Style="{StaticResource BorderProfil}">
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Text="Ville:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <TextBlock x:Name="ville" Text="XXXXXXXX" Grid.Row="0" Grid.Column="1" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                    <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idVille" materialDesign:HintAssist.Hint="Nouvelle ville" Cursor="IBeam"/>
-                    </StackPanel>
-                </Grid>
-            </Border>
-
-            <Button Grid.Row="6" Grid.Column="2" Width="300" Height="80" Cursor="Hand" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" HorizontalAlignment="Right" Margin="0,0,30,0">
-                <WrapPanel>
-                    <Image Margin="0,0,10,0" Source="..\img\buttons\sauvegarder.png"/>
-                    <TextBlock Text="Enregistrer les modifications" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"/>
-                </WrapPanel>
-            </Button>
-            
+            <ContentControl x:Name="contControl1" Grid.Column="1" Grid.RowSpan="2">
+                <local:ucTopAdministrateur setInfo="Informations personnel de : " TextNomEnt="{Binding Pseudo}"/>
+            </ContentControl>
+            <ContentControl x:Name="contControl" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2">
+                <local:ucAdmninistration TextName="{Binding Nom}" TextEMail="{Binding Email}" TextAdresse="{Binding Adresse}" TextCodeP="{Binding CodePostal}" TextPrenom="{Binding Prénom}" TextTelephone="{Binding Téléphone}" TextVille="{Binding Ville}"/>
+            </ContentControl>
         </Grid>
-
-    </Grid>
+    </DockPanel>
 </Window>
