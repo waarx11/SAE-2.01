@@ -94,16 +94,40 @@ namespace Modele
            
         }
 
-        public void ajouterCommandeAuPanier(Commande c)
+        public void ajouterPizzaCommande(Pizza p, Commande c)
         {
-            foreach(Pizza p in c.ListPizza)
+            if (p.Quantité <= 0)
             {
-                if(p.Quantité <= 0)
+                c.ListPizza.Remove(p);
+            }
+            else
+            {
+                if (c.ListPizza.Contains(p))
+                {
+                    foreach (Pizza pizz in c.ListPizza)
+                    {
+                        if (p == pizz)
+                        {
+                            p.modifQte(pizz.Quantité - p.Quantité);
+                        }
+                        else
+                        {
+                            c.ListPizza.Add(p);
+                        }
+                    }
+                }
+            }
+        }
+
+        public void supprimerPizzaCommande(Pizza p, Commande c)
+        {
+            foreach(Pizza pizz in c.ListPizza)
+            {
+                if( p==pizz)
                 {
                     c.ListPizza.Remove(p);
                 }
             }
-            ListCommandeClient.Add(c);
         }
 
     }
