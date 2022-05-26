@@ -32,5 +32,16 @@ namespace newPizza1
                 Title.Text = value;
             }
         }
+
+        public void MonPanier(object sender, RoutedEventArgs e)
+        {
+            var monPanierWindow = new pageMonPanier();
+            monPanierWindow.ShowDialog();
+        }
+        public void MonCompte(object sender, RoutedEventArgs e)
+        {
+            var pageMonCompteWindow = new pageProfil();
+            pageMonCompteWindow.ShowDialog();
+        }
     }
 }

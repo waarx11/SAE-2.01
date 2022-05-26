@@ -5,34 +5,26 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:newPizza1"
              mc:Ignorable="d" 
-              d:DesignHeight="450" d:DesignWidth="800">
-    <DockPanel>
-        <!--<DockPanel DockPanel.Dock="Top" Height="70">
+             d:DesignHeight="450" d:DesignWidth="800">
+    <DockPanel Background="{StaticResource couleurFond}">
+        <DockPanel DockPanel.Dock="Top" Height="70">
             <local:ucTopBar setTitle="Epicées"/>
         </DockPanel>
 
-        <ScrollViewer Background="{StaticResource couleurFond}">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="Chicken Barbecue" setImage="../img/pizzas/epicees/chicken_barbecue.jpeg"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="0" setNomPizza="Orientale" setImage="../img/pizzas/epicees/orientale.jpeg"/>
-                <local:ucPizzaBox Grid.Row="0" Grid.Column="1" setNomPizza="Provencale" setImage="..\img\pizzas\epicees\provencale.jpeg"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="1" setNomPizza="Samourai" setImage="..\img\pizzas\epicees\samourai.jpeg"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="2" setNomPizza="La piquante" setImage="..\img\pizzas\epicees\spicy_hot_one.jpeg"/>
-                <local:ucPizzaBox Grid.Row="0" Grid.Column="2" setNomPizza="Supreme" setImage="..\img\pizzas\epicees\supreme.jpeg"/>
-            </Grid>
-        </ScrollViewer>-->
+        <ListBox  HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding CatalogueEpice}" >
+            <ListBox.ItemsPanel >
+                <ItemsPanelTemplate>
+                    <WrapPanel  Margin="5" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate >
+                <DataTemplate >
+                    <StackPanel>
+                        <local:ucPizzaBox Texte="{Binding Nom}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
 
     </DockPanel>
 </UserControl>

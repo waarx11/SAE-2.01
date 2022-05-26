@@ -36,6 +36,9 @@ namespace Modele
         public string Adresse { get => adresse; private set => adresse = value; }
         private string adresse;
 
+        /// <summary>
+        /// Mot de passe de l'utilisateur pour ce connecter a l'application
+        /// </summary>
         public string Mdp { get => mdp; private set => mdp = value; }
         private string mdp;
         /// <summary>
@@ -134,22 +137,34 @@ namespace Modele
             }
 
         }
-        
-        public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
-        {
-            Nom = nom;
-            Prénom = prénom;
-            Email = email;
-            Téléphone = téléphone;
-            Adresse = adresse;
-            Ville = ville;
-            CodePostal = codePostal;
-        }
-
-        public void ModifierMdp(string mdp)
-        {
-            Mdp = mdp;
-        }
+    /// <summary>
+    /// Permet de changer divers information d'un utilisateur
+    /// </summary>
+    /// <param name="nom"></param>
+    /// <param name="prénom"></param>
+    /// <param name="email"></param>
+    /// <param name="téléphone"></param>
+    /// <param name="adresse"></param>
+    /// <param name="ville"></param>
+    /// <param name="codePostal"></param>
+    public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
+    {
+        Nom = nom;
+        Prénom = prénom;
+        Email = email;
+        Téléphone = téléphone;
+        Adresse = adresse;
+        Ville = ville;
+        CodePostal = codePostal;
+    }
+    /// <summary>
+    /// Permet de changer le mot de passe d'un utilisateur
+    /// </summary>
+    /// <param name="mdp"></param>
+    public void ModifierMdp(string mdp)
+    {
+        Mdp = mdp;
+    }
 
     /// <summary>
     /// 
@@ -194,7 +209,10 @@ namespace Modele
             if (obj.GetType() != GetType()) return false;
             return Equals(obj as Utilisateur);
         }
-
+        /// <summary>
+        /// Fonction de hashage
+        /// </summary>
+        /// <returns></returns>
         public override int GetHashCode()
         {
             if (!string.IsNullOrWhiteSpace(Nom)) return Nom.GetHashCode();

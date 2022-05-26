@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="userControl\ucTopAdministrateur.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="userControl\ucAdmninistration.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -61,6 +64,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="pages\pageProfil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucTopAdministrateur.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="userControl\ucAdmninistration.xaml">

@@ -63,28 +63,28 @@ namespace newPizza1
                 message.Visibility = Visibility.Visible;
                 this.Show();
             }
-            //admin a connecter
-            if(rep == 1)
+            //admin peut ce connecter
+            if (rep == 1)
             {
                 pageAdministrateur p =new pageAdministrateur();
                 this.Close();
                 p.Show();
             }
-            //admin mot pass faut
+            //admin mot de passe faux
             if (rep == 2)
             {
                 message.Text = "Identifiant ou mot de passe incorrect !";
                 message.Visibility = Visibility.Visible;    
                 this.Show();
             }
-            //clien a co,nnecter
+            //client peut ce connecter
             if (rep == 3)
             {
                 pageCatalogue pClinet =new pageCatalogue();
                 this.Close();
                 pClinet.Show();
             }
-            //clien mot de pass faut
+            //client mot de passe faux
             if (rep == 4)
             {
                 message.Text = "Identifiant ou mot de passe incorrect !";

@@ -6,34 +6,25 @@
              xmlns:local="clr-namespace:newPizza1"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <DockPanel>
-        <!--<DockPanel DockPanel.Dock="Top" Height="70">
+    <DockPanel Background="{StaticResource couleurFond}">
+        <DockPanel DockPanel.Dock="Top" Height="70">
             <local:ucTopBar setTitle="Pizzetas"/>
         </DockPanel>
 
-        <ScrollViewer Background="{StaticResource couleurFond}">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="5 Fromages" setImage="..\img\pizzas\pizzeta\pizzeta_5_fromaggi.png"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="0" setNomPizza="Carbonara" setImage="..\img\pizzas\pizzeta\pizzeta_carbonara.png"/>
-                <local:ucPizzaBox Grid.Row="3" Grid.Column="0" setNomPizza="Chevre Miel" setImage="..\img\pizzas\pizzeta\pizzeta_chevre_miel.png"/>
-                <local:ucPizzaBox Grid.Row="0" Grid.Column="1" setNomPizza="Reine" setImage="..\img\pizzas\pizzeta\pizzeta_regina.png"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="1" setNomPizza="Saumon" setImage="..\img\pizzas\pizzeta\pizzeta_salmone.png"/>
-                <local:ucPizzaBox Grid.Row="1" Grid.Column="2" setNomPizza="Specialité" setImage="..\img\pizzas\pizzeta\pizzeta_speciale_pizzaiolo.png"/>
-                <local:ucPizzaBox Grid.Row="0" Grid.Column="2" setNomPizza="Vesuvio" setImage="..\img\pizzas\pizzeta\pizzeta_vesuvio.png"/>
-            </Grid>
-        </ScrollViewer>-->
+        <ListBox  HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding CataloguePizzeta}" >
+            <ListBox.ItemsPanel >
+                <ItemsPanelTemplate>
+                    <WrapPanel  Margin="5" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate >
+                <DataTemplate>
+                    <StackPanel>
+                        <local:ucPizzaBox Texte="{Binding Nom}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
 
     </DockPanel>
 </UserControl>

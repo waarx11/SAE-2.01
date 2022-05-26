@@ -25,68 +25,80 @@ namespace newPizza1
             InitializeComponent();
         }
 
-        public string setNomEntre
+        public string TextName
         {
-            set
-            {
-                nomEntreprise.Text = value;
-            }
+            get { return (string)GetValue(TextNameProperty); }
+            set { SetValue(TextNameProperty, value); }
         }
 
-        public string setNom
+        // Using a DependencyProperty as the backing store for TextName.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty TextNameProperty =
+            DependencyProperty.Register("TextName", typeof(string), typeof(ucAdmninistration), new PropertyMetadata("A renseigner"));
+
+
+        public string TextEMail
         {
-            set
-            {
-                nomGerant.Text = value;
-            }
+            get { return (string)GetValue(TextEMailProperty); }
+            set { SetValue(TextEMailProperty, value); }
         }
 
-        public string setEmail
+        // Using a DependencyProperty as the backing store for TextEMail.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty TextEMailProperty =
+            DependencyProperty.Register("TextEMail", typeof(string), typeof(ucAdmninistration), new PropertyMetadata("A renseigner"));
+
+
+        public string TextAdresse
         {
-            set
-            {
-                emailEntreprise.Text = value;
-            }
+            get { return (string)GetValue(TextAdresseProperty); }
+            set { SetValue(TextAdresseProperty, value); }
         }
 
-        public string setAdresse
+        // Using a DependencyProperty as the backing store for TextAdresse.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty TextAdresseProperty =
+            DependencyProperty.Register("TextAdresse", typeof(string), typeof(ucAdmninistration), new PropertyMetadata("A renseigner"));
+
+
+        public string TextCodeP
         {
-            set
-            {
-                adresseEntreprise.Text = value;
-            }
+            get { return (string)GetValue(TextCodePProperty); }
+            set { SetValue(TextCodePProperty, value); }
         }
 
-        public string setCodePostal
+        // Using a DependencyProperty as the backing store for TextCodeP.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty TextCodePProperty =
+            DependencyProperty.Register("TextCodeP", typeof(string), typeof(ucAdmninistration), new PropertyMetadata("A renseigner"));
+
+
+        public string TextPrenom
         {
-            set
-            {
-                postalEntreprise.Text = value;
-            }
+            get { return (string)GetValue(TextPrenomProperty); }
+            set { SetValue(TextPrenomProperty, value); }
         }
 
-        public string setPrenom
+        // Using a DependencyProperty as the backing store for TextPrenom.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty TextPrenomProperty =
+            DependencyProperty.Register("TextPrenom", typeof(string), typeof(ucAdmninistration), new PropertyMetadata("A renseigner"));
+
+
+        public string TextTelephone
         {
-            set
-            {
-                prenomGerant.Text = value;
-            }
+            get { return (string)GetValue(TextTelephoneProperty); }
+            set { SetValue(TextTelephoneProperty, value); }
         }
 
-        public string setTelephone
+        // Using a DependencyProperty as the backing store for TextTelephone.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty TextTelephoneProperty =
+            DependencyProperty.Register("TextTelephone", typeof(string), typeof(ucAdmninistration), new PropertyMetadata("A renseigner"));
+
+
+        public string TextVille
         {
-            set
-            {
-                entrepriseTel.Text = value;
-            }
+            get { return (string)GetValue(TextVilleProperty); }
+            set { SetValue(TextVilleProperty, value); }
         }
 
-        public string setVille
-        {
-            set
-            {
-                entrepriseVille.Text = value;
-            }
-        }
+        // Using a DependencyProperty as the backing store for TextVille.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty TextVilleProperty =
+            DependencyProperty.Register("TextVille", typeof(string), typeof(ucAdmninistration), new PropertyMetadata("A renseigner"));
     }
 }

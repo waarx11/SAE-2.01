@@ -10,25 +10,20 @@
         <DockPanel DockPanel.Dock="Top" Height="70">
             <local:ucTopBar setTitle="Vegetariennes"/>
         </DockPanel>
-
         <ListBox  HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding CatalogueVegetarien}" >
             <ListBox.ItemsPanel >
                 <ItemsPanelTemplate>
                     <WrapPanel  Margin="5" />
                 </ItemsPanelTemplate>
             </ListBox.ItemsPanel>
-
             <ListBox.ItemTemplate >
                 <DataTemplate >
                     <StackPanel>
                         <!--<TextBlock Text="{Binding Nom}"/>-->
                         <local:ucPizzaBox Texte="{Binding Nom}"/>
                     </StackPanel>
-                    
                 </DataTemplate>
-
             </ListBox.ItemTemplate>
-
         </ListBox>
     </DockPanel>
 </UserControl>

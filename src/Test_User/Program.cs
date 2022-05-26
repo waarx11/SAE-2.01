@@ -18,11 +18,6 @@ namespace Test_User
             Console.WriteLine(A1);
             A1.EnregistrerModif("Bonneau", "Baptiste", "Baptiste@non.com", "09.25.25.73.19", "27 rue non", "Clermont-Ferrand", "63000", "newPizza1()");
             Console.WriteLine(A1); 
-
-            /*listCommande.Add(pizza);
-
-            listCommande.Remove(pizza);*/
-
         }
     }
 }

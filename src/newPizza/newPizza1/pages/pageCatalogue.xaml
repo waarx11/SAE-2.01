@@ -26,9 +26,9 @@
 
             <TextBlock Text="NOS PIZZAS" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
             <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1">
-                <!--<local:ucMenuBouton setMessage="Pizzetas" setImage="..\img\buttons\pizzeta.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="MenuBouton_Pizzetas"/>
+                <local:ucMenuBouton setMessage="Pizzetas" setImage="..\img\buttons\pizzeta.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="MenuBouton_Pizzetas"/>
                 <local:ucMenuBouton setMessage="Épicées" setImage="..\img\buttons\spicy.png" CLICKMENU="MenuBouton_Epicees"/>
-                <local:ucMenuBouton setMessage="Carnivores" setImage="..\img\buttons\viande.png" CLICKMENU="MenuBouton_Carnivores"/>-->
+                <local:ucMenuBouton setMessage="Carnivores" setImage="..\img\buttons\viande.png" CLICKMENU="MenuBouton_Carnivores"/>
                 <local:ucMenuBouton setMessage="Végétariennes" setImage="..\img\buttons\vegan.png" CLICKMENU="MenuBouton_Vegetariennes"/>
             </ListBox>
             <DockPanel Grid.Row="2">
@@ -36,12 +36,7 @@
             </DockPanel>
         </Grid>
     
-        
-
         <DockPanel>
-            <!--<DockPanel.Background>
-                <ImageBrush ImageSource="..\img\autre\fondCatalogue2.jpg" Stretch="Fill"/>
-            </DockPanel.Background>-->
             <ContentControl x:Name="ccCatalogue">
                 <local:ucCataloguePizzeta/>
             </ContentControl>

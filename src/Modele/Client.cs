@@ -4,6 +4,9 @@ using System.Text;
 
 namespace Modele
 {
+    /// <summary>
+    /// Cette class permet de crée un client et elle hérite de la class utilisateur
+    /// </summary>
     public class Client : Utilisateur
     {
         /// <summary>
@@ -51,12 +54,25 @@ namespace Modele
             }
         }
 
+        /// <summary>
+        /// Permet de mettre a jour les informations d'un client
+        /// </summary>
+        /// <param name="nom"></param>
+        /// <param name="prénom"></param>
+        /// <param name="email"></param>
+        /// <param name="téléphone"></param>
+        /// <param name="adresse"></param>
+        /// <param name="ville"></param>
+        /// <param name="codePostal"></param>
+        /// <param name="pseudo"></param>
+        /// <param name="photo"></param>
         public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string pseudo, string photo)
         {
             EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
             Pseudo = pseudo;
             Photo = photo;
         }
+
         public override string ToString()
         {
             return $"{base.ToString()} {Pseudo} {Photo}";

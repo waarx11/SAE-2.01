@@ -2,6 +2,9 @@ using System;
 
 namespace Modele
 {
+    /// <summary>
+    /// Cette fonction contient tout les ingredient possible d'une pizza
+    /// </summary>
     public enum Ingredients
     {
         BaseTomate = 0,

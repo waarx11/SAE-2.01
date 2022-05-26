@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="newPizza1.ucTopAdministrateur"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:newPizza1"
+             mc:Ignorable="d" 
+             d:DesignHeight="120" d:DesignWidth="1200"
+             x:Name="thisEntre">
+    
+    <DockPanel Background="{StaticResource couleurFond}">
+        <Border Height="120" Width="1300" BorderBrush="Black" BorderThickness="0,0,0,1">
+            <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock x:Name="pourQui" Text="XXXXXX" FontSize="50"/>
+                <TextBlock Text="{Binding TextNomEnt, ElementName=thisEntre}" FontSize="50"/>
+            </WrapPanel>
+        </Border>
+    </DockPanel>
+</UserControl>

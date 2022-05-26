@@ -10,32 +10,38 @@
         mc:Ignorable="d"
         d:DesignHeight="1080" d:DesignWidth="1920"
         Title="pageAdministrateur" Width="1920" Height="1080">
-    <DockPanel>
+    <DockPanel  Background="{StaticResource couleurFond}">
         <DockPanel.Resources>
             <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
         </DockPanel.Resources>
-        
+
         <Grid Background="{StaticResource couleurPrincipale}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
+                <RowDefinition Height="90" />
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="70"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2*" />
-                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-
             <TextBlock Text="Administrateur" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-            <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1" Width="300">
+            <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1" Width="300" Grid.RowSpan="2">
                 <local:ucMenuBouton setMessage="Restaurant" setImage="..\img\buttons\news.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
                 <local:ucMenuBouton setMessage="Commandes" setImage="..\img\buttons\spicy.png" CLICKMENU="Bouton_Commandes"/>
             </ListBox>
-            <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="2" CLICKMENU="Bouton_Deconnexion"/>
+            <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="3" CLICKMENU="Bouton_Deconnexion"/>
+
+
+
+            <ContentControl x:Name="contControl1" Grid.Column="1" Grid.RowSpan="2">
+                <local:ucTopAdministrateur setInfo="Informations de l'entreprise : " TextNomEnt="{Binding nomPizzeria}"/>
+            </ContentControl>
+            <ContentControl x:Name="contControl" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2">
+                <local:ucAdmninistration TextName="{Binding Nom}" TextEMail="{Binding Email}" TextAdresse="{Binding Adresse}" TextCodeP="{Binding CodePostal}" TextPrenom="{Binding Prénom}" TextTelephone="{Binding Téléphone}" TextVille="{Binding Ville}"/>
+            </ContentControl>
         </Grid>
-        <ContentControl x:Name="contControl" Grid.Column="2" Background="red" Grid.RowSpan="2">
-            <local:ucAdmninistration setNomEntre="new Pizza()" Background="{StaticResource couleurFond}"/>
-        </ContentControl>
     </DockPanel>
 </Window>

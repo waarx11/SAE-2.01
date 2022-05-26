@@ -6,6 +6,9 @@ namespace Modele
 {
     public partial class Manager
     {
+        /// <summary>
+        /// Cette vriable permet de connaitre l'utilisateur actuelle
+        /// </summary>
         public Utilisateur UtilisateurActuel;
     }
 }

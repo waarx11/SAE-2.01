@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Modele;
 
 namespace newPizza1
 {
@@ -20,8 +21,10 @@ namespace newPizza1
     /// </summary>
     public partial class ucCataloguePizzeta : UserControl
     {
+        public Manager Mgr => (App.Current as App).LeManager;
         public ucCataloguePizzeta()
         {
+            DataContext = Mgr.Catalogues;
             InitializeComponent();
         }
     }

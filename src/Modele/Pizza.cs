@@ -112,6 +112,11 @@ namespace Modele
                     listIngredient.Add(Ingre);
             }
         }
+        /// <summary>
+        /// Cette fonction permet de modifier la quantiter de pizza voulue 
+        /// </summary>
+        /// <param name="valeur"></param>
+        /// <returns>La quantité souhaiter de cette pizza</returns>
        public int modifQte(int valeur)
        {
             int qteTmp = Quantité;
@@ -135,12 +140,20 @@ namespace Modele
             Afficher += $"{Prix} {Quantité} ";
             return Afficher;
         }
-
+        /// <summary>
+        /// Return true si deux pizza on le même nom
+        /// </summary>
+        /// <param name="other"></param>
+        /// <returns></returns>
         public bool Equals(Pizza other)
         {
             return Nom == other.Nom;
         }
-
+        /// <summary>
+        /// Cette fonction return true si obj existe dans pizza
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns>true or false</returns>
         public override bool Equals(object obj)
         {
             if (obj == null) return false;
@@ -148,7 +161,10 @@ namespace Modele
             if (obj.GetType() != GetType()) return false;
             return Equals(obj as Pizza);
         }
-
+        /// <summary>
+        /// Fonctiojn de hashage
+        /// </summary>
+        /// <returns></returns>
         public override int GetHashCode()
         {
             return Nom.GetHashCode();
