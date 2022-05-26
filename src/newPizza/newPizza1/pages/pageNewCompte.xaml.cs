@@ -29,6 +29,12 @@ namespace newPizza1
             Close();
         }
 
+        private void ButtonConnextion(object sender, RoutedEventArgs e)
+        {
+            var p = new pageIdentification();
+            Close();
+            p.Show();
+        }
 
     }
 }

@@ -104,5 +104,12 @@ namespace newPizza1
             message.Visibility = Visibility.Visible;
 
         }
+
+        private void CreateCompte(object sender, RoutedEventArgs e)
+        {
+            var p = new pageNewCompte();
+            Close();
+            p.Show();
+        }
     }
 }
