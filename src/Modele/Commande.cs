@@ -21,6 +21,9 @@ namespace Modele
         private Client clientActu;
         public Client ClientActu { get => clientActu; private set => clientActu = value; }
 
+        private Status statut;
+        public Status Statut { get => statut; private set => statut = value; }
+
         /// <summary>
         /// Le constructeur reçois un client actuelle et une liste de pizza
         /// </summary>
@@ -30,6 +33,8 @@ namespace Modele
         {
             ListPizza = new List<Pizza>();
             ClientActu = c1;
+            Statut = Status.Commencer;
+
         }
 
     }

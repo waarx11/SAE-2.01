@@ -1,16 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OATc/q9Kf7PRSrgyAZ+UsOKCgAEXcwT5u9wZWkXL0bOwuyTk8Wgle1sIJnlfTahkcYpIpJezVgVtF61bYrPjYg==",
+  "dgSpecHash": "P+vxGsawOg8n90T3xxRZDJdcaLyUpS9b5wrQDxWtG5E59/4uDeziteo2NP83Cdvwdxo9zFDboG79xb/w1+c4Fw==",
   "success": true,
-  "projectFilePath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\newPizza\\newPizza1\\newPizza1.csproj",
+  "projectFilePath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\newPizza\\newPizza1\\newPizza1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\natha\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\bapti\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
+    "C:\\Users\\bapti\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512",
+    "C:\\Users\\bapti\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512"
   ],
   "logs": []
 }

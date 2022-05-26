@@ -3,3 +3,8 @@ D:\ProjetWpfPizza\sae-2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.Gener
 D:\ProjetWpfPizza\sae-2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.AssemblyInfoInputs.cache
 D:\ProjetWpfPizza\sae-2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.AssemblyInfo.cs
 D:\ProjetWpfPizza\sae-2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.csproj.CoreCompileInputs.cache
+C:\Users\bapti\Desktop\SAE2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.csproj.AssemblyReference.cache
+C:\Users\bapti\Desktop\SAE2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bapti\Desktop\SAE2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.AssemblyInfoInputs.cache
+C:\Users\bapti\Desktop\SAE2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.AssemblyInfo.cs
+C:\Users\bapti\Desktop\SAE2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.csproj.CoreCompileInputs.cache

@@ -19,6 +19,14 @@ namespace Modele
         /// </summary>
         private string photo;
         public string Photo { get => photo; private set => photo = value; }
+
+
+        /// <summary>
+        /// Liste des commandes du client
+        /// </summary>
+        private List<Commande> listCommandeClient = new List<Commande> { };
+        public List<Commande> ListCommandeClient { get => listCommandeClient; set => listCommandeClient = value; }
+
         /// <summary>
         /// Constructeur d'un Client
         /// </summary>
@@ -77,5 +85,26 @@ namespace Modele
         {
             return $"{base.ToString()} {Pseudo} {Photo}";
         }
+
+        public void envoyerListeCommande(Administrateur admin)
+        {
+            KeyValuePair<Client, List<Commande>> paire = new KeyValuePair<Client, List<Commande>>(this, listCommandeClient) { };
+            admin.ListCommandeAdmin.Add(paire);
+            ListCommandeClient.Clear();
+           
+        }
+
+        public void ajouterCommandeAuPanier(Commande c)
+        {
+            foreach(Pizza p in c.ListPizza)
+            {
+                if(p.Quantité <= 0)
+                {
+                    c.ListPizza.Remove(p);
+                }
+            }
+            ListCommandeClient.Add(c);
+        }
+
     }
 }

@@ -8,12 +8,21 @@ namespace Modele
     /// Cette class permet de crée un administrateur et elle hérite de la class utilisateur
     /// </summary>
     public class Administrateur : Utilisateur
+
     {
         /// <summary>
         /// nom de la pizzeria 
         /// </summary>
         private string nomPizzeria;
         public string NomPizzeria { get => nomPizzeria; private set => nomPizzeria = value; }
+
+
+        /// <summary>
+        /// Liste de toutes les commandes
+        /// </summary>
+        private HashSet<KeyValuePair<Client, List<Commande>>> listCommandeAdmin = new HashSet<KeyValuePair<Client, List<Commande>>> { };
+        public HashSet<KeyValuePair<Client, List<Commande>>> ListCommandeAdmin { get => listCommandeAdmin; set => listCommandeAdmin = value; }
+
         /// <summary>
         /// Construteur de la classe Administrateur
         /// </summary>

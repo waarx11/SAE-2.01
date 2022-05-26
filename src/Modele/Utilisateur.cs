@@ -52,6 +52,8 @@ namespace Modele
         /// </summary>
         public string CodePostal { get => codePostal; private set => codePostal = value; }
         private string codePostal;
+
+
         /// <summary>
         /// Constructeur d'un utilisateur
         /// </summary>
