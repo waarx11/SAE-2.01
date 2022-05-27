@@ -6,10 +6,12 @@
              xmlns:local="clr-namespace:newPizza1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignHeight="500" d:DesignWidth="500"
-             x:Name="thisPizza">
+             x:Name="thisPizza"
+             xmlns:conv="clr-namespace:newPizza1.converters">
 
     <UserControl.Resources>
         <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
+        <conv:String2ImageConverter x:Key="string2ImageConverter"/>
     </UserControl.Resources>
 
     <Border BorderThickness="5" BorderBrush="{StaticResource couleurSecondaire}" CornerRadius="20" Background="{StaticResource couleurPrincipale}" Margin="50">
@@ -23,7 +25,7 @@
             <TextBlock Text="{Binding Texte, ElementName=thisPizza}" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Bold" Margin="10" />
             <Ellipse Grid.Row="1" Margin="10,0,10,0">
                 <Ellipse.Fill>
-                    <ImageBrush ImageSource="{Binding ImageName, ElementName=thisPizza}" />
+                    <ImageBrush Stretch="Uniform" ImageSource="{Binding ImageName, ElementName=thisPizza, Converter={StaticResource string2ImageConverter}}" />
                 </Ellipse.Fill>
             </Ellipse>
 

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "QCTdru0PD4jCAGtxdDUD3mum2Z8CmV3iwUMvporW2yn+3IN6W/0F9jouIZ4RGDeKBLC1E3ingnN5qk7CtBSpaw==",
+  "dgSpecHash": "Y8OKQHXUQlxBesLbckaXxownqZRUR52/QrEYChG15Jbw9YZPggdHpVvwHqLepPGCUrMloWbZQqMaGHlfauqRWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\newPizza\\Test_All\\Test_All.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\newPizza\\Test_All\\Test_All.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\natha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\natha\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

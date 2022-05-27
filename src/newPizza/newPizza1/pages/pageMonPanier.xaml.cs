@@ -23,5 +23,16 @@ namespace newPizza1
         {
             InitializeComponent();
         }
+
+        public void RetourWindow(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        public void DecoWindow(object sender, RoutedEventArgs e)
+        {
+            for (int intCounter = App.Current.Windows.Count - 1; intCounter >= 0; intCounter--)
+                App.Current.Windows[intCounter].Close();
+        }
     }
 }

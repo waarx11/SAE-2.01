@@ -62,6 +62,10 @@ namespace Modele
             }
         }
 
+        public Client(string email, string pseudo, string mdp)
+            : this("Aucun", "Aucun", email, "Aucun", "Aucun", "Aucun", "Aucun", mdp, pseudo, "ImageDefault")            
+        { }
+
         /// <summary>
         /// Permet de mettre a jour les informations d'un client
         /// </summary>
@@ -91,7 +95,6 @@ namespace Modele
             KeyValuePair<Client, List<Commande>> paire = new KeyValuePair<Client, List<Commande>>(this, listCommandeClient) { };
             admin.ListCommandeAdmin.Add(paire);
             ListCommandeClient.Clear();
-           
         }
 
         public void ajouterPizzaCommande(Pizza p, Commande c)

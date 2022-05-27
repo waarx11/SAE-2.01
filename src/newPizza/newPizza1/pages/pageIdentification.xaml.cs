@@ -101,7 +101,7 @@ namespace newPizza1
 
         private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
-            message.Visibility = Visibility.Visible;
+            message.Visibility = Visibility.Hidden;
 
         }
 

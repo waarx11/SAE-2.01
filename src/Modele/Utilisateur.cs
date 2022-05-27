@@ -137,7 +137,6 @@ namespace Modele
             {
                 Mdp = mdp;
             }
-
         }
     /// <summary>
     /// Permet de changer divers information d'un utilisateur

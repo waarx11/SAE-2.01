@@ -5933,19 +5933,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bapti\\.nuget\\packages\\": {}
+    "C:\\Users\\natha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\TestsUnitaires\\TestsUnitaires.csproj",
+      "projectUniqueName": "D:\\ProjetWpfPizza\\sae-2.01\\src\\TestsUnitaires\\TestsUnitaires.csproj",
       "projectName": "TestsUnitaires",
-      "projectPath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\TestsUnitaires\\TestsUnitaires.csproj",
-      "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\TestsUnitaires\\obj\\",
+      "projectPath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\TestsUnitaires\\TestsUnitaires.csproj",
+      "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+      "outputPath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\TestsUnitaires\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5959,8 +5959,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\Modele\\Modele.csproj": {
-              "projectPath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\Modele\\Modele.csproj"
+            "D:\\ProjetWpfPizza\\sae-2.01\\src\\Modele\\Modele.csproj": {
+              "projectPath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\Modele\\Modele.csproj"
             }
           }
         }
@@ -6006,12 +6006,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

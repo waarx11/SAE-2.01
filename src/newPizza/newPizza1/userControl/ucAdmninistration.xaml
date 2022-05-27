@@ -155,7 +155,7 @@
                 </Grid>
             </Border>
 
-        <Button Grid.Row="4" Grid.Column="2" Width="300" Height="80" Cursor="Hand" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" HorizontalAlignment="Right" Margin="0,0,30,0">
+        <Button Click="Button_Click" Grid.Row="4" Grid.Column="2" Width="300" Height="80" Cursor="Hand" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" HorizontalAlignment="Right" Margin="0,0,30,0">
             <WrapPanel>
                 <Image Margin="0,0,10,0" Source="..\img\buttons\sauvegarder.png"/>
                 <TextBlock Text="Enregistrer les modifications" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"/>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\newPizza\\Test_All\\Test_All.csproj": {}
+    "D:\\ProjetWpfPizza\\sae-2.01\\src\\newPizza\\Test_All\\Test_All.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\Modele\\Modele.csproj": {
+    "D:\\ProjetWpfPizza\\sae-2.01\\src\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\Modele\\Modele.csproj",
+        "projectUniqueName": "D:\\ProjetWpfPizza\\sae-2.01\\src\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\Modele\\Modele.csproj",
-        "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\Modele\\obj\\",
+        "projectPath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\Modele\\Modele.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\Modele\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,40 +49,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\newPizza\\Test_All\\Test_All.csproj": {
+    "D:\\ProjetWpfPizza\\sae-2.01\\src\\newPizza\\Test_All\\Test_All.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\newPizza\\Test_All\\Test_All.csproj",
+        "projectUniqueName": "D:\\ProjetWpfPizza\\sae-2.01\\src\\newPizza\\Test_All\\Test_All.csproj",
         "projectName": "Test_All",
-        "projectPath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\newPizza\\Test_All\\Test_All.csproj",
-        "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\newPizza\\Test_All\\obj\\",
+        "projectPath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\newPizza\\Test_All\\Test_All.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\newPizza\\Test_All\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\bapti\\Desktop\\SAE2.01\\src\\Modele\\Modele.csproj"
+              "D:\\ProjetWpfPizza\\sae-2.01\\src\\Modele\\Modele.csproj": {
+                "projectPath": "D:\\ProjetWpfPizza\\sae-2.01\\src\\Modele\\Modele.csproj"
               }
             }
           }
@@ -121,12 +107,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

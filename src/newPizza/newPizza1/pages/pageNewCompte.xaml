@@ -27,7 +27,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="45"/>
                 <RowDefinition Height="0.5*"/>
-                <RowDefinition Height="0.8*"/>
+                <RowDefinition Height="0.9*"/>
             </Grid.RowDefinitions>
 
             <Button Content="X" Width="41" Height="41" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,2,0" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" Click="CloseMenu"/>
@@ -38,6 +38,7 @@
             </WrapPanel>
 
             <StackPanel HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center">
+                <TextBlock x:Name="message" Visibility="Hidden" Foreground="Red"></TextBlock>
                 <TextBlock FontWeight="Bold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center">INSCRIPTION</TextBlock>
                 <TextBox x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="Entrez votre identifiant" Cursor="IBeam"/>
                 <TextBox Margin="0,20,0,0" x:Name="idMail" materialDesign:HintAssist.Hint="E-Mail" materialDesign:HintAssist.HelperText="Entrez votre adresse email" Cursor="IBeam"/>
@@ -48,7 +49,7 @@
                     materialDesign:ButtonProgressAssist.Value="-1"
                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="false"
                     materialDesign:ButtonProgressAssist.IsIndeterminate="false"
-                    Cursor="Hand"/>
+                    Cursor="Hand" Click="ButtonInscription"/>
                 <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="Regular" Margin="0,5,0,0">
                 <Span xml:space="preserve"><Run>Déjà inscrit ? </Run><Hyperlink NavigateUri="pageIdentification" Click="ButtonConnextion">Se connecter</Hyperlink></Span>
                 </TextBlock>

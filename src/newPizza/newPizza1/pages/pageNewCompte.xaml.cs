@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Modele;
 
 namespace newPizza1
 {
@@ -19,6 +20,7 @@ namespace newPizza1
     /// </summary>
     public partial class pageNewCompte : Window
     {
+        public Manager Mgr => (App.Current as App).LeManager;
         public pageNewCompte()
         {
             InitializeComponent();
@@ -36,5 +38,56 @@ namespace newPizza1
             p.Show();
         }
 
+        private void ButtonInscription(object sender, RoutedEventArgs e)
+        {
+            int rep = Mgr.creationUtilisateur(idTextBox.Text, idMail.Text, PasswordBox.Password);
+            //rien qui marche
+            if (rep == 0)
+            {
+                message.Text = "Renplicer ces 3 lignes";
+                message.Visibility = Visibility.Visible;
+                this.Show();
+            }
+            //rien qui marche
+            if (rep == -1)
+            {
+                message.Text = "Pseudo et email deja existant";
+                message.Visibility = Visibility.Visible;
+                this.Show();
+            }
+            //rien qui marche
+            if (rep == -2)
+            {
+                message.Text = "Pseudo deja existant";
+                message.Visibility = Visibility.Visible;
+                this.Show();
+            }
+            //rien qui marche
+            if (rep == -3)
+            {
+                message.Text = "Email deja existant uo errone";
+                message.Visibility = Visibility.Visible;
+                this.Show();
+            }
+            //rien qui marche
+            if (rep == 1)
+            {
+                var p = new pageIdentification();
+                Close();
+                p.Show();
+            }
+        }
+
+        private void idTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            message.Visibility = Visibility.Hidden;
+
+        }
+
+        private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
+        {
+            message.Visibility = Visibility.Hidden;
+
+        }
     }
 }
