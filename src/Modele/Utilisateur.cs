@@ -167,12 +167,6 @@ namespace Modele
         Mdp = mdp;
     }
 
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <returns>
-    /// return le nom, prénom, email, téléphone, adresse, ville et code postal d'un utilisateur
-    /// </returns>
     public override string ToString()
         {
             string nom = string.IsNullOrWhiteSpace(Nom) ? "" : $"{Nom}";

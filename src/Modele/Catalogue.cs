@@ -43,7 +43,7 @@ namespace Modele
         /// Affiche un catalogue précis préciser en paramètre
         /// </summary>
         /// <param name="other"></param>
-        public void afficheCatPrecis(List<Pizza> other)
+        public void afficheCatPrecis(ObservableCollection<Pizza> other)
         {
             if(Equals(other))
             {

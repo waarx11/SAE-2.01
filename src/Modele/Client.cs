@@ -24,8 +24,8 @@ namespace Modele
         /// <summary>
         /// Liste des commandes du client
         /// </summary>
-        private List<Commande> listCommandeClient = new List<Commande> { };
-        public List<Commande> ListCommandeClient { get => listCommandeClient; set => listCommandeClient = value; }
+        private List<Pizza> listCommandeClient;
+        public List<Pizza> ListCommandeClient { get => listCommandeClient; private set => listCommandeClient = value; }
 
         /// <summary>
         /// Constructeur d'un Client
@@ -60,6 +60,7 @@ namespace Modele
             {
                 Photo = photo;
             }
+            listCommandeClient=new List<Pizza>();
         }
 
         public Client(string email, string pseudo, string mdp)
@@ -92,45 +93,36 @@ namespace Modele
 
         public void envoyerListeCommande(Administrateur admin)
         {
-            KeyValuePair<Client, List<Commande>> paire = new KeyValuePair<Client, List<Commande>>(this, listCommandeClient) { };
-            admin.ListCommandeAdmin.Add(paire);
-            ListCommandeClient.Clear();
+            Commande commande = new Commande(this, listCommandeClient);
+            admin.ListCommandeAdmin.Add(commande);
+            listCommandeClient.Clear();
         }
 
-        public void ajouterPizzaCommande(Pizza p, Commande c)
+        public bool ajouterPizzaCommande(Pizza p)
         {
-            if (p.Quantité <= 0)
+            if(p== null)
+                return false;
+            if (!listCommandeClient.Contains(p))
             {
-                c.ListPizza.Remove(p);
+                listCommandeClient.Add(p);
+                return true;
             }
-            else
+            if (listCommandeClient.Contains(p))
             {
-                if (c.ListPizza.Contains(p))
-                {
-                    foreach (Pizza pizz in c.ListPizza)
-                    {
-                        if (p == pizz)
-                        {
-                            p.modifQte(pizz.Quantité - p.Quantité);
-                        }
-                        else
-                        {
-                            c.ListPizza.Add(p);
-                        }
-                    }
-                }
+                p.modifQte(1);
+                return true;
             }
+            return false;
         }
 
-        public void supprimerPizzaCommande(Pizza p, Commande c)
+        public bool supprimerPizzaCommande(Pizza p)
         {
-            foreach(Pizza pizz in c.ListPizza)
+            if (listCommandeClient.Contains(p))
             {
-                if( p==pizz)
-                {
-                    c.ListPizza.Remove(p);
-                }
+                listCommandeClient.Remove(p);
+                return true;
             }
+            return false;
         }
 
     }

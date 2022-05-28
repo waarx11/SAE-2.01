@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 D:\ProjetWpfPizza\sae-2.01\src\newPizza\newPizza1\App.xaml
 191054194553
 
-242094960205
+23-829304585
 2052120009001
 pages\pageAdministrateur.xaml;pages\pageCatalogue.xaml;pages\pageIdentification.xaml;pages\pageMonPanier.xaml;pages\pageNewCompte.xaml;pages\pageProfil.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCommande.xaml;userControl\ucCommandeEnCours.xaml;userControl\ucInfoPizza.xaml;userControl\ucMenuBouton.xaml;userControl\ucPizzaBox.xaml;userControl\ucTopAdministrateur.xaml;userControl\ucTopBar.xaml;userControl\ucTouteLesCommande.xaml;
 
-True
+False
 

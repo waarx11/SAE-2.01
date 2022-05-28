@@ -17,13 +17,13 @@ namespace Modele
         /// Crée une liste clients et une ReadOnlyCollection Clients qui sera égale à clients
         /// </summary>
         public ReadOnlyCollection<Client> Clients { get; private set; }
-        List<Client> clients = new List<Client>();
+        private List<Client> clients = new List<Client>();
 
         /// <summary>
         /// Crée une liste administrateurs et une ReadOnlyCollection Administrateurs qui sera égale à administrateurs
         /// </summary>
         public ReadOnlyCollection<Administrateur> Administrateurs { get; private set; }
-        List<Administrateur> administrateurs = new List<Administrateur>();
+        private List<Administrateur> administrateurs = new List<Administrateur>();
 
 
         /// <summary>

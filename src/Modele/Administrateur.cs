@@ -20,8 +20,8 @@ namespace Modele
         /// <summary>
         /// Liste de toutes les commandes
         /// </summary>
-        private HashSet<KeyValuePair<Client, List<Commande>>> listCommandeAdmin = new HashSet<KeyValuePair<Client, List<Commande>>> { };
-        public HashSet<KeyValuePair<Client, List<Commande>>> ListCommandeAdmin { get => listCommandeAdmin; set => listCommandeAdmin = value; }
+        private List<Commande> listCommandeAdmin;
+        public List<Commande> ListCommandeAdmin { get => listCommandeAdmin; private set => listCommandeAdmin = value; }
 
         /// <summary>
         /// Construteur de la classe Administrateur
@@ -38,6 +38,7 @@ namespace Modele
             :base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
         {
             NomPizzeria = nomPizzeria;
+            listCommandeAdmin = new List<Commande>();
         }
 
         /// <summary>
@@ -55,6 +56,24 @@ namespace Modele
         {
             EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
             NomPizzeria = nomPizzeria;
+        }
+
+        public void ChangerStatusCommande(Commande C1)
+        {
+            if (C1 == null)
+                return;
+            if (ListCommandeAdmin.Contains(C1))
+            {
+                ListCommandeAdmin.Remove(C1);
+                C1.changerStatus();
+                if (C1.Statut != Status.Finir)
+                    ListCommandeAdmin.Add(C1);
+            }
+        }
+
+        public void SuppCommande(Commande C1)
+        {
+            ListCommandeAdmin.Remove(C1);
         }
 
         public override string ToString()

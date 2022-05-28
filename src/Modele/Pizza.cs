@@ -46,7 +46,7 @@ namespace Modele
         public List<Ingredients> listIngredient { get => ListIngredient; set => ListIngredient = value; }
 
         /// <summary>
-        /// Constructeur
+        /// Constructeur de la classe pizza
         /// </summary>
         /// <param name="nom">Nom de cette pizza</param>
         /// <param name="description">Description de cette pizza</param>
@@ -162,7 +162,7 @@ namespace Modele
             return Equals(obj as Pizza);
         }
         /// <summary>
-        /// Fonctiojn de hashage
+        /// Fonction de hashage
         /// </summary>
         /// <returns></returns>
         public override int GetHashCode()

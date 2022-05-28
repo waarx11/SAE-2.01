@@ -17,7 +17,7 @@ namespace Modele
         /// Crée un catalogue et une variable readonly qui sera égale a ce catalogue
         /// </summary>
         public readonly Catalogue Catalogues;
-        public Catalogue C1 = new Catalogue();
+        private Catalogue C1 = new Catalogue();
 
         /// <summary>
         /// Ajouter une pizza au catalogue pizzeta vegetarien
@@ -111,7 +111,7 @@ namespace Modele
                 return false;
             }
 
-            if (C1.CatalogueVegetarien.Contains(pizz))
+            if (!C1.CatalogueVegetarien.Contains(pizz))
             {
                 return false;
             }
@@ -131,7 +131,7 @@ namespace Modele
                 return false;
             }
 
-            if (C1.CataloguePizzeta.Contains(pizz))
+            if (!C1.CataloguePizzeta.Contains(pizz))
             {
                 return false;
             }
@@ -151,7 +151,7 @@ namespace Modele
                 return false;
             }
 
-            if (C1.CatalogueCarnivore.Contains(pizz))
+            if (!C1.CatalogueCarnivore.Contains(pizz))
             {
                 return false;
             }
@@ -171,26 +171,21 @@ namespace Modele
                 return false;
             }
 
-            if (C1.CatalogueEpice.Contains(pizz))
+            if (!C1.CatalogueEpice.Contains(pizz))
             {
                 return false;
             }
             C1.CatalogueEpice.Remove(pizz);
             return true;
-        }/*
-
-        public Catalogue GetCatalogue(Catalogue c1)
-        {
-            return Catalogues.SingleOrDefault(a => a.Equals(c1));
-        }*/
+        }
 
         /// <summary>
-        /// Modifie un cataloguie
+        /// Modifie un catalogue
         /// </summary>
         /// <param name="adOld"></param>
         /// <param name="adNew"></param>
         /// <returns>Le catalogue modifier</returns>
-        public Administrateur ModifieCatalogue(Catalogue adOld, Catalogue adNew)
+        public Catalogue ModifieCatalogue(Catalogue adOld, Catalogue adNew)
         {
             return null;
         }

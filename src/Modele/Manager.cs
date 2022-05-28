@@ -15,7 +15,6 @@ namespace Modele
     /// </summary>
     public partial class Manager /*: INotifyPropertyChanged*/
     {
-
         public Manager(/*IPersistanceManager p*/)
         {
             //Persist = p;
@@ -100,7 +99,6 @@ namespace Modele
             C1.CatalogueEpice.Add(new Pizza("Samourai", "Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.\n Ingrédients: Pate moyenne, base tomate, mozzarella, merguez, filet de poulet rôti, oignons rouges, sauce samouraï ", "samourai.jpeg", new List<Ingredients> { Ingredients.PateMoyenne, Ingredients.BaseTomate, Ingredients.Mozzarella, Ingredients.Merguez, Ingredients.Poulet, Ingredients.OignonsRouges, Ingredients.SauceSamourai }, 15));
             C1.CatalogueEpice.Add(new Pizza("Spicy hot one", "Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.\n Ingrédients: Pate moyenne, base tomate, mozzarella, emietté au boeuf, piments jalapeños, oignons rouges et tomates ", "spicy_hot_one.jpeg", new List<Ingredients> { Ingredients.PateMoyenne, Ingredients.BaseTomate, Ingredients.Mozzarella, Ingredients.Boeuf, Ingredients.Piments, Ingredients.OignonsRouges, Ingredients.Tomate }, 15));
             C1.CatalogueEpice.Add(new Pizza("Supreme", "Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.\n Ingrédients: Pate moyenne, base tomate, mozzarella, emietté au boeuf, saucisse pepperoni, champignons frais, oignons rouges et poivrons", "supreme.jpeg", new List<Ingredients> { Ingredients.PateMoyenne, Ingredients.BaseTomate, Ingredients.Mozzarella, Ingredients.Pepperoni, Ingredients.Champignons, Ingredients.OignonsRouges, Ingredients.Poivrons }, 15));
-
         }
 
         /// <summary>

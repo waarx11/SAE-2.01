@@ -34,8 +34,14 @@ namespace Modele
             ListPizza = new List<Pizza>();
             ClientActu = c1;
             Statut = Status.Commencer;
-
         }
 
+        public void changerStatus()
+        {
+            if (statut == Status.Commencer)
+                statut = Status.EnCours;
+            if (statut == Status.EnCours)
+                statut = Status.Finir;
+        }
     }
 }
