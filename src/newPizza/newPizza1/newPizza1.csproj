@@ -150,4 +150,8 @@
     </Page>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="converters\" />
+  </ItemGroup>
+
 </Project>
