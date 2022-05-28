@@ -11,10 +11,6 @@
         d:DesignHeight="1080" d:DesignWidth="1920"
         Title="pageAdministrateur" Width="1920" Height="1080">
     <DockPanel  Background="{StaticResource couleurFond}">
-        <DockPanel.Resources>
-            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
-        </DockPanel.Resources>
-
         <Grid Background="{StaticResource couleurPrincipale}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
@@ -27,7 +23,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Text="Administrateur" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline"/>
+            <TextBlock Text="Administrateur" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline" Foreground="{StaticResource couleurTexte}"/>
             <ListBox BorderThickness="0" Grid.Row="1" Width="300" Grid.RowSpan="2">
                 <local:ucMenuBouton setMessage="Restaurant" setImage="..\img\buttons\news.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
                 <local:ucMenuBouton setMessage="Commandes" setImage="..\img\buttons\spicy.png" CLICKMENU="Bouton_Commandes"/>

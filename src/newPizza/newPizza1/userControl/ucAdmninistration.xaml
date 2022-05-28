@@ -8,9 +8,6 @@
              d:DesignHeight="1080" d:DesignWidth="1620"
              x:Name="thisEntreptise">
     <Grid Background="{StaticResource couleurFond}">
-        <Grid.Resources>
-            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
-        </Grid.Resources>
 
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -34,10 +31,10 @@
                     <ColumnDefinition Width="0.7*"/>
                     <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="Nom:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock Text="{Binding TextName, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="2" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Text="Nom:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource couleurTexte}"/>
+                <TextBlock Text="{Binding TextName, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="2" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{StaticResource couleurTexte}"/>
                     <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="3" VerticalAlignment="Center" Margin="168,32">
-                        <TextBox x:Name="idNomGerant" materialDesign:HintAssist.Hint="Nom du nouveau gerant" Cursor="IBeam"/>
+                    <TextBox x:Name="idNomGerant" materialDesign:HintAssist.Hint="Nom du nouveau gerant" Cursor="IBeam" Foreground="{StaticResource couleurTexte}"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -52,10 +49,10 @@
                     <ColumnDefinition Width="0.7*"/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="E-mail:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock Text="{Binding TextEMail,ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Text="E-mail:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource couleurTexte}"/>
+                <TextBlock Text="{Binding TextEMail,ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{StaticResource couleurTexte}"/>
                     <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idEmailEntreprise" materialDesign:HintAssist.Hint="Nouvelle adresse mail" Cursor="IBeam"/>
+                    <TextBox x:Name="idEmailEntreprise" materialDesign:HintAssist.Hint="Nouvelle adresse mail" Cursor="IBeam" Foreground="{StaticResource couleurTexte}"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -70,10 +67,10 @@
                     <ColumnDefinition Width="0.7*"/>
                     <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="Adresse:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock Text="{Binding TextAdresse, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="2" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Text="Adresse:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource couleurTexte}"/>
+                <TextBlock Text="{Binding TextAdresse, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="2" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{StaticResource couleurTexte}"/>
                     <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="3" VerticalAlignment="Center" Margin="168,32">
-                        <TextBox x:Name="idAdresseEntreprise" materialDesign:HintAssist.Hint="Nouvelle adresse" Cursor="IBeam"/>
+                    <TextBox x:Name="idAdresseEntreprise" materialDesign:HintAssist.Hint="Nouvelle adresse" Cursor="IBeam" Foreground="{StaticResource couleurTexte}"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -89,10 +86,10 @@
                     <ColumnDefinition Width="0.7*"/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="Code Postal:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock Text="{Binding TextCodeP, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Text="Code Postal:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource couleurTexte}"/>
+                <TextBlock Text="{Binding TextCodeP, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{StaticResource couleurTexte}"/>
                     <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idPostalEntreprise" materialDesign:HintAssist.Hint="Nouveau code postal" Cursor="IBeam"/>
+                    <TextBox x:Name="idPostalEntreprise" materialDesign:HintAssist.Hint="Nouveau code postal" Cursor="IBeam" Foreground="{StaticResource couleurTexte}"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -107,10 +104,10 @@
                     <ColumnDefinition Width="0.7*"/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="Prenom:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock Text="{Binding TextPrenom, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Text="Prenom:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource couleurTexte}"/>
+                <TextBlock Text="{Binding TextPrenom, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{StaticResource couleurTexte}"/>
                     <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idPrenomGerant" materialDesign:HintAssist.Hint="Prénom du nouveau gérant" Cursor="IBeam"/>
+                    <TextBox x:Name="idPrenomGerant" materialDesign:HintAssist.Hint="Prénom du nouveau gérant" Cursor="IBeam" Foreground="{StaticResource couleurTexte}"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -126,10 +123,10 @@
                     <ColumnDefinition Width="0.7*"/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="Téléphone:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock Text="{Binding TextTelephone, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Text="Téléphone:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource couleurTexte}"/>
+                <TextBlock Text="{Binding TextTelephone, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{StaticResource couleurTexte}"/>
                     <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idEntrepriseTel" materialDesign:HintAssist.Hint="Nouveau numéro de téléphone" Cursor="IBeam"/>
+                    <TextBox x:Name="idEntrepriseTel" materialDesign:HintAssist.Hint="Nouveau numéro de téléphone" Cursor="IBeam" Foreground="{StaticResource couleurTexte}"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -145,10 +142,10 @@
                     <ColumnDefinition Width="0.7*"/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Text="Ville:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                <TextBlock Text="{Binding TextVille, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBlock Text="Ville:" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource couleurTexte}"/>
+                <TextBlock Text="{Binding TextVille, ElementName=thisEntreptise}" Grid.Row="0" Grid.Column="1" FontSize="25" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="{StaticResource couleurTexte}"/>
                     <StackPanel HorizontalAlignment="Center" Grid.Row="1" Width="450" Grid.ColumnSpan="2" VerticalAlignment="Center">
-                        <TextBox x:Name="idEntrepriseVille" materialDesign:HintAssist.Hint="Nouvelle ville" Cursor="IBeam"/>
+                    <TextBox x:Name="idEntrepriseVille" materialDesign:HintAssist.Hint="Nouvelle ville" Cursor="IBeam" Foreground="{StaticResource couleurTexte}"/>
                     </StackPanel>
                 </Grid>
             </Border>
@@ -156,7 +153,7 @@
         <Button Click="Button_Click" Grid.Row="4" Grid.Column="2" Width="300" Height="80" Cursor="Hand" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" HorizontalAlignment="Right" Margin="0,0,30,0">
             <WrapPanel>
                 <Image Margin="0,0,10,0" Source="..\img\buttons\sauvegarder.png"/>
-                <TextBlock Text="Enregistrer les modifications" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25"/>
+                <TextBlock Text="Enregistrer les modifications" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25" Foreground="{StaticResource couleurTexte}"/>
             </WrapPanel>
         </Button>
 

@@ -22,6 +22,9 @@
     <None Remove="img\buttons\spicy.png" />
     <None Remove="img\buttons\vegan.png" />
     <None Remove="img\buttons\viande.png" />
+    <None Remove="img\default\fondCatalogue3.png" />
+    <None Remove="img\default\noImg.png" />
+    <None Remove="img\default\noPP.jpg" />
     <None Remove="img\pizzas\carnivore\3_salumi.png" />
     <None Remove="img\pizzas\carnivore\BPM.jpeg" />
     <None Remove="img\pizzas\carnivore\burrata_e_mortadella.png" />
@@ -30,6 +33,9 @@
     <None Remove="img\pizzas\carnivore\chicken_parmesan.jpeg" />
     <None Remove="img\pizzas\carnivore\del_mare.png" />
     <None Remove="img\pizzas\carnivore\diavola.png" />
+    <None Remove="img\pizzas\carnivore\kasbah.jpeg" />
+    <None Remove="img\pizzas\carnivore\montagnarde.jpeg" />
+    <None Remove="img\pizzas\carnivore\nordique.jpeg" />
     <None Remove="img\pizzas\carnivore\pepperoni_lovers.jpeg" />
     <None Remove="img\pizzas\carnivore\pomodoro_e_burrata.png" />
     <None Remove="img\pizzas\carnivore\raclette.jpeg" />
@@ -51,14 +57,6 @@
     <None Remove="img\pizzas\pizzeta\pizzeta_salmone.png" />
     <None Remove="img\pizzas\pizzeta\pizzeta_speciale_pizzaiolo.png" />
     <None Remove="img\pizzas\pizzeta\pizzeta_vesuvio.png" />
-    <None Remove="img\pizzas\vegetariennes\3_fromages.jpg" />
-    <None Remove="img\pizzas\vegetariennes\5_formaggi.png" />
-    <None Remove="img\pizzas\vegetariennes\bianca.png" />
-    <None Remove="img\pizzas\vegetariennes\carbonara.png" />
-    <None Remove="img\pizzas\vegetariennes\carciofi.png" />
-    <None Remove="img\pizzas\vegetariennes\chevre_miel_vege.jpg" />
-    <None Remove="img\pizzas\vegetariennes\margarita.png" />
-    <None Remove="img\pizzas\vegetariennes\vegetarienne.jpeg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -77,56 +75,172 @@
 
   <ItemGroup>
     <Resource Include="font\CHEESEPIZZA.ttf" />
-    <Resource Include="img\autre\fondCatalogue.png" />
-    <Resource Include="img\autre\fondCatalogue2.jpg" />
-    <Resource Include="img\autre\fondCatalogue3.png" />
-    <Resource Include="img\autre\IdPageSmile.jpg" />
-    <Resource Include="img\buttons\news.png" />
-    <Resource Include="img\buttons\panier.png" />
-    <Resource Include="img\buttons\paypal.png" />
-    <Resource Include="img\buttons\pizzeta.png" />
-    <Resource Include="img\buttons\quitter.png" />
-    <Resource Include="img\buttons\sauvegarder.png" />
-    <Resource Include="img\buttons\spicy.png" />
-    <Resource Include="img\buttons\vegan.png" />
-    <Resource Include="img\buttons\viande.png" />
-    <Resource Include="img\pizzas\carnivore\3_salumi.png" />
-    <Resource Include="img\pizzas\carnivore\BPM.jpeg" />
-    <Resource Include="img\pizzas\carnivore\burrata_e_mortadella.png" />
-    <Resource Include="img\pizzas\carnivore\campagnarde.jpeg" />
-    <Resource Include="img\pizzas\carnivore\chevre_miel.png" />
-    <Resource Include="img\pizzas\carnivore\chicken_parmesan.jpeg" />
+    <Content Include="img\autre\fondCatalogue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\autre\fondCatalogue2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\autre\fondCatalogue3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\autre\IdPageSmile.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\buttons\news.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\buttons\panier.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\buttons\paypal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\buttons\pizzeta.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\buttons\quitter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\buttons\sauvegarder.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\buttons\spicy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\buttons\vegan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\buttons\viande.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\default\fondCatalogue3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\default\noImg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\default\noPP.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\3_salumi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\BPM.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\burrata_e_mortadella.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\campagnarde.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\chevre_miel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\chicken_parmesan.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\kasbah.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\montagnarde.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\nordique.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Resource Include="img\pizzas\carnivore\del_mare.png" />
-    <Resource Include="img\pizzas\carnivore\diavola.png" />
-    <Resource Include="img\pizzas\carnivore\pepperoni_lovers.jpeg" />
-    <Resource Include="img\pizzas\carnivore\pomodoro_e_burrata.png" />
-    <Resource Include="img\pizzas\carnivore\raclette.jpeg" />
-    <Resource Include="img\pizzas\carnivore\regina.png" />
-    <Resource Include="img\pizzas\carnivore\salmone.png" />
-    <Resource Include="img\pizzas\carnivore\speciale_pizzaiolo.png" />
-    <Resource Include="img\pizzas\carnivore\texane_barbecue.jpeg" />
-    <Resource Include="img\pizzas\carnivore\vezuvio.png" />
-    <Resource Include="img\pizzas\epicees\chicken_barbecue.jpeg" />
-    <Resource Include="img\pizzas\epicees\orientale.jpeg" />
-    <Resource Include="img\pizzas\epicees\provencale.jpeg" />
-    <Resource Include="img\pizzas\epicees\samourai.jpeg" />
-    <Resource Include="img\pizzas\epicees\spicy_hot_one.jpeg" />
-    <Resource Include="img\pizzas\epicees\supreme.jpeg" />
-    <Resource Include="img\pizzas\pizzeta\pizzeta_5_fromaggi.png" />
-    <Resource Include="img\pizzas\pizzeta\pizzeta_carbonara.png" />
-    <Resource Include="img\pizzas\pizzeta\pizzeta_chevre_miel.png" />
-    <Resource Include="img\pizzas\pizzeta\pizzeta_regina.png" />
-    <Resource Include="img\pizzas\pizzeta\pizzeta_salmone.png" />
-    <Resource Include="img\pizzas\pizzeta\pizzeta_speciale_pizzaiolo.png" />
-    <Resource Include="img\pizzas\pizzeta\pizzeta_vesuvio.png" />
-    <Resource Include="img\pizzas\vegetariennes\3_fromages.jpg" />
-    <Resource Include="img\pizzas\vegetariennes\5_formaggi.png" />
-    <Resource Include="img\pizzas\vegetariennes\bianca.png" />
-    <Resource Include="img\pizzas\vegetariennes\carbonara.png" />
-    <Resource Include="img\pizzas\vegetariennes\carciofi.png" />
-    <Resource Include="img\pizzas\vegetariennes\chevre_miel_vege.jpg" />
-    <Resource Include="img\pizzas\vegetariennes\margarita.png" />
-    <Resource Include="img\pizzas\vegetariennes\vegetarienne.jpeg" />
+    <Content Include="img\pizzas\carnivore\diavola.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\pepperoni_lovers.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\pomodoro_e_burrata.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\raclette.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\regina.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\salmone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\speciale_pizzaiolo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\texane_barbecue.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\carnivore\vezuvio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\epicees\chicken_barbecue.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\epicees\orientale.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\epicees\provencale.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\epicees\samourai.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\epicees\spicy_hot_one.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\epicees\supreme.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\pizzeta\pizzeta_5_fromaggi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\pizzeta\pizzeta_carbonara.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\pizzeta\pizzeta_chevre_miel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\pizzeta\pizzeta_regina.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\pizzeta\pizzeta_salmone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\pizzeta\pizzeta_speciale_pizzaiolo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\pizzeta\pizzeta_vesuvio.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\vegetariennes\3_fromages.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\vegetariennes\5_formaggi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\vegetariennes\bianca.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\vegetariennes\carbonara.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\vegetariennes\carciofi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\vegetariennes\chevre_miel_vege.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\vegetariennes\margarita.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img\pizzas\vegetariennes\vegetarienne.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -148,10 +262,6 @@
     <Page Update="pages\pageProfil.xaml">
       <SubType>Designer</SubType>
     </Page>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="converters\" />
   </ItemGroup>
 
 </Project>

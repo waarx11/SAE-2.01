@@ -44,14 +44,14 @@ namespace newPizza1
             //rien qui marche
             if (rep == 0)
             {
-                message.Text = "Renplicer ces 3 lignes";
+                message.Text = "Veuillez remplir les champs ci-dessous";
                 message.Visibility = Visibility.Visible;
                 this.Show();
             }
             //rien qui marche
             if (rep == -1)
             {
-                message.Text = "Pseudo et email deja existant";
+                message.Text = "Pseudo et email deja existants";
                 message.Visibility = Visibility.Visible;
                 this.Show();
             }
@@ -65,7 +65,7 @@ namespace newPizza1
             //rien qui marche
             if (rep == -3)
             {
-                message.Text = "Email deja existant uo errone";
+                message.Text = "Email deja existante ou erronée";
                 message.Visibility = Visibility.Visible;
                 this.Show();
             }

@@ -22,7 +22,7 @@ namespace newPizza1.converters
         {
             string imageName = value as string;
 
-            if (string.IsNullOrWhiteSpace(imageName)) return new Uri("..\\default\\noImg.png", UriKind.RelativeOrAbsolute);
+            if (string.IsNullOrWhiteSpace(imageName)) return new Uri("..\\img\\default\\noImg.png", UriKind.RelativeOrAbsolute);
 
             string imagePath = Path.Combine(imagesPath, imageName);
 

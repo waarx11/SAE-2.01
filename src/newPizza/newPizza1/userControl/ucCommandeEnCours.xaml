@@ -7,9 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="200" d:DesignWidth="800">
     <Grid>
-        <Grid.Resources>
-            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
-        </Grid.Resources>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="4*"/>
@@ -23,15 +21,15 @@
 
         <Image x:Name="imgPizCommandeEnCours" Source="..\img\pizzas\epicees\spicy_hot_one.jpeg" Grid.Row="0" Margin="40,0,0,0" Grid.RowSpan="3" Height="120"/>
         <WrapPanel Margin="0,0,200,0" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock FontSize="20" Text="Voici les ingrédients de la pizza "/>
-            <TextBlock FontSize="20" x:Name="nomPizzaEncours" Text="XXXXXXX"/>
+            <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="20" Text="Voici les ingrédients de la pizza "/>
+            <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="20" x:Name="nomPizzaEncours" Text="XXXXXXX"/>
         </WrapPanel>
         <Border Margin="0,20,10,0" Grid.Row="1" Grid.Column="1" BorderThickness="0" HorizontalAlignment="Left">
             <ScrollViewer>
-                <TextBlock x:Name="textPizza" Margin="0,0,20,0" TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam."/>
+                <TextBlock Foreground="{StaticResource couleurTexte}" x:Name="textPizza" Margin="0,0,20,0" TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam."/>
             </ScrollViewer>
         </Border>
-        <TextBlock Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,260,0" FontSize="20">En cours...</TextBlock>
-        <Button HorizontalAlignment="Right" Margin="0,0,40,0" Name="OUI"  Grid.Row="2" Grid.Column="1" Width="200" Height="50" Cursor="Hand" FontSize="25" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}">FINIR</Button>
+        <TextBlock Foreground="{StaticResource couleurTexte}" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,260,0" FontSize="20">En cours...</TextBlock>
+        <Button Foreground="{StaticResource couleurTexte}" HorizontalAlignment="Right" Margin="0,0,40,0" Name="OUI"  Grid.Row="2" Grid.Column="1" Width="200" Height="50" Cursor="Hand" FontSize="25" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}">FINIR</Button>
     </Grid>
 </UserControl>

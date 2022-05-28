@@ -12,9 +12,6 @@
         d:DesignHeight="450" d:DesignWidth="600">
 
     <Grid>
-        <Grid.Resources>
-            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
-        </Grid.Resources>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.2*"/>
@@ -30,28 +27,28 @@
                 <RowDefinition Height="0.9*"/>
             </Grid.RowDefinitions>
 
-            <Button Content="X" Width="41" Height="41" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,2,0" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" Click="CloseMenu"/>
+            <Button Foreground="{StaticResource couleurTexte}" Content="X" Width="41" Height="41" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,2,0" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" Click="CloseMenu"/>
 
             <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1">
                 <Image Source="..\img\autre\IdPageSmile.jpg" Margin="0,20,20,20" />
-                <TextBlock Text="new Pizza()" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" FontFamily="{StaticResource TITLE}"/>
+                <TextBlock Text="new Pizza()" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" FontFamily="{StaticResource TITLE}" Foreground="{StaticResource couleurTexte}"/>
             </WrapPanel>
 
             <StackPanel HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center">
-                <TextBlock x:Name="message" Visibility="Hidden" Foreground="Red"></TextBlock>
-                <TextBlock FontWeight="Bold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center">INSCRIPTION</TextBlock>
-                <TextBox x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="Entrez votre identifiant" Cursor="IBeam"/>
-                <TextBox Margin="0,20,0,0" x:Name="idMail" materialDesign:HintAssist.Hint="E-Mail" materialDesign:HintAssist.HelperText="Entrez votre adresse email" Cursor="IBeam"/>
-                <PasswordBox Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" Cursor="IBeam"/>
+                <TextBlock x:Name="message" Visibility="Hidden" HorizontalAlignment="Center" Foreground="Red"></TextBlock>
+                <TextBlock Foreground="{StaticResource couleurTexte}" FontWeight="Bold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center">INSCRIPTION</TextBlock>
+                <TextBox Foreground="{StaticResource couleurTexte}" x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="Entrez votre identifiant" Cursor="IBeam"/>
+                <TextBox Foreground="{StaticResource couleurTexte}" Margin="0,20,0,0" x:Name="idMail" materialDesign:HintAssist.Hint="E-Mail" materialDesign:HintAssist.HelperText="Entrez votre adresse email" Cursor="IBeam"/>
+                <PasswordBox Foreground="{StaticResource couleurTexte}" Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" Cursor="IBeam"/>
 
-                <Button Margin="0,40,0,0" Content="S'INSCRIRE" Width="300" FontWeight="Bold" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}"
+                <Button Foreground="{StaticResource couleurTexte}" Margin="0,40,0,0" Content="S'INSCRIRE" Width="300" FontWeight="Bold" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}"
                     materialDesign:ShadowAssist.ShadowDepth="Depth2"
                     materialDesign:ButtonProgressAssist.Value="-1"
                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="false"
                     materialDesign:ButtonProgressAssist.IsIndeterminate="false"
                     Cursor="Hand" Click="ButtonInscription"/>
-                <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="Regular" Margin="0,5,0,0">
-                <Span xml:space="preserve"><Run>Déjà inscrit ? </Run><Hyperlink NavigateUri="pageIdentification" Click="ButtonConnextion">Se connecter</Hyperlink></Span>
+                <TextBlock Foreground="{StaticResource couleurTexte}" HorizontalAlignment="Center" FontSize="12" FontWeight="Regular" Margin="0,5,0,0">
+                <Span xml:space="preserve" Foreground="{StaticResource couleurTexte}"><Run Foreground="{StaticResource couleurTexte}">Déjà inscrit ? </Run><Hyperlink Foreground="{StaticResource couleurTexte}" NavigateUri="pageIdentification" Click="ButtonConnextion">Se connecter</Hyperlink></Span>
                 </TextBlock>
             </StackPanel>
 

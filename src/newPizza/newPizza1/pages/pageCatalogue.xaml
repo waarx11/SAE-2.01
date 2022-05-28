@@ -12,9 +12,6 @@
 
 
     <DockPanel>
-        <DockPanel.Resources>
-            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
-        </DockPanel.Resources>
 
         <Grid Background="{StaticResource couleurPrincipale}" Width="300">
             <Grid.RowDefinitions>
@@ -24,7 +21,7 @@
             </Grid.RowDefinitions>
 
 
-            <TextBlock Text="NOS PIZZAS" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+            <TextBlock Text="NOS PIZZAS" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="{StaticResource couleurTexte}"/>
             <ListBox Background="{StaticResource couleurPrincipale}"  BorderThickness="0" Grid.Row="1">
                 <local:ucMenuBouton setMessage="Pizzetas" setImage="..\img\buttons\pizzeta.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="MenuBouton_Pizzetas"/>
                 <local:ucMenuBouton setMessage="Épicées" setImage="..\img\buttons\spicy.png" CLICKMENU="MenuBouton_Epicees"/>

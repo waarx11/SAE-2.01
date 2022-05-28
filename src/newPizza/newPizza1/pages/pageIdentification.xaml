@@ -13,9 +13,6 @@
         d:DesignHeight="450" d:DesignWidth="600">
 
     <Grid>
-        <Grid.Resources>
-            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
-        </Grid.Resources>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.2*"/>
@@ -28,38 +25,38 @@
                 <RowDefinition Height="50"/>
             </Grid.RowDefinitions>
 
-            <Button Click="changeColorGlobal" Grid.Row="1" x:Name="BtnTheme" Content="Thème : Clair" FontSize="10" HorizontalAlignment="Center" Width="120" VerticalAlignment="Center" Background="{DynamicResource couleurPrincipale}" BorderBrush="{DynamicResource couleurSecondaire}"></Button>
+            <Button Click="changeColorGlobal" Foreground="{DynamicResource couleurTexte}" Grid.Row="1" x:Name="BtnTheme" Content="Thème : Clair" FontSize="10" HorizontalAlignment="Center" Width="120" VerticalAlignment="Center" Background="{DynamicResource couleurPrincipale}" BorderBrush="{DynamicResource couleurSecondaire}"></Button>
 
         </Grid>
 
-        <Grid Grid.Column="1" Background="{StaticResource couleurFond}">
+        <Grid Grid.Column="1" Background="{DynamicResource couleurFond}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="1.5*"/>
                 <RowDefinition Height="5*"/>
                 <RowDefinition Height="8*"/>
             </Grid.RowDefinitions>
 
-            <Button Content="X" Width="41" Height="41" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,1,0" BorderBrush="{DynamicResource couleurSecondaire}" Background="{DynamicResource couleurPrincipale}" Click="CloseMenu"/>
+            <Button Content="X" Foreground="{DynamicResource couleurTexte}" Width="41" Height="41" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,1,0" BorderBrush="{DynamicResource couleurSecondaire}" Background="{DynamicResource couleurPrincipale}" Click="CloseMenu"/>
 
             <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1">
                 <Image Source="..\img\autre\IdPageSmile.jpg" Margin="0,20,20,20" />
-                <TextBlock Text="new Pizza()" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" FontFamily="{DynamicResource TITLE}"/>
+                <TextBlock Text="new Pizza()" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" FontFamily="{DynamicResource TITLE}" Foreground="{DynamicResource couleurTexte}"/>
             </WrapPanel>
 
             <StackPanel HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center">
-                <TextBlock x:Name="message" Visibility="Hidden" Foreground="Red"></TextBlock>
-                <TextBlock FontWeight="Bold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center">CONNEXION</TextBlock>
-                <TextBox  x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="Entrez votre identifiant" Cursor="IBeam" TextChanged="idTextBox_TextChanged"/>
-                <PasswordBox Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" Cursor="IBeam" PasswordChanged="PasswordBox_PasswordChanged"/>
+                <TextBlock x:Name="message" Visibility="Hidden" Foreground="Red" HorizontalAlignment="Center"></TextBlock>
+                <TextBlock FontWeight="Bold" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{DynamicResource couleurTexte}">CONNEXION</TextBlock>
+                <TextBox  x:Name="idTextBox" materialDesign:HintAssist.Hint="Identifiant" materialDesign:HintAssist.HelperText="Entrez votre identifiant" Cursor="IBeam" TextChanged="idTextBox_TextChanged" Foreground="{DynamicResource couleurTexte}"/>
+                <PasswordBox Foreground="{DynamicResource couleurTexte}" Margin="0,20,0,0" x:Name="PasswordBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True" materialDesign:HintAssist.HelperText="Entrez votre mot de passe" Cursor="IBeam" PasswordChanged="PasswordBox_PasswordChanged"/>
 
-                <Button Margin="0,40,0,0" Content="SE CONNECTER" Width="300" FontWeight="Bold" Background="{DynamicResource couleurPrincipale}" BorderBrush="{DynamicResource couleurSecondaire}"
+                <Button Margin="0,40,0,0" Content="SE CONNECTER" Width="300" FontWeight="Bold" Background="{DynamicResource couleurPrincipale}" BorderBrush="{DynamicResource couleurSecondaire}" Foreground="{DynamicResource couleurTexte}"
                     materialDesign:ShadowAssist.ShadowDepth="Depth2"
                     materialDesign:ButtonProgressAssist.Value="-1"
                     materialDesign:ButtonProgressAssist.IsIndicatorVisible="false"
                     materialDesign:ButtonProgressAssist.IsIndeterminate="false"
                     Cursor="Hand" Click="Button_Click"/>
-                <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="Regular" Margin="0,5,0,0">
-                <Span xml:space="preserve"><Run>Pas de compte ? </Run><Hyperlink NavigateUri="pageNewCompte" Click="CreateCompte">S'inscrire</Hyperlink></Span>
+                <TextBlock HorizontalAlignment="Center" FontSize="12" FontWeight="Regular" Margin="0,5,0,0" Foreground="{DynamicResource couleurTexte}">
+                <Span xml:space="preserve" Foreground="{DynamicResource couleurTexte}"><Run Foreground="{DynamicResource couleurTexte}">Pas de compte ? </Run><Hyperlink Foreground="{DynamicResource couleurTexte}" NavigateUri="pageNewCompte" Click="CreateCompte">S'inscrire</Hyperlink></Span>
                 </TextBlock>
             </StackPanel>
 

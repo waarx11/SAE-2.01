@@ -7,9 +7,6 @@
              mc:Ignorable="d" 
              d:DesignHeight="1080" d:DesignWidth="1620">
     <DockPanel>
-        <DockPanel.Resources>
-            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
-        </DockPanel.Resources>
         <DockPanel DockPanel.Dock="Top" Height="70" Background="{StaticResource couleurSecondaire}">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -18,8 +15,8 @@
                     <ColumnDefinition Width="0.2*"/>
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Text="NOM PIZZA" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
-                <Button Content="Retour"  Grid.Column="2" Width="150" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                <TextBlock Foreground="{StaticResource couleurTexte}" Text="NOM PIZZA" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
+                <Button Foreground="{StaticResource couleurTexte}" Content="Retour"  Grid.Column="2" Width="150" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Grid>
         </DockPanel>
         <DockPanel>
@@ -37,7 +34,7 @@
                     </Grid.ColumnDefinitions>
 
                     <Image Source="..\img\pizzas\carnivore\3_salumi.png" Margin="0,50,0,50" Grid.Column="0"/>
-                    <TextBlock FontSize="20" TextWrapping="Wrap" Grid.Column="1" VerticalAlignment="Center" Margin="0,0,50,0"
+                    <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="20" TextWrapping="Wrap" Grid.Column="1" VerticalAlignment="Center" Margin="0,0,50,0"
                         Text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
                 </Grid>
 
@@ -57,7 +54,7 @@
                                 <ColumnDefinition Width="0.3*"/>
                                 <ColumnDefinition Width="0.7*"/>
                             </Grid.ColumnDefinitions>
-                            <Button Grid.Column="1" Content="Commander" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Style="{x:Null}" Background="{StaticResource couleurPrincipale}" BorderThickness="0"/>
+                            <Button  Foreground="{StaticResource couleurTexte}" Grid.Column="1" Content="Commander" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Style="{x:Null}" Background="{StaticResource couleurPrincipale}" BorderThickness="0"/>
                             <Grid Grid.Column="0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="0.2*"/>
@@ -65,21 +62,21 @@
                                     <ColumnDefinition Width="0.5*"/>
                                     <ColumnDefinition Width="0.2*"/>
                                 </Grid.ColumnDefinitions>
-                                <Button Grid.Column="1" FontSize="25" FontWeight="Medium" Height="30" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}">-
+                                <Button Foreground="{StaticResource couleurTexte}" Grid.Column="1" FontSize="25" FontWeight="Medium" Height="30" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}">-
                                 </Button>
-                                <TextBlock x:Name="quantite" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Medium" Text="1"></TextBlock>
-                                <Button Grid.Column="3" FontSize="25" FontWeight="Medium" Height="30" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" >+</Button>
+                                <TextBlock Foreground="{StaticResource couleurTexte}" x:Name="quantite" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Medium" Text="1"></TextBlock>
+                                <Button Foreground="{StaticResource couleurTexte}" Grid.Column="3" FontSize="25" FontWeight="Medium" Height="30" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" >+</Button>
                             </Grid>
                         </Grid>
                     </Border>
 
-                    <TextBlock Grid.Column="1" Text="Prix: 12.00€" FontSize="35" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,100,0"></TextBlock>
+                    <TextBlock Foreground="{StaticResource couleurTexte}" Grid.Column="1" Text="Prix: 12.00€" FontSize="35" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,100,0"></TextBlock>
 
                     <Border BorderThickness="5" BorderBrush="{StaticResource couleurSecondaire}" Grid.Column="0" Grid.Row="1" Margin="100,0,0,0" Width="400" Height="80" HorizontalAlignment="Left">
                         <Button Style="{x:Null}"  Background="{StaticResource couleurPrincipale}" BorderThickness="0">
                             <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                                 <Image Source="..\img\buttons\viande.png" Width="35" Height="35"></Image>
-                                <TextBlock Grid.Column="1" Text="Modifier les ingrédients" FontSize="30" Margin="10,0,0,0"/>
+                                <TextBlock  Foreground="{StaticResource couleurTexte}" Grid.Column="1" Text="Modifier les ingrédients" FontSize="30" Margin="10,0,0,0"/>
                             </WrapPanel>
                         </Button>
 

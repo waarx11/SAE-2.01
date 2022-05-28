@@ -10,7 +10,6 @@
              xmlns:conv="clr-namespace:newPizza1.converters">
 
     <UserControl.Resources>
-        <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
         <conv:String2ImageConverter x:Key="string2ImageConverter"/>
     </UserControl.Resources>
 
@@ -22,13 +21,13 @@
                 <RowDefinition Height="0.5*"/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="{Binding Texte, ElementName=thisPizza}" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Bold" Margin="10" />
+            <TextBlock Foreground="{StaticResource couleurTexte}" Text="{Binding Texte, ElementName=thisPizza}" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Bold" Margin="10" />
             <Ellipse Grid.Row="1" Margin="10,0,10,0">
                 <Ellipse.Fill>
                     <ImageBrush Stretch="Uniform" ImageSource="{Binding ImageName, ElementName=thisPizza, Converter={StaticResource string2ImageConverter}}" />
                 </Ellipse.Fill>
             </Ellipse>
-
+            <!--<Image Grid.Row="1" Source="{Binding ImageName, ElementName=thisPizza, Converter={StaticResource string2ImageConverter}}" />-->
 
             <Grid Grid.Row="2">
                 <Grid.ColumnDefinitions>
@@ -37,7 +36,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Button Height="auto" Width="auto" Style="{x:Null}" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Margin="10,15,10,15">
-                    <TextBlock Text="Plus d'informations" FontSize="20"/>
+                    <TextBlock Text="Plus d'informations" FontSize="20" Foreground="{StaticResource couleurTexte}"/>
                 </Button>
 
 
@@ -52,9 +51,9 @@
                     <Button Grid.Column="0" Height="50" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Width="60" Margin="30,0,0,0">
                         <Image Source="..\img\buttons\panier.png" Margin="5"/>
                     </Button>
-                    <Button Grid.Column="1" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}">-</Button>
-                    <TextBlock x:Name="quantite" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Medium">1</TextBlock>
-                    <Button Grid.Column="3" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}">+</Button>
+                    <Button Grid.Column="1" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Foreground="{StaticResource couleurTexte}">-</Button>
+                    <TextBlock Foreground="{StaticResource couleurTexte}" x:Name="quantite" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Medium">1</TextBlock>
+                    <Button Grid.Column="3" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Foreground="{StaticResource couleurTexte}">+</Button>
                 </Grid>
 
             </Grid>

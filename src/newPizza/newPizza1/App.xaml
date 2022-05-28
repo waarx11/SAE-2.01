@@ -19,13 +19,9 @@
             <Style TargetType="Border" x:Key="BorderProfil">
                 <Setter Property="BorderThickness" Value="2"/>
                 <Setter Property="Margin" Value="10"/>
-                <Setter Property="BorderBrush" Value="{StaticResource couleurSecondaire}"/>
+                <Setter Property="BorderBrush" Value="{DynamicResource couleurSecondaire}"/>
             </Style>
 
-            <Style TargetType="TextBlock" x:Key="TextColor">
-                <Setter Property="Foreground" Value="{StaticResource couleurTexte}"/>
-            </Style>
-            
             <FontFamily x:Key="TITLE">font\CHEESEPIZZA.ttf#CHEESE PIZZA</FontFamily>
 
 

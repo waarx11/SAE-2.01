@@ -11,9 +11,6 @@
         d:DesignHeight="1080" d:DesignWidth="1920"
         Title="pageProfil" Width="1920" Height="1080">
     <DockPanel  Background="{StaticResource couleurFond}">
-        <DockPanel.Resources>
-            <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
-        </DockPanel.Resources>
 
         <Grid Background="{StaticResource couleurPrincipale}">
             <Grid.RowDefinitions>
@@ -28,7 +25,7 @@
             </Grid.ColumnDefinitions>
 
 
-            <TextBlock Text="Mon compte" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline" Grid.RowSpan="2"/>
+            <TextBlock Text="Mon compte" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline" Grid.RowSpan="2" Foreground="{StaticResource couleurTexte}"/>
             <ListBox Grid.Row="2" Width="300" VerticalAlignment="Center">
                 <Image Source="/img/default/noPP.jpg" />
             </ListBox>

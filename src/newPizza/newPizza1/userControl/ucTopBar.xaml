@@ -6,17 +6,14 @@
              xmlns:local="clr-namespace:newPizza1"
              mc:Ignorable="d" 
              d:DesignHeight="70" d:DesignWidth="800">
-    <UserControl.Resources>
-        <Style TargetType="TextBlock" BasedOn="{StaticResource TextColor}"></Style>
-    </UserControl.Resources>
     <Grid Background="{StaticResource couleurSecondaire}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="Title" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold">Pizzetas</TextBlock>
-        <Button Click="MonPanier" Width="150" Height="40" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Background="{StaticResource couleurArrierePlan}" BorderBrush="{StaticResource couleurPrincipale}" Cursor="Hand">Mon Panier</Button>
-        <Button Click="MonCompte" Width="150" Height="40" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Background="{StaticResource couleurArrierePlan}" BorderBrush="{StaticResource couleurPrincipale}">Mon Compte</Button>
+        <TextBlock Foreground="{StaticResource couleurTexte}" x:Name="Title" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold">Pizzetas</TextBlock>
+        <Button Foreground="{StaticResource couleurTexte}" Click="MonPanier" Width="150" Height="40" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Background="{StaticResource couleurArrierePlan}" BorderBrush="{StaticResource couleurPrincipale}" Cursor="Hand">Mon Panier</Button>
+        <Button Foreground="{StaticResource couleurTexte}" Click="MonCompte" Width="150" Height="40" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center" Background="{StaticResource couleurArrierePlan}" BorderBrush="{StaticResource couleurPrincipale}">Mon Compte</Button>
     </Grid>
 </UserControl>
