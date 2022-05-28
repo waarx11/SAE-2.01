@@ -20,7 +20,7 @@
             <ListBox.ItemTemplate >
                 <DataTemplate>
                     <StackPanel>
-                        <local:ucPizzaBox Texte="{Binding Nom}"/>
+                        <local:ucPizzaBox Texte="{Binding Nom}" />
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>

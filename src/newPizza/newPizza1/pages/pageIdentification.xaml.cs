@@ -34,10 +34,10 @@ namespace newPizza1
             if (BtnTheme.Content.ToString() == "Thème : Clair")
             {
                 Application.Current.Resources["couleurPrincipale"] = new SolidColorBrush(Color.FromRgb(75, 72, 72));
-                Application.Current.Resources["couleurSecondaire"] = new SolidColorBrush(Color.FromRgb(115, 110, 110));
+                Application.Current.Resources["couleurSecondaire"] = new SolidColorBrush(Color.FromRgb(83, 82, 81));
                 Application.Current.Resources["couleurArrierePlan"] = new SolidColorBrush(Color.FromRgb(142, 140, 140));
                 Application.Current.Resources["couleurTexte"] = new SolidColorBrush(Color.FromRgb(255, 255, 255));
-                Application.Current.Resources["couleurFond"] = new SolidColorBrush(Color.FromRgb(83, 82, 81));
+                Application.Current.Resources["couleurFond"] = new SolidColorBrush(Color.FromRgb(115, 110, 110));
                 BtnTheme.Content = "Thème : Sombre";
             }
             else
