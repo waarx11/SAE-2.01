@@ -34,7 +34,7 @@ namespace newPizza1
 
         // Using a DependencyProperty as the backing store for Texte.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty TexteProperty =
-            DependencyProperty.Register("Texte", typeof(string), typeof(ucPizzaBox), new PropertyMetadata("Je suis un test"));
+            DependencyProperty.Register("Texte", typeof(string), typeof(ucPizzaBox), new PropertyMetadata("Soy una pizza"));
 
         public string ImageName
         {

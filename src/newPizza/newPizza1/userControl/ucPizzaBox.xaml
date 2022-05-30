@@ -22,11 +22,8 @@
             </Grid.RowDefinitions>
 
             <TextBlock Foreground="{StaticResource couleurTexte}" Text="{Binding Texte, ElementName=thisPizza}" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="25" FontWeight="Bold" Margin="10" />
-            <Ellipse Grid.Row="1" Margin="10,0,10,0">
-                <Ellipse.Fill>
-                    <ImageBrush Stretch="Uniform" ImageSource="{Binding ImageName, ElementName=thisPizza, Converter={StaticResource string2ImageConverter}}" />
-                </Ellipse.Fill>
-            </Ellipse>
+            <Image Grid.Row="1" Margin="10,0,10,0" Source="{Binding ImageName, ElementName=thisPizza, Converter={StaticResource string2ImageConverter}}" />
+
             <!--<Image Grid.Row="1" Source="{Binding ImageName, ElementName=thisPizza, Converter={StaticResource string2ImageConverter}}" />-->
 
             <Grid Grid.Row="2">
