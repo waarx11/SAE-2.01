@@ -30,7 +30,7 @@ namespace Modele
         /// <summary>
         /// Image de la pizza
         /// </summary>
-        public string Image { get => image; private set => image = value; }
+        public string ImageName { get => image; private set => image = value; }
         private string image;
 
         /// <summary>
@@ -76,11 +76,11 @@ namespace Modele
 
             if (string.IsNullOrWhiteSpace(image))
             {
-                Image = "default\noImg.png";
+                ImageName = "default\noImg.png";
             }
             else
             {
-                Image = image;
+                ImageName = image;
             }
 
             if(prix <= 5)
@@ -132,7 +132,7 @@ namespace Modele
         public override string ToString()
         {
             string Afficher = "";
-            Afficher += $"{Nom} {Description} {Image} ";
+            Afficher += $"{Nom} {Description} {ImageName} ";
             foreach (Ingredients element in ListIngredient)
             {
                 Afficher += $"{element} ";

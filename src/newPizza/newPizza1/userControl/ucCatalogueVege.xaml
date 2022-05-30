@@ -20,7 +20,7 @@
                 <DataTemplate >
                     <StackPanel>
                         <!--<TextBlock Text="{Binding Nom}"/>-->
-                        <local:ucPizzaBox Texte="{Binding Nom}"/>
+                        <local:ucPizzaBox Texte="{Binding Nom}" ImageName="{Binding ImageName, Converter={StaticResource string2ImageConverter}}"/>
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
