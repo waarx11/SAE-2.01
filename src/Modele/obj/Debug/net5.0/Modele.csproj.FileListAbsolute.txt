@@ -1,0 +1,12 @@
+D:\ProjetWpfPizza\src\Modele\bin\Debug\net5.0\Modele.deps.json
+D:\ProjetWpfPizza\src\Modele\bin\Debug\net5.0\Modele.dll
+D:\ProjetWpfPizza\src\Modele\bin\Debug\net5.0\Modele.pdb
+D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.csproj.AssemblyReference.cache
+D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfoInputs.cache
+D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfo.cs
+D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.csproj.CoreCompileInputs.cache
+D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.dll
+D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\refint\Modele.dll
+D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.pdb
+D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\ref\Modele.dll

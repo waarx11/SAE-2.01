@@ -40,12 +40,25 @@
       },
       "Modele/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
           "bin/placeholder/Modele.dll": {}
         },
         "runtime": {
           "bin/placeholder/Modele.dll": {}
+        }
+      },
+      "Stub/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Modele": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Stub.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stub.dll": {}
         }
       }
     }
@@ -127,6 +140,11 @@
       "type": "project",
       "path": "../../Modele/Modele.csproj",
       "msbuildProject": "../../Modele/Modele.csproj"
+    },
+    "Stub/1.0.0": {
+      "type": "project",
+      "path": "../Stub/Stub.csproj",
+      "msbuildProject": "../Stub/Stub.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -134,7 +152,8 @@
       "MaterialDesignColors >= 2.0.6",
       "MaterialDesignThemes >= 4.5.0",
       "MaterialSkin.2 >= 2.3.1",
-      "Modele >= 1.0.0"
+      "Modele >= 1.0.0",
+      "Stub >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -166,6 +185,9 @@
           "projectReferences": {
             "D:\\ProjetWpfPizza\\src\\Modele\\Modele.csproj": {
               "projectPath": "D:\\ProjetWpfPizza\\src\\Modele\\Modele.csproj"
+            },
+            "D:\\ProjetWpfPizza\\src\\newPizza\\Stub\\Stub.csproj": {
+              "projectPath": "D:\\ProjetWpfPizza\\src\\newPizza\\Stub\\Stub.csproj"
             }
           }
         }

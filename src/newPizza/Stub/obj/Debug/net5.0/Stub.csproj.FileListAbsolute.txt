@@ -1,0 +1,5 @@
+D:\ProjetWpfPizza\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.AssemblyReference.cache
+D:\ProjetWpfPizza\src\newPizza\Stub\obj\Debug\net5.0\Stub.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetWpfPizza\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfoInputs.cache
+D:\ProjetWpfPizza\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfo.cs
+D:\ProjetWpfPizza\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.CoreCompileInputs.cache
