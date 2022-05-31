@@ -925,3 +925,12 @@ U:\Documents\SAE\2.01-2\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.dll
 U:\Documents\SAE\2.01-2\src\TestsUnitaires\obj\Debug\net5.0\ref\TestsUnitaires.dll
 U:\Documents\SAE\2.01-2\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.pdb
 U:\Documents\SAE\2.01-2\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.genruntimeconfig.cache
+D:\ProjetWpfPizza\src\TestsUnitaires\bin\Debug\net5.0\CoverletSourceRootsMapping
+D:\ProjetWpfPizza\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.csproj.AssemblyReference.cache
+D:\ProjetWpfPizza\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetWpfPizza\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.AssemblyInfoInputs.cache
+D:\ProjetWpfPizza\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.AssemblyInfo.cs
+D:\ProjetWpfPizza\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.csproj.CoreCompileInputs.cache
+D:\ProjetWpfPizza\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.dll
+D:\ProjetWpfPizza\src\TestsUnitaires\obj\Debug\net5.0\refint\TestsUnitaires.dll
+D:\ProjetWpfPizza\src\TestsUnitaires\obj\Debug\net5.0\TestsUnitaires.pdb

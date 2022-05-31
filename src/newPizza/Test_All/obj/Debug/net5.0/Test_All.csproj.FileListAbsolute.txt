@@ -27,3 +27,10 @@ U:\Documents\SAE\2.01-2\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.dll
 U:\Documents\SAE\2.01-2\src\newPizza\Test_All\obj\Debug\net5.0\ref\Test_All.dll
 U:\Documents\SAE\2.01-2\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.pdb
 U:\Documents\SAE\2.01-2\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.genruntimeconfig.cache
+D:\ProjetWpfPizza\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.csproj.AssemblyReference.cache
+D:\ProjetWpfPizza\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjetWpfPizza\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.AssemblyInfoInputs.cache
+D:\ProjetWpfPizza\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.AssemblyInfo.cs
+D:\ProjetWpfPizza\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.csproj.CoreCompileInputs.cache
+D:\ProjetWpfPizza\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.dll
+D:\ProjetWpfPizza\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.pdb

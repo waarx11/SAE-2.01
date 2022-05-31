@@ -25,6 +25,11 @@ namespace newPizza1
             InitializeComponent();
         }
 
+        /*public void MoreInfo(object sender, RoutedEventArgs e)
+        {
+            var plusInfo = new ucInfoPizza();
+            plusInfo.ShowDialog();
+        }*/
 
         public string Texte
         {
