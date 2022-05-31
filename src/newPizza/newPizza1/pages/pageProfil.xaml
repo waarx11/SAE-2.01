@@ -44,7 +44,7 @@
                 <local:ucTopAdministrateur setInfo="Informations personnel de : " TextNomEnt="{Binding Pseudo}"/>
             </ContentControl>
             <ContentControl x:Name="contControl" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2">
-                <local:ucAdmninistration TextName="{Binding Nom}" TextEMail="{Binding Email}" TextAdresse="{Binding Adresse}" TextCodeP="{Binding CodePostal}" TextPrenom="{Binding Prénom}" TextTelephone="{Binding Téléphone}" TextVille="{Binding Ville}"/>
+                <local:ucAdmninistration/>
             </ContentControl>
         </Grid>
     </DockPanel>

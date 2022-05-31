@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "U:\\Documents\\SAE\\2.01\\src\\Test_User\\Test_User.csproj": {}
+    "D:\\ProjetWpfPizza\\src\\Test_User\\Test_User.csproj": {}
   },
   "projects": {
-    "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj": {
+    "D:\\ProjetWpfPizza\\src\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj",
+        "projectUniqueName": "D:\\ProjetWpfPizza\\src\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj",
-        "packagesPath": "C:\\Users\\babonneau\\.nuget\\packages\\",
-        "outputPath": "U:\\Documents\\SAE\\2.01\\src\\Modele\\obj\\",
+        "projectPath": "D:\\ProjetWpfPizza\\src\\Modele\\Modele.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjetWpfPizza\\src\\Modele\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\babonneau\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -60,28 +54,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "U:\\Documents\\SAE\\2.01\\src\\Test_User\\Test_User.csproj": {
+    "D:\\ProjetWpfPizza\\src\\Test_User\\Test_User.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "U:\\Documents\\SAE\\2.01\\src\\Test_User\\Test_User.csproj",
+        "projectUniqueName": "D:\\ProjetWpfPizza\\src\\Test_User\\Test_User.csproj",
         "projectName": "Test_User",
-        "projectPath": "U:\\Documents\\SAE\\2.01\\src\\Test_User\\Test_User.csproj",
-        "packagesPath": "C:\\Users\\babonneau\\.nuget\\packages\\",
-        "outputPath": "U:\\Documents\\SAE\\2.01\\src\\Test_User\\obj\\",
+        "projectPath": "D:\\ProjetWpfPizza\\src\\Test_User\\Test_User.csproj",
+        "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjetWpfPizza\\src\\Test_User\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\babonneau\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -94,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj": {
-                "projectPath": "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj"
+              "D:\\ProjetWpfPizza\\src\\Modele\\Modele.csproj": {
+                "projectPath": "D:\\ProjetWpfPizza\\src\\Modele\\Modele.csproj"
               }
             }
           }
@@ -119,12 +107,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

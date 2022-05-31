@@ -26,20 +26,17 @@ namespace newPizza1
 
         public void RetourWindow(object sender, RoutedEventArgs e)
         {
-            Close();
+            pageCatalogue pClinet = new pageCatalogue();
+            this.Close();
+            pClinet.Show();
         }
 
         public void DecoWindow(object sender, RoutedEventArgs e)
         {
-            for (int intCounter = App.Current.Windows.Count - 1; intCounter >= 0; intCounter--)
-                App.Current.Windows[intCounter].Close();
+            pageIdentification identif = new pageIdentification();
+            this.Close();
+            identif.Show();
         }
-
-
-
-
-
-
 
         public string Photo
         {
@@ -52,8 +49,6 @@ namespace newPizza1
             DependencyProperty.Register("Photo", typeof(string), typeof(pageMonPanier), new PropertyMetadata("..\\img\\default\\noPP.jpg"));
 
 
-
-
         public string Pseudo
         {
             get { return (string)GetValue(PseudoProperty); }
@@ -63,10 +58,6 @@ namespace newPizza1
         // Using a DependencyProperty as the backing store for Pseudo.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty PseudoProperty =
             DependencyProperty.Register("Pseudo", typeof(string), typeof(pageMonPanier), new PropertyMetadata("Erreur de récupération"));
-
-
-
-
 
     }
 }

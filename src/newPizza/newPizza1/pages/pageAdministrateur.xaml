@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:newPizza1"
+        xmlns:local="clr-namespace:newPizza1" xmlns:modele="clr-namespace:Modele;assembly=Modele" d:DataContext="{d:DesignInstance Type=modele:Administrateur}"
         ResizeMode="NoResize"
         WindowState="Maximized"
         WindowStyle="None"
@@ -30,13 +30,12 @@
             </ListBox>
             <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="3" CLICKMENU="Bouton_Deconnexion"/>
 
-
-
-            <ContentControl x:Name="contControl1" Grid.Column="1" Grid.RowSpan="2">
-                <local:ucTopAdministrateur setInfo="Informations de mon entreprise : " TextNomEnt="{Binding NomPizzeria}"/>
-            </ContentControl>
+            <TextBlock FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.RowSpan="2">
+                <Run Text="Informations de mon entreprise : "/>
+                <Run Text="{Binding NomPizzeria}"/>
+            </TextBlock>
             <ContentControl x:Name="contControl" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2">
-                <local:ucAdmninistration TextName="{Binding Nom}" TextEMail="{Binding Email}" TextAdresse="{Binding Adresse}" TextCodeP="{Binding CodePostal}" TextPrenom="{Binding Prénom}" TextTelephone="{Binding Téléphone}" TextVille="{Binding Ville}"/>
+                <local:ucAdmninistration/>
             </ContentControl>
         </Grid>
     </DockPanel>

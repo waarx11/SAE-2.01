@@ -11,13 +11,13 @@
             <local:ucTopBar setTitle="Carnivores"/>
         </DockPanel>
 
-        <ListBox  HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding CatalogueCarnivore}" >
+        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding CatalogueCarnivore}">
             <ListBox.ItemsPanel >
                 <ItemsPanelTemplate>
                     <WrapPanel  Margin="5" />
                 </ItemsPanelTemplate>
             </ListBox.ItemsPanel>
-            <ListBox.ItemTemplate >
+            <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel>
                         <local:ucPizzaBox Texte="{Binding Nom}" ImageName="{Binding ImageName, Converter={StaticResource string2ImageConverter}}"/>

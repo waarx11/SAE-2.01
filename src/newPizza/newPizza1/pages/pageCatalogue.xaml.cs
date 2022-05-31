@@ -50,7 +50,9 @@ namespace newPizza1
 
         private void MenuBouton_Deconnexion(object sender, RoutedEventArgs e)
         {
-            Close();
+            pageIdentification identif = new pageIdentification();
+            this.Close();
+            identif.Show();
         }
 
     }

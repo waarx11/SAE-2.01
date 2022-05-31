@@ -29,7 +29,9 @@ namespace newPizza1
 
         private void Bouton_Deconnexion(object sender, RoutedEventArgs e)
         {
-            Close();
+            pageIdentification identif = new pageIdentification();
+            this.Close();
+            identif.Show();
         }
 
         private void Bouton_Admin(object sender, RoutedEventArgs e)
@@ -40,14 +42,8 @@ namespace newPizza1
 
         private void Bouton_Commandes(object sender, RoutedEventArgs e)
         {
-            contControl.Content = new ucTouteLesCommande();
+            var windows = new ucTouteLesCommande();
+            contControl.Content = windows;
         }
-
-        private void ucAdmninistration_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-
     }
 }

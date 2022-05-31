@@ -8,7 +8,8 @@
              d:DesignHeight="500" d:DesignWidth="500"
              Height="550" Width="520"
              x:Name="thisPizza"
-             xmlns:conv="clr-namespace:newPizza1.converters">
+             xmlns:conv="clr-namespace:newPizza1.converters"
+             Style="{x:Null}">
 
     <UserControl.Resources>
         <conv:String2ImageConverter x:Key="string2ImageConverter"/>

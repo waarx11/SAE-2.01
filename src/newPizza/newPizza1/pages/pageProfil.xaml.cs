@@ -29,13 +29,16 @@ namespace newPizza1
 
         public void RetourWindow(object sender, RoutedEventArgs e)
         {
-            Close();
+            pageCatalogue catalo = new pageCatalogue();
+            this.Close();
+            catalo.Show();
         }
 
         public void DecoWindow(object sender, RoutedEventArgs e)
         {
-            for (int intCounter = App.Current.Windows.Count - 1; intCounter >= 0; intCounter--)
-                App.Current.Windows[intCounter].Close();
+            pageIdentification identif = new pageIdentification();
+            this.Close();
+            identif.Show();
         }
 
 
