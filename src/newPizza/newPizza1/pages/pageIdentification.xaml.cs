@@ -23,6 +23,11 @@ namespace newPizza1
         public pageIdentification()
         {
             InitializeComponent();
+            object v = Application.Current.Resources["couleurPrincipale"];
+            if (v.ToString() == "#FF68A7AD")
+                BtnTheme.Content = "Thème : Clair";
+            else
+                BtnTheme.Content = "Thème : Sombre";
         }
         private void CloseMenu(object sender, RoutedEventArgs e)
         {
@@ -31,6 +36,7 @@ namespace newPizza1
 
         private void changeColorGlobal(object sender, RoutedEventArgs e)
         {
+            object v = Application.Current.Resources["couleurPrincipale"];
             if (BtnTheme.Content.ToString() == "Thème : Clair")
             {
                 Application.Current.Resources["couleurPrincipale"] = new SolidColorBrush(Color.FromRgb(75, 72, 72));
