@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/default/noimg.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/default/nopp.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img/buttons/news.png")]
 
 

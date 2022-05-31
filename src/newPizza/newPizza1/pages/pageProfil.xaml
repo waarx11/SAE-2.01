@@ -3,13 +3,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:newPizza1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:newPizza1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:conv="clr-namespace:newPizza1.converters"
         ResizeMode="NoResize"
         WindowState="Maximized"
         WindowStyle="None"
         mc:Ignorable="d"
         d:DesignHeight="1080" d:DesignWidth="1920"
         Title="pageProfil" Width="1920" Height="1080">
+    <Window.Resources>
+        <conv:String2ImageConverter x:Key="string2ImageConverter"/>
+    </Window.Resources>
     <DockPanel  Background="{StaticResource couleurFond}">
 
         <Grid Background="{StaticResource couleurPrincipale}">
@@ -27,7 +30,9 @@
 
             <TextBlock Text="Mon compte" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline" Grid.RowSpan="2" Foreground="{StaticResource couleurTexte}"/>
             <ListBox Grid.Row="2" Width="300" VerticalAlignment="Center">
-                <Image Source="/img/default/noPP.jpg" />
+                <StackPanel>
+                    <Image Source="{Binding Photo, Converter={StaticResource string2ImageConverter}}" />
+                </StackPanel>
             </ListBox>
             <StackPanel Grid.Row="3">
                 <local:ucMenuBouton CLICKMENU="RetourWindow" setMessage="Retour" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center" BorderThickness="0,2,0,0" BorderBrush="Black"/>
