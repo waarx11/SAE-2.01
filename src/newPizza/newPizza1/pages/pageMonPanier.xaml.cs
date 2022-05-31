@@ -31,8 +31,9 @@ namespace newPizza1
 
         public void DecoWindow(object sender, RoutedEventArgs e)
         {
-            for (int intCounter = App.Current.Windows.Count - 1; intCounter >= 0; intCounter--)
-                App.Current.Windows[intCounter].Close();
+            Close();
+            pageIdentification window = new pageIdentification();
+            window.Show();
         }
     }
 }

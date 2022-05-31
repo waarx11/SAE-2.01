@@ -6,8 +6,8 @@ namespace Modele
 {
     
     public interface IPersistanceManager
-    {/*
-        void Sauvegarde(IEnumerable<Utilisateur> utilisateurs, IEnumerable<Region> regions);
-        (IEnumerable<Utilisateur> utilisateurs, IEnumerable<Region> regions) Charge();*/
+    {
+        /*(IEnumerable<Client> client, IEnumerable<Administrateur> admin, IEnumerable<Catalogue> catalogue) Charge();
+        void Sauvegarde(IEnumerable<Client> client, IEnumerable<Administrateur> admin, IEnumerable<Catalogue> C1);*/
     }
 }

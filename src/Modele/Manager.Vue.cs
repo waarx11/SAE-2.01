@@ -9,6 +9,18 @@ namespace Modele
         /// <summary>
         /// Cette vriable permet de connaitre l'utilisateur actuelle
         /// </summary>
-        public Utilisateur UtilisateurActuel;
+        public Utilisateur UtilisateurActuel
+        {
+            get => utilisateurActuel;
+            set
+            {
+                if (UtilisateurActuel != value)
+                {
+                    utilisateurActuel = value;
+                    OnPropertyChanged(nameof(UtilisateurActuel));
+                }
+            }
+        }
+        private Utilisateur utilisateurActuel;
     }
 }

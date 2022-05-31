@@ -24,8 +24,8 @@ namespace newPizza1
         public Manager Mgr => (App.Current as App).LeManager;
         public ucAdmninistration()
         {
-            DataContext = Mgr.UtilisateurActuel;
             InitializeComponent();
+            DataContext = Mgr.UtilisateurActuel;
         }
 
         public string TextName
@@ -143,7 +143,7 @@ namespace newPizza1
             {
                 codePostal = Mgr.UtilisateurActuel.CodePostal;
             }
-            Mgr.UtilisateurActuel.EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
+            Mgr.UtilisateurActuel = Mgr.UtilisateurActuel.EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
         }
     }
 }

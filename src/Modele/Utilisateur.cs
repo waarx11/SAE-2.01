@@ -1,39 +1,98 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 
 namespace Modele
 {
-    public abstract class Utilisateur : IEquatable<Utilisateur>
+    public abstract class Utilisateur : IEquatable<Utilisateur> , INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged;
+        void OnPropertyChanged(string propertyName)
+            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         /// <summary>
         /// Nom de l'utilisateur
         /// </summary>
-        public string Nom { get => nom; private set => nom = value; }
+        public string Nom
+        {
+            get => nom;
+            set
+            {
+                if (Nom != value)
+                {
+                    nom = value;
+                    OnPropertyChanged(nameof(Nom));
+                }
+            }
+        }
         private string nom;
 
         /// <summary>
         /// Quantité de pizza a commander
         /// </summary>
-        public string Prénom { get => prénom; private set => prénom = value; }
+        public string Prénom
+        {
+            get => prénom;
+            set
+            {
+                if (Prénom != value)
+                {
+                    prénom = value;
+                    OnPropertyChanged(nameof(Prénom));
+                }
+            }
+        }
         private string prénom;
 
         /// <summary>
         /// Email de l'utilisateur
         /// </summary>
-        public string Email { get => email; private set => email = value; }
+        public string Email
+        {
+            get => email;
+            set
+            {
+                if (Email != value)
+                {
+                    email = value;
+                    OnPropertyChanged(nameof(Email));
+                }
+            }
+        }
         private string email;
 
         /// <summary>
         /// Téléphone de l'utilisateur
         /// </summary>
-        public string Téléphone { get => téléphone; private set => téléphone = value; }
+        public string Téléphone
+        {
+            get => téléphone;
+            set
+            {
+                if (Téléphone != value)
+                {
+                    téléphone = value;
+                    OnPropertyChanged(nameof(Téléphone));
+                }
+            }
+        }
         private string téléphone;
 
         /// <summary>
         /// Description de la pizza
         /// </summary>
-        public string Adresse { get => adresse; private set => adresse = value; }
+        public string Adresse
+        {
+            get => adresse;
+            set
+            {
+                if (Adresse != value)
+                {
+                    adresse = value;
+                    OnPropertyChanged(nameof(Adresse));
+                }
+            }
+        }
         private string adresse;
 
         /// <summary>
@@ -44,13 +103,35 @@ namespace Modele
         /// <summary>
         /// Image de la pizza
         /// </summary>
-        public string Ville { get => ville; private set => ville = value; }
+        public string Ville
+        {
+            get => ville;
+            set
+            {
+                if (Ville != value)
+                {
+                    ville = value;
+                    OnPropertyChanged(nameof(Ville));
+                }
+            }
+        }
         private string ville;
 
         /// <summary>
         /// Prix de la pizza
         /// </summary>
-        public string CodePostal { get => codePostal; private set => codePostal = value; }
+        public string CodePostal
+        {
+            get => codePostal;
+            set
+            {
+                if (CodePostal != value)
+                {
+                    codePostal = value;
+                    OnPropertyChanged(nameof(CodePostal));
+                }
+            }
+        }
         private string codePostal;
 
 
@@ -140,7 +221,7 @@ namespace Modele
     /// <param name="adresse"></param>
     /// <param name="ville"></param>
     /// <param name="codePostal"></param>
-    public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
+    public Utilisateur EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal)
     {
         Nom = nom;
         Prénom = prénom;
@@ -149,6 +230,7 @@ namespace Modele
         Adresse = adresse;
         Ville = ville;
         CodePostal = codePostal;
+        return this;
     }
     /// <summary>
     /// Permet de changer le mot de passe d'un utilisateur

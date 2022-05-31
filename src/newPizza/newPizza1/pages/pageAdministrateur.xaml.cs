@@ -34,7 +34,8 @@ namespace newPizza1
 
         private void Bouton_Admin(object sender, RoutedEventArgs e)
         {
-            contControl.Content = new ucAdmninistration();
+            var windows = new ucAdmninistration();
+            contControl.Content = windows;
         }
 
         private void Bouton_Commandes(object sender, RoutedEventArgs e)

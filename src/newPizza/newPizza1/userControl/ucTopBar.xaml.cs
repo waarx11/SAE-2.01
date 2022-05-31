@@ -35,13 +35,17 @@ namespace newPizza1
 
         public void MonPanier(object sender, RoutedEventArgs e)
         {
-            var monPanierWindow = new pageMonPanier();
-            monPanierWindow.ShowDialog();
+            var window = new pageMonPanier();
+            var myWindow = Window.GetWindow(this);
+            myWindow.Close();
+            window.Show();
         }
         public void MonCompte(object sender, RoutedEventArgs e)
         {
-            var pageMonCompteWindow = new pageProfil();
-            pageMonCompteWindow.ShowDialog();
+            var window = new pageProfil();
+            var myWindow = Window.GetWindow(this);
+            myWindow.Close();
+            window.Show();
         }
     }
 }

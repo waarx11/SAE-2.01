@@ -13,31 +13,50 @@ namespace Modele
     /// <summary>
     /// Ceci est une partie du manager mais il globalise tout
     /// </summary>
-    public partial class Manager /*: INotifyPropertyChanged*/
+    public partial class Manager : INotifyPropertyChanged
     {
+        /*public IPersistanceManager Persistance { get; private set; }*/
         public Manager(/*IPersistanceManager p*/)
         {
-            //Persist = p;
+            /*Persistance = p;*/
             Administrateurs = new ReadOnlyCollection<Administrateur>(administrateurs);
             Clients = new ReadOnlyCollection<Client>(clients);
             Catalogues = C1;
         }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        void OnPropertyChanged(string propertyName)
+            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+
 
         /// <summary>
         /// Cette fonction permet de charger les donnée de l'application
         /// </summary>
         public void ChargeDonne()
         {
-            administrateurs.Add(new Administrateur("Peroni", "Luigi", "Luigi.PERONI@NewPizza.com", "09.25.25.80.18", "4 Avenue BlaiseMcool", "Clermont-Ferrand", "63000", "0000", "NewPizza()"));
-            ChargeClient();
+            /*var donnee = Persistance.Charge();
+            foreach (var us in donnee.client)
+            {
+                clients.Add(us);
+            }
+            foreach (var adm in donnee.admin)
+            {
+                administrateurs.Add(adm);
+            }
+            foreach (var cat in donnee.catalogue)
+            {
+                C1.CatalogueVegetarien.Add(adm);
+            }*/
+            ChargeUtilisateur();
             ChargeCatalogue();
         }
 
         /// <summary>
         /// Cette fonction crée les donnée des clients
         /// </summary>
-        public void ChargeClient()
+        public void ChargeUtilisateur()
         {
+            administrateurs.Add(new Administrateur("Peroni", "Luigi", "Luigi.PERONI@NewPizza.com", "09.25.25.80.18", "4 Avenue BlaiseMcool", "Clermont-Ferrand", "63000", "0000", "NewPizza()"));
             clients.AddRange(new Client[]
             {
                 new Client("Kartal", "Emre", "emre@oui.com", "06.45.85.95.15", "27 rue oui", "Clermont-Ferrand", "63100", "0", "0", "non"),
