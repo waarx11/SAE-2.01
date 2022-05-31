@@ -67,15 +67,7 @@ namespace Modele
         public Utilisateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp)
         {
 
-            if (!email.Contains("@") || string.IsNullOrWhiteSpace(email))
-            {
-                throw new ArgumentException("Adresse email invalide");
-            }
-            else
-            {
-                Email = email;
-            }
-
+            Email = email;
             if (string.IsNullOrWhiteSpace(nom))
             {
                 Nom = "Non-renseigné";

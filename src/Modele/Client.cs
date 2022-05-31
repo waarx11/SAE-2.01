@@ -42,16 +42,7 @@ namespace Modele
         public Client(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp, string pseudo, string photo=null)
             :base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
         {
-
-            if (string.IsNullOrWhiteSpace(pseudo))
-            {
-                throw new ArgumentException("Pseudo invalide");
-            }
-            else
-            {
-                Pseudo = pseudo;
-            }
-
+            Pseudo = pseudo;
             if (string.IsNullOrWhiteSpace(photo))
             {
                 Photo = "default\noPP.jpg";

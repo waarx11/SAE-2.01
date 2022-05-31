@@ -156,7 +156,7 @@ namespace Modele
                 if (c1.Email == email || !email.Contains("@"))
                     return -3;//Email déja existant
             }
-            clients.Add(new Client(id, email, mdp));
+            clients.Add(new Client(email, id, mdp));
             return 1;
         }
     }
