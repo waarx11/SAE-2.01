@@ -38,5 +38,17 @@ namespace newPizza1
                 App.Current.Windows[intCounter].Close();
         }
 
+
+        public string Photo
+        {
+            get { return (string)GetValue(PhotoProperty); }
+            set { SetValue(PhotoProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for Photo.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty PhotoProperty =
+            DependencyProperty.Register("Photo", typeof(string), typeof(pageProfil), new PropertyMetadata("..\\img\\default\\noPP.jpg"));
+
+
     }
 }

@@ -18,7 +18,7 @@
                 </ItemsPanelTemplate>
             </ListBox.ItemsPanel>
             <ListBox.ItemTemplate >
-                <DataTemplate >
+                <DataTemplate>
                     <StackPanel>
                         <local:ucPizzaBox Texte="{Binding Nom}" ImageName="{Binding ImageName, Converter={StaticResource string2ImageConverter}}"/>
                     </StackPanel>

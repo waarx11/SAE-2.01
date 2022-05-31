@@ -45,7 +45,7 @@ namespace Modele
             Pseudo = pseudo;
             if (string.IsNullOrWhiteSpace(photo))
             {
-                Photo = "default\noPP.jpg";
+                Photo = "..\\img\\default\\noPP.jpg";
             }
             else
             {
@@ -55,7 +55,7 @@ namespace Modele
         }
 
         public Client(string email, string pseudo, string mdp)
-            : this("Aucun", "Aucun", email, "Aucun", "Aucun", "Aucun", "Aucun", mdp, pseudo, "ImageDefault")            
+            : this("", "", email, "", "", "", "", mdp, pseudo, "")            
         { }
 
         /// <summary>
