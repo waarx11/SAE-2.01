@@ -21,7 +21,7 @@
 
         <Border BorderThickness="1" BorderBrush="{StaticResource couleurArrierePlan}" Background="{StaticResource couleurPrincipale}" Grid.ColumnSpan="2" Grid.RowSpan="3" CornerRadius="25"/>
 
-        <Image x:Name="imgPizCommande" Source="..\img\pizzas\epicees\spicy_hot_one.jpeg" Grid.Row="0" Margin="40,0,0,0" Grid.RowSpan="3" Height="120"/>
+        <Image x:Name="imgPizCommande" Source="..\img2\pizzas\epicees\spicy_hot_one.jpeg" Grid.Row="0" Margin="40,0,0,0" Grid.RowSpan="3" Height="120"/>
         <WrapPanel Margin="0,0,200,0" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock FontSize="20" Text="Voici les ingrédients de la pizza " Foreground="{StaticResource couleurTexte}"/>
             <TextBlock FontSize="20" x:Name="nomPizzaEncours" Text="XXXXXXX" Foreground="{StaticResource couleurTexte}"/>

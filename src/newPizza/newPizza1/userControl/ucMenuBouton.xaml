@@ -9,7 +9,7 @@
 
     <Button BorderThickness="0,0,0,2" BorderBrush="Black" Background="{StaticResource couleurPrincipale}" Width="300" Height="80" HorizontalAlignment="Left" Style="{x:Null}" Click="MenuBouton_Click">
         <WrapPanel Width="300">
-            <Image Source="..\\img\\buttons\\news.png" Width="50" Height="50" VerticalAlignment="Center" Margin="15,0,15,0" x:Name="ucBoutonMenuIMG"/>
+            <Image Source="..\\img2\\buttons\\news.png" Width="50" Height="50" VerticalAlignment="Center" Margin="15,0,15,0" x:Name="ucBoutonMenuIMG"/>
             <TextBlock Text="Nouveautés" FontSize="25" VerticalAlignment="Center" Margin="0,0,15,0"  x:Name="ucBoutonMenuTEXT" Foreground="{StaticResource couleurTexte}"/>
         </WrapPanel>
     </Button>

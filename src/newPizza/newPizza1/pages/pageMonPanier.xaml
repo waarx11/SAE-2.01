@@ -39,8 +39,8 @@
 
             
             <StackPanel Grid.Row="2">
-                <local:ucMenuBouton CLICKMENU="RetourWindow" setMessage="Retour" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center" BorderThickness="0,2,0,0" BorderBrush="Black"/>
-                <local:ucMenuBouton CLICKMENU="DecoWindow" setMessage="Déconnexion" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center"/>
+                <local:ucMenuBouton CLICKMENU="RetourWindow" setMessage="Retour" setImage="..\img2\buttons\retour.png"  HorizontalAlignment="Center" BorderThickness="0,2,0,0" BorderBrush="Black"/>
+                <local:ucMenuBouton CLICKMENU="DecoWindow" setMessage="Déconnexion" setImage="..\img2\buttons\quitter.png"  HorizontalAlignment="Center"/>
             </StackPanel>
         </Grid>
 
@@ -93,7 +93,7 @@
             <StackPanel Grid.Row="2">
                 <Button Width="400" Height="80" Background="{StaticResource couleurPrincipale}" BorderBrush="{StaticResource couleurSecondaire}">
                     <WrapPanel>
-                        <Image Source="..\img\buttons\panier.png" VerticalAlignment="Center" HorizontalAlignment="Center" Width="60" Height="60" Margin="10"/>
+                        <Image Source="..\img2\buttons\panier.png" VerticalAlignment="Center" HorizontalAlignment="Center" Width="60" Height="60" Margin="10"/>
                         <TextBlock FontSize="30" Text="Payer" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{StaticResource couleurTexte}"/>
                     </WrapPanel>
                 </Button>
