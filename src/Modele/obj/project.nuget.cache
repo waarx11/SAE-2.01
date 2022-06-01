@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "2hl8DckUUk/b4FQZs/V2UuakzAVHc7TXMtG68yawxUMr9AByFPDXinC9vM7AFM/RM8wVY0AeVFGetmfYlRq1+Q==",
   "success": true,
   "projectFilePath": "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj",
+=======
+  "dgSpecHash": "M4CXhlyZY7xLmZ4TSdF2zt7cT2MexNw3nRUKGhkBuoUH2K9pq4tLXw9SGWI3cqBBuYR328t5sFcDWiAy9UsgpQ==",
+  "success": true,
+  "projectFilePath": "U:\\sae201\\src\\Modele\\Modele.csproj",
+>>>>>>> 53e46795a4bc6bfb796dacd4f15c5b9652f25483
   "expectedPackageFiles": [],
   "logs": []
 }

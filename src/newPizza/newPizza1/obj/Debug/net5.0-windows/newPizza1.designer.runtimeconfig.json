@@ -6,8 +6,13 @@
       "version": "5.0.0"
     },
     "additionalProbingPaths": [
+<<<<<<< HEAD
       "C:\\Users\\babonneau\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\babonneau\\.nuget\\packages",
+=======
+      "C:\\Users\\naverdier\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\naverdier\\.nuget\\packages",
+>>>>>>> 53e46795a4bc6bfb796dacd4f15c5b9652f25483
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
       "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
     ],

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "umu7ElunYyM6djrnlq3qDcQLyPBvfnehZ8wVgfelZvYa7kY2deh6f/zScJCF7Qf9Q9o5FXNjE5LA6w96+CLYWg==",
   "success": true,
   "projectFilePath": "U:\\Documents\\SAE\\2.01\\src\\newPizza\\Stub\\Stub.csproj",
+=======
+  "dgSpecHash": "SbcNnk5h7DXEBK2y6hDzo1AerX0KqnOec60F1ULTwzh9isk1Dy0ZyCutp/LTzi3k/xvkz57MoFUxVsGcBWyy3A==",
+  "success": true,
+  "projectFilePath": "U:\\sae201\\src\\newPizza\\Stub\\Stub.csproj",
+>>>>>>> 53e46795a4bc6bfb796dacd4f15c5b9652f25483
   "expectedPackageFiles": [],
   "logs": []
 }
