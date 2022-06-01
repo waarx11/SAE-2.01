@@ -3,6 +3,23 @@ D:\ProjetWpfPizza\src\newPizza\Stub\obj\Debug\net5.0\Stub.GeneratedMSBuildEditor
 D:\ProjetWpfPizza\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfoInputs.cache
 D:\ProjetWpfPizza\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfo.cs
 D:\ProjetWpfPizza\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
+U:\Documents\SAE\2.01\src\newPizza\Stub\bin\Debug\net5.0\Stub.deps.json
+U:\Documents\SAE\2.01\src\newPizza\Stub\bin\Debug\net5.0\Stub.dll
+U:\Documents\SAE\2.01\src\newPizza\Stub\bin\Debug\net5.0\ref\Stub.dll
+U:\Documents\SAE\2.01\src\newPizza\Stub\bin\Debug\net5.0\Stub.pdb
+U:\Documents\SAE\2.01\src\newPizza\Stub\bin\Debug\net5.0\Modele.dll
+U:\Documents\SAE\2.01\src\newPizza\Stub\bin\Debug\net5.0\Modele.pdb
+U:\Documents\SAE\2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.AssemblyReference.cache
+U:\Documents\SAE\2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.GeneratedMSBuildEditorConfig.editorconfig
+U:\Documents\SAE\2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfoInputs.cache
+U:\Documents\SAE\2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfo.cs
+U:\Documents\SAE\2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.CoreCompileInputs.cache
+U:\Documents\SAE\2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.CopyComplete
+U:\Documents\SAE\2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.dll
+U:\Documents\SAE\2.01\src\newPizza\Stub\obj\Debug\net5.0\ref\Stub.dll
+U:\Documents\SAE\2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.pdb
+=======
 U:\sae201\src\newPizza\Stub\bin\Debug\net5.0\Stub.deps.json
 U:\sae201\src\newPizza\Stub\bin\Debug\net5.0\Stub.dll
 U:\sae201\src\newPizza\Stub\bin\Debug\net5.0\ref\Stub.dll
@@ -18,3 +35,4 @@ U:\sae201\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.CopyComplete
 U:\sae201\src\newPizza\Stub\obj\Debug\net5.0\Stub.dll
 U:\sae201\src\newPizza\Stub\obj\Debug\net5.0\ref\Stub.dll
 U:\sae201\src\newPizza\Stub\obj\Debug\net5.0\Stub.pdb
+>>>>>>> 53e46795a4bc6bfb796dacd4f15c5b9652f25483

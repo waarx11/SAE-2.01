@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "HscmmQdIfP/g8s6n6D+UWs7JBzzmJnV5jREnNUpUnyOgRuqYEy13VXdgAWGQrC9+77uuIo2yqIbeWbGdqRn52Q==",
+  "dgSpecHash": "Y90gAkeTbGayqizv7ipJ1gP9qQYcuiH1vK3i59YWiRXh5neLIwX4GJNlzsNwJboL6gemYHY5hRBMU8r17SAcnQ==",
   "success": true,
-  "projectFilePath": "U:\\sae201\\src\\Test_Pizza\\Test_Pizza.csproj",
+  "projectFilePath": "U:\\Documents\\SAE\\2.01\\src\\Test_Pizza\\Test_Pizza.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache U:\\Documents\\SAE\\2.01\\src\\Test_Pizza\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "U:\\sae201\\src\\newPizza\\Test_All\\Test_All.csproj": {}
+    "U:\\Documents\\SAE\\2.01\\src\\newPizza\\Test_All\\Test_All.csproj": {}
   },
   "projects": {
-    "U:\\sae201\\src\\Modele\\Modele.csproj": {
+    "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "U:\\sae201\\src\\Modele\\Modele.csproj",
+        "projectUniqueName": "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "U:\\sae201\\src\\Modele\\Modele.csproj",
-        "packagesPath": "C:\\Users\\naverdier\\.nuget\\packages\\",
-        "outputPath": "U:\\sae201\\src\\Modele\\obj\\",
+        "projectPath": "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj",
+        "packagesPath": "C:\\Users\\babonneau\\.nuget\\packages\\",
+        "outputPath": "U:\\Documents\\SAE\\2.01\\src\\Modele\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\naverdier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\babonneau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -64,21 +64,21 @@
         }
       }
     },
-    "U:\\sae201\\src\\newPizza\\Test_All\\Test_All.csproj": {
+    "U:\\Documents\\SAE\\2.01\\src\\newPizza\\Test_All\\Test_All.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "U:\\sae201\\src\\newPizza\\Test_All\\Test_All.csproj",
+        "projectUniqueName": "U:\\Documents\\SAE\\2.01\\src\\newPizza\\Test_All\\Test_All.csproj",
         "projectName": "Test_All",
-        "projectPath": "U:\\sae201\\src\\newPizza\\Test_All\\Test_All.csproj",
-        "packagesPath": "C:\\Users\\naverdier\\.nuget\\packages\\",
-        "outputPath": "U:\\sae201\\src\\newPizza\\Test_All\\obj\\",
+        "projectPath": "U:\\Documents\\SAE\\2.01\\src\\newPizza\\Test_All\\Test_All.csproj",
+        "packagesPath": "C:\\Users\\babonneau\\.nuget\\packages\\",
+        "outputPath": "U:\\Documents\\SAE\\2.01\\src\\newPizza\\Test_All\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\naverdier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\babonneau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "U:\\sae201\\src\\Modele\\Modele.csproj": {
-                "projectPath": "U:\\sae201\\src\\Modele\\Modele.csproj"
+              "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj": {
+                "projectPath": "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj"
               }
             }
           }

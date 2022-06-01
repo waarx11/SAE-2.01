@@ -10,6 +10,20 @@ D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.dll
 D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\refint\Modele.dll
 D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.pdb
 D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\ref\Modele.dll
+<<<<<<< HEAD
+U:\Documents\SAE\2.01\src\Modele\bin\Debug\net5.0\Modele.deps.json
+U:\Documents\SAE\2.01\src\Modele\bin\Debug\net5.0\Modele.dll
+U:\Documents\SAE\2.01\src\Modele\bin\Debug\net5.0\ref\Modele.dll
+U:\Documents\SAE\2.01\src\Modele\bin\Debug\net5.0\Modele.pdb
+U:\Documents\SAE\2.01\src\Modele\obj\Debug\net5.0\Modele.csproj.AssemblyReference.cache
+U:\Documents\SAE\2.01\src\Modele\obj\Debug\net5.0\Modele.GeneratedMSBuildEditorConfig.editorconfig
+U:\Documents\SAE\2.01\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfoInputs.cache
+U:\Documents\SAE\2.01\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfo.cs
+U:\Documents\SAE\2.01\src\Modele\obj\Debug\net5.0\Modele.csproj.CoreCompileInputs.cache
+U:\Documents\SAE\2.01\src\Modele\obj\Debug\net5.0\Modele.dll
+U:\Documents\SAE\2.01\src\Modele\obj\Debug\net5.0\ref\Modele.dll
+U:\Documents\SAE\2.01\src\Modele\obj\Debug\net5.0\Modele.pdb
+=======
 U:\sae201\src\Modele\bin\Debug\net5.0\Modele.deps.json
 U:\sae201\src\Modele\bin\Debug\net5.0\Modele.dll
 U:\sae201\src\Modele\bin\Debug\net5.0\ref\Modele.dll
@@ -22,3 +36,4 @@ U:\sae201\src\Modele\obj\Debug\net5.0\Modele.csproj.CoreCompileInputs.cache
 U:\sae201\src\Modele\obj\Debug\net5.0\Modele.dll
 U:\sae201\src\Modele\obj\Debug\net5.0\ref\Modele.dll
 U:\sae201\src\Modele\obj\Debug\net5.0\Modele.pdb
+>>>>>>> 53e46795a4bc6bfb796dacd4f15c5b9652f25483
