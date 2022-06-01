@@ -21,7 +21,7 @@ namespace TestsUnitaires
             Pizza p = new Pizza(nom, description, image, liste, prix);
             Assert.Equal(expectNom, p.Nom);
             Assert.Equal(expectDesc, p.Description);
-            Assert.Equal(expectImage, p.Image);
+            Assert.Equal(expectImage, p.ImageName);
             Assert.Equal(expectPrix, p.Prix);
             Assert.Equal(liste, p.listIngredient);
         }

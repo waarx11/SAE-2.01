@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿
+﻿U:\Documents\SAE\2.01\src\newPizza\newPizza1\obj\Release\net5.0-windows\GeneratedInternalTypeHelper.g.cs
 FU:\Documents\SAE\2.01\src\newPizza\newPizza1\App.xaml;;
 FU:\Documents\SAE\2.01\src\newPizza\newPizza1\pages\pageAdministrateur.xaml;;
 FU:\Documents\SAE\2.01\src\newPizza\newPizza1\pages\pageCatalogue.xaml;;
@@ -20,27 +19,4 @@ FU:\Documents\SAE\2.01\src\newPizza\newPizza1\userControl\ucPizzaBox.xaml;;
 FU:\Documents\SAE\2.01\src\newPizza\newPizza1\userControl\ucTopAdministrateur.xaml;;
 FU:\Documents\SAE\2.01\src\newPizza\newPizza1\userControl\ucTopBar.xaml;;
 FU:\Documents\SAE\2.01\src\newPizza\newPizza1\userControl\ucTouteLesCommande.xaml;;
-=======
-﻿U:\sae201\src\newPizza\newPizza1\obj\Release\net5.0-windows\GeneratedInternalTypeHelper.g.cs
-FU:\sae201\src\newPizza\newPizza1\App.xaml;;
-FU:\sae201\src\newPizza\newPizza1\pages\pageAdministrateur.xaml;;
-FU:\sae201\src\newPizza\newPizza1\pages\pageCatalogue.xaml;;
-FU:\sae201\src\newPizza\newPizza1\pages\pageIdentification.xaml;;
-FU:\sae201\src\newPizza\newPizza1\pages\pageMonPanier.xaml;;
-FU:\sae201\src\newPizza\newPizza1\pages\pageNewCompte.xaml;;
-FU:\sae201\src\newPizza\newPizza1\pages\pageProfil.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucAdmninistration.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucCatalogueCarnivore.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucCatalogueEpicees.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucCataloguePizzeta.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucCatalogueVege.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucCommande.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucCommandeEnCours.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucInfoPizza.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucMenuBouton.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucPizzaBox.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucTopAdministrateur.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucTopBar.xaml;;
-FU:\sae201\src\newPizza\newPizza1\userControl\ucTouteLesCommande.xaml;;
->>>>>>> 53e46795a4bc6bfb796dacd4f15c5b9652f25483
 
