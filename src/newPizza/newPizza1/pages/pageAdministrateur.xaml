@@ -32,7 +32,7 @@
 
             <TextBlock FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.RowSpan="2">
                 <Run Text="Informations de mon entreprise : "/>
-                <Run Text="{Binding NomPizzeria}"/>
+                <Run Text="{Binding NomPizzeria, Mode=OneWay}"/>
             </TextBlock>
             <ContentControl x:Name="contControl" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2">
                 <local:ucAdmninistration/>

@@ -10,3 +10,15 @@ D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.dll
 D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\refint\Modele.dll
 D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\Modele.pdb
 D:\ProjetWpfPizza\src\Modele\obj\Debug\net5.0\ref\Modele.dll
+U:\sae201\src\Modele\bin\Debug\net5.0\Modele.deps.json
+U:\sae201\src\Modele\bin\Debug\net5.0\Modele.dll
+U:\sae201\src\Modele\bin\Debug\net5.0\ref\Modele.dll
+U:\sae201\src\Modele\bin\Debug\net5.0\Modele.pdb
+U:\sae201\src\Modele\obj\Debug\net5.0\Modele.csproj.AssemblyReference.cache
+U:\sae201\src\Modele\obj\Debug\net5.0\Modele.GeneratedMSBuildEditorConfig.editorconfig
+U:\sae201\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfoInputs.cache
+U:\sae201\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfo.cs
+U:\sae201\src\Modele\obj\Debug\net5.0\Modele.csproj.CoreCompileInputs.cache
+U:\sae201\src\Modele\obj\Debug\net5.0\Modele.dll
+U:\sae201\src\Modele\obj\Debug\net5.0\ref\Modele.dll
+U:\sae201\src\Modele\obj\Debug\net5.0\Modele.pdb

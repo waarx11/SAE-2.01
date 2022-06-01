@@ -11,7 +11,8 @@
           "MaterialDesignColors": "2.0.6",
           "MaterialDesignThemes": "4.5.0",
           "MaterialSkin.2": "2.3.1",
-          "Modele": "1.0.0"
+          "Modele": "1.0.0",
+          "Stub": "1.0.0"
         },
         "runtime": {
           "newPizza1.dll": {}
@@ -48,6 +49,14 @@
         "runtime": {
           "Modele.dll": {}
         }
+      },
+      "Stub/1.0.0": {
+        "dependencies": {
+          "Modele": "1.0.0"
+        },
+        "runtime": {
+          "Stub.dll": {}
+        }
       }
     }
   },
@@ -79,6 +88,11 @@
       "hashPath": "materialskin.2.2.3.1.nupkg.sha512"
     },
     "Modele/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Stub/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
