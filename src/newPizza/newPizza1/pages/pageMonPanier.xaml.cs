@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Modele;
 
 namespace newPizza1
 {
@@ -19,8 +20,11 @@ namespace newPizza1
     /// </summary>
     public partial class pageMonPanier : Window
     {
+        public Manager Mgr => (App.Current as App).LeManager;
+
         public pageMonPanier()
         {
+            DataContext = Mgr.UtilisateurActuel;
             InitializeComponent();
         }
 
