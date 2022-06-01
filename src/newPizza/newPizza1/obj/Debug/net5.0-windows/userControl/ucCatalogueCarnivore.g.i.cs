@@ -53,7 +53,7 @@ namespace newPizza1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/newPizza1;component/usercontrol/uccataloguecarnivore.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/newPizza1;V1.0.0.0;component/usercontrol/uccataloguecarnivore.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\userControl\ucCatalogueCarnivore.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
