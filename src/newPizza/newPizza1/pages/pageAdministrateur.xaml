@@ -11,7 +11,7 @@
         d:DesignHeight="1080" d:DesignWidth="1920"
         Title="pageAdministrateur" Width="1920" Height="1080">
     <DockPanel  Background="{StaticResource couleurFond}">
-        <Grid Background="{StaticResource couleurPrincipale}">
+        <Grid Background="{StaticResource couleurFond}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="70" />
                 <RowDefinition Height="90" />
@@ -23,16 +23,18 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Text="Administrateur" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline" Foreground="{StaticResource couleurTexte}"/>
-            <ListBox BorderThickness="0" Grid.Row="1" Width="300" Grid.RowSpan="2">
-                <local:ucMenuBouton setMessage="Restaurant" setImage="..\img\buttons\news.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
+            <StackPanel Grid.Row="0" Width="300" Grid.RowSpan="3" Background="{StaticResource couleurPrincipale}">
+                <TextBlock Text="Administrateur" Margin="0,20,0,20" HorizontalAlignment="Center" FontSize="35" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline" Foreground="{StaticResource couleurTexte}"/>
+                <ListBox BorderThickness="0">
+            <local:ucMenuBouton setMessage="Restaurant" setImage="..\img\buttons\news.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
                 <local:ucMenuBouton setMessage="Commandes" setImage="..\img\buttons\spicy.png" CLICKMENU="Bouton_Commandes"/>
             </ListBox>
+            </StackPanel>
             <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="3" CLICKMENU="Bouton_Deconnexion"/>
 
-            <TextBlock FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.RowSpan="2">
-                <Run Text="Informations de mon entreprise : "/>
-                <Run Text="{Binding NomPizzeria, Mode=OneWay}"/>
+            <TextBlock x:Name="content_TextBl" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.RowSpan="2">
+                <Run x:Name="Titre" Text="Informations de mon entreprise : "/>
+                <Run x:Name="TextBun" Text="{Binding NomPizzeria, Mode=OneWay}"/>
             </TextBlock>
             <ContentControl x:Name="contControl" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2">
                 <local:ucAdmninistration/>

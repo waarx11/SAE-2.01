@@ -38,12 +38,16 @@ namespace newPizza1
         {
             var windows = new ucAdmninistration();
             contControl.Content = windows;
+            Titre.Text = "Informations de mon entreprise :";
+            TextBun.Text = (Mgr.UtilisateurActuel as Administrateur).NomPizzeria;
         }
 
         private void Bouton_Commandes(object sender, RoutedEventArgs e)
         {
             var windows = new ucTouteLesCommande();
             contControl.Content = windows;
+            Titre.Text = "Commande";
+            TextBun.Text = "";
         }
     }
 }
