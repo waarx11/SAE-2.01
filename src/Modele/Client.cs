@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 
 namespace Modele
@@ -7,8 +8,11 @@ namespace Modele
     /// <summary>
     /// Cette class permet de crée un client et elle hérite de la class utilisateur
     /// </summary>
-    public class Client : Utilisateur
+    public class Client : Utilisateur, INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged;
+        void OnPropertyChanged(string propertyName)
+            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         /// <summary>
         /// Pseudo de l'utilisateur
         /// </summary>
@@ -18,7 +22,17 @@ namespace Modele
         /// Photo de l'utilisateur
         /// </summary>
         private string photo;
-        public string Photo { get => photo; private set => photo = value; }
+        public string Photo { get => photo; 
+            set
+            {
+                if (Photo != value)
+                {
+                    
+                    photo = value;
+                    OnPropertyChanged(nameof(Photo));
+                }
+            }
+                }
 
 
         /// <summary>

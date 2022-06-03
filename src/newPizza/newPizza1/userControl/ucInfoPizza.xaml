@@ -75,7 +75,7 @@
                     <Border BorderThickness="5" BorderBrush="{StaticResource couleurSecondaire}" Grid.Column="0" Grid.Row="1" Margin="100,0,0,0" Width="400" Height="80" HorizontalAlignment="Left">
                         <Button Style="{x:Null}"  Background="{StaticResource couleurPrincipale}" BorderThickness="0">
                             <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                                <Image Source="..\img\buttons\viande.png" Width="35" Height="35"></Image>
+                                <Image Source="..\img2\buttons\viande.png" Width="35" Height="35"></Image>
                                 <TextBlock  Foreground="{StaticResource couleurTexte}" Grid.Column="1" Text="Modifier les ingrédients" FontSize="30" Margin="10,0,0,0"/>
                             </WrapPanel>
                         </Button>

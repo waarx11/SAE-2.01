@@ -30,13 +30,13 @@
 
             <TextBlock Text="Mon compte" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline" Grid.RowSpan="2" Foreground="{StaticResource couleurTexte}"/>
             <ListBox Grid.Row="2" Width="300" VerticalAlignment="Center">
-                <StackPanel>
-                    <Image Source="{Binding Photo, Converter={StaticResource string2ImageConverter}}" />
-                </StackPanel>
+                <Button Style="{x:Null}" Click="BTN_addImage" BorderThickness="0" Background="{StaticResource couleurPrincipale}">
+                    <Image Source="{Binding Photo, Converter={StaticResource string2ImageConverter}}"/>
+                </Button>
             </ListBox>
             <StackPanel Grid.Row="3">
-                <local:ucMenuBouton CLICKMENU="RetourWindow" setMessage="Retour" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center" BorderThickness="0,2,0,0" BorderBrush="Black"/>
-                <local:ucMenuBouton CLICKMENU="DecoWindow" setMessage="Déconnexion" setImage="..\img\buttons\quitter.png"  HorizontalAlignment="Center"/>
+                <local:ucMenuBouton CLICKMENU="RetourWindow" setMessage="Retour" setImage="..\img2\buttons\retour.png"  HorizontalAlignment="Center" BorderThickness="0,2,0,0" BorderBrush="Black"/>
+                <local:ucMenuBouton CLICKMENU="DecoWindow" setMessage="Déconnexion" setImage="..\img2\buttons\quitter.png"  HorizontalAlignment="Center"/>
             </StackPanel>
 
 
