@@ -41,23 +41,6 @@ namespace Modele
             listCommandeAdmin = new List<Commande>();
         }
 
-        /// <summary>
-        /// Permet de modifier les informations d'un administrateur
-        /// </summary>
-        /// <param name="nom"></param>
-        /// <param name="prénom"></param>
-        /// <param name="email"></param>
-        /// <param name="téléphone"></param>
-        /// <param name="adresse"></param>
-        /// <param name="ville"></param>
-        /// <param name="codePostal"></param>
-        /// <param name="nomPizzeria"></param>
-        public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string nomPizzeria)
-        {
-            EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
-            NomPizzeria = nomPizzeria;
-        }
-
         public void ChangerStatusCommande(Commande C1)
         {
             if (C1 == null)

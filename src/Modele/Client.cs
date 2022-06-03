@@ -42,7 +42,7 @@ namespace Modele
         public List<Pizza> ListCommandeClient { get => listCommandeClient; private set => listCommandeClient = value; }
 
         /// <summary>
-        /// Constructeur d'un Client
+        /// Constructeur de la classe Client
         /// </summary>
         /// <param name="nom"></param>
         /// <param name="prénom"></param>
@@ -68,34 +68,25 @@ namespace Modele
             listCommandeClient=new List<Pizza>();
         }
 
+        /// <summary>
+        /// Constructeur de la classe Client
+        /// </summary>
+        /// <param name="email"></param>
+        /// <param name="pseudo"></param>
+        /// <param name="mdp"></param>
         public Client(string email, string pseudo, string mdp)
             : this("", "", email, "", "", "", "", mdp, pseudo, "")            
         { }
-
-        /// <summary>
-        /// Permet de mettre a jour les informations d'un client
-        /// </summary>
-        /// <param name="nom"></param>
-        /// <param name="prénom"></param>
-        /// <param name="email"></param>
-        /// <param name="téléphone"></param>
-        /// <param name="adresse"></param>
-        /// <param name="ville"></param>
-        /// <param name="codePostal"></param>
-        /// <param name="pseudo"></param>
-        /// <param name="photo"></param>
-        public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string pseudo, string photo)
-        {
-            EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
-            Pseudo = pseudo;
-            Photo = photo;
-        }
 
         public override string ToString()
         {
             return $"{base.ToString()} {Pseudo} {Photo}";
         }
 
+        /// <summary>
+        /// Envoie la liste de commande du client à l'administrateur et la vide une fois fait
+        /// </summary>
+        /// <param name="admin"></param>
         public void envoyerListeCommande(Administrateur admin)
         {
             Commande commande = new Commande(this, listCommandeClient);
@@ -103,6 +94,11 @@ namespace Modele
             listCommandeClient.Clear();
         }
 
+        /// <summary>
+        /// Ajoute une pizza a la liste des commande du client
+        /// </summary>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public bool ajouterPizzaCommande(Pizza p)
         {
             if(p== null)
@@ -120,6 +116,11 @@ namespace Modele
             return false;
         }
 
+        /// <summary>
+        /// Supprime une pizza de la liste des commande du client
+        /// </summary>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public bool supprimerPizzaCommande(Pizza p)
         {
             if (listCommandeClient.Contains(p))
