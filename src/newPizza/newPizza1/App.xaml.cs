@@ -16,7 +16,7 @@ namespace newPizza1
     {
         public Manager LeManager { get; private set; } = new Manager(new Stub.Stub());
         
-        public App()
+        public App() :base()
         {
             LeManager.ChargeDonne();
         }
