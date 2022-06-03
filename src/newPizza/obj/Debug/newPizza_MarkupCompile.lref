@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-﻿U:\Documents\SAE\2.01\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
-FU:\Documents\SAE\2.01\src\newPizza\App.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\pages\pageMonPanier.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\pages\pageProfil.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\pages\pageNewCompte.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\pages\pageAdministrateur.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\pages\pageIdentification.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\pages\pageCatalogue.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucInfoPizza.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucCommandeEnCours.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucTouteLesCommande.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucCommande.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucAdmninistration.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucCatalogueCarnivore.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucCatalogueVege.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucCatalogueEpicees.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucTopBar.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucPizzaBox.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucCataloguePizzeta.xaml;;
-FU:\Documents\SAE\2.01\src\newPizza\userControl\ucMenuBouton.xaml;;
-=======
 ﻿U:\sae201\src\newPizza\obj\Debug\GeneratedInternalTypeHelper.g.cs
 FU:\sae201\src\newPizza\App.xaml;;
 FU:\sae201\src\newPizza\pages\pageMonPanier.xaml;;
@@ -40,5 +18,4 @@ FU:\sae201\src\newPizza\userControl\ucTopBar.xaml;;
 FU:\sae201\src\newPizza\userControl\ucPizzaBox.xaml;;
 FU:\sae201\src\newPizza\userControl\ucCataloguePizzeta.xaml;;
 FU:\sae201\src\newPizza\userControl\ucMenuBouton.xaml;;
->>>>>>> 53e46795a4bc6bfb796dacd4f15c5b9652f25483
 

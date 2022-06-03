@@ -27,25 +27,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\babonneau\\.nuget\\packages\\": {},
+    "C:\\Users\\naverdier\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "U:\\Documents\\SAE\\2.01\\src\\newPizza\\Test_All\\Test_All.csproj",
+      "projectUniqueName": "U:\\sae201\\src\\newPizza\\Test_All\\Test_All.csproj",
       "projectName": "Test_All",
-      "projectPath": "U:\\Documents\\SAE\\2.01\\src\\newPizza\\Test_All\\Test_All.csproj",
-      "packagesPath": "C:\\Users\\babonneau\\.nuget\\packages\\",
-      "outputPath": "U:\\Documents\\SAE\\2.01\\src\\newPizza\\Test_All\\obj\\",
+      "projectPath": "U:\\sae201\\src\\newPizza\\Test_All\\Test_All.csproj",
+      "packagesPath": "C:\\Users\\naverdier\\.nuget\\packages\\",
+      "outputPath": "U:\\sae201\\src\\newPizza\\Test_All\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\babonneau\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\naverdier\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -61,8 +61,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj": {
-              "projectPath": "U:\\Documents\\SAE\\2.01\\src\\Modele\\Modele.csproj"
+            "U:\\sae201\\src\\Modele\\Modele.csproj": {
+              "projectPath": "U:\\sae201\\src\\Modele\\Modele.csproj"
             }
           }
         }
@@ -94,13 +94,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache U:\\Documents\\SAE\\2.01\\src\\newPizza\\Test_All\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

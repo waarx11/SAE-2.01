@@ -9,9 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using MaterialDesignThemes.Wpf;
-using MaterialDesignThemes.Wpf.Converters;
-using MaterialDesignThemes.Wpf.Transitions;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -57,7 +54,7 @@ namespace newPizza1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/newPizza1;component/pages/pagemonpanier.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/newPizza1;V1.0.0.0;component/pages/pagemonpanier.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\pages\pageMonPanier.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
