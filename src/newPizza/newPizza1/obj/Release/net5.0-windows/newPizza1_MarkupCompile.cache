@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\sae-2.01\src\newPizza\newPizza1\obj\Release\net5.0-windows\
+D:\Project\src\newPizza\newPizza1\obj\Release\net5.0-windows\
 newPizza1
 none
 false
 TRACE;RELEASE;NET;NET5_0;NETCOREAPP
-D:\sae-2.01\src\newPizza\newPizza1\App.xaml
+D:\Project\src\newPizza\newPizza1\App.xaml
 191054194553
 16498234589
 22955056504
-2061298175935
+2061341179904
 pages\pageAdministrateur.xaml;pages\pageCatalogue.xaml;pages\pageIdentification.xaml;pages\pageMonPanier.xaml;pages\pageNewCompte.xaml;pages\pageProfil.xaml;userControl\ucAdmninistration.xaml;userControl\ucCatalogueCarnivore.xaml;userControl\ucCatalogueEpicees.xaml;userControl\ucCataloguePizzeta.xaml;userControl\ucCatalogueVege.xaml;userControl\ucCommande.xaml;userControl\ucCommandeEnCours.xaml;userControl\ucInfoPizza.xaml;userControl\ucMenuBouton.xaml;userControl\ucPizzaBox.xaml;userControl\ucTopAdministrateur.xaml;userControl\ucTopBar.xaml;userControl\ucTouteLesCommande.xaml;
 
 True

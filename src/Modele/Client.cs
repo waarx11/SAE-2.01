@@ -10,9 +10,9 @@ namespace Modele
     /// </summary>
     public class Client : Utilisateur, INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler PropertyChanged2;
         void OnPropertyChanged(string propertyName)
-            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            => PropertyChanged2?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         /// <summary>
         /// Pseudo de l'utilisateur
         /// </summary>

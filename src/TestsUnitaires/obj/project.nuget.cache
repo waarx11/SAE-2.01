@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qjO3tz36VEWiBCowCAtvHb1Jq/mGV8f9LoOFgvWLzkZgWfkg4kE0fdySAt1H48hW/TGF3px+bCz4Dv1FrLHjOg==",
+  "dgSpecHash": "Ekh/FsLKBwLtgI1wDsOsEgloX1x1USyxwwHC/oOVplJeVdTSCRxoeMx6xYm7mYFPQP+HOH1MWIsgEJyWdDyG8Q==",
   "success": true,
-  "projectFilePath": "D:\\sae-2.01\\src\\TestsUnitaires\\TestsUnitaires.csproj",
+  "projectFilePath": "D:\\Project\\src\\TestsUnitaires\\TestsUnitaires.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natha\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
@@ -95,10 +95,7 @@
     "C:\\Users\\natha\\.nuget\\packages\\xunit.core\\2.4.1\\xunit.core.2.4.1.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\natha\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\natha\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
   "logs": []
 }

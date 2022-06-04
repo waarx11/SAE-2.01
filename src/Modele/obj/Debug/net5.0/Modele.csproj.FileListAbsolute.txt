@@ -49,3 +49,15 @@ D:\sae-2.01\src\Modele\obj\Debug\net5.0\Modele.dll
 D:\sae-2.01\src\Modele\obj\Debug\net5.0\refint\Modele.dll
 D:\sae-2.01\src\Modele\obj\Debug\net5.0\Modele.pdb
 D:\sae-2.01\src\Modele\obj\Debug\net5.0\ref\Modele.dll
+D:\Project\src\Modele\bin\Debug\net5.0\Modele.deps.json
+D:\Project\src\Modele\bin\Debug\net5.0\Modele.dll
+D:\Project\src\Modele\bin\Debug\net5.0\ref\Modele.dll
+D:\Project\src\Modele\bin\Debug\net5.0\Modele.pdb
+D:\Project\src\Modele\obj\Debug\net5.0\Modele.csproj.AssemblyReference.cache
+D:\Project\src\Modele\obj\Debug\net5.0\Modele.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfoInputs.cache
+D:\Project\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfo.cs
+D:\Project\src\Modele\obj\Debug\net5.0\Modele.csproj.CoreCompileInputs.cache
+D:\Project\src\Modele\obj\Debug\net5.0\Modele.dll
+D:\Project\src\Modele\obj\Debug\net5.0\ref\Modele.dll
+D:\Project\src\Modele\obj\Debug\net5.0\Modele.pdb

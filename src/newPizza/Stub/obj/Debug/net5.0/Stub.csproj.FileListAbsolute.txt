@@ -43,3 +43,11 @@ D:\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfo.cs
 D:\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.CoreCompileInputs.cache
 D:\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.dll
 D:\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.pdb
+D:\Project\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.AssemblyReference.cache
+D:\Project\src\newPizza\Stub\obj\Debug\net5.0\Stub.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfoInputs.cache
+D:\Project\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfo.cs
+D:\Project\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.CoreCompileInputs.cache
+D:\Project\src\newPizza\Stub\obj\Debug\net5.0\Stub.dll
+D:\Project\src\newPizza\Stub\obj\Debug\net5.0\ref\Stub.dll
+D:\Project\src\newPizza\Stub\obj\Debug\net5.0\Stub.pdb
