@@ -8,7 +8,7 @@ namespace Test_Pizza
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Test de la classe Pizzza");
+            Console.WriteLine("Test de la classe Pizza");
             List<Ingredients> lIngre1 = new List<Ingredients> { (Ingredients)2, (Ingredients)20 };
             List<Ingredients> lIngre2 = new List<Ingredients> { (Ingredients)55, (Ingredients)13, (Ingredients)42, (Ingredients)21, (Ingredients)36 };
             Pizza P1 = new Pizza("Reine", "Bonne", "oui", lIngre1, 15);

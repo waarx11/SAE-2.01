@@ -53,3 +53,10 @@ U:\Documents\SAE\2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.dll
 U:\Documents\SAE\2.01\src\newPizza\Test_All\obj\Debug\net5.0\ref\Test_All.dll
 U:\Documents\SAE\2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.pdb
 U:\Documents\SAE\2.01\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.genruntimeconfig.cache
+C:\Users\bapti\Desktop\sae 201\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.csproj.AssemblyReference.cache
+C:\Users\bapti\Desktop\sae 201\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bapti\Desktop\sae 201\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.AssemblyInfoInputs.cache
+C:\Users\bapti\Desktop\sae 201\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.AssemblyInfo.cs
+C:\Users\bapti\Desktop\sae 201\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.csproj.CoreCompileInputs.cache
+C:\Users\bapti\Desktop\sae 201\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.dll
+C:\Users\bapti\Desktop\sae 201\src\newPizza\Test_All\obj\Debug\net5.0\Test_All.pdb

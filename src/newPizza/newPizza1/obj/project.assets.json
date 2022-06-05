@@ -157,28 +157,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\natha\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\bapti\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\src\\newPizza\\newPizza1\\newPizza1.csproj",
+      "projectUniqueName": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\newPizza1\\newPizza1.csproj",
       "projectName": "newPizza1",
-      "projectPath": "D:\\Project\\src\\newPizza\\newPizza1\\newPizza1.csproj",
-      "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\src\\newPizza\\newPizza1\\obj\\",
+      "projectPath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\newPizza1\\newPizza1.csproj",
+      "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\newPizza1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0-windows7.0"
@@ -191,11 +183,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\Project\\src\\Modele\\Modele.csproj": {
-              "projectPath": "D:\\Project\\src\\Modele\\Modele.csproj"
+            "C:\\Users\\bapti\\Desktop\\sae 201\\src\\Modele\\Modele.csproj": {
+              "projectPath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\Modele\\Modele.csproj"
             },
-            "D:\\Project\\src\\newPizza\\Stub\\Stub.csproj": {
-              "projectPath": "D:\\Project\\src\\newPizza\\Stub\\Stub.csproj"
+            "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\Stub\\Stub.csproj": {
+              "projectPath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\Stub\\Stub.csproj"
             }
           }
         }
@@ -241,7 +233,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

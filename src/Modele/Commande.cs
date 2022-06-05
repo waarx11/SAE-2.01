@@ -39,9 +39,16 @@ namespace Modele
         public void changerStatus()
         {
             if (statut == Status.Commencer)
+            {
                 statut = Status.EnCours;
+                return;
+            }
+
             if (statut == Status.EnCours)
+            {
                 statut = Status.Finir;
+                return;
+            }
         }
     }
 }
