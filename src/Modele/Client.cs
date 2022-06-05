@@ -90,7 +90,7 @@ namespace Modele
         /// <param name="codePostal"></param>
         /// <param name="pseudo"></param>
         /// <param name="photo"></param>
-        public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string pseudo, string photo)
+        public Client EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string pseudo, string photo)
         {
             EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
             Pseudo = pseudo;

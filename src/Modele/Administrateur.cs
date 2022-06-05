@@ -52,7 +52,7 @@ namespace Modele
         /// <param name="ville"></param>
         /// <param name="codePostal"></param>
         /// <param name="nomPizzeria"></param>
-        public void EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string nomPizzeria)
+        public Administrateur EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string nomPizzeria)
         {
             EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
             NomPizzeria = nomPizzeria;
