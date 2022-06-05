@@ -103,16 +103,19 @@ namespace Modele
         {
             if(p== null)
                 return false;
+
             if (!listCommandeClient.Contains(p))
             {
                 listCommandeClient.Add(p);
                 return true;
             }
+
             if (listCommandeClient.Contains(p))
             {
                 p.modifQte(1);
                 return true;
             }
+
             return false;
         }
 

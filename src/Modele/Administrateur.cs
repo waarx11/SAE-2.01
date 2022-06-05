@@ -47,10 +47,11 @@ namespace Modele
                 return;
             if (ListCommandeAdmin.Contains(C1))
             {
-                ListCommandeAdmin.Remove(C1);
                 C1.changerStatus();
-                if (C1.Statut != Status.Finir)
+                if(C1.Statut == Status.Finir)
+                {
                     ListCommandeAdmin.Add(C1);
+                }
             }
         }
 
