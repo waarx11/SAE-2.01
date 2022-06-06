@@ -830,3 +830,5 @@ C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\newPizza1\obj\Debug\net5.0-win
 C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\newPizza1\obj\Debug\net5.0-windows\ref\newPizza1.dll
 C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizzaBin\net5.0-windows\img2\buttons\commandes.png
 C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizzaBin\net5.0-windows\img2\buttons\info.png
+C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\newPizza1\obj\Debug\net5.0-windows\userControl\ucPizzaCommande.g.cs
+C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\newPizza1\obj\Debug\net5.0-windows\userControl\ucPizzaCommande.baml

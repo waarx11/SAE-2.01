@@ -24,5 +24,29 @@ namespace newPizza1
         {
             InitializeComponent();
         }
+
+        List<ucPizzaCommande> ucPizzaCommandeList = new List<ucPizzaCommande>();
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //on crée un nouveau player settings
+            ucPizzaCommande pSettings = new ucPizzaCommande();
+            //on incrémente l'identifiant pour lui donner la bonne valeur
+            pSettings.Id = ucPizzaCommandeList.Count + 1;
+            //on ajoute quelques propriétés
+            pSettings.HorizontalAlignment = System.Windows.HorizontalAlignment.Stretch;
+            pSettings.VerticalAlignment = System.Windows.VerticalAlignment.Center;
+
+            //on ajoute une nouvelle ligne à la grille
+            ucPizzaCommandeGrid.RowDefinitions.Add(new RowDefinition());
+            //on ajoute le player settings à la grille en le plaçant sur la nouvelle ligne
+            ucPizzaCommandeGrid.Children.Add(pSettings);
+            pSettings.SetValue(Grid.RowProperty, pSettings.Id);
+
+            //on ajoute notre player settings à la liste privée
+            ucPizzaCommandeList.Add(pSettings);
+        }
+
+
     }
 }

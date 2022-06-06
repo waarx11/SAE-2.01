@@ -10,15 +10,7 @@
 
         <ScrollViewer Height = "auto" Width = "auto" VerticalScrollBarVisibility = "Auto">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
+                <local:ucCommande Margin="50" Height="auto"/>
             </Grid>
         </ScrollViewer>
 
