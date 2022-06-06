@@ -26,13 +26,13 @@
             <StackPanel Grid.Row="0" Width="300" Grid.RowSpan="3" Background="{StaticResource couleurPrincipale}">
                 <TextBlock Text="Administrateur" Margin="0,20,0,20" HorizontalAlignment="Center" FontSize="35" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline" Foreground="{StaticResource couleurTexte}"/>
                 <ListBox BorderThickness="0">
-            <local:ucMenuBouton setMessage="Restaurant" setImage="..\img\buttons\news.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
-                <local:ucMenuBouton setMessage="Commandes" setImage="..\img\buttons\spicy.png" CLICKMENU="Bouton_Commandes"/>
+            <local:ucMenuBouton setMessage="Restaurant" setImage="..\img2\buttons\info.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
+                <local:ucMenuBouton setMessage="Commandes" setImage="..\img2\buttons\commandes.png" CLICKMENU="Bouton_Commandes"/>
             </ListBox>
             </StackPanel>
-            <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img\buttons\quitter.png" Grid.Row="3" CLICKMENU="Bouton_Deconnexion"/>
+            <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img2\buttons\quitter.png" Grid.Row="3" CLICKMENU="Bouton_Deconnexion"/>
 
-            <TextBlock x:Name="content_TextBl" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.RowSpan="2">
+            <TextBlock x:Name="content_TextBl" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.RowSpan="2" Foreground="{StaticResource couleurTexte}">
                 <Run x:Name="Titre" Text="Informations de mon entreprise : "/>
                 <Run x:Name="TextBun" Text="{Binding NomPizzeria, Mode=OneWay}"/>
             </TextBlock>

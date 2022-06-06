@@ -51,20 +51,27 @@ namespace Modele
             }
         }
 
-        public override bool Equals(object cmd)
+        public override bool Equals(object obj)
         {
+            if (obj == null) return false;
+            if (obj == this) return false;
+            if (obj.GetType() != this.GetType()) return false;
+            Commande cmd = (Commande)obj;
             if (cmd == null) return false;
-            if (cmd == this) return false;
-            if (cmd.GetType() != this.GetType()) return false;
-            Commande cmd2 = (Commande)cmd;
-            return cmd2.ListPizza == ListPizza && cmd2.statut == statut;
-           
+            return cmd.ListPizza == ListPizza && cmd.statut == statut;
+
+
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
         }
 
         public override string ToString()
         {
             string txt = $"{clientActu.Pseudo}, ";
-            foreach(Pizza p in ListPizza)
+            foreach (Pizza p in ListPizza)
             {
                 txt += $"{p}, ";
             }

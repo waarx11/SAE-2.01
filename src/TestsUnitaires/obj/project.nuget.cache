@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xlug0GIcKJJ+zM4mpkLM005RM9AmFIuuhIWvx0tTEC9ifWTrYIjRgSLGI/8N4XhybXGHPqbB6XYQTIrJWoS7kQ==",
+  "dgSpecHash": "1YmsmPDFlft06weXbhANP78hd2bcUQYGr74hkR5YCBqotvRKJL5r9IWrT+ogpzuuOHqQMf1wRJArnUQqn4pFcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\TestsUnitaires\\TestsUnitaires.csproj",
+  "projectFilePath": "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\TestsUnitaires\\TestsUnitaires.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bapti\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\bapti\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

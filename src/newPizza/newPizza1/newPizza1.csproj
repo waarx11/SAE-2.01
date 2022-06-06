@@ -17,6 +17,8 @@
     <None Remove="img2\autre\fondCatalogue2.jpg" />
     <None Remove="img2\autre\fondCatalogue3.png" />
     <None Remove="img2\autre\IdPageSmile.jpg" />
+    <None Remove="img2\buttons\commandes.png" />
+    <None Remove="img2\buttons\info.png" />
     <None Remove="img2\buttons\news.png" />
     <None Remove="img2\buttons\panier.png" />
     <None Remove="img2\buttons\paypal.png" />
@@ -58,6 +60,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="img2\autre\IdPageSmile.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img2\buttons\commandes.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="img2\buttons\info.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="img2\buttons\news.png">

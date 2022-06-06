@@ -51,3 +51,10 @@ D:\Project\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.CoreCompileInputs.cach
 D:\Project\src\newPizza\Stub\obj\Debug\net5.0\Stub.dll
 D:\Project\src\newPizza\Stub\obj\Debug\net5.0\ref\Stub.dll
 D:\Project\src\newPizza\Stub\obj\Debug\net5.0\Stub.pdb
+C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.AssemblyReference.cache
+C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfoInputs.cache
+C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.AssemblyInfo.cs
+C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.csproj.CoreCompileInputs.cache
+C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.dll
+C:\Users\bapti\Desktop\2.01\sae-2.01\src\newPizza\Stub\obj\Debug\net5.0\Stub.pdb

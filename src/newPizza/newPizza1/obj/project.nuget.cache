@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uPWGjHW8LNdPGrfMdUDF0pTDyCFl2tCRk8aAQF1E6NM5/KTu3z6ejhDOW7cDQruwV6lpOZpc3p7qpN2MkTW2rQ==",
+  "dgSpecHash": "wNkzT7vJ/2zYmSMFuEiCmvJr7lAA41gwitlhvSY6Lj9TmLjNGdMd7KZrqdr01j4or7MZCyrXs0HQn1WVPkYSRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\newPizza1\\newPizza1.csproj",
+  "projectFilePath": "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\newPizza\\newPizza1\\newPizza1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bapti\\.nuget\\packages\\materialdesigncolors\\2.0.6\\materialdesigncolors.2.0.6.nupkg.sha512",
     "C:\\Users\\bapti\\.nuget\\packages\\materialdesignthemes\\4.5.0\\materialdesignthemes.4.5.0.nupkg.sha512",

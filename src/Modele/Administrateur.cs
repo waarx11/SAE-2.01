@@ -73,5 +73,7 @@ namespace Modele
         {
             return $"{base.ToString()} {nomPizzeria}";
         }
+
+
     }
 }

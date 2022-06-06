@@ -39,7 +39,7 @@ namespace Test_Admin
             Console.WriteLine("Liste des commandes");
             foreach(Commande c1 in admin.ListCommandeAdmin)
             {
-                Console.WriteLine(c1);
+                    Console.WriteLine(c1);
             }
             Console.WriteLine("Suppresion d'une commande");
             admin.SuppCommande(c);

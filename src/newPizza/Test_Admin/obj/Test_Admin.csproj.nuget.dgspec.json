@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\Test_Admin\\Test_Admin.csproj": {}
+    "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\newPizza\\Test_Admin\\Test_Admin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bapti\\Desktop\\sae 201\\src\\Modele\\Modele.csproj": {
+    "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\Modele\\Modele.csproj",
+        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\Modele\\Modele.csproj",
+        "projectPath": "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\Modele\\Modele.csproj",
         "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\Modele\\obj\\",
+        "outputPath": "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\Modele\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\Test_Admin\\Test_Admin.csproj": {
+    "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\newPizza\\Test_Admin\\Test_Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\Test_Admin\\Test_Admin.csproj",
+        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\newPizza\\Test_Admin\\Test_Admin.csproj",
         "projectName": "Test_Admin",
-        "projectPath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\Test_Admin\\Test_Admin.csproj",
+        "projectPath": "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\newPizza\\Test_Admin\\Test_Admin.csproj",
         "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\newPizza\\Test_Admin\\obj\\",
+        "outputPath": "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\newPizza\\Test_Admin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\bapti\\Desktop\\sae 201\\src\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\bapti\\Desktop\\sae 201\\src\\Modele\\Modele.csproj"
+              "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\bapti\\Desktop\\2.01\\sae-2.01\\src\\Modele\\Modele.csproj"
               }
             }
           }

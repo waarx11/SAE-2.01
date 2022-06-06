@@ -10,9 +10,9 @@ namespace Modele
     /// </summary>
     public class Client : Utilisateur, INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged2;
+        public event PropertyChangedEventHandler PropertyChanged;
         void OnPropertyChanged(string propertyName)
-            => PropertyChanged2?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         /// <summary>
         /// Pseudo de l'utilisateur
         /// </summary>
@@ -78,25 +78,6 @@ namespace Modele
             : this("", "", email, "", "", "", "", mdp, pseudo, "")            
         { }
         
-        /// <summary>
-        /// Permet de mettre a jour les informations d'un client
-        /// </summary>
-        /// <param name="nom"></param>
-        /// <param name="prénom"></param>
-        /// <param name="email"></param>
-        /// <param name="téléphone"></param>
-        /// <param name="adresse"></param>
-        /// <param name="ville"></param>
-        /// <param name="codePostal"></param>
-        /// <param name="pseudo"></param>
-        /// <param name="photo"></param>
-        public Client EnregistrerModif(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string pseudo, string photo)
-        {
-            EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
-            Pseudo = pseudo;
-            Photo = photo;
-        }
-
         public override string ToString()
         {
             return $"{base.ToString()} {Pseudo} {Photo}";
@@ -122,12 +103,14 @@ namespace Modele
         {
             if(p== null)
                 return false;
+
+
             if (!listCommandeClient.Contains(p))
             {
                 listCommandeClient.Add(p);
                 return true;
             }
-            if (listCommandeClient.Contains(p))
+            else if (listCommandeClient.Contains(p))
             {
                 p.modifQte(1);
                 return true;
