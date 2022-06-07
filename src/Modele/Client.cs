@@ -10,7 +10,7 @@ namespace Modele
     /// </summary>
     public class Client : Utilisateur, INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
+        public new event PropertyChangedEventHandler PropertyChanged;
         void OnPropertyChanged(string propertyName)
             => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         /// <summary>
@@ -89,9 +89,9 @@ namespace Modele
         /// <param name="admin"></param>
         public void envoyerListeCommande(Administrateur admin)
         {
-            Commande commande = new Commande(this, listCommandeClient);
+            Commande commande = new Commande(this, ListCommandeClient);
             admin.ListCommandeAdmin.Add(commande);
-            listCommandeClient.Clear();
+            ListCommandeClient.Clear();
         }
 
         /// <summary>
@@ -105,7 +105,7 @@ namespace Modele
                 return false;
 
 
-            if (!listCommandeClient.Contains(p))
+            else if (!listCommandeClient.Contains(p))
             {
                 listCommandeClient.Add(p);
                 return true;

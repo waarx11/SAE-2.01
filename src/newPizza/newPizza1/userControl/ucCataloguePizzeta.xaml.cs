@@ -21,7 +21,7 @@ namespace newPizza1
     /// </summary>
     public partial class ucCataloguePizzeta : UserControl
     {
-        public Manager Mgr => (App.Current as App).LeManager;
+        public Manager Mgr => ((App)App.Current).LeManager;
         public ucCataloguePizzeta()
         {
             DataContext = Mgr.Catalogues;

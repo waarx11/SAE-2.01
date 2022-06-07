@@ -58,8 +58,7 @@ namespace Modele
             if (obj.GetType() != this.GetType()) return false;
             Commande cmd = (Commande)obj;
             if (cmd == null) return false;
-            return cmd.ListPizza == ListPizza && cmd.statut == statut;
-
+            return cmd.ListPizza == ListPizza && cmd.Statut == Statut;
 
         }
 

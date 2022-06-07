@@ -23,7 +23,7 @@ namespace newPizza1
 
     public partial class pageCatalogue : Window
     {
-        public Manager Mgr => (App.Current as App).LeManager;
+        public Manager Mgr => ((App)App.Current).LeManager;
         public pageCatalogue()
         {
             InitializeComponent();

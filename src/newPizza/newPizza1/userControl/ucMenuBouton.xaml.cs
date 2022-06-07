@@ -25,6 +25,7 @@ namespace newPizza1
         {
             InitializeComponent();
         }
+
         public string setMessage
         {
             set
@@ -41,7 +42,7 @@ namespace newPizza1
             }
         }
 
-        public event RoutedEventHandler CLICKMENU;
+        public event RoutedEventHandler? CLICKMENU;
         private void MenuBouton_Click(object sender, RoutedEventArgs e)
         {
             if (CLICKMENU != null)

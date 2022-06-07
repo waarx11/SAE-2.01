@@ -20,7 +20,7 @@ namespace newPizza1.converters
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            string imageName = value as string;
+            string imageName = (string)value;
 
             if (string.IsNullOrWhiteSpace(imageName)) return new Uri("..\\img\\default\\noImg.png", UriKind.Absolute);
 
@@ -35,7 +35,6 @@ namespace newPizza1.converters
         {
             throw new NotImplementedException();
         }
-
 
     }
 

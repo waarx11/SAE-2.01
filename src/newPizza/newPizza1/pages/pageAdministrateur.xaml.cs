@@ -20,7 +20,7 @@ namespace newPizza1
     /// </summary>
     public partial class pageAdministrateur : Window
     {
-        public Manager Mgr => (App.Current as App).LeManager;
+        public Manager Mgr => ((App)App.Current).LeManager;
         public pageAdministrateur()
         {
             DataContext = Mgr.UtilisateurActuel;
@@ -39,7 +39,7 @@ namespace newPizza1
             var windows = new ucAdmninistration();
             contControl.Content = windows;
             Titre.Text = "Informations de mon entreprise :";
-            TextBun.Text = (Mgr.UtilisateurActuel as Administrateur).NomPizzeria;
+            TextBun.Text = ((Administrateur)Mgr.UtilisateurActuel).NomPizzeria;
         }
 
         private void Bouton_Commandes(object sender, RoutedEventArgs e)

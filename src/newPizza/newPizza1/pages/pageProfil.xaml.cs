@@ -22,7 +22,7 @@ namespace newPizza1
     /// </summary>
     public partial class pageProfil : Window
     {
-        public Manager Mgr => (App.Current as App).LeManager;
+        public Manager Mgr => ((App)App.Current).LeManager;
         public pageProfil()
         {
             DataContext = Mgr.UtilisateurActuel;
@@ -83,7 +83,7 @@ namespace newPizza1
                     i++;
                 }
                 File.Copy(dlg.FileName, System.IO.Path.Combine(String2ImageConverter.ImagesPath, filename));
-                (Mgr.UtilisateurActuel as Client).Photo = filename;
+                ((Client)Mgr.UtilisateurActuel).Photo = filename;
             }
 
         }

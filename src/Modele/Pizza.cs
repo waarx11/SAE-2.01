@@ -156,10 +156,14 @@ namespace Modele
         /// <returns>true or false</returns>
         public override bool Equals(object obj)
         {
-            if (obj == null) return false;
+            /*if (obj == null) return false;
             if (obj == this) return false;
             if (obj.GetType() != GetType()) return false;
-            return Equals(obj as Pizza);
+            return Equals(obj as Pizza);*/
+            if (object.ReferenceEquals(obj, null)) return false;
+            if (object.ReferenceEquals(this, obj)) return true;
+            if (this.GetType() != obj.GetType()) return false;
+            return this.Equals(obj as Pizza);
         }
         /// <summary>
         /// Fonction de hashage

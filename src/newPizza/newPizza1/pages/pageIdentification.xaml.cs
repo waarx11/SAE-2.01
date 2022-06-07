@@ -19,7 +19,7 @@ namespace newPizza1
     /// </summary>
     public partial class pageIdentification : Window
     {
-        public Manager Mgr => (App.Current as App).LeManager;
+        public Manager Mgr => ((App)App.Current).LeManager;
         public pageIdentification()
         {
             InitializeComponent();

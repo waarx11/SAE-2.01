@@ -20,7 +20,7 @@ namespace newPizza1
     /// </summary>
     public partial class pageNewCompte : Window
     {
-        public Manager Mgr => (App.Current as App).LeManager;
+        public Manager Mgr => ((App)App.Current).LeManager;
         public pageNewCompte()
         {
             InitializeComponent();

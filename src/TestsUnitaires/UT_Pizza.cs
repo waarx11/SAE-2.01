@@ -41,13 +41,13 @@ namespace TestsUnitaires
         }
 
         [Theory]
-        [InlineData("Nom1", "Description1", "Image1", 15, 1, "Nom1", "Description1", "Image1", 15)] // Tout bon
-        [InlineData("Nom2", "Description2", "Image2", -1, 2, "Nom2", "Description2", "Image2", 12)] // Prix négatif
-        [InlineData("Nom3", "Description3", "Image3", 0, 7, "Nom3", "Description3", "Image3", 12)] // Prix = 0
-        [InlineData("", "Description4", "Image4", 15, 1, "Aucun Nom", "Description4", "Image4", 15)] // Nom vide
-        [InlineData("Nom5", "", "Image5", 15, 0, "Nom5", "Aucune Description", "Image5", 15)] // Description vide
-        [InlineData("Nom6", "Description6", "", 15, 1, "Nom6", "Description6", "default\noImg.png", 15)] // Image vide
-        public void TEST_ToString(string nom, string description, string image, int prix, int quantité,
+        [InlineData("Nom1", "Description1", "Image1", 15, "Nom1", "Description1", "Image1", 15)] // Tout bon
+        [InlineData("Nom2", "Description2", "Image2", -1, "Nom2", "Description2", "Image2", 12)] // Prix négatif
+        [InlineData("Nom3", "Description3", "Image3", 0, "Nom3", "Description3", "Image3", 12)] // Prix = 0
+        [InlineData("", "Description4", "Image4", 15, "Aucun Nom", "Description4", "Image4", 15)] // Nom vide
+        [InlineData("Nom5", "", "Image5", 15, "Nom5", "Aucune Description", "Image5", 15)] // Description vide
+        [InlineData("Nom6", "Description6", "", 15, "Nom6", "Description6", "default\noImg.png", 15)] // Image vide
+        public void TEST_ToString(string nom, string description, string image, int prix,
                                string expectNom, string expectDesc, string expectImage, int expectPrix)
         {
             List<Ingredients> liste = new List<Ingredients> { (Ingredients)53, (Ingredients)0 };
