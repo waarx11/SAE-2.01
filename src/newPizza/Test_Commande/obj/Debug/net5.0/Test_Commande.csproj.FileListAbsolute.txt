@@ -55,6 +55,11 @@ C:\Users\natha\Desktop\proj\sae-2.01\src\newPizza\Test_Commande\obj\Debug\net5.0
 C:\Users\natha\Desktop\proj\sae-2.01\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.pdb
 C:\Users\natha\Desktop\proj\sae-2.01\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.genruntimeconfig.cache
 C:\Users\natha\Desktop\proj\sae-2.01\src\newPizza\Test_Commande\obj\Debug\net5.0\ref\Test_Commande.dll
+U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.csproj.AssemblyReference.cache
+U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.GeneratedMSBuildEditorConfig.editorconfig
+U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.AssemblyInfoInputs.cache
+U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.AssemblyInfo.cs
+U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.csproj.CoreCompileInputs.cache
 U:\sae202\src\newPizza\Test_Commande\bin\Debug\net5.0\Test_Commande.exe
 U:\sae202\src\newPizza\Test_Commande\bin\Debug\net5.0\Test_Commande.deps.json
 U:\sae202\src\newPizza\Test_Commande\bin\Debug\net5.0\Test_Commande.runtimeconfig.json
@@ -64,13 +69,8 @@ U:\sae202\src\newPizza\Test_Commande\bin\Debug\net5.0\ref\Test_Commande.dll
 U:\sae202\src\newPizza\Test_Commande\bin\Debug\net5.0\Test_Commande.pdb
 U:\sae202\src\newPizza\Test_Commande\bin\Debug\net5.0\Modele.dll
 U:\sae202\src\newPizza\Test_Commande\bin\Debug\net5.0\Modele.pdb
-U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.GeneratedMSBuildEditorConfig.editorconfig
-U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.AssemblyInfoInputs.cache
-U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.AssemblyInfo.cs
-U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.csproj.CoreCompileInputs.cache
 U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.csproj.CopyComplete
 U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.dll
 U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\ref\Test_Commande.dll
 U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.pdb
 U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.genruntimeconfig.cache
-U:\sae202\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.csproj.AssemblyReference.cache

@@ -69,7 +69,7 @@ namespace newPizza1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/newPizza1;V1.0.0.0;component/usercontrol/uctopadministrateur.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/newPizza1;component/usercontrol/uctopadministrateur.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\userControl\ucTopAdministrateur.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

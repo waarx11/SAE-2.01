@@ -27,32 +27,27 @@ namespace Modele
         /// </summary>
         private string photo;
         /*[DataMember(EmitDefaultValue = false, Order = 9)]*/
-        public string Photo { get => photo; 
+        public string Photo
+        {
+            get => photo;
             set
             {
                 if (Photo != value)
                 {
-                    
+
                     photo = value;
                     OnPropertyChanged(nameof(Photo));
                 }
             }
-                }
+        }
 
 
         /// <summary>
         /// Liste des commandes du client
         /// </summary>
-        private List<Pizza> listCommandeClient;
+        private List<Pizza> listPizzaClient;
         /*[DataMember(EmitDefaultValue = false, Order = 10)]*/
-        public List<Pizza> ListCommandeClient { get => listCommandeClient; private set => listCommandeClient = value; }
-
-        /// <summary>
-        /// Liste des commandes du client
-        /// </summary>
-        private List<Commande> listCommandeClientHisto;
-        /*[DataMember(EmitDefaultValue = false, Order = 10)]*/
-        public List<Commande> ListCommandeClientHisto { get => listCommandeClientHisto; private set => listCommandeClientHisto = value; }
+        public List<Pizza> ListPizzaClient { get => listPizzaClient; private set => listPizzaClient = value; }
 
         /// <summary>
         /// Constructeur de la classe Client
@@ -66,8 +61,8 @@ namespace Modele
         /// <param name="codePostal"></param>
         /// <param name="pseudo"></param>
         /// <param name="photo"></param>
-        public Client(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp, string pseudo, string photo=null)
-            :base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
+        public Client(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp, string pseudo, string photo = null)
+            : base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
         {
             Pseudo = pseudo;
             if (string.IsNullOrWhiteSpace(photo))
@@ -78,7 +73,7 @@ namespace Modele
             {
                 Photo = photo;
             }
-            ListCommandeClient = new List<Pizza>();
+            ListPizzaClient = new List<Pizza>();
         }
 
         /// <summary>
@@ -88,19 +83,22 @@ namespace Modele
         /// <param name="pseudo"></param>
         /// <param name="mdp"></param>
         public Client(string email, string pseudo, string mdp)
-            : this("", "", email, "", "", "", "", mdp, pseudo, "")            
+            : this("", "", email, "", "", "", "", mdp, pseudo, "")
         { }
-        
+
         public override string ToString()
         {
             return $"{base.ToString()} {Pseudo} {Photo}";
         }
-        public void envoyerListeCommande(Administrateur admin)
+
+        /// <summary>
+        /// Envoie la liste de commande du client à l'administrateur et la vide une fois fait
+        /// </summary>
+        /// <param name="admin"></param>
+        public void envoyerListeCommande(Commande c, Administrateur admin)
         {
-            Commande commande = new Commande(this, ListCommandeClient);
-            admin.ListCommandeAdmin.Add(commande);
-            listCommandeClientHisto.Add(commande);
-            ListCommandeClient.Clear();
+            admin.ListCommandeAdmin.Add(c);
+            //ListPizzaClient.Clear();
         }
 
         /// <summary>
@@ -114,12 +112,12 @@ namespace Modele
                 return false;
 
 
-            else if (!listCommandeClient.Contains(p))
+            else if (!ListPizzaClient.Contains(p))
             {
-                listCommandeClient.Add(p);
+                ListPizzaClient.Add(p);
                 return true;
             }
-            else if (listCommandeClient.Contains(p))
+            else if (ListPizzaClient.Contains(p))
             {
                 p.modifQte(1);
                 return true;
@@ -134,14 +132,13 @@ namespace Modele
         /// <returns></returns>
         public bool supprimerPizzaCommande(Pizza p)
         {
-            if (listCommandeClient.Contains(p))
+            if (ListPizzaClient.Contains(p))
             {
-                listCommandeClient.Remove(p);
+                ListPizzaClient.Remove(p);
                 return true;
             }
             return false;
         }
-
 
     }
 }

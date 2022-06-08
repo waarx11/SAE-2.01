@@ -68,7 +68,6 @@ namespace newPizza1
                 codePostal = Mgr.UtilisateurActuel.CodePostal;
             }
             Mgr.UtilisateurActuel = Mgr.UtilisateurActuel.EnregistrerModif(nom, prénom, email, téléphone, adresse, ville, codePostal);
-            Mgr.SauvegardeDonnées();
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using Modele;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -28,7 +29,7 @@ namespace DataContractPersistance
                 throw new FileNotFoundException("The persistance file is missing");
             }
 
-            DataToPersist data;
+            DataToPersist? data;
             using (Stream s = File.OpenRead(PersFile))
             {
                 data = Serializer.ReadObject(s) as DataToPersist;
@@ -36,7 +37,9 @@ namespace DataContractPersistance
             LesClients = data.Clients.ToPOCOs().ToList();
             LesAdmin = data.Admin.ToPOCOs().ToList();
             LeCatalogue = data.Catalogues;
+            Debug.WriteLine(LesClients.Last());
             return (LesClients, LesAdmin, data.Catalogues);
+
         }
 
         public void SauvegardeDonnées(IEnumerable<Client> client, IEnumerable<Administrateur> admin, Catalogue C1)
@@ -60,12 +63,6 @@ namespace DataContractPersistance
                     Serializer.WriteObject(writer, data);
                 }
             }
-
-            /*var serializer = new DataContractSerializer(typeof(Client));
-            using (Stream s = File.Create(Path.Combine(FilePath, FileName))
-            {
-                serializer.WriteObject(s, client.First());
-            }*/
         }
     }
 }

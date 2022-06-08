@@ -20,5 +20,10 @@ namespace newPizza1
         {
             LeManager.ChargeDonnées();
         }
+
+        public void App_end(object sender, ExitEventArgs e)
+        {
+            LeManager.SauvegardeDonnées();
+        }
     }
 }

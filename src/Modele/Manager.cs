@@ -54,6 +54,9 @@ namespace Modele
                 C1.CataloguePizzeta.Add(catV);
         }
 
+        /// <summary>
+        /// Cette fonction permet de sauvegardé les données de l'application
+        /// </summary>
         public void SauvegardeDonnées()
         {
             Persistance.SauvegardeDonnées(Clients, Administrateurs, Catalogues); // <=== dépendance
@@ -89,7 +92,7 @@ namespace Modele
                     {
                         UtilisateurActuel = c1;
                         return 3;
-                    }   
+                    }
                     return 4;
                 }
             }

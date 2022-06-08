@@ -26,11 +26,28 @@ namespace newPizza1
             InitializeComponent();
         }
 
-/*        public void BTN_PLUS_DINFO(object sender, RoutedEventArgs e)
+        /*        public void BTN_PLUS_DINFO(object sender, RoutedEventArgs e)
+                {
+                    var plusInfo = new ucInfoPizza();
+                    plusInfo.ShowDialog();
+                }*/
+
+        public void BtnPlus(object sender, RoutedEventArgs e)
         {
-            var plusInfo = new ucInfoPizza();
-            plusInfo.ShowDialog();
-        }*/
+            int m = Int32.Parse(TextB.Text);
+            m += 1;
+            TextB.Text = m.ToString();
+        }
+
+        public void BtnMoin(object sender, RoutedEventArgs e)
+        {
+            int m = Int32.Parse(TextB.Text);
+            if (m > 1)
+            {
+                m -= 1;
+                TextB.Text = m.ToString();
+            }
+        }
 
         public string Texte
         {
