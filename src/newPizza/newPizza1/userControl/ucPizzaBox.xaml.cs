@@ -22,6 +22,8 @@ namespace newPizza1
     public partial class ucPizzaBox : UserControl
     {
 
+        public Manager Mgr => ((App)App.Current).LeManager;
+
         public ucPizzaBox()
         {
             InitializeComponent();

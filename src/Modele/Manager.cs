@@ -22,7 +22,7 @@ namespace Modele
             Administrateurs = new ReadOnlyCollection<Administrateur>(administrateurs);
             Clients = new ReadOnlyCollection<Client>(clients);
             Pizzas = new ReadOnlyCollection<Pizza>(pizzas);
-        Catalogues = C1;
+            Catalogues = C1;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
