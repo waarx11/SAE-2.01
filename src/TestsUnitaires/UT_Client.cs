@@ -7,7 +7,7 @@ namespace TestsUnitaires
 {
     public class UT_Client
     {
-        [Theory]
+        /*[Theory]
         [InlineData("Bonneau", "Baptiste", "baptiste.bonneau@etu.uca.fr", "0612345678", "37 rue thisIsMonAdresse", "Clermont-Ferrand", "63000", "Bapt", "default\noImg.png",
                     "Bonneau", "Baptiste", "0612345678", "37 rue thisIsMonAdresse", "Clermont-Ferrand", "63000", "default\noImg.png", false)] // tout bon
 
@@ -104,6 +104,6 @@ namespace TestsUnitaires
             Assert.Equal(adresse, c1.Adresse);
             Assert.Equal(ville, c1.Ville);
             Assert.Equal(codePostal, c1.CodePostal);
-        }
+        }*/
     }
 }
