@@ -2,14 +2,14 @@
 <DataToPersist xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/DataContractPersistance">
   <Admin z:Id="2" z:Size="1">
     <AdministrateurDTO z:Id="3">
-      <Nom z:Id="4">Peroni</Nom>
+      <Nom z:Id="4">j</Nom>
       <Prénom z:Id="5">Luigi</Prénom>
-      <Email z:Id="6">Luigi.PERONI@NewPizza.com</Email>
-      <Téléphone z:Id="7">09.25.25.80.18</Téléphone>
-      <Adresse z:Id="8">4 Avenue BlaiseMcool</Adresse>
+      <Email z:Id="6">hjgjh@</Email>
+      <Téléphone z:Id="7">hg</Téléphone>
+      <Adresse z:Id="8">ghj</Adresse>
       <Mdp z:Id="9">0000</Mdp>
       <Ville z:Id="10">Clermont-Ferrand</Ville>
-      <CodePostal z:Id="11">63000</CodePostal>
+      <CodePostal z:Id="11">gj</CodePostal>
       <NomPizzeria z:Ref="9" i:nil="true" />
     </AdministrateurDTO>
   </Admin>
@@ -713,21 +713,21 @@
       <Adresse z:Id="229">27 rue non</Adresse>
       <Mdp z:Ref="222" i:nil="true" />
       <Ville z:Ref="10" i:nil="true" />
-      <CodePostal z:Ref="11" i:nil="true" />
-      <Pseudo z:Id="230">Waarx</Pseudo>
+      <CodePostal z:Id="230">63000</CodePostal>
+      <Pseudo z:Id="231">Waarx</Pseudo>
       <Photo z:Ref="220" i:nil="true" />
     </ClientDTO>
-    <ClientDTO z:Id="231">
-      <Nom z:Id="232">Bonneau</Nom>
-      <Prénom z:Id="233">Baptiste</Prénom>
-      <Email z:Id="234">Baptiste@oui.com</Email>
+    <ClientDTO z:Id="232">
+      <Nom z:Id="233">Bonneau</Nom>
+      <Prénom z:Id="234">Baptiste</Prénom>
+      <Email z:Id="235">Baptiste@oui.com</Email>
       <Téléphone z:Ref="228" i:nil="true" />
       <Adresse z:Ref="229" i:nil="true" />
       <Mdp z:Ref="222" i:nil="true" />
       <Ville z:Ref="10" i:nil="true" />
-      <CodePostal z:Ref="11" i:nil="true" />
-      <Pseudo z:Id="235">nojii</Pseudo>
-      <Photo z:Id="236">default\noImg.png</Photo>
+      <CodePostal z:Ref="230" i:nil="true" />
+      <Pseudo z:Id="236">nojii</Pseudo>
+      <Photo z:Id="237">default\noImg.png</Photo>
     </ClientDTO>
   </Clients>
 </DataToPersist>

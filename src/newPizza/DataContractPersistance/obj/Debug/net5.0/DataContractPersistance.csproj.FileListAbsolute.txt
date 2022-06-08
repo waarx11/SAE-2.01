@@ -13,3 +13,8 @@ U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPers
 U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.dll
 U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\ref\DataContractPersistance.dll
 U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.pdb
+C:\Users\bapti\Desktop\2.01\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.csproj.AssemblyReference.cache
+C:\Users\bapti\Desktop\2.01\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bapti\Desktop\2.01\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.AssemblyInfoInputs.cache
+C:\Users\bapti\Desktop\2.01\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.AssemblyInfo.cs
+C:\Users\bapti\Desktop\2.01\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.csproj.CoreCompileInputs.cache

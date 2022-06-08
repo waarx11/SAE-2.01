@@ -75,5 +75,17 @@ namespace newPizza1
         public static readonly DependencyProperty ImageNameProperty =
             DependencyProperty.Register("ImageName", typeof(string), typeof(ucPizzaBox), new PropertyMetadata("nolmg.png"));
 
+        private void btnPlusInfo(object sender, RoutedEventArgs e)
+        {
+            // Récupérer la page actuelle:
+
+            // Lancer le uc:
+
+            // Mettre les bonnes info dans le binding
+            // - setImage
+            // - setNom
+            // - setDescription
+            // - setPrix
+        }
     }
 }

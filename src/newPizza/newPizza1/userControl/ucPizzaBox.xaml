@@ -33,7 +33,7 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Button Height="auto" Width="auto" Style="{x:Null}" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Margin="10,15,10,15">
+                <Button Height="auto" Width="auto" Style="{x:Null}" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Margin="10,15,10,15" Click="btnPlusInfo">
                     <TextBlock Text="Plus d'informations" FontSize="20" Foreground="{StaticResource couleurTexte}"/>
                 </Button>
 
