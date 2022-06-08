@@ -1,7 +1,7 @@
 image: mcr.microsoft.com/dotnet/sdk:5.0
 
 before_script:
-    - cd ./Sources
+    - cd ./src/newPizza
     - dotnet restore SolutionCI.sln
 
 build:
