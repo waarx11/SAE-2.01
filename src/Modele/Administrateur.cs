@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Modele
@@ -7,6 +8,7 @@ namespace Modele
     /// <summary>
     /// Cette class permet de crée un administrateur et elle hérite de la class utilisateur
     /// </summary>
+    /*[DataContract]*/
     public class Administrateur : Utilisateur
 
     {
@@ -14,6 +16,7 @@ namespace Modele
         /// nom de la pizzeria 
         /// </summary>
         private string nomPizzeria;
+        /*[DataMember(EmitDefaultValue = false, Order = 8)]*/
         public string NomPizzeria { get => nomPizzeria; private set => nomPizzeria = value; }
 
 
@@ -21,6 +24,7 @@ namespace Modele
         /// Liste de toutes les commandes
         /// </summary>
         private List<Commande> listCommandeAdmin;
+        /*[DataMember(EmitDefaultValue = false, Order = 9)]*/
         public List<Commande> ListCommandeAdmin { get => listCommandeAdmin; private set => listCommandeAdmin = value; }
 
         /// <summary>

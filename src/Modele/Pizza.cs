@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Modele
@@ -7,35 +8,41 @@ namespace Modele
     /// <summary>
     /// Représente une Pizza
     /// </summary>
+    [DataContract]
     public class Pizza
     {
         /// <summary>
         /// Nom de la pizaa
         /// </summary>
+        [DataMember(EmitDefaultValue = false, Order = 0)]
         public string Nom { get => nom; private set => nom = value; }
         private string nom;
 
         /// <summary>
         /// Quantité de pizza a commander
         /// </summary>
+        [DataMember(EmitDefaultValue = false, Order = 1)]
         public int Quantité { get => quantité; private set => quantité = value; }
         private int quantité = 1;
 
         /// <summary>
         /// Description de la pizza
         /// </summary>
+        [DataMember(EmitDefaultValue = false, Order = 2)]
         public string Description { get => description; private set => description = value; }
         private string description;
 
         /// <summary>
         /// Image de la pizza
         /// </summary>
+        [DataMember(EmitDefaultValue = false, Order = 3)]
         public string ImageName { get => image; private set => image = value; }
         private string image;
 
         /// <summary>
         /// Prix de la pizza
         /// </summary>
+        [DataMember(EmitDefaultValue = false, Order = 5)]
         public int Prix { get => prix; private set => prix = value; }
         private int prix;
 
@@ -43,6 +50,7 @@ namespace Modele
         /// Liste des ingredient qui constitue la pizza
         /// </summary>
         private List<Ingredients> ListIngredient = new List<Ingredients> {(Ingredients)53, (Ingredients)0 };
+        [DataMember(EmitDefaultValue = false, Order = 5)]
         public List<Ingredients> listIngredient { get => ListIngredient; set => ListIngredient = value; }
 
         /// <summary>

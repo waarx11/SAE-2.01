@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Modele
@@ -8,6 +10,7 @@ namespace Modele
     /// <summary>
     /// Cette class permet de crée un client et elle hérite de la class utilisateur
     /// </summary>
+    /*[DataContract]*/
     public class Client : Utilisateur, INotifyPropertyChanged
     {
         public new event PropertyChangedEventHandler PropertyChanged;
@@ -16,12 +19,14 @@ namespace Modele
         /// <summary>
         /// Pseudo de l'utilisateur
         /// </summary>
+        /*[DataMember(EmitDefaultValue = false, Order = 8)]*/
         public string Pseudo { get => pseudo; private set => pseudo = value; }
         private string pseudo;
         /// <summary>
         /// Photo de l'utilisateur
         /// </summary>
         private string photo;
+        /*[DataMember(EmitDefaultValue = false, Order = 9)]*/
         public string Photo { get => photo; 
             set
             {
@@ -39,6 +44,7 @@ namespace Modele
         /// Liste des commandes du client
         /// </summary>
         private List<Pizza> listCommandeClient;
+        /*[DataMember(EmitDefaultValue = false, Order = 10)]*/
         public List<Pizza> ListCommandeClient { get => listCommandeClient; private set => listCommandeClient = value; }
 
         /// <summary>

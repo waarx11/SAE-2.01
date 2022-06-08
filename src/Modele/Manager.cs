@@ -15,7 +15,7 @@ namespace Modele
     /// </summary>
     public partial class Manager : INotifyPropertyChanged
     {
-        public IPersistanceManager Persistance { get; private set; }
+        public IPersistanceManager Persistance { get; /*private*/ set; }
         public Manager(IPersistanceManager p)
         {
             Persistance = p;
@@ -32,9 +32,9 @@ namespace Modele
         /// <summary>
         /// Cette fonction permet de charger les donnée de l'application
         /// </summary>
-        public void ChargeDonne() // <=== dépendance
+        public void ChargeDonnées() // <=== dépendance
         {
-            var donnee = Persistance.Charge();
+            var donnee = Persistance.ChargeDonnées();
             foreach (var us in donnee.client)
             {
                 clients.Add(us);
@@ -56,7 +56,7 @@ namespace Modele
 
         public void SauvegardeDonnées()
         {
-            Persistance.Sauvegarde(Clients, Administrateurs, Catalogues); // <=== dépendance
+            Persistance.SauvegardeDonnées(Clients, Administrateurs, Catalogues); // <=== dépendance
         }
 
         /// <summary>

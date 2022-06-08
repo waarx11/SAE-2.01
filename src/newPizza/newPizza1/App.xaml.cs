@@ -14,11 +14,11 @@ namespace newPizza1
     /// </summary>
     public partial class App : Application
     {
-        public Manager LeManager { get; private set; } = new Manager(new Stub.Stub());
+        public Manager LeManager { get; private set; } = new Manager(new DataContractPersistance.DataContractPers());
         
         public App() :base()
         {
-            LeManager.ChargeDonne();
+            LeManager.ChargeDonnées();
         }
     }
 }

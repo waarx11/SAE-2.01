@@ -41,38 +41,39 @@ namespace newPizza1
         private void ButtonInscription(object sender, RoutedEventArgs e)
         {
             int rep = Mgr.creationUtilisateur(idTextBox.Text, idMail.Text, PasswordBox.Password);
-            //rien qui marche
+            //Rien remplie
             if (rep == 0)
             {
                 message.Text = "Veuillez remplir les champs ci-dessous";
                 message.Visibility = Visibility.Visible;
                 this.Show();
             }
-            //rien qui marche
+            //Pseudo et email existant
             if (rep == -1)
             {
                 message.Text = "Pseudo et email deja existants";
                 message.Visibility = Visibility.Visible;
                 this.Show();
             }
-            //rien qui marche
+            //Pseudo deja existant
             if (rep == -2)
             {
                 message.Text = "Pseudo deja existant";
                 message.Visibility = Visibility.Visible;
                 this.Show();
             }
-            //rien qui marche
+            //Email incorrect
             if (rep == -3)
             {
                 message.Text = "Email deja existante ou erronée";
                 message.Visibility = Visibility.Visible;
                 this.Show();
             }
-            //rien qui marche
+            //Sa marche
             if (rep == 1)
             {
                 var p = new pageIdentification();
+                Mgr.SauvegardeDonnées();
                 Close();
                 p.Show();
             }

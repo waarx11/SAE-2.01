@@ -1,31 +1,37 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Modele
 {
+    [DataContract]
     public class Catalogue
     {
         /// <summary>
         /// ObservableCollection des pizza présente dans le catalogueVegetarien
         /// </summary>
         private ObservableCollection<Pizza> catalogueVegetarien;
+        [DataMember(EmitDefaultValue = false, Order = 0)]
         public ObservableCollection<Pizza> CatalogueVegetarien { get => catalogueVegetarien; private set => catalogueVegetarien = value; }
         /// <summary>
         /// ObservableCollection des pizza présente dans le cataloguePizzeta
         /// </summary>
         private ObservableCollection<Pizza> cataloguePizzeta;
+        [DataMember(EmitDefaultValue = false, Order = 1)]
         public ObservableCollection<Pizza> CataloguePizzeta { get => cataloguePizzeta; private set => cataloguePizzeta = value; }
         /// <summary>
         /// ObservableCollection des pizza présente dans le catalogueCarnivore
         /// </summary>
         private ObservableCollection<Pizza> catalogueCarnivore;
+        [DataMember(EmitDefaultValue = false, Order = 2)]
         public ObservableCollection<Pizza> CatalogueCarnivore { get => catalogueCarnivore; private set => catalogueCarnivore = value; }
         /// <summary>
         /// ObservableCollection des pizza présente dans le catalogueEpice
         /// </summary>
         private ObservableCollection<Pizza> catalogueEpice;
+        [DataMember(EmitDefaultValue = false, Order = 3)]
         public ObservableCollection<Pizza> CatalogueEpice { get => catalogueEpice; private set => catalogueEpice = value; }
 
         /// <summary>

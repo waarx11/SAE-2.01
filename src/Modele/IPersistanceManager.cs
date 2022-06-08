@@ -7,7 +7,7 @@ namespace Modele
     
     public interface IPersistanceManager
     {
-        (IEnumerable<Client> client, IEnumerable<Administrateur> admin, Catalogue catalogue) Charge();
-        void Sauvegarde(IEnumerable<Client> client, IEnumerable<Administrateur> admin, Catalogue C1);
+        (IEnumerable<Client> client, IEnumerable<Administrateur> admin, Catalogue catalogue) ChargeDonnées();
+        void SauvegardeDonnées(IEnumerable<Client> client, IEnumerable<Administrateur> admin, Catalogue C1);
     }
 }

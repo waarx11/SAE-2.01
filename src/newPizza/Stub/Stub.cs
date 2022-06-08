@@ -7,7 +7,7 @@ namespace Stub
 {
     public class Stub : IPersistanceManager
     {
-        public (IEnumerable<Client> client, IEnumerable<Administrateur> admin, Catalogue catalogue) Charge()
+        public (IEnumerable<Client> client, IEnumerable<Administrateur> admin, Catalogue catalogue) ChargeDonnées()
         {
             List<Client> list = ChargeUtilisateur();
             List<Administrateur> admins = new List<Administrateur>();
@@ -16,7 +16,7 @@ namespace Stub
             return (list, admins, catalogues);
         }
 
-        public void Sauvegarde(IEnumerable<Client> client, IEnumerable<Administrateur> admin, Catalogue C1)
+        public void SauvegardeDonnées(IEnumerable<Client> client, IEnumerable<Administrateur> admin, Catalogue C1)
         {
             Debug.WriteLine("Sauvegarde demandée");
         }

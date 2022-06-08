@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
@@ -45,7 +45,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Modele\Modele.csproj" />
-    <ProjectReference Include="..\Stub\Stub.csproj" />
+    <ProjectReference Include="..\DataContractPersistance\DataContractPersistance.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Modele
 {
+    /*[DataContract]*/
     public abstract class Utilisateur : IEquatable<Utilisateur> , INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
@@ -13,6 +16,7 @@ namespace Modele
         /// <summary>
         /// Nom de l'utilisateur
         /// </summary>
+        /*[DataMember(EmitDefaultValue = false, Order = 0)]*/
         public string Nom
         {
             get => nom;
@@ -30,6 +34,7 @@ namespace Modele
         /// <summary>
         /// Quantité de pizza a commander
         /// </summary>
+        /*[DataMember(EmitDefaultValue = false, Order = 1)]*/
         public string Prénom
         {
             get => prénom;
@@ -47,6 +52,7 @@ namespace Modele
         /// <summary>
         /// Email de l'utilisateur
         /// </summary>
+        /*[DataMember(EmitDefaultValue = false, Order = 2)]*/
         public string Email
         {
             get => email;
@@ -64,6 +70,7 @@ namespace Modele
         /// <summary>
         /// Téléphone de l'utilisateur
         /// </summary>
+        /*[DataMember(EmitDefaultValue = false, Order = 3)]*/
         public string Téléphone
         {
             get => téléphone;
@@ -81,6 +88,7 @@ namespace Modele
         /// <summary>
         /// Description de la pizza
         /// </summary>
+        /*[DataMember(EmitDefaultValue = false, Order = 4)]*/
         public string Adresse
         {
             get => adresse;
@@ -98,11 +106,13 @@ namespace Modele
         /// <summary>
         /// Mot de passe de l'utilisateur pour ce connecter a l'application
         /// </summary>
+        /*[DataMember(EmitDefaultValue = false, Order = 5)]*/
         public string Mdp { get => mdp; private set => mdp = value; }
         private string mdp;
         /// <summary>
         /// Image de la pizza
         /// </summary>
+        /*[DataMember(EmitDefaultValue = false, Order = 6)]*/
         public string Ville
         {
             get => ville;
@@ -120,6 +130,7 @@ namespace Modele
         /// <summary>
         /// Prix de la pizza
         /// </summary>
+        /*[DataMember(EmitDefaultValue = false, Order = 7)]*/
         public string CodePostal
         {
             get => codePostal;
