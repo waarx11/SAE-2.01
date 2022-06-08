@@ -58,9 +58,10 @@ namespace Modele
             if (ListCommandeAdmin.Contains(C1))
             {
                 C1.changerStatus();
-                if(C1.Statut == Status.Finir)
+                if (C1.Statut == Status.Finir)
                 {
                     ListCommandeAdmin.Add(C1);
+                    C1.ClientActu.ListCommandeClientHisto.Remove(C1);
                 }
             }
         }

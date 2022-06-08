@@ -43,9 +43,16 @@ namespace Modele
         /// <summary>
         /// Liste des commandes du client
         /// </summary>
-        private List<Pizza> listPizzaClient;
+        private List<Pizza> listCommandeClient;
         /*[DataMember(EmitDefaultValue = false, Order = 10)]*/
-        public List<Pizza> ListPizzaClient { get => listPizzaClient; private set => listPizzaClient = value; }
+        public List<Pizza> ListCommandeClient { get => listCommandeClient; private set => listCommandeClient = value; }
+
+        /// <summary>
+        /// Liste des commandes du client
+        /// </summary>
+        private List<Commande> listCommandeClientHisto;
+        /*[DataMember(EmitDefaultValue = false, Order = 10)]*/
+        public List<Commande> ListCommandeClientHisto { get => listCommandeClientHisto; private set => listCommandeClientHisto = value; }
 
         /// <summary>
         /// Constructeur de la classe Client
@@ -71,7 +78,7 @@ namespace Modele
             {
                 Photo = photo;
             }
-            ListPizzaClient = new List<Pizza>();
+            ListCommandeClient = new List<Pizza>();
         }
 
         /// <summary>
@@ -88,15 +95,12 @@ namespace Modele
         {
             return $"{base.ToString()} {Pseudo} {Photo}";
         }
-
-        /// <summary>
-        /// Envoie la liste de commande du client à l'administrateur et la vide une fois fait
-        /// </summary>
-        /// <param name="admin"></param>
-        public void envoyerListeCommande(Commande c, Administrateur admin)
+        public void envoyerListeCommande(Administrateur admin)
         {
-            admin.ListCommandeAdmin.Add(c);
-            //ListPizzaClient.Clear();
+            Commande commande = new Commande(this, ListCommandeClient);
+            admin.ListCommandeAdmin.Add(commande);
+            listCommandeClientHisto.Add(commande);
+            ListCommandeClient.Clear();
         }
 
         /// <summary>
@@ -106,16 +110,16 @@ namespace Modele
         /// <returns></returns>
         public bool ajouterPizzaCommande(Pizza p)
         {
-            if(p== null)
+            if (p == null)
                 return false;
 
 
-            else if (!ListPizzaClient.Contains(p))
+            else if (!listCommandeClient.Contains(p))
             {
-                ListPizzaClient.Add(p);
+                listCommandeClient.Add(p);
                 return true;
             }
-            else if (ListPizzaClient.Contains(p))
+            else if (listCommandeClient.Contains(p))
             {
                 p.modifQte(1);
                 return true;
@@ -130,13 +134,14 @@ namespace Modele
         /// <returns></returns>
         public bool supprimerPizzaCommande(Pizza p)
         {
-            if (ListPizzaClient.Contains(p))
+            if (listCommandeClient.Contains(p))
             {
-                ListPizzaClient.Remove(p);
+                listCommandeClient.Remove(p);
                 return true;
             }
             return false;
         }
+
 
     }
 }

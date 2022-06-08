@@ -18,17 +18,18 @@ namespace Test_Commande
 
             Client C1 = new Client("Kartal", "Emre", "emre@oui.com", "06.45.85.95.15", "27 rue oui", "Clermont-Ferrand", "63100", "Mdp", "tobiii", "non");
 
+            Administrateur A1 = new Administrateur("Verdier", "Nathan", "nathan@newpizza.com", "06.45.85.95.00", "32 rue pizza", "Clermont-Ferrand", "63100", "password", "newPizza()");
             C1.ajouterPizzaCommande(P1);
             C1.ajouterPizzaCommande(P2);
 
-
-            Commande c = new Commande(C1, C1.ListPizzaClient);
+            C1.envoyerListeCommande(A1);
 
             Console.WriteLine("Statut de la pizza:");
+            A1.ChangerStatusCommande(C1.ListCommandeClientHisto.);
             Console.WriteLine(c.Statut);
 
             Console.WriteLine("Changement du statut de la pizza:");
-            c.changerStatus();
+            C1..changerStatus();
             Console.WriteLine(c.Statut);
 
             Console.WriteLine("Changement du statut de la pizza:");
@@ -36,7 +37,7 @@ namespace Test_Commande
             Console.WriteLine(c.Statut);
 
             Console.WriteLine("Liste de pizza dans la commande:");
-            foreach(Pizza p in C1.ListPizzaClient)
+            foreach(Pizza p in C1.ListCommandeClient)
             {
                 Console.WriteLine(p);
             }
