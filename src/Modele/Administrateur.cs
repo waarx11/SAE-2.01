@@ -42,7 +42,7 @@ namespace Modele
             :base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
         {
             NomPizzeria = nomPizzeria;
-            listCommandeAdmin = new List<Commande>();
+            ListCommandeAdmin = new List<Commande>();
         }
 
 
@@ -54,6 +54,7 @@ namespace Modele
         {
             if (C1 == null)
                 return;
+
             if (ListCommandeAdmin.Contains(C1))
             {
                 C1.changerStatus();

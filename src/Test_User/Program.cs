@@ -22,8 +22,9 @@ namespace Test_User
             C1.ajouterPizzaCommande(P1);
             C1.ajouterPizzaCommande(P2);
 
-            Commande c = new Commande(C1, C1.ListCommandeClient);
-            C1.envoyerListeCommande(admin);
+            Commande c = new Commande(C1, C1.ListPizzaClient);
+
+            C1.envoyerListeCommande(c, admin);
 
 
             Console.WriteLine("----------------------------------");
@@ -47,11 +48,14 @@ namespace Test_User
 
 
             Console.WriteLine("----------------------------------");
-            Console.WriteLine("Liste des commandes");
+            Console.WriteLine("Liste des commandes chez l'administateur");
             foreach (Commande c1 in admin.ListCommandeAdmin)
             {
                 Console.WriteLine(c1);
+                foreach (Pizza p in c1.ListPizza)
+                    Console.WriteLine(c1);
             }
+
             Console.WriteLine("Suppresion d'une commande");
             admin.SuppCommande(c);
             foreach (Commande c1 in admin.ListCommandeAdmin)

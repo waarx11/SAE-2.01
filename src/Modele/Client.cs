@@ -71,7 +71,7 @@ namespace Modele
             {
                 Photo = photo;
             }
-            listCommandeClient=new List<Pizza>();
+            ListPizzaClient = new List<Pizza>();
         }
 
         /// <summary>
@@ -93,10 +93,9 @@ namespace Modele
         /// Envoie la liste de commande du client à l'administrateur et la vide une fois fait
         /// </summary>
         /// <param name="admin"></param>
-        public void envoyerListeCommande(Administrateur admin)
+        public void envoyerListeCommande(Commande c, Administrateur admin)
         {
-            Commande commande = new Commande(this, ListPizzaClient);
-            admin.ListCommandeAdmin.Add(commande);
+            admin.ListCommandeAdmin.Add(c);
             ListPizzaClient.Clear();
         }
 

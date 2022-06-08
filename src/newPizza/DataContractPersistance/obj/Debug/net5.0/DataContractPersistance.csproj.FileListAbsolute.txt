@@ -1,5 +1,0 @@
-U:\Documents\SAE\2.01\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.csproj.AssemblyReference.cache
-U:\Documents\SAE\2.01\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.GeneratedMSBuildEditorConfig.editorconfig
-U:\Documents\SAE\2.01\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.AssemblyInfoInputs.cache
-U:\Documents\SAE\2.01\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.AssemblyInfo.cs
-U:\Documents\SAE\2.01\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.csproj.CoreCompileInputs.cache

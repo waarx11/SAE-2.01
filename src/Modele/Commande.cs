@@ -7,7 +7,7 @@ namespace Modele
     /// <summary>
     /// Cette fonction permet a un client de passer une commande
     /// </summary>
-    public class Commande
+    public class Commande /*: IEquatable<Commande>*/
     {
         /// <summary>
         /// La liste des pizza présent dans la commande
@@ -32,6 +32,7 @@ namespace Modele
         public Commande(Client c1, List<Pizza> listPzz)
         {
             ListPizza = new List<Pizza>();
+            ListPizza = listPzz;
             ClientActu = c1;
             Statut = Status.Commencer;
         }
@@ -53,18 +54,17 @@ namespace Modele
 
         public override bool Equals(object obj)
         {
-            if (obj == null) return false;
-            if (obj == this) return false;
-            if (obj.GetType() != this.GetType()) return false;
+            if (object.ReferenceEquals(obj, null)) return false;
+            if (object.ReferenceEquals(this, obj)) return true;
+            if (this.GetType() != obj.GetType()) return false;
+            /*return this.Equals(obj as Commande);*/
             Commande cmd = (Commande)obj;
-            if (cmd == null) return false;
-            return cmd.ListPizza == ListPizza && cmd.Statut == Statut;
-
+            return ListPizza == cmd.ListPizza && ClientActu == cmd.ClientActu;
         }
 
         public override int GetHashCode()
         {
-            return base.GetHashCode();
+            return ListPizza.GetHashCode();
         }
 
         public override string ToString()
@@ -78,6 +78,17 @@ namespace Modele
 
             return txt;
         }
-
+        // IEquatable
+        /*public bool Equals(Commande other)
+        {
+            if (this.ListPizza == other.ListPizza && this.ClientActu == other.ClientActu)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }*/
     }
 }

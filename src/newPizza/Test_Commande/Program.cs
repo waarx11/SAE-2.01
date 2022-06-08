@@ -15,14 +15,14 @@ namespace Test_Commande
            
             Pizza P1 = new Pizza("Reine", "Description", "image", listeIngre1, 15);
             Pizza P2 = new Pizza("Peperonni", "Description", "image", listeIngre2, 10);
-            
-            List<Pizza> pizzaList = new List<Pizza>();
-            pizzaList.Add(P1);
-            pizzaList.Add(P2);
 
             Client C1 = new Client("Kartal", "Emre", "emre@oui.com", "06.45.85.95.15", "27 rue oui", "Clermont-Ferrand", "63100", "Mdp", "tobiii", "non");
 
-            Commande c = new Commande(C1, pizzaList);
+            C1.ajouterPizzaCommande(P1);
+            C1.ajouterPizzaCommande(P2);
+
+
+            Commande c = new Commande(C1, C1.ListPizzaClient);
 
             Console.WriteLine("Statut de la pizza:");
             Console.WriteLine(c.Statut);
@@ -36,7 +36,7 @@ namespace Test_Commande
             Console.WriteLine(c.Statut);
 
             Console.WriteLine("Liste de pizza dans la commande:");
-            foreach(Pizza p in pizzaList)
+            foreach(Pizza p in C1.ListPizzaClient)
             {
                 Console.WriteLine(p);
             }

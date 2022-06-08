@@ -1,5 +1,0 @@
-U:\Documents\SAE\2.01\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.csproj.AssemblyReference.cache
-U:\Documents\SAE\2.01\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.GeneratedMSBuildEditorConfig.editorconfig
-U:\Documents\SAE\2.01\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.AssemblyInfoInputs.cache
-U:\Documents\SAE\2.01\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.AssemblyInfo.cs
-U:\Documents\SAE\2.01\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.csproj.CoreCompileInputs.cache
