@@ -39,7 +39,7 @@ namespace DataContractPersistance
     static class ClientExtensions
     {
         public static Client ToPOCOs(this ClientDTO dto)
-            => new Client(dto.Nom, dto.Prénom, dto.Email, dto.Téléphone, dto.Adresse, dto.Mdp, dto.Ville, dto.CodePostal, dto.Pseudo, dto.Photo);
+            => new Client(dto.Nom, dto.Prénom, dto.Email, dto.Téléphone, dto.Adresse, dto.Ville, dto.CodePostal, dto.Mdp, dto.Pseudo, dto.Photo);
 
         public static IEnumerable<Client> ToPOCOs(this IEnumerable<ClientDTO> dtos)
             => dtos.Select(dto => dto.ToPOCOs());

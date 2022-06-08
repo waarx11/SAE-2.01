@@ -36,7 +36,7 @@ namespace DataContractPersistance
     static class AdministrateurExtensions
     {
         public static Administrateur ToPOCOs(this AdministrateurDTO dto)
-            => new Administrateur(dto.Nom, dto.Prénom, dto.Email, dto.Téléphone, dto.Adresse, dto.Mdp, dto.Ville, dto.CodePostal, dto.NomPizzeria);
+            => new Administrateur(dto.Nom, dto.Prénom, dto.Email, dto.Téléphone, dto.Adresse, dto.Ville, dto.CodePostal, dto.Mdp, dto.NomPizzeria);
 
         public static IEnumerable<Administrateur> ToPOCOs(this IEnumerable<AdministrateurDTO> dtos)
             => dtos.Select(dto => dto.ToPOCOs());

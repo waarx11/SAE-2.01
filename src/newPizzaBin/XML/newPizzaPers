@@ -7,10 +7,10 @@
       <Email z:Id="6">Luigi.PERONI@NewPizza.com</Email>
       <Téléphone z:Id="7">09.25.25.80.18</Téléphone>
       <Adresse z:Id="8">4 Avenue BlaiseMcool</Adresse>
-      <Mdp z:Id="9">63000</Mdp>
-      <Ville z:Id="10">0000</Ville>
-      <CodePostal z:Id="11">Clermont-Ferrand</CodePostal>
-      <NomPizzeria z:Ref="10" i:nil="true" />
+      <Mdp z:Id="9">0000</Mdp>
+      <Ville z:Id="10">Clermont-Ferrand</Ville>
+      <CodePostal z:Id="11">63000</CodePostal>
+      <NomPizzeria z:Ref="9" i:nil="true" />
     </AdministrateurDTO>
   </Admin>
   <Catalogues xmlns:d2p1="http://schemas.datacontract.org/2004/07/Modele" z:Id="12">
@@ -680,17 +680,17 @@
       </d2p1:Pizza>
     </d2p1:CatalogueEpice>
   </Catalogues>
-  <Clients z:Id="211" z:Size="9">
+  <Clients z:Id="211" z:Size="4">
     <ClientDTO z:Id="212">
       <Nom z:Id="213">Kartal</Nom>
       <Prénom z:Id="214">Emre</Prénom>
       <Email z:Id="215">emre@oui.com</Email>
       <Téléphone z:Id="216">06.45.85.95.15</Téléphone>
       <Adresse z:Id="217">27 rue oui</Adresse>
-      <Mdp z:Id="218">63100</Mdp>
-      <Ville z:Id="219">0</Ville>
-      <CodePostal z:Ref="11" i:nil="true" />
-      <Pseudo z:Ref="219" i:nil="true" />
+      <Mdp z:Id="218">0</Mdp>
+      <Ville z:Ref="10" i:nil="true" />
+      <CodePostal z:Id="219">63100</CodePostal>
+      <Pseudo z:Ref="218" i:nil="true" />
       <Photo z:Id="220">..\img\default\noPP.jpg</Photo>
     </ClientDTO>
     <ClientDTO z:Id="221">
@@ -699,9 +699,9 @@
       <Email z:Ref="215" i:nil="true" />
       <Téléphone z:Ref="216" i:nil="true" />
       <Adresse z:Ref="217" i:nil="true" />
-      <Mdp z:Ref="218" i:nil="true" />
-      <Ville z:Id="222">mdp</Ville>
-      <CodePostal z:Ref="11" i:nil="true" />
+      <Mdp z:Id="222">mdp</Mdp>
+      <Ville z:Ref="10" i:nil="true" />
+      <CodePostal z:Ref="219" i:nil="true" />
       <Pseudo z:Id="223">emre</Pseudo>
       <Photo z:Ref="220" i:nil="true" />
     </ClientDTO>
@@ -711,8 +711,8 @@
       <Email z:Id="227">Nathan@oui.com</Email>
       <Téléphone z:Id="228">09.25.25.73.19</Téléphone>
       <Adresse z:Id="229">27 rue non</Adresse>
-      <Mdp z:Ref="9" i:nil="true" />
-      <Ville z:Ref="222" i:nil="true" />
+      <Mdp z:Ref="222" i:nil="true" />
+      <Ville z:Ref="10" i:nil="true" />
       <CodePostal z:Ref="11" i:nil="true" />
       <Pseudo z:Id="230">Waarx</Pseudo>
       <Photo z:Ref="220" i:nil="true" />
@@ -723,71 +723,11 @@
       <Email z:Id="234">Baptiste@oui.com</Email>
       <Téléphone z:Ref="228" i:nil="true" />
       <Adresse z:Ref="229" i:nil="true" />
-      <Mdp z:Ref="9" i:nil="true" />
-      <Ville z:Ref="222" i:nil="true" />
+      <Mdp z:Ref="222" i:nil="true" />
+      <Ville z:Ref="10" i:nil="true" />
       <CodePostal z:Ref="11" i:nil="true" />
       <Pseudo z:Id="235">nojii</Pseudo>
       <Photo z:Id="236">default\noImg.png</Photo>
-    </ClientDTO>
-    <ClientDTO z:Id="237">
-      <Nom z:Id="238">Non-renseigné</Nom>
-      <Prénom z:Ref="238" i:nil="true" />
-      <Email z:Id="239">ouoi@oui</Email>
-      <Téléphone z:Ref="238" i:nil="true" />
-      <Adresse z:Ref="238" i:nil="true" />
-      <Mdp z:Id="240">oui</Mdp>
-      <Ville z:Ref="238" i:nil="true" />
-      <CodePostal z:Id="241">00000</CodePostal>
-      <Pseudo z:Id="242">oui</Pseudo>
-      <Photo z:Id="243">..\img\default\noPP.jpg</Photo>
-    </ClientDTO>
-    <ClientDTO z:Id="244">
-      <Nom z:Id="245">Non-renseigné</Nom>
-      <Prénom z:Ref="245" i:nil="true" />
-      <Email z:Id="246">00@00</Email>
-      <Téléphone z:Ref="245" i:nil="true" />
-      <Adresse z:Ref="245" i:nil="true" />
-      <Mdp z:Ref="245" i:nil="true" />
-      <Ville z:Id="247">00000</Ville>
-      <CodePostal z:Id="248">00</CodePostal>
-      <Pseudo z:Id="249">00</Pseudo>
-      <Photo z:Id="250">..\img\default\noPP.jpg</Photo>
-    </ClientDTO>
-    <ClientDTO z:Id="251">
-      <Nom z:Id="252">Non-renseigné</Nom>
-      <Prénom z:Ref="252" i:nil="true" />
-      <Email z:Id="253">000@000</Email>
-      <Téléphone z:Ref="252" i:nil="true" />
-      <Adresse z:Ref="252" i:nil="true" />
-      <Mdp z:Id="254">00000</Mdp>
-      <Ville z:Id="255">000</Ville>
-      <CodePostal z:Ref="252" i:nil="true" />
-      <Pseudo z:Id="256">000</Pseudo>
-      <Photo z:Id="257">..\img\default\noPP.jpg</Photo>
-    </ClientDTO>
-    <ClientDTO z:Id="258">
-      <Nom z:Id="259">Non-renseigné</Nom>
-      <Prénom z:Ref="259" i:nil="true" />
-      <Email z:Id="260">ra@ra</Email>
-      <Téléphone z:Ref="259" i:nil="true" />
-      <Adresse z:Ref="259" i:nil="true" />
-      <Mdp z:Id="261">00000</Mdp>
-      <Ville z:Id="262">ra</Ville>
-      <CodePostal z:Ref="259" i:nil="true" />
-      <Pseudo z:Id="263">rara</Pseudo>
-      <Photo z:Id="264">..\img\default\noPP.jpg</Photo>
-    </ClientDTO>
-    <ClientDTO z:Id="265">
-      <Nom z:Id="266">Non-renseigné</Nom>
-      <Prénom z:Ref="266" i:nil="true" />
-      <Email z:Id="267">r@r</Email>
-      <Téléphone z:Ref="266" i:nil="true" />
-      <Adresse z:Ref="266" i:nil="true" />
-      <Mdp z:Id="268">r</Mdp>
-      <Ville z:Ref="266" i:nil="true" />
-      <CodePostal z:Id="269">00000</CodePostal>
-      <Pseudo z:Id="270">r</Pseudo>
-      <Photo z:Id="271">..\img\default\noPP.jpg</Photo>
     </ClientDTO>
   </Clients>
 </DataToPersist>
