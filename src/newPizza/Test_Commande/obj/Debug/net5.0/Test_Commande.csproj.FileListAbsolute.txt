@@ -73,3 +73,4 @@ C:\Users\natha\Desktop\proj\sae-2.01\src\newPizza\Test_Commande\obj\Debug\net5.0
 C:\Users\natha\Desktop\proj\sae-2.01\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.pdb
 C:\Users\natha\Desktop\proj\sae-2.01\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.genruntimeconfig.cache
 C:\Users\natha\Desktop\proj\sae-2.01\src\newPizza\Test_Commande\obj\Debug\net5.0\ref\Test_Commande.dll
+U:\Documents\SAE\2.01\src\newPizza\Test_Commande\obj\Debug\net5.0\Test_Commande.csproj.AssemblyReference.cache

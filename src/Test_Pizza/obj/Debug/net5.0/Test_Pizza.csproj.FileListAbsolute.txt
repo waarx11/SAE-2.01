@@ -333,3 +333,4 @@ C:\Users\natha\Desktop\proj\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\refint\Test
 C:\Users\natha\Desktop\proj\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.pdb
 C:\Users\natha\Desktop\proj\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.genruntimeconfig.cache
 C:\Users\natha\Desktop\proj\sae-2.01\src\Test_Pizza\obj\Debug\net5.0\ref\Test_Pizza.dll
+U:\Documents\SAE\2.01\src\Test_Pizza\obj\Debug\net5.0\Test_Pizza.csproj.AssemblyReference.cache
