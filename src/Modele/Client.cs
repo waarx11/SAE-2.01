@@ -43,9 +43,9 @@ namespace Modele
         /// <summary>
         /// Liste des commandes du client
         /// </summary>
-        private List<Pizza> listCommandeClient;
+        private List<Pizza> listPizzaClient;
         /*[DataMember(EmitDefaultValue = false, Order = 10)]*/
-        public List<Pizza> ListCommandeClient { get => listCommandeClient; private set => listCommandeClient = value; }
+        public List<Pizza> ListPizzaClient { get => listPizzaClient; private set => listPizzaClient = value; }
 
         /// <summary>
         /// Constructeur de la classe Client
@@ -95,9 +95,9 @@ namespace Modele
         /// <param name="admin"></param>
         public void envoyerListeCommande(Administrateur admin)
         {
-            Commande commande = new Commande(this, ListCommandeClient);
+            Commande commande = new Commande(this, ListPizzaClient);
             admin.ListCommandeAdmin.Add(commande);
-            ListCommandeClient.Clear();
+            ListPizzaClient.Clear();
         }
 
         /// <summary>
@@ -111,12 +111,12 @@ namespace Modele
                 return false;
 
 
-            else if (!listCommandeClient.Contains(p))
+            else if (!ListPizzaClient.Contains(p))
             {
-                listCommandeClient.Add(p);
+                ListPizzaClient.Add(p);
                 return true;
             }
-            else if (listCommandeClient.Contains(p))
+            else if (ListPizzaClient.Contains(p))
             {
                 p.modifQte(1);
                 return true;
@@ -131,9 +131,9 @@ namespace Modele
         /// <returns></returns>
         public bool supprimerPizzaCommande(Pizza p)
         {
-            if (listCommandeClient.Contains(p))
+            if (ListPizzaClient.Contains(p))
             {
-                listCommandeClient.Remove(p);
+                ListPizzaClient.Remove(p);
                 return true;
             }
             return false;

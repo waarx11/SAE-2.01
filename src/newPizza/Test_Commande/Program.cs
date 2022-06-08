@@ -35,6 +35,12 @@ namespace Test_Commande
             c.changerStatus();
             Console.WriteLine(c.Statut);
 
+            Console.WriteLine("Liste de pizza dans la commande:");
+            foreach(Pizza p in pizzaList)
+            {
+                Console.WriteLine(p);
+            }
+
 
         }
     }
