@@ -1,0 +1,15 @@
+U:\sae202\src\newPizza\DataContractPersistance\bin\Debug\net5.0\DataContractPersistance.deps.json
+U:\sae202\src\newPizza\DataContractPersistance\bin\Debug\net5.0\DataContractPersistance.dll
+U:\sae202\src\newPizza\DataContractPersistance\bin\Debug\net5.0\ref\DataContractPersistance.dll
+U:\sae202\src\newPizza\DataContractPersistance\bin\Debug\net5.0\DataContractPersistance.pdb
+U:\sae202\src\newPizza\DataContractPersistance\bin\Debug\net5.0\Modele.dll
+U:\sae202\src\newPizza\DataContractPersistance\bin\Debug\net5.0\Modele.pdb
+U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.csproj.AssemblyReference.cache
+U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.GeneratedMSBuildEditorConfig.editorconfig
+U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.AssemblyInfoInputs.cache
+U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.AssemblyInfo.cs
+U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.csproj.CoreCompileInputs.cache
+U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.csproj.CopyComplete
+U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.dll
+U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\ref\DataContractPersistance.dll
+U:\sae202\src\newPizza\DataContractPersistance\obj\Debug\net5.0\DataContractPersistance.pdb

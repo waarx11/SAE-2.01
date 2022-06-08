@@ -97,3 +97,15 @@ C:\Users\natha\Desktop\proj\sae-2.01\src\Modele\obj\Debug\net5.0\Modele.dll
 C:\Users\natha\Desktop\proj\sae-2.01\src\Modele\obj\Debug\net5.0\refint\Modele.dll
 C:\Users\natha\Desktop\proj\sae-2.01\src\Modele\obj\Debug\net5.0\Modele.pdb
 C:\Users\natha\Desktop\proj\sae-2.01\src\Modele\obj\Debug\net5.0\ref\Modele.dll
+U:\sae202\src\Modele\bin\Debug\net5.0\Modele.deps.json
+U:\sae202\src\Modele\bin\Debug\net5.0\Modele.dll
+U:\sae202\src\Modele\bin\Debug\net5.0\ref\Modele.dll
+U:\sae202\src\Modele\bin\Debug\net5.0\Modele.pdb
+U:\sae202\src\Modele\obj\Debug\net5.0\Modele.csproj.AssemblyReference.cache
+U:\sae202\src\Modele\obj\Debug\net5.0\Modele.GeneratedMSBuildEditorConfig.editorconfig
+U:\sae202\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfoInputs.cache
+U:\sae202\src\Modele\obj\Debug\net5.0\Modele.AssemblyInfo.cs
+U:\sae202\src\Modele\obj\Debug\net5.0\Modele.csproj.CoreCompileInputs.cache
+U:\sae202\src\Modele\obj\Debug\net5.0\Modele.dll
+U:\sae202\src\Modele\obj\Debug\net5.0\ref\Modele.dll
+U:\sae202\src\Modele\obj\Debug\net5.0\Modele.pdb

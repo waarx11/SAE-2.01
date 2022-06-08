@@ -10,19 +10,19 @@
       <Mdp z:Id="9">0000</Mdp>
       <Ville z:Id="10">Clermont-Ferrand</Ville>
       <CodePostal z:Id="11">63000</CodePostal>
-      <NomPizzeria z:Id="12">NewPizza()</NomPizzeria>
+      <NomPizzeria z:Ref="9" i:nil="true" />
     </AdministrateurDTO>
   </Admin>
-  <Catalogues xmlns:d2p1="http://schemas.datacontract.org/2004/07/Modele" z:Id="13">
-    <d2p1:CatalogueVegetarien z:Id="14" z:Size="8">
-      <d2p1:Pizza z:Id="15">
-        <d2p1:Nom z:Id="16">3 Fromages</d2p1:Nom>
+  <Catalogues xmlns:d2p1="http://schemas.datacontract.org/2004/07/Modele" z:Id="12">
+    <d2p1:CatalogueVegetarien z:Id="13" z:Size="8">
+      <d2p1:Pizza z:Id="14">
+        <d2p1:Nom z:Id="15">3 Fromages</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="17">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="16">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, fromage de chèvre, gorgonzola</d2p1:Description>
-        <d2p1:ImageName z:Id="18">pizzas/vegetariennes/3_fromages.jpg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="17">pizzas/vegetariennes/3_fromages.jpg</d2p1:ImageName>
         <d2p1:Prix>12</d2p1:Prix>
-        <d2p1:listIngredient z:Id="19" z:Size="5">
+        <d2p1:listIngredient z:Id="18" z:Size="5">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -30,14 +30,14 @@
           <d2p1:Ingredients>Gorgonzola</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="20">
-        <d2p1:Nom z:Id="21">5 Fromages</d2p1:Nom>
+      <d2p1:Pizza z:Id="19">
+        <d2p1:Nom z:Id="20">5 Fromages</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="22">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="21">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, gorgonzola, taleggio de Lombardie, fromage de chèvre, scamorza fumée</d2p1:Description>
-        <d2p1:ImageName z:Id="23">pizzas/vegetariennes/5_formaggi.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="22">pizzas/vegetariennes/5_formaggi.png</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="24" z:Size="7">
+        <d2p1:listIngredient z:Id="23" z:Size="7">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -47,27 +47,27 @@
           <d2p1:Ingredients>Scamorza</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="25">
-        <d2p1:Nom z:Id="26">Bianca</d2p1:Nom>
+      <d2p1:Pizza z:Id="24">
+        <d2p1:Nom z:Id="25">Bianca</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="27">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="26">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate fine, base crème, mozzarella</d2p1:Description>
-        <d2p1:ImageName z:Id="28">pizzas/vegetariennes/bianca.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="27">pizzas/vegetariennes/bianca.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>
-        <d2p1:listIngredient z:Id="29" z:Size="3">
+        <d2p1:listIngredient z:Id="28" z:Size="3">
           <d2p1:Ingredients>PateFine</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="30">
-        <d2p1:Nom z:Id="31">Carbonara</d2p1:Nom>
+      <d2p1:Pizza z:Id="29">
+        <d2p1:Nom z:Id="30">Carbonara</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="32">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="31">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate fine, base crème, mozzarella, pancetta, oeuf</d2p1:Description>
-        <d2p1:ImageName z:Id="33">pizzas/vegetariennes/carbonara.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="32">pizzas/vegetariennes/carbonara.png</d2p1:ImageName>
         <d2p1:Prix>13</d2p1:Prix>
-        <d2p1:listIngredient z:Id="34" z:Size="6">
+        <d2p1:listIngredient z:Id="33" z:Size="6">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateFine</d2p1:Ingredients>
           <d2p1:Ingredients>Creme</d2p1:Ingredients>
@@ -76,14 +76,14 @@
           <d2p1:Ingredients>Oeuf</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="35">
-        <d2p1:Nom z:Id="36">Carciofi</d2p1:Nom>
+      <d2p1:Pizza z:Id="34">
+        <d2p1:Nom z:Id="35">Carciofi</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="37">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="36">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate fine, base pesto de roquette, mozzarella, artichauts à la romaine, roquette, ricotta</d2p1:Description>
-        <d2p1:ImageName z:Id="38">pizzas/vegetariennes/carciofi.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="37">pizzas/vegetariennes/carciofi.png</d2p1:ImageName>
         <d2p1:Prix>16</d2p1:Prix>
-        <d2p1:listIngredient z:Id="39" z:Size="7">
+        <d2p1:listIngredient z:Id="38" z:Size="7">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateFine</d2p1:Ingredients>
           <d2p1:Ingredients>Creme</d2p1:Ingredients>
@@ -93,14 +93,14 @@
           <d2p1:Ingredients>Ricotta</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="40">
-        <d2p1:Nom z:Id="41">Chèvre Miel Végé</d2p1:Nom>
+      <d2p1:Pizza z:Id="39">
+        <d2p1:Nom z:Id="40">Chèvre Miel Végé</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="42">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="41">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, Base crème, mozzarella, fromage de chèvre, miel</d2p1:Description>
-        <d2p1:ImageName z:Id="43">pizzas/vegetariennes/chevre_miel_vege.jpg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="42">pizzas/vegetariennes/chevre_miel_vege.jpg</d2p1:ImageName>
         <d2p1:Prix>14</d2p1:Prix>
-        <d2p1:listIngredient z:Id="44" z:Size="5">
+        <d2p1:listIngredient z:Id="43" z:Size="5">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -108,27 +108,27 @@
           <d2p1:Ingredients>Miel</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="45">
-        <d2p1:Nom z:Id="46">Margarita</d2p1:Nom>
+      <d2p1:Pizza z:Id="44">
+        <d2p1:Nom z:Id="45">Margarita</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="47">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="46">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate fine, base tomate, mozzarella</d2p1:Description>
-        <d2p1:ImageName z:Id="48">pizzas/vegetariennes/margarita.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="47">pizzas/vegetariennes/margarita.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>
-        <d2p1:listIngredient z:Id="49" z:Size="3">
+        <d2p1:listIngredient z:Id="48" z:Size="3">
           <d2p1:Ingredients>PateFine</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="50">
-        <d2p1:Nom z:Id="51">Vegétarienne</d2p1:Nom>
+      <d2p1:Pizza z:Id="49">
+        <d2p1:Nom z:Id="50">Vegétarienne</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="52">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="51">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base tomate, mozzarella, champignons, oignons rouges, poivrons, tomates, olives</d2p1:Description>
-        <d2p1:ImageName z:Id="53">pizzas/vegetariennes/vegetarienne.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="52">pizzas/vegetariennes/vegetarienne.jpeg</d2p1:ImageName>
         <d2p1:Prix>16</d2p1:Prix>
-        <d2p1:listIngredient z:Id="54" z:Size="8">
+        <d2p1:listIngredient z:Id="53" z:Size="8">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -140,14 +140,14 @@
         </d2p1:listIngredient>
       </d2p1:Pizza>
     </d2p1:CatalogueVegetarien>
-    <d2p1:CataloguePizzeta z:Id="55" z:Size="8">
-      <d2p1:Pizza z:Id="56">
-        <d2p1:Nom z:Ref="21" i:nil="true" />
+    <d2p1:CataloguePizzeta z:Id="54" z:Size="8">
+      <d2p1:Pizza z:Id="55">
+        <d2p1:Nom z:Ref="20" i:nil="true" />
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Ref="22" i:nil="true" />
-        <d2p1:ImageName z:Id="57">pizzas/pizzeta/pizzeta_5_fromaggi.png</d2p1:ImageName>
+        <d2p1:Description z:Ref="21" i:nil="true" />
+        <d2p1:ImageName z:Id="56">pizzas/pizzeta/pizzeta_5_fromaggi.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>
-        <d2p1:listIngredient z:Id="58" z:Size="7">
+        <d2p1:listIngredient z:Id="57" z:Size="7">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -157,14 +157,14 @@
           <d2p1:Ingredients>Scamorza</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="59">
-        <d2p1:Nom z:Ref="31" i:nil="true" />
+      <d2p1:Pizza z:Id="58">
+        <d2p1:Nom z:Ref="30" i:nil="true" />
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="60">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="59">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, pancetta, oeuf</d2p1:Description>
-        <d2p1:ImageName z:Id="61">pizzas/pizzeta/pizzeta_carbonara.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="60">pizzas/pizzeta/pizzeta_carbonara.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>
-        <d2p1:listIngredient z:Id="62" z:Size="6">
+        <d2p1:listIngredient z:Id="61" z:Size="6">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>Creme</d2p1:Ingredients>
@@ -173,14 +173,14 @@
           <d2p1:Ingredients>Oeuf</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="63">
-        <d2p1:Nom z:Id="64">Chèvre Miel</d2p1:Nom>
+      <d2p1:Pizza z:Id="62">
+        <d2p1:Nom z:Id="63">Chèvre Miel</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="65">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="64">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, fromage de chèvre, speck, roquette, miel</d2p1:Description>
-        <d2p1:ImageName z:Id="66">pizzas/pizzeta/pizzeta_chevre_miel.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="65">pizzas/pizzeta/pizzeta_chevre_miel.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>
-        <d2p1:listIngredient z:Id="67" z:Size="8">
+        <d2p1:listIngredient z:Id="66" z:Size="8">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>Creme</d2p1:Ingredients>
@@ -191,13 +191,13 @@
           <d2p1:Ingredients>Miel</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="68">
-        <d2p1:Nom z:Ref="64" i:nil="true" />
+      <d2p1:Pizza z:Id="67">
+        <d2p1:Nom z:Ref="63" i:nil="true" />
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Ref="65" i:nil="true" />
-        <d2p1:ImageName z:Ref="66" i:nil="true" />
+        <d2p1:Description z:Ref="64" i:nil="true" />
+        <d2p1:ImageName z:Ref="65" i:nil="true" />
         <d2p1:Prix>10</d2p1:Prix>
-        <d2p1:listIngredient z:Id="69" z:Size="8">
+        <d2p1:listIngredient z:Id="68" z:Size="8">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>Creme</d2p1:Ingredients>
@@ -208,14 +208,14 @@
           <d2p1:Ingredients>Miel</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="70">
-        <d2p1:Nom z:Id="71">Regina</d2p1:Nom>
+      <d2p1:Pizza z:Id="69">
+        <d2p1:Nom z:Id="70">Regina</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="72">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="71">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base tomate, mozzarella, jambon, champignons</d2p1:Description>
-        <d2p1:ImageName z:Id="73">pizzas/pizzeta/pizzeta_regina.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="72">pizzas/pizzeta/pizzeta_regina.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>
-        <d2p1:listIngredient z:Id="74" z:Size="5">
+        <d2p1:listIngredient z:Id="73" z:Size="5">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -223,14 +223,14 @@
           <d2p1:Ingredients>Champignons</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="75">
-        <d2p1:Nom z:Id="76">Saumon</d2p1:Nom>
+      <d2p1:Pizza z:Id="74">
+        <d2p1:Nom z:Id="75">Saumon</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="77">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="76">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, saumon fumé, pousses d’épinard, sauce balsamique blanc</d2p1:Description>
-        <d2p1:ImageName z:Id="78">pizzas/pizzeta/pizzeta_salmone.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="77">pizzas/pizzeta/pizzeta_salmone.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>
-        <d2p1:listIngredient z:Id="79" z:Size="5">
+        <d2p1:listIngredient z:Id="78" z:Size="5">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>Saumon</d2p1:Ingredients>
@@ -238,14 +238,14 @@
           <d2p1:Ingredients>SauceBalsmamique</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="80">
-        <d2p1:Nom z:Id="81">Spécialité</d2p1:Nom>
+      <d2p1:Pizza z:Id="79">
+        <d2p1:Nom z:Id="80">Spécialité</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="82">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="81">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base tomate, mozzarella, jambon, oeuf, crème</d2p1:Description>
-        <d2p1:ImageName z:Id="83">pizzas/pizzeta/pizzeta_speciale_pizzaiolo.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="82">pizzas/pizzeta/pizzeta_speciale_pizzaiolo.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>
-        <d2p1:listIngredient z:Id="84" z:Size="6">
+        <d2p1:listIngredient z:Id="83" z:Size="6">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -254,14 +254,14 @@
           <d2p1:Ingredients>Creme</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="85">
-        <d2p1:Nom z:Id="86">Vesuvio</d2p1:Nom>
+      <d2p1:Pizza z:Id="84">
+        <d2p1:Nom z:Id="85">Vesuvio</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="87">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="86">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base tomate, mozzarella, merguez, spianata piccante, poivrons jaunes et rouges, oeuf plein air</d2p1:Description>
-        <d2p1:ImageName z:Id="88">pizzas/pizzeta/pizzeta_vesuvio.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="87">pizzas/pizzeta/pizzeta_vesuvio.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>
-        <d2p1:listIngredient z:Id="89" z:Size="7">
+        <d2p1:listIngredient z:Id="88" z:Size="7">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -272,15 +272,15 @@
         </d2p1:listIngredient>
       </d2p1:Pizza>
     </d2p1:CataloguePizzeta>
-    <d2p1:CatalogueCarnivore z:Id="90" z:Size="19">
-      <d2p1:Pizza z:Id="91">
-        <d2p1:Nom z:Id="92">3 Salumi</d2p1:Nom>
+    <d2p1:CatalogueCarnivore z:Id="89" z:Size="19">
+      <d2p1:Pizza z:Id="90">
+        <d2p1:Nom z:Id="91">3 Salumi</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="93">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="92">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate fine, base tomate, mozzarella, gorgonzola, coppa, speck, porchetta</d2p1:Description>
-        <d2p1:ImageName z:Id="94">pizzas/carnivore/3_salumi.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="93">pizzas/carnivore/3_salumi.png</d2p1:ImageName>
         <d2p1:Prix>14</d2p1:Prix>
-        <d2p1:listIngredient z:Id="95" z:Size="7">
+        <d2p1:listIngredient z:Id="94" z:Size="7">
           <d2p1:Ingredients>PateFine</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -290,14 +290,14 @@
           <d2p1:Ingredients>Porchetta</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="96">
-        <d2p1:Nom z:Id="97">Burrata e Mortadella</d2p1:Nom>
+      <d2p1:Pizza z:Id="95">
+        <d2p1:Nom z:Id="96">Burrata e Mortadella</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="98">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="97">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, huile d’olive, parmigiano reggiano, mortadelle de Bologne, burrata des Pouilles, pistaches</d2p1:Description>
-        <d2p1:ImageName z:Id="99">pizzas/carnivore/burrata_e_mortadella.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="98">pizzas/carnivore/burrata_e_mortadella.png</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="100" z:Size="7">
+        <d2p1:listIngredient z:Id="99" z:Size="7">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>HuileOlive</d2p1:Ingredients>
@@ -307,14 +307,14 @@
           <d2p1:Ingredients>Pistaches</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="101">
-        <d2p1:Nom z:Id="102">Chevre Miel</d2p1:Nom>
+      <d2p1:Pizza z:Id="100">
+        <d2p1:Nom z:Id="101">Chevre Miel</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="103">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="102">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: pate normale, base crème, mozzarella, fromage de chèvre, speck, roquette, miel</d2p1:Description>
-        <d2p1:ImageName z:Id="104">pizzas/carnivore/chevre_miel.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="103">pizzas/carnivore/chevre_miel.png</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="105" z:Size="6">
+        <d2p1:listIngredient z:Id="104" z:Size="6">
           <d2p1:Ingredients>PateFine</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>FromageDeChevre</d2p1:Ingredients>
@@ -323,14 +323,14 @@
           <d2p1:Ingredients>Miel</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="106">
-        <d2p1:Nom z:Id="107">BPM</d2p1:Nom>
+      <d2p1:Pizza z:Id="105">
+        <d2p1:Nom z:Id="106">BPM</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="108">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="107">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, sauce barbecue, mozzarella, emietté au boeuf, filet de poulet rôti et merguez</d2p1:Description>
-        <d2p1:ImageName z:Id="109">pizzas/carnivore/BPM.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="108">pizzas/carnivore/BPM.jpeg</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="110" z:Size="6">
+        <d2p1:listIngredient z:Id="109" z:Size="6">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>SauceBarbecue</d2p1:Ingredients>
@@ -339,14 +339,14 @@
           <d2p1:Ingredients>Merguez</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="111">
-        <d2p1:Nom z:Id="112">Campagnarde</d2p1:Nom>
+      <d2p1:Pizza z:Id="110">
+        <d2p1:Nom z:Id="111">Campagnarde</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="113">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="112">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, base crème, mozzarella, lardons, oignons rouges et champignons</d2p1:Description>
-        <d2p1:ImageName z:Id="114">pizzas/carnivore/Campagnarde.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="113">pizzas/carnivore/Campagnarde.jpeg</d2p1:ImageName>
         <d2p1:Prix>16</d2p1:Prix>
-        <d2p1:listIngredient z:Id="115" z:Size="6">
+        <d2p1:listIngredient z:Id="114" z:Size="6">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -355,14 +355,14 @@
           <d2p1:Ingredients>Champignons</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="116">
-        <d2p1:Nom z:Id="117">Chicken Parmesan</d2p1:Nom>
+      <d2p1:Pizza z:Id="115">
+        <d2p1:Nom z:Id="116">Chicken Parmesan</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="118">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="117">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base tomate, mozzarella, filet de poulet rôti, tomates, parmigiano reggiano</d2p1:Description>
-        <d2p1:ImageName z:Id="119">pizzas/carnivore/chicken_parmesan.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="118">pizzas/carnivore/chicken_parmesan.jpeg</d2p1:ImageName>
         <d2p1:Prix>13</d2p1:Prix>
-        <d2p1:listIngredient z:Id="120" z:Size="6">
+        <d2p1:listIngredient z:Id="119" z:Size="6">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -371,14 +371,14 @@
           <d2p1:Ingredients>ParmigianoReggiano</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="121">
-        <d2p1:Nom z:Id="122">Del mare</d2p1:Nom>
+      <d2p1:Pizza z:Id="120">
+        <d2p1:Nom z:Id="121">Del mare</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="123">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="122">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, base tomate, mozzarella, mélange de fruits de mer (moules, palourdes, crevettes) et sauce crustacés, pousses d’épinard</d2p1:Description>
-        <d2p1:ImageName z:Id="124">pizzas/carnivore/del_mare.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="123">pizzas/carnivore/del_mare.png</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="125" z:Size="5">
+        <d2p1:listIngredient z:Id="124" z:Size="5">
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>FruitsDeMer</d2p1:Ingredients>
@@ -386,14 +386,14 @@
           <d2p1:Ingredients>Epinard</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="126">
-        <d2p1:Nom z:Id="127">Diavola</d2p1:Nom>
+      <d2p1:Pizza z:Id="125">
+        <d2p1:Nom z:Id="126">Diavola</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="128">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="127">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base tomate, parmigiano reggiano, poivrons, ‘nduja, oignons rouges, mozzarella di Bufala Campana</d2p1:Description>
-        <d2p1:ImageName z:Id="129">pizzas/carnivore/diavola.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="128">pizzas/carnivore/diavola.png</d2p1:ImageName>
         <d2p1:Prix>12</d2p1:Prix>
-        <d2p1:listIngredient z:Id="130" z:Size="7">
+        <d2p1:listIngredient z:Id="129" z:Size="7">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>ParmigianoReggiano</d2p1:Ingredients>
@@ -403,14 +403,14 @@
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="131">
-        <d2p1:Nom z:Ref="76" i:nil="true" />
+      <d2p1:Pizza z:Id="130">
+        <d2p1:Nom z:Ref="75" i:nil="true" />
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="132">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="131">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, base crème, mozzarella, saumon fumé, pousses d’épinard, sauce balsamique blanc</d2p1:Description>
-        <d2p1:ImageName z:Id="133">pizzas/carnivore/salmone.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="132">pizzas/carnivore/salmone.png</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="134" z:Size="5">
+        <d2p1:listIngredient z:Id="133" z:Size="5">
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>Saumon</d2p1:Ingredients>
@@ -418,14 +418,14 @@
           <d2p1:Ingredients>SauceBalsmamique</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="135">
-        <d2p1:Nom z:Id="136">Kasbah</d2p1:Nom>
+      <d2p1:Pizza z:Id="134">
+        <d2p1:Nom z:Id="135">Kasbah</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="137">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="136">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, base tomate, mozzarella, émincé de poulet kebab, tomates, oignons rouges et sauce blanche kebab</d2p1:Description>
-        <d2p1:ImageName z:Id="138">pizzas/carnivore/kasbah.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="137">pizzas/carnivore/kasbah.jpeg</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="139" z:Size="7">
+        <d2p1:listIngredient z:Id="138" z:Size="7">
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -435,42 +435,42 @@
           <d2p1:Ingredients>SauceBlancheKebab</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="140">
-        <d2p1:Nom z:Id="141">Nordique</d2p1:Nom>
+      <d2p1:Pizza z:Id="139">
+        <d2p1:Nom z:Id="140">Nordique</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="142">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="141">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella et saumon fumé de Norvège</d2p1:Description>
-        <d2p1:ImageName z:Id="143">pizzas/carnivore/nordique.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="142">pizzas/carnivore/nordique.jpeg</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="144" z:Size="4">
+        <d2p1:listIngredient z:Id="143" z:Size="4">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
           <d2p1:Ingredients>Saumon</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="145">
-        <d2p1:Nom z:Id="146">Pepperoni lovers</d2p1:Nom>
+      <d2p1:Pizza z:Id="144">
+        <d2p1:Nom z:Id="145">Pepperoni lovers</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="147">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="146">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate fine, base tomate, mozzarella et saucisse pepperoni</d2p1:Description>
-        <d2p1:ImageName z:Id="148">pizzas/carnivore/pepperoni_lovers.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="147">pizzas/carnivore/pepperoni_lovers.jpeg</d2p1:ImageName>
         <d2p1:Prix>16</d2p1:Prix>
-        <d2p1:listIngredient z:Id="149" z:Size="4">
+        <d2p1:listIngredient z:Id="148" z:Size="4">
           <d2p1:Ingredients>PateFine</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
           <d2p1:Ingredients>Pepperoni</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="150">
-        <d2p1:Nom z:Id="151">Pomodoro e burrata</d2p1:Nom>
+      <d2p1:Pizza z:Id="149">
+        <d2p1:Nom z:Id="150">Pomodoro e burrata</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="152">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="151">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base tomate, tomates cerise, parmigiano reggiano, salade, burrata des Pouilles, porchetta</d2p1:Description>
-        <d2p1:ImageName z:Id="153">pizzas/carnivore/pomodoro_e_burrata.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="152">pizzas/carnivore/pomodoro_e_burrata.png</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="154" z:Size="7">
+        <d2p1:listIngredient z:Id="153" z:Size="7">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Tomate</d2p1:Ingredients>
@@ -480,13 +480,13 @@
           <d2p1:Ingredients>Porchetta</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="155">
-        <d2p1:Nom z:Id="156">Speciale</d2p1:Nom>
+      <d2p1:Pizza z:Id="154">
+        <d2p1:Nom z:Id="155">Speciale</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Ref="82" i:nil="true" />
-        <d2p1:ImageName z:Id="157">pizzas/carnivore/speciale_pizzaiolo.png</d2p1:ImageName>
+        <d2p1:Description z:Ref="81" i:nil="true" />
+        <d2p1:ImageName z:Id="156">pizzas/carnivore/speciale_pizzaiolo.png</d2p1:ImageName>
         <d2p1:Prix>14</d2p1:Prix>
-        <d2p1:listIngredient z:Id="158" z:Size="6">
+        <d2p1:listIngredient z:Id="157" z:Size="6">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -495,13 +495,13 @@
           <d2p1:Ingredients>Creme</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="159">
-        <d2p1:Nom z:Ref="71" i:nil="true" />
+      <d2p1:Pizza z:Id="158">
+        <d2p1:Nom z:Ref="70" i:nil="true" />
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Ref="72" i:nil="true" />
-        <d2p1:ImageName z:Id="160">pizzas/carnivore/regina.png</d2p1:ImageName>
+        <d2p1:Description z:Ref="71" i:nil="true" />
+        <d2p1:ImageName z:Id="159">pizzas/carnivore/regina.png</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="161" z:Size="5">
+        <d2p1:listIngredient z:Id="160" z:Size="5">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -509,14 +509,14 @@
           <d2p1:Ingredients>Champignons</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="162">
-        <d2p1:Nom z:Id="163">Texane barbecue</d2p1:Nom>
+      <d2p1:Pizza z:Id="161">
+        <d2p1:Nom z:Id="162">Texane barbecue</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="164">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="163">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, sauce barbecue, mozzarella, jambon, emietté au boeuf, lardons, champignons et oignons rouges.</d2p1:Description>
-        <d2p1:ImageName z:Id="165">pizzas/carnivore/texane_barbecue.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="164">pizzas/carnivore/texane_barbecue.jpeg</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="166" z:Size="9">
+        <d2p1:listIngredient z:Id="165" z:Size="9">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>SauceBarbecue</d2p1:Ingredients>
@@ -528,14 +528,14 @@
           <d2p1:Ingredients>OignonsRouges</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="167">
-        <d2p1:Nom z:Id="168">Raclette</d2p1:Nom>
+      <d2p1:Pizza z:Id="166">
+        <d2p1:Nom z:Id="167">Raclette</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="169">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="168">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, pommes de terre, lardons et fromage à raclette</d2p1:Description>
-        <d2p1:ImageName z:Id="170">pizzas/carnivore/raclette.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="169">pizzas/carnivore/raclette.jpeg</d2p1:ImageName>
         <d2p1:Prix>14</d2p1:Prix>
-        <d2p1:listIngredient z:Id="171" z:Size="6">
+        <d2p1:listIngredient z:Id="170" z:Size="6">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -544,14 +544,14 @@
           <d2p1:Ingredients>FromageARaclette</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="172">
-        <d2p1:Nom z:Id="173">Montagnarde</d2p1:Nom>
+      <d2p1:Pizza z:Id="171">
+        <d2p1:Nom z:Id="172">Montagnarde</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="174">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="173">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, jambon, fromage à raclette et champignons</d2p1:Description>
-        <d2p1:ImageName z:Id="175">pizzas/carnivore/montagnarde.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="174">pizzas/carnivore/montagnarde.jpeg</d2p1:ImageName>
         <d2p1:Prix>14</d2p1:Prix>
-        <d2p1:listIngredient z:Id="176" z:Size="6">
+        <d2p1:listIngredient z:Id="175" z:Size="6">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseCreme</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -560,14 +560,14 @@
           <d2p1:Ingredients>Champignons</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="177">
-        <d2p1:Nom z:Ref="86" i:nil="true" />
+      <d2p1:Pizza z:Id="176">
+        <d2p1:Nom z:Ref="85" i:nil="true" />
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="178">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="177">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, base tomate, mozzarella, merguez, spianata piccante, poivrons, oeuf</d2p1:Description>
-        <d2p1:ImageName z:Id="179">pizzas/carnivore/vezuvio.png</d2p1:ImageName>
+        <d2p1:ImageName z:Id="178">pizzas/carnivore/vezuvio.png</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="180" z:Size="6">
+        <d2p1:listIngredient z:Id="179" z:Size="6">
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Merguez</d2p1:Ingredients>
@@ -577,15 +577,15 @@
         </d2p1:listIngredient>
       </d2p1:Pizza>
     </d2p1:CatalogueCarnivore>
-    <d2p1:CatalogueEpice z:Id="181" z:Size="6">
-      <d2p1:Pizza z:Id="182">
-        <d2p1:Nom z:Id="183">Chicken Barbecue</d2p1:Nom>
+    <d2p1:CatalogueEpice z:Id="180" z:Size="6">
+      <d2p1:Pizza z:Id="181">
+        <d2p1:Nom z:Id="182">Chicken Barbecue</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="184">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="183">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, sauce barbecue, mozzarella, filet de poulet rôti, oignons rouges, champignons et poivrons</d2p1:Description>
-        <d2p1:ImageName z:Id="185">pizzas/epicees/chicken_barbecue.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="184">pizzas/epicees/chicken_barbecue.jpeg</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="186" z:Size="8">
+        <d2p1:listIngredient z:Id="185" z:Size="8">
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>SauceBarbecue</d2p1:Ingredients>
@@ -596,14 +596,14 @@
           <d2p1:Ingredients>Poivrons</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="187">
-        <d2p1:Nom z:Id="188">Orientale</d2p1:Nom>
+      <d2p1:Pizza z:Id="186">
+        <d2p1:Nom z:Id="187">Orientale</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="189">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="188">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, base tomate, mozzarella, merguez et champignons</d2p1:Description>
-        <d2p1:ImageName z:Id="190">pizzas/epicees/orientale.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="189">pizzas/epicees/orientale.jpeg</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="191" z:Size="5">
+        <d2p1:listIngredient z:Id="190" z:Size="5">
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -611,14 +611,14 @@
           <d2p1:Ingredients>Champignons</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="192">
-        <d2p1:Nom z:Id="193">Provencale</d2p1:Nom>
+      <d2p1:Pizza z:Id="191">
+        <d2p1:Nom z:Id="192">Provencale</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="194">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="193">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base tomate, mozzarella, thon, tomates, oignons rouges et olives </d2p1:Description>
-        <d2p1:ImageName z:Id="195">pizzas/epicees/provencale.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="194">pizzas/epicees/provencale.jpeg</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="196" z:Size="6">
+        <d2p1:listIngredient z:Id="195" z:Size="6">
           <d2p1:Ingredients>PateNormale</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Thon</d2p1:Ingredients>
@@ -627,14 +627,14 @@
           <d2p1:Ingredients>Olives</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="197">
-        <d2p1:Nom z:Id="198">Samourai</d2p1:Nom>
+      <d2p1:Pizza z:Id="196">
+        <d2p1:Nom z:Id="197">Samourai</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="199">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="198">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, base tomate, mozzarella, merguez, filet de poulet rôti, oignons rouges, sauce samouraï </d2p1:Description>
-        <d2p1:ImageName z:Id="200">pizzas/epicees/samourai.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="199">pizzas/epicees/samourai.jpeg</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="201" z:Size="7">
+        <d2p1:listIngredient z:Id="200" z:Size="7">
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -644,14 +644,14 @@
           <d2p1:Ingredients>SauceSamourai</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="202">
-        <d2p1:Nom z:Id="203">Spicy hot one</d2p1:Nom>
+      <d2p1:Pizza z:Id="201">
+        <d2p1:Nom z:Id="202">Spicy hot one</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="204">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="203">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, base tomate, mozzarella, emietté au boeuf, piments jalapeños, oignons rouges et tomates </d2p1:Description>
-        <d2p1:ImageName z:Id="205">pizzas/epicees/spicy_hot_one.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="204">pizzas/epicees/spicy_hot_one.jpeg</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="206" z:Size="7">
+        <d2p1:listIngredient z:Id="205" z:Size="7">
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -661,14 +661,14 @@
           <d2p1:Ingredients>Tomate</d2p1:Ingredients>
         </d2p1:listIngredient>
       </d2p1:Pizza>
-      <d2p1:Pizza z:Id="207">
-        <d2p1:Nom z:Id="208">Supreme</d2p1:Nom>
+      <d2p1:Pizza z:Id="206">
+        <d2p1:Nom z:Id="207">Supreme</d2p1:Nom>
         <d2p1:Quantité>1</d2p1:Quantité>
-        <d2p1:Description z:Id="209">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
+        <d2p1:Description z:Id="208">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, base tomate, mozzarella, emietté au boeuf, saucisse pepperoni, champignons frais, oignons rouges et poivrons</d2p1:Description>
-        <d2p1:ImageName z:Id="210">pizzas/epicees/supreme.jpeg</d2p1:ImageName>
+        <d2p1:ImageName z:Id="209">pizzas/epicees/supreme.jpeg</d2p1:ImageName>
         <d2p1:Prix>15</d2p1:Prix>
-        <d2p1:listIngredient z:Id="211" z:Size="7">
+        <d2p1:listIngredient z:Id="210" z:Size="7">
           <d2p1:Ingredients>PateMoyenne</d2p1:Ingredients>
           <d2p1:Ingredients>BaseTomate</d2p1:Ingredients>
           <d2p1:Ingredients>Mozzarella</d2p1:Ingredients>
@@ -680,54 +680,54 @@
       </d2p1:Pizza>
     </d2p1:CatalogueEpice>
   </Catalogues>
-  <Clients z:Id="212" z:Size="4">
-    <ClientDTO z:Id="213">
-      <Nom z:Id="214">Kartal</Nom>
-      <Prénom z:Id="215">Emre</Prénom>
-      <Email z:Id="216">emre@oui.com</Email>
-      <Téléphone z:Id="217">06.45.85.95.15</Téléphone>
-      <Adresse z:Id="218">27 rue oui</Adresse>
-      <Mdp z:Id="219">0</Mdp>
+  <Clients z:Id="211" z:Size="4">
+    <ClientDTO z:Id="212">
+      <Nom z:Id="213">Kartal</Nom>
+      <Prénom z:Id="214">Emre</Prénom>
+      <Email z:Id="215">emre@oui.com</Email>
+      <Téléphone z:Id="216">06.45.85.95.15</Téléphone>
+      <Adresse z:Id="217">27 rue oui</Adresse>
+      <Mdp z:Id="218">0</Mdp>
       <Ville z:Ref="10" i:nil="true" />
-      <CodePostal z:Id="220">63100</CodePostal>
-      <Pseudo z:Ref="219" i:nil="true" />
-      <Photo z:Id="221">..\img\default\noPP.jpg</Photo>
+      <CodePostal z:Id="219">63100</CodePostal>
+      <Pseudo z:Ref="218" i:nil="true" />
+      <Photo z:Id="220">..\img\default\noPP.jpg</Photo>
     </ClientDTO>
-    <ClientDTO z:Id="222">
-      <Nom z:Ref="214" i:nil="true" />
-      <Prénom z:Ref="215" i:nil="true" />
-      <Email z:Ref="216" i:nil="true" />
-      <Téléphone z:Ref="217" i:nil="true" />
-      <Adresse z:Ref="218" i:nil="true" />
-      <Mdp z:Id="223">mdp</Mdp>
+    <ClientDTO z:Id="221">
+      <Nom z:Ref="213" i:nil="true" />
+      <Prénom z:Ref="214" i:nil="true" />
+      <Email z:Ref="215" i:nil="true" />
+      <Téléphone z:Ref="216" i:nil="true" />
+      <Adresse z:Ref="217" i:nil="true" />
+      <Mdp z:Id="222">mdp</Mdp>
       <Ville z:Ref="10" i:nil="true" />
-      <CodePostal z:Ref="220" i:nil="true" />
-      <Pseudo z:Id="224">emre</Pseudo>
-      <Photo z:Ref="221" i:nil="true" />
+      <CodePostal z:Ref="219" i:nil="true" />
+      <Pseudo z:Id="223">emre</Pseudo>
+      <Photo z:Ref="220" i:nil="true" />
     </ClientDTO>
-    <ClientDTO z:Id="225">
-      <Nom z:Id="226">Verdier</Nom>
-      <Prénom z:Id="227">Nathan</Prénom>
-      <Email z:Id="228">Nathan@oui.com</Email>
-      <Téléphone z:Id="229">09.25.25.73.19</Téléphone>
-      <Adresse z:Id="230">27 rue non</Adresse>
-      <Mdp z:Ref="223" i:nil="true" />
+    <ClientDTO z:Id="224">
+      <Nom z:Id="225">Verdier</Nom>
+      <Prénom z:Id="226">Nathan</Prénom>
+      <Email z:Id="227">Nathan@oui.com</Email>
+      <Téléphone z:Id="228">09.25.25.73.19</Téléphone>
+      <Adresse z:Id="229">27 rue non</Adresse>
+      <Mdp z:Ref="222" i:nil="true" />
       <Ville z:Ref="10" i:nil="true" />
       <CodePostal z:Ref="11" i:nil="true" />
-      <Pseudo z:Id="231">Waarx</Pseudo>
-      <Photo z:Ref="221" i:nil="true" />
+      <Pseudo z:Id="230">Waarx</Pseudo>
+      <Photo z:Ref="220" i:nil="true" />
     </ClientDTO>
-    <ClientDTO z:Id="232">
-      <Nom z:Id="233">Bonneau</Nom>
-      <Prénom z:Id="234">Baptiste</Prénom>
-      <Email z:Id="235">Baptiste@oui.com</Email>
-      <Téléphone z:Ref="229" i:nil="true" />
-      <Adresse z:Ref="230" i:nil="true" />
-      <Mdp z:Ref="223" i:nil="true" />
+    <ClientDTO z:Id="231">
+      <Nom z:Id="232">Bonneau</Nom>
+      <Prénom z:Id="233">Baptiste</Prénom>
+      <Email z:Id="234">Baptiste@oui.com</Email>
+      <Téléphone z:Ref="228" i:nil="true" />
+      <Adresse z:Ref="229" i:nil="true" />
+      <Mdp z:Ref="222" i:nil="true" />
       <Ville z:Ref="10" i:nil="true" />
       <CodePostal z:Ref="11" i:nil="true" />
-      <Pseudo z:Id="236">nojii</Pseudo>
-      <Photo z:Id="237">default\noImg.png</Photo>
+      <Pseudo z:Id="235">nojii</Pseudo>
+      <Photo z:Id="236">default\noImg.png</Photo>
     </ClientDTO>
   </Clients>
 </DataToPersist>

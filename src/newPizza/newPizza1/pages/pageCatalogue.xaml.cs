@@ -50,9 +50,13 @@ namespace newPizza1
 
         private void MenuBouton_Deconnexion(object sender, RoutedEventArgs e)
         {
-            pageIdentification identif = new pageIdentification();
-            this.Close();
-            identif.Show();
+            MessageBoxResult result = MessageBox.Show("Déconnexion", "Voulez-vous vraiment vous  déconnecter", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (result == MessageBoxResult.Yes)
+            {
+                pageIdentification identif = new pageIdentification();
+                this.Close();
+                identif.Show();
+            }
         }
 
     }
