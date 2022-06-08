@@ -11,7 +11,7 @@ namespace Stub
         {
             List<Client> list = ChargeUtilisateur();
             List<Administrateur> admins = new List<Administrateur>();
-            admins.Add(new Administrateur("Peroni", "Luigi", "Luigi.PERONI@NewPizza.com", "09.25.25.80.18", "4 Avenue BlaiseMcool", "Clermont-Ferrand", "63000", "0000", "NewPizza()"));
+            admins.Add(new Administrateur("Peroni", "Luigi", "Luigi.PERONI@NewPizza.com", "09.25.25.80.18", "4 Avenue BlaiseMcool", "Clermont-Ferrand", "63000", "0000", "0000"));
             Catalogue catalogues = ChargeCatalogue();
             return (list, admins, catalogues);
         }

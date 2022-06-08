@@ -52,8 +52,8 @@ namespace Test_User
             foreach (Commande c1 in admin.ListCommandeAdmin)
             {
                 Console.WriteLine(c1);
-                foreach (Pizza p in c1.ListPizza)
-                    Console.WriteLine(c1);
+                //foreach (Pizza p in c1.ListPizza)
+                 //   Console.WriteLine(c1);
             }
 
             Console.WriteLine("Suppresion d'une commande");
