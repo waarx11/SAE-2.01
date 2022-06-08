@@ -24,7 +24,7 @@ namespace Test_Commande
 
             C1.envoyerListeCommande(A1);
 
-            Console.WriteLine("Statut de la pizza:");
+            /*Console.WriteLine("Statut de la pizza:");
             A1.ChangerStatusCommande(C1.ListCommandeClientHisto.);
             Console.WriteLine(c.Statut);
 
@@ -40,7 +40,7 @@ namespace Test_Commande
             foreach(Pizza p in C1.ListCommandeClient)
             {
                 Console.WriteLine(p);
-            }
+            }*/
 
 
         }
