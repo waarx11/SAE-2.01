@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modele;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -47,6 +48,11 @@ namespace newPizza1
                 m -= 1;
                 TextB.Text = m.ToString();
             }
+        }
+
+        public void AddPanier(object sender, RoutedEventArgs e)
+        {
+            int m = Int32.Parse(TextB.Text);
         }
 
         public string Texte

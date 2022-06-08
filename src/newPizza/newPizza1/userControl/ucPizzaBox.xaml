@@ -46,7 +46,7 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Grid.Column="0" Height="50" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Width="60" Margin="30,0,0,0">
+                    <Button Click="AddPanier" Grid.Column="0" Height="50" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Width="60" Margin="30,0,0,0">
                         <Image Source="..\img2\buttons\panier.png" Margin="5"/>
                     </Button>
                     <Button Click="BtnMoin" Grid.Column="1" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Foreground="{StaticResource couleurTexte}">-</Button>
