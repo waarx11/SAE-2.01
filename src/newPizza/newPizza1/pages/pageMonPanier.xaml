@@ -70,7 +70,7 @@
                     <ListBox.ItemTemplate >
                         <DataTemplate>
                             <StackPanel>
-                                <local:ucPizzaBoxPanié Texte="{Binding Nom}" ImageName="{Binding ImageName, Converter={StaticResource string2ImageConverter}}"/>
+                                <local:ucPizzaBoxPanié Texte="{Binding Nom}" ImageName="{Binding ImageName, Converter={StaticResource string2ImageConverter}}" QtePizza="{Binding Quantité}"/>
                             </StackPanel>
                         </DataTemplate>
                     </ListBox.ItemTemplate>

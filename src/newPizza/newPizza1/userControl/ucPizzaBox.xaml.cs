@@ -55,9 +55,10 @@ namespace newPizza1
 
         public void AddPanier(object sender, RoutedEventArgs e)
         {
-            bool ajout;
-            int m = Int32.Parse(TextB.Text);
-            ajout=(Mgr.UtilisateurActuel as Client).ajouterPizzaCommande(Mgr.PizzaActuelle);
+            /*int m = Int32.Parse(TextB.Text);*/
+            int m = 5;
+            (Mgr.UtilisateurActuel as Client).ajouterPizzaCommande(Mgr.PizzaActuelle);
+            (Mgr.UtilisateurActuel as Client).ListPizzaClient[(Mgr.UtilisateurActuel as Client).ListPizzaClient.Count() - 1].Quantité = Mgr.PizzaActuelle.modifQte(m);
         }
 
         public string Texte
@@ -79,6 +80,19 @@ namespace newPizza1
         // Using a DependencyProperty as the backing store for ImageName.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty ImageNameProperty =
             DependencyProperty.Register("ImageName", typeof(string), typeof(ucPizzaBox), new PropertyMetadata("nolmg.png"));
+
+
+
+        public int qtePiz
+        {
+            get { return (int)GetValue(qtePizProperty); }
+            set { SetValue(qtePizProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for qtePiz.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty qtePizProperty =
+            DependencyProperty.Register("qtePiz", typeof(int), typeof(ucPizzaBox), new PropertyMetadata(1));
+
 
         private void btnPlusInfo(object sender, RoutedEventArgs e)
         {

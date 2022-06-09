@@ -50,7 +50,7 @@
                         <Image Source="..\img2\buttons\panier.png" Margin="5"/>
                     </Button>
                     <Button Click="BtnMoin" Grid.Column="1" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Foreground="{StaticResource couleurTexte}">-</Button>
-                    <TextBlock x:Name="TextB" Foreground="{StaticResource couleurTexte}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Medium" Text="1"/>
+                    <TextBlock x:Name="TextB" Foreground="{StaticResource couleurTexte}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Medium" Text="{Binding qtePiz, ElementName=thisPizza}"/>
                     <Button Click="BtnPlus" Grid.Column="3" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Foreground="{StaticResource couleurTexte}">+</Button>
                 </Grid>
 

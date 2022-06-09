@@ -39,7 +39,6 @@ namespace Modele
         }
 
 
-
         /// <summary>
         /// Liste des commandes du client
         /// </summary>
@@ -115,23 +114,20 @@ namespace Modele
         /// </summary>
         /// <param name="p"></param>
         /// <returns></returns>
-        public bool ajouterPizzaCommande(Pizza p)
+        public void ajouterPizzaCommande(Pizza p)
         {
             if (p == null)
-                return false;
+                return;
 
 
             else if (!ListPizzaClient.Contains(p))
             {
                 ListPizzaClient.Add(p);
-                return true;
             }
             else if (ListPizzaClient.Contains(p))
             {
                 p.modifQte(1);
-                return true;
             }
-            return false;
         }
 
         /// <summary>
@@ -139,14 +135,12 @@ namespace Modele
         /// </summary>
         /// <param name="p"></param>
         /// <returns></returns>
-        public bool supprimerPizzaCommande(Pizza p)
+        public void supprimerPizzaCommande(Pizza p)
         {
             if (ListPizzaClient.Contains(p))
             {
                 ListPizzaClient.Remove(p);
-                return true;
             }
-            return false;
         }
 
     }

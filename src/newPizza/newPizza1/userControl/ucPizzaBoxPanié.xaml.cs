@@ -64,7 +64,6 @@ namespace newPizza1
             DependencyProperty.Register("Texte", typeof(string), typeof(ucPizzaBoxPanié), new PropertyMetadata("Soy una pizza"));
 
 
-
         public string ImageName
         {
             get { return (string)GetValue(ImageNameProperty); }
@@ -74,5 +73,19 @@ namespace newPizza1
         // Using a DependencyProperty as the backing store for ImageName.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty ImageNameProperty =
             DependencyProperty.Register("ImageName", typeof(string), typeof(ucPizzaBoxPanié), new PropertyMetadata("nolmg.png"));
+
+
+
+        public int QtePizza
+        {
+            get { return (int)GetValue(QtePizzaProperty); }
+            set { SetValue(QtePizzaProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for QtePizza.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty QtePizzaProperty =
+            DependencyProperty.Register("QtePizza", typeof(int), typeof(ucPizzaBoxPanié), new PropertyMetadata(1));
+
+
     }
 }

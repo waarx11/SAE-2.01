@@ -22,7 +22,7 @@ namespace Modele
         /// Quantité de pizza a commander
         /// </summary>
         [DataMember(EmitDefaultValue = false, Order = 1)]
-        public int Quantité { get => quantité; private set => quantité = value; }
+        public int Quantité { get => quantité; set => quantité = value; }
         private int quantité = 1;
 
         /// <summary>
@@ -128,13 +128,24 @@ namespace Modele
        public int modifQte(int valeur)
        {
             int qteTmp = Quantité;
+            if (valeur == 1 || valeur == -1)
+            {
+                qteTmp += valeur;
 
-            qteTmp += valeur;
+                if (qteTmp >= 0)
+                    Quantité = qteTmp;
 
-            if (qteTmp >= 0)
-                Quantité = qteTmp;
+                return Quantité;
+            }
+            else
+            {
+                qteTmp = valeur;
 
-            return Quantité;
+                if (qteTmp >= 0)
+                    Quantité = qteTmp;
+
+                return Quantité;
+            }
         }
 
         public override string ToString()
