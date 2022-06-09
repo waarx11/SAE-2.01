@@ -81,10 +81,15 @@ namespace newPizza1
 
         private void btnPlusInfo(object sender, RoutedEventArgs e)
         {
+            // Récupérer la pizza cliquée :
+            //int rep = Mgr.selectionnerPizza(/*mettre le nom ici*/);
+            
             // Récupérer la page actuelle & pageCatalogue:
-            /*Window pageCatalogue = ..........;*/
+            //Catalogue pageCatalogue = ..........; a completer
+            
             // Lancer le uc:
-            /*pageCatalogue.ccCatalogue.Content = new ucInfoPizza();*/
+            //pageCatalogue.ccCatalogue.Content = new ucInfoPizza(); ou qqc du genre
+            
             // Mettre les bonnes info dans le binding
             // - setImage
             // - setNom

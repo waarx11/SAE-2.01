@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Modele;
 
 namespace newPizza1
 {
@@ -29,6 +30,30 @@ namespace newPizza1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            // Récupérer la commande:
+            //Commande cmd = ..... ;
+            // Changer son statut:
+
+            //Changer le btn et le message:
+
+            //if (cmd.Statut == Status.Commencer)
+            //{
+                TxtEnCours.Visibility = Visibility.Visible;
+                OUI.Content = "Finir";
+            //}
+            //else if (cmd.Statut == Status.EnCours)
+            //{
+                // Supprimer la commande & refresh
+            //}
+
+
+
+
+        }
+
+
+        // Créer une nvlle commande:
+        /*
             //on crée un nouveau player settings
             ucPizzaCommande pSettings = new ucPizzaCommande();
             //on incrémente l'identifiant pour lui donner la bonne valeur
@@ -45,7 +70,7 @@ namespace newPizza1
 
             //on ajoute notre player settings à la liste privée
             ucPizzaCommandeList.Add(pSettings);
-        }
+         */
 
 
     }

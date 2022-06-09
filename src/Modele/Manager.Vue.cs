@@ -40,6 +40,21 @@ namespace Modele
         private Pizza pizzaActuelle;
 
 
+
+        public Commande CommandeActuelle
+        {
+            get => commandeActuelle;
+            set
+            {
+                if (CommandeActuelle != value)
+                {
+                    commandeActuelle = value;
+                    OnPropertyChanged(nameof(CommandeActuelle));
+                }
+            }
+        }
+        private Commande commandeActuelle;
+
     }
 
 }
