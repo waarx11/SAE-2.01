@@ -2,14 +2,14 @@
 <DataToPersist xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/DataContractPersistance">
   <Admin z:Id="2" z:Size="1">
     <AdministrateurDTO z:Id="3">
-      <Nom z:Id="4">j</Nom>
-      <Prénom z:Id="5">Luigi</Prénom>
-      <Email z:Id="6">hjgjh@</Email>
-      <Téléphone z:Id="7">hg</Téléphone>
-      <Adresse z:Id="8">ghj</Adresse>
+      <Nom z:Id="4">salut</Nom>
+      <Prénom z:Id="5">à</Prénom>
+      <Email z:Id="6">toi@</Email>
+      <Téléphone z:Id="7">jeune</Téléphone>
+      <Adresse z:Id="8">entrepreneur</Adresse>
       <Mdp z:Id="9">0000</Mdp>
-      <Ville z:Id="10">Clermont-Ferrand</Ville>
-      <CodePostal z:Id="11">gj</CodePostal>
+      <Ville z:Id="10">!</Ville>
+      <CodePostal z:Id="11">:)</CodePostal>
       <NomPizzeria z:Ref="9" i:nil="true" />
     </AdministrateurDTO>
   </Admin>
@@ -688,46 +688,46 @@
       <Téléphone z:Id="216">06.45.85.95.15</Téléphone>
       <Adresse z:Id="217">27 rue oui</Adresse>
       <Mdp z:Id="218">0</Mdp>
-      <Ville z:Ref="10" i:nil="true" />
-      <CodePostal z:Id="219">63100</CodePostal>
+      <Ville z:Id="219">Clermont-Ferrand</Ville>
+      <CodePostal z:Id="220">63100</CodePostal>
       <Pseudo z:Ref="218" i:nil="true" />
-      <Photo z:Id="220">..\img\default\noPP.jpg</Photo>
+      <Photo z:Id="221">..\img\default\noPP.jpg</Photo>
     </ClientDTO>
-    <ClientDTO z:Id="221">
+    <ClientDTO z:Id="222">
       <Nom z:Ref="213" i:nil="true" />
       <Prénom z:Ref="214" i:nil="true" />
       <Email z:Ref="215" i:nil="true" />
       <Téléphone z:Ref="216" i:nil="true" />
       <Adresse z:Ref="217" i:nil="true" />
-      <Mdp z:Id="222">mdp</Mdp>
-      <Ville z:Ref="10" i:nil="true" />
-      <CodePostal z:Ref="219" i:nil="true" />
-      <Pseudo z:Id="223">emre</Pseudo>
-      <Photo z:Ref="220" i:nil="true" />
+      <Mdp z:Id="223">mdp</Mdp>
+      <Ville z:Ref="219" i:nil="true" />
+      <CodePostal z:Ref="220" i:nil="true" />
+      <Pseudo z:Id="224">emre</Pseudo>
+      <Photo z:Ref="221" i:nil="true" />
     </ClientDTO>
-    <ClientDTO z:Id="224">
-      <Nom z:Id="225">Verdier</Nom>
-      <Prénom z:Id="226">Nathan</Prénom>
-      <Email z:Id="227">Nathan@oui.com</Email>
-      <Téléphone z:Id="228">09.25.25.73.19</Téléphone>
-      <Adresse z:Id="229">27 rue non</Adresse>
-      <Mdp z:Ref="222" i:nil="true" />
-      <Ville z:Ref="10" i:nil="true" />
-      <CodePostal z:Id="230">63000</CodePostal>
-      <Pseudo z:Id="231">Waarx</Pseudo>
-      <Photo z:Ref="220" i:nil="true" />
+    <ClientDTO z:Id="225">
+      <Nom z:Id="226">Verdier</Nom>
+      <Prénom z:Id="227">Nathan</Prénom>
+      <Email z:Id="228">Nathan@oui.com</Email>
+      <Téléphone z:Id="229">09.25.25.73.19</Téléphone>
+      <Adresse z:Id="230">27 rue non</Adresse>
+      <Mdp z:Ref="223" i:nil="true" />
+      <Ville z:Ref="219" i:nil="true" />
+      <CodePostal z:Id="231">63000</CodePostal>
+      <Pseudo z:Id="232">Waarx</Pseudo>
+      <Photo z:Ref="221" i:nil="true" />
     </ClientDTO>
-    <ClientDTO z:Id="232">
-      <Nom z:Id="233">Bonneau</Nom>
-      <Prénom z:Id="234">Baptiste</Prénom>
-      <Email z:Id="235">Baptiste@oui.com</Email>
-      <Téléphone z:Ref="228" i:nil="true" />
-      <Adresse z:Ref="229" i:nil="true" />
-      <Mdp z:Ref="222" i:nil="true" />
-      <Ville z:Ref="10" i:nil="true" />
-      <CodePostal z:Ref="230" i:nil="true" />
-      <Pseudo z:Id="236">nojii</Pseudo>
-      <Photo z:Id="237">default\noImg.png</Photo>
+    <ClientDTO z:Id="233">
+      <Nom z:Id="234">Bonneau</Nom>
+      <Prénom z:Id="235">Baptiste</Prénom>
+      <Email z:Id="236">Baptiste@oui.com</Email>
+      <Téléphone z:Ref="229" i:nil="true" />
+      <Adresse z:Ref="230" i:nil="true" />
+      <Mdp z:Ref="223" i:nil="true" />
+      <Ville z:Ref="219" i:nil="true" />
+      <CodePostal z:Ref="231" i:nil="true" />
+      <Pseudo z:Id="237">nojii</Pseudo>
+      <Photo z:Id="238">default\noImg.png</Photo>
     </ClientDTO>
   </Clients>
 </DataToPersist>

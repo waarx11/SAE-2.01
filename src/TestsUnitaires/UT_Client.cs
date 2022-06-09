@@ -44,13 +44,6 @@ namespace TestsUnitaires
         public void TEST_Ctor(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp, string pseudo, string photo,
                               string expNom, string expPrénom, string expEmail, string expTéléphone, string expAdresse, string expVille, string expCodePostal, string expMdp, string expPseudo, string expPhoto)
         {
-
-            /*if (shouldThrowException)
-            {
-                Assert.Throws<ArgumentException>(() => new Client(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp, pseudo, photo));
-                return;
-            }*/
-
             Client c = new Client(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp, pseudo, photo);
             Assert.Equal(expNom, c.Nom);
             Assert.Equal(expPrénom, c.Prénom);
