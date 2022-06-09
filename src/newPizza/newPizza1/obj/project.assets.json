@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0-windows7.0": {
+    "net6.0-windows7.0": {
       "MaterialDesignColors/2.0.6": {
         "type": "package",
         "compile": {
@@ -40,7 +40,7 @@
       },
       "DataContractPersistance/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Modele": "1.0.0"
         },
@@ -148,7 +148,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0-windows7.0": [
+    "net6.0-windows7.0": [
       "DataContractPersistance >= 1.0.0",
       "MaterialDesignColors >= 2.0.6",
       "MaterialDesignThemes >= 4.5.0",
@@ -173,15 +173,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows7.0"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0-windows7.0": {
-          "targetAlias": "net5.0-windows",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "projectReferences": {
             "C:\\Users\\bapti\\Desktop\\2.01\\src\\Modele\\Modele.csproj": {
               "projectPath": "C:\\Users\\bapti\\Desktop\\2.01\\src\\Modele\\Modele.csproj"
@@ -199,8 +199,8 @@
       }
     },
     "frameworks": {
-      "net5.0-windows7.0": {
-        "targetAlias": "net5.0-windows",
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
         "dependencies": {
           "MaterialDesignColors": {
             "target": "Package",

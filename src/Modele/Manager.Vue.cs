@@ -22,5 +22,24 @@ namespace Modele
             }
         }
         private Utilisateur utilisateurActuel;
+
+
+
+        public Pizza PizzaActuelle
+        {
+            get => pizzaActuelle;
+            set
+            {
+                if (PizzaActuelle != value)
+                {
+                    pizzaActuelle = value;
+                    OnPropertyChanged(nameof(PizzaActuelle));
+                }
+            }
+        }
+        private Pizza pizzaActuelle;
+
+
     }
+
 }

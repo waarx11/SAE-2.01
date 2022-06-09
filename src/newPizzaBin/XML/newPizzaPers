@@ -680,54 +680,66 @@
       </d2p1:Pizza>
     </d2p1:CatalogueEpice>
   </Catalogues>
-  <Clients z:Id="211" z:Size="4">
+  <Clients z:Id="211" z:Size="5">
     <ClientDTO z:Id="212">
-      <Nom z:Id="213">Kartal</Nom>
-      <Prénom z:Id="214">Emre</Prénom>
-      <Email z:Id="215">emre@oui.com</Email>
-      <Téléphone z:Id="216">06.45.85.95.15</Téléphone>
-      <Adresse z:Id="217">27 rue oui</Adresse>
+      <Nom z:Id="213">Bonneau</Nom>
+      <Prénom z:Id="214">Baptiste</Prénom>
+      <Email z:Id="215">baptiste.bonneau@etu.uca.fr</Email>
+      <Téléphone z:Id="216">06 07 08 09 10</Téléphone>
+      <Adresse z:Id="217">37 rue blaise pascal</Adresse>
       <Mdp z:Id="218">0</Mdp>
       <Ville z:Id="219">Clermont-Ferrand</Ville>
       <CodePostal z:Id="220">63100</CodePostal>
       <Pseudo z:Ref="218" i:nil="true" />
-      <Photo z:Id="221">..\img\default\noPP.jpg</Photo>
+      <Photo z:Id="221">IMG_5481_0..png</Photo>
     </ClientDTO>
     <ClientDTO z:Id="222">
-      <Nom z:Ref="213" i:nil="true" />
-      <Prénom z:Ref="214" i:nil="true" />
-      <Email z:Ref="215" i:nil="true" />
-      <Téléphone z:Ref="216" i:nil="true" />
-      <Adresse z:Ref="217" i:nil="true" />
-      <Mdp z:Id="223">mdp</Mdp>
+      <Nom z:Id="223">Kartal</Nom>
+      <Prénom z:Id="224">Emre</Prénom>
+      <Email z:Id="225">emre@oui.com</Email>
+      <Téléphone z:Id="226">06.45.85.95.15</Téléphone>
+      <Adresse z:Id="227">27 rue oui</Adresse>
+      <Mdp z:Id="228">mdp</Mdp>
       <Ville z:Ref="219" i:nil="true" />
       <CodePostal z:Ref="220" i:nil="true" />
-      <Pseudo z:Id="224">emre</Pseudo>
-      <Photo z:Ref="221" i:nil="true" />
+      <Pseudo z:Id="229">emre</Pseudo>
+      <Photo z:Id="230">..\img\default\noPP.jpg</Photo>
     </ClientDTO>
-    <ClientDTO z:Id="225">
-      <Nom z:Id="226">Verdier</Nom>
-      <Prénom z:Id="227">Nathan</Prénom>
-      <Email z:Id="228">Nathan@oui.com</Email>
-      <Téléphone z:Id="229">09.25.25.73.19</Téléphone>
-      <Adresse z:Id="230">27 rue non</Adresse>
-      <Mdp z:Ref="223" i:nil="true" />
+    <ClientDTO z:Id="231">
+      <Nom z:Id="232">Verdier</Nom>
+      <Prénom z:Id="233">Nathan</Prénom>
+      <Email z:Id="234">Nathan@oui.com</Email>
+      <Téléphone z:Id="235">09.25.25.73.19</Téléphone>
+      <Adresse z:Id="236">27 rue non</Adresse>
+      <Mdp z:Ref="228" i:nil="true" />
       <Ville z:Ref="219" i:nil="true" />
-      <CodePostal z:Id="231">63000</CodePostal>
-      <Pseudo z:Id="232">Waarx</Pseudo>
-      <Photo z:Ref="221" i:nil="true" />
+      <CodePostal z:Id="237">63000</CodePostal>
+      <Pseudo z:Id="238">Waarx</Pseudo>
+      <Photo z:Ref="230" i:nil="true" />
     </ClientDTO>
-    <ClientDTO z:Id="233">
-      <Nom z:Id="234">Bonneau</Nom>
-      <Prénom z:Id="235">Baptiste</Prénom>
-      <Email z:Id="236">Baptiste@oui.com</Email>
-      <Téléphone z:Ref="229" i:nil="true" />
-      <Adresse z:Ref="230" i:nil="true" />
-      <Mdp z:Ref="223" i:nil="true" />
+    <ClientDTO z:Id="239">
+      <Nom z:Id="240">Bonneau</Nom>
+      <Prénom z:Id="241">Baptiste</Prénom>
+      <Email z:Id="242">Baptiste@oui.com</Email>
+      <Téléphone z:Ref="235" i:nil="true" />
+      <Adresse z:Ref="236" i:nil="true" />
+      <Mdp z:Ref="228" i:nil="true" />
       <Ville z:Ref="219" i:nil="true" />
-      <CodePostal z:Ref="231" i:nil="true" />
-      <Pseudo z:Id="237">nojii</Pseudo>
-      <Photo z:Id="238">default\noImg.png</Photo>
+      <CodePostal z:Ref="237" i:nil="true" />
+      <Pseudo z:Id="243">nojii</Pseudo>
+      <Photo z:Id="244">default\noImg.png</Photo>
+    </ClientDTO>
+    <ClientDTO z:Id="245">
+      <Nom z:Id="246">Non-renseigné</Nom>
+      <Prénom z:Ref="246" i:nil="true" />
+      <Email z:Id="247">y@</Email>
+      <Téléphone z:Ref="246" i:nil="true" />
+      <Adresse z:Id="248">Non renseignée</Adresse>
+      <Mdp z:Id="249">y</Mdp>
+      <Ville z:Ref="246" i:nil="true" />
+      <CodePostal z:Id="250">00000</CodePostal>
+      <Pseudo z:Id="251">y</Pseudo>
+      <Photo z:Id="252">IMG_5481.png</Photo>
     </ClientDTO>
   </Clients>
 </DataToPersist>

@@ -46,13 +46,22 @@ namespace Modele
             }
             var cat = donnee.catalogue;
             foreach (var catV in cat.CatalogueVegetarien)
+            {
                 C1.CatalogueVegetarien.Add(catV);
+            }
+                
             foreach (var catV in cat.CatalogueEpice)
+            {
                 C1.CatalogueEpice.Add(catV);
+            }
             foreach (var catV in cat.CatalogueCarnivore)
+            {
                 C1.CatalogueCarnivore.Add(catV);
+            }
             foreach (var catV in cat.CataloguePizzeta)
+            {
                 C1.CataloguePizzeta.Add(catV);
+            }
         }
 
         /// <summary>
@@ -95,6 +104,43 @@ namespace Modele
                         return 3;
                     }
                     return 4;
+                }
+            }
+            return -1;
+        }
+
+        public int selectionnerPizza(string nom)
+        {
+            foreach (Pizza p in C1.CataloguePizzeta)
+            {
+                if (p.Nom == nom)
+                {
+                    PizzaActuelle = p;
+                    return 1;
+                }
+            }
+            foreach (Pizza p in C1.CatalogueCarnivore)
+            {
+                if (p.Nom == nom)
+                {
+                    PizzaActuelle = p;
+                    return 1;
+                }
+            }
+            foreach (Pizza p in C1.CatalogueVegetarien)
+            {
+                if (p.Nom == nom)
+                {
+                    PizzaActuelle = p;
+                    return 1;
+                }
+            }
+            foreach (Pizza p in C1.CatalogueEpice)
+            {
+                if (p.Nom == nom)
+                {
+                    PizzaActuelle = p;
+                    return 1;
                 }
             }
             return -1;

@@ -1,6 +1,7 @@
 ﻿using Modele;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -79,10 +80,10 @@ namespace newPizza1
 
         private void btnPlusInfo(object sender, RoutedEventArgs e)
         {
-            // Récupérer la page actuelle:
-
+            // Récupérer la page actuelle & pageCatalogue:
+            /*Window pageCatalogue = ..........;*/
             // Lancer le uc:
-
+            /*pageCatalogue.ccCatalogue.Content = new ucInfoPizza();*/
             // Mettre les bonnes info dans le binding
             // - setImage
             // - setNom
