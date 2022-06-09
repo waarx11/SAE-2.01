@@ -13,8 +13,6 @@ namespace Modele
         public ReadOnlyCollection<Pizza> Pizzas { get; private set; }
         private List<Pizza> pizzas = new List<Pizza>();
 
-        public Pizza SelectedPizza { get; set; }
-
         public bool AjoutePizza(Pizza pizza)
         {
             if (pizza == null)
