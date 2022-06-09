@@ -9,7 +9,7 @@
       <Adresse z:Id="8">entrepreneur</Adresse>
       <Mdp z:Id="9">0000</Mdp>
       <Ville z:Id="10">!</Ville>
-      <CodePostal z:Id="11">:)</CodePostal>
+      <CodePostal z:Id="11">:) oui</CodePostal>
       <NomPizzeria z:Ref="9" i:nil="true" />
     </AdministrateurDTO>
   </Admin>
