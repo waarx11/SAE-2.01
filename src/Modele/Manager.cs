@@ -147,6 +147,19 @@ namespace Modele
             return -1;
         }
 
+        public int selectionnerCommande(Client c, List<Pizza> listPizz)
+        {
+            foreach (Commande cmd in Commandes)
+            {
+                if (cmd.ClientActu == c && cmd.ListPizza == listPizz)
+                {
+                    CommandeActuelle = cmd;
+                    return 1;
+                }
+            }
+            return -1;
+        }
+
         public int creationUtilisateur(string id, string email, string mdp)
         {
             if (string.IsNullOrEmpty(id) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(mdp))
