@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,7 +38,7 @@ namespace newPizza1
 
         public void DecoWindow(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Déconnexion", "Voulez-vous vraiment vous  déconnecter", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            MessageBoxResult result = MessageBox.Show("Voulez-vous vraiment vous déconnecter", "Déconnexion", MessageBoxButton.YesNo, MessageBoxImage.Question);
             if (result == MessageBoxResult.Yes)
             {
                 pageIdentification identif = new pageIdentification();
@@ -67,5 +68,43 @@ namespace newPizza1
         public static readonly DependencyProperty PseudoProperty =
             DependencyProperty.Register("Pseudo", typeof(string), typeof(pageMonPanier), new PropertyMetadata("Erreur de récupération"));
 
+        public int ChoixPaiement { get; set; }
+
+        private void SlctPaypal(object sender, RoutedEventArgs e)
+        {
+            paypal.Foreground = new SolidColorBrush(Colors.Red);
+            cb.Foreground = new SolidColorBrush(Colors.Black);
+            ChoixPaiement = 1;
+        }
+
+
+        private void SlctCB(object sender, RoutedEventArgs e)
+        {
+            cb.Foreground = new SolidColorBrush(Colors.Red);
+            paypal.Foreground = new SolidColorBrush(Colors.Black);
+            ChoixPaiement = 2;
+        }
+
+        private void Paid(object sender, RoutedEventArgs e)
+        {
+            if (ChoixPaiement != 1 && ChoixPaiement != 2)
+            {
+                return;
+            }
+            else
+            {
+                if (ChoixPaiement == 1)
+                {
+                    MessageBox.Show("Vous venez de payer avec Paypal, votre commande a été transmise pour être préparée", "Commande validée", MessageBoxButton.OK);
+                }
+                if (ChoixPaiement == 2)
+                {
+                    MessageBox.Show("Vous venez de payer par Carte Bancaire, votre commande a été transmise pour être préparée", "Commande validée", MessageBoxButton.OK);
+                }
+                //((Client)Mgr.UtilisateurActuel).envoyerListeCommande((Administrateur)Mgr.Administrateurs.First(), );
+            }
+
+        }
+        
     }
 }

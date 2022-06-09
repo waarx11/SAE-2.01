@@ -12,7 +12,7 @@ namespace Modele
         /// <summary>
         /// La liste des pizza présent dans la commande
         /// </summary>
-        private List<Pizza> listPizza = new List<Pizza>();
+        private List<Pizza> listPizza;
         public List<Pizza> ListPizza { get => listPizza; private set => listPizza = value; }
 
         /// <summary>
@@ -31,7 +31,7 @@ namespace Modele
         /// <param name="listPzz"></param>
         public Commande(Client c1, List<Pizza> listPzz)
         {
-            ListPizza.Clear();
+            List<Pizza> listPizza = new List<Pizza>();
             ListPizza = listPzz;
             ClientActu = c1;
             Statut = Status.Commencer;

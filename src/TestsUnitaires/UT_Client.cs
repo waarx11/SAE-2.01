@@ -114,6 +114,7 @@ namespace TestsUnitaires
             Pizza p2 = new Pizza("Nom2", "Description2", "Image2", listIngre, 8);
             Administrateur admin = new Administrateur("Verdier", "Nathan", "nathan@newpizza.com", "06.45.85.95.00", "32 rue pizza", "Clermont-Ferrand", "63100", "password", "newPizza()");
             c1.ajouterPizzaCommande(p);
+            
             Commande cmd = new Commande(c1, c1.ListPizzaClient);
             c1.envoyerListeCommande(cmd, admin);
 
