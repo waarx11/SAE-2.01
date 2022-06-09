@@ -13,9 +13,6 @@ namespace Modele
     /*[DataContract]*/
     public class Client : Utilisateur, INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged2;
-        void OnPropertyChanged(string propertyName)
-            => PropertyChanged2?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         /// <summary>
         /// Pseudo de l'utilisateur
         /// </summary>
@@ -40,6 +37,7 @@ namespace Modele
                 }
             }
         }
+
 
 
         /// <summary>

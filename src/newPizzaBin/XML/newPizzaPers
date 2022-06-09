@@ -691,7 +691,7 @@
       <Ville z:Id="219">Clermont-Ferrand</Ville>
       <CodePostal z:Id="220">63100</CodePostal>
       <Pseudo z:Ref="218" i:nil="true" />
-      <Photo z:Id="221">Organisation2022_partie3_1..png</Photo>
+      <Photo z:Id="221">Organisation2022_partie3_3..png</Photo>
     </ClientDTO>
     <ClientDTO z:Id="222">
       <Nom z:Id="223">Kartal</Nom>
