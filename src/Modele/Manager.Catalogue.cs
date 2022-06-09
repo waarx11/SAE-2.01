@@ -16,8 +16,7 @@ namespace Modele
         /// <summary>
         /// Crée un catalogue et une variable readonly qui sera égale a ce catalogue
         /// </summary>
-        public readonly Catalogue Catalogues;
-        private Catalogue C1 = new Catalogue();
+        public Catalogue C1 { get; set; } = new Catalogue();
 
         /// <summary>
         /// Ajouter une pizza au catalogue pizzeta vegetarien

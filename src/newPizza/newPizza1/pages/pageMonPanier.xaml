@@ -61,6 +61,20 @@
             <!--<local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
             <local:ucPizzaBox Grid.Row="0" Grid.Column="1" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
                 <local:ucPizzaBox Grid.Row="1" Grid.Column="0" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>-->
+                <ListBox  HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListPizzaClient}" >
+                    <ListBox.ItemsPanel >
+                        <ItemsPanelTemplate>
+                            <WrapPanel  Margin="5" />
+                        </ItemsPanelTemplate>
+                    </ListBox.ItemsPanel>
+                    <ListBox.ItemTemplate >
+                        <DataTemplate>
+                            <StackPanel>
+                                <local:ucPizzaBoxPanié Texte="{Binding Nom}" ImageName="{Binding ImageName, Converter={StaticResource string2ImageConverter}}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
             </Grid>
         </ScrollViewer>
 

@@ -10,7 +10,7 @@
         <DockPanel DockPanel.Dock="Top" Height="70">
             <local:ucTopBar setTitle="Vegetariennes"/>
         </DockPanel>
-        <ListBox  HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding CatalogueVegetarien}" >
+        <ListBox  HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding C1.CatalogueVegetarien}" SelectedItem="{Binding SelectedPizza}">
             <ListBox.ItemsPanel >
                 <ItemsPanelTemplate>
                     <WrapPanel  Margin="5" />

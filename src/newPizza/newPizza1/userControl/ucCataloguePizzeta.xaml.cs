@@ -24,7 +24,7 @@ namespace newPizza1
         public Manager Mgr => ((App)App.Current).LeManager;
         public ucCataloguePizzeta()
         {
-            DataContext = Mgr.Catalogues;
+            DataContext = Mgr;
             InitializeComponent();
         }
     }

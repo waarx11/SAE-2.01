@@ -6,12 +6,12 @@
              xmlns:local="clr-namespace:newPizza1"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <DockPanel Background="{StaticResource couleurFond}">
+    <DockPanel x:Name="Dockpnl" Background="{StaticResource couleurFond}">
         <DockPanel DockPanel.Dock="Top" Height="70">
             <local:ucTopBar setTitle="Epicées"/>
         </DockPanel>
 
-        <ListBox  HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding CatalogueEpice}" >
+        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding C1.CatalogueEpice}" SelectedItem="{Binding SelectedPizza}" >
             <ListBox.ItemsPanel >
                 <ItemsPanelTemplate>
                     <WrapPanel  Margin="5" />

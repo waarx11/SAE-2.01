@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="userControl\ucPizzaBoxPanié.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="userControl\ucPizzaCommande.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -67,6 +70,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="pages\pageProfil.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="userControl\ucPizzaBoxPanié.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="userControl\ucPizzaCommande.xaml">

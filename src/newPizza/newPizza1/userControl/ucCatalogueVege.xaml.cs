@@ -25,7 +25,7 @@ namespace newPizza1
 
         public ucCatalogueVege()
         {
-            DataContext = Mgr.Catalogues;
+            DataContext = Mgr;
             InitializeComponent();
         }
     }

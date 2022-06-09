@@ -343,3 +343,5 @@ C:\Users\bapti\Desktop\2.01\src\newPizza\newPizza1\obj\Debug\net6.0-windows\refi
 C:\Users\bapti\Desktop\2.01\src\newPizza\newPizza1\obj\Debug\net6.0-windows\newPizza1.pdb
 C:\Users\bapti\Desktop\2.01\src\newPizza\newPizza1\obj\Debug\net6.0-windows\newPizza1.genruntimeconfig.cache
 C:\Users\bapti\Desktop\2.01\src\newPizza\newPizza1\obj\Debug\net6.0-windows\ref\newPizza1.dll
+C:\Users\natha\Desktop\proj\sae-2.01\src\newPizza\newPizza1\obj\Debug\net6.0-windows\userControl\ucPizzaBoxPanié.g.cs
+C:\Users\natha\Desktop\proj\sae-2.01\src\newPizza\newPizza1\obj\Debug\net6.0-windows\userControl\ucPizzaBoxPanié.baml

@@ -30,11 +30,11 @@ namespace newPizza1
             InitializeComponent();
         }
 
-        /*        public void BTN_PLUS_DINFO(object sender, RoutedEventArgs e)
-                {
-                    var plusInfo = new ucInfoPizza();
-                    plusInfo.ShowDialog();
-                }*/
+        public void BTN_PLUS_DINFO(object sender, RoutedEventArgs e)
+        {
+            var plusInfo = new ucInfoPizza();
+            //contControl.Content = plusInfo;
+        }
 
         public void BtnPlus(object sender, RoutedEventArgs e)
         {
@@ -55,6 +55,7 @@ namespace newPizza1
 
         public void AddPanier(object sender, RoutedEventArgs e)
         {
+            (Mgr.UtilisateurActuel as Client).ListPizzaClient.Add(Mgr.SelectedPizza);
             int m = Int32.Parse(TextB.Text);
         }
 

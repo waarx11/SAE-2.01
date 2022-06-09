@@ -22,7 +22,6 @@ namespace Modele
             Administrateurs = new ReadOnlyCollection<Administrateur>(administrateurs);
             Clients = new ReadOnlyCollection<Client>(clients);
             Pizzas = new ReadOnlyCollection<Pizza>(pizzas);
-            Catalogues = C1;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -69,7 +68,7 @@ namespace Modele
         /// </summary>
         public void SauvegardeDonnées()
         {
-            Persistance.SauvegardeDonnées(Clients, Administrateurs, Catalogues); // <=== dépendance
+            Persistance.SauvegardeDonnées(Clients, Administrateurs, C1); // <=== dépendance
         }
 
         /// <summary>

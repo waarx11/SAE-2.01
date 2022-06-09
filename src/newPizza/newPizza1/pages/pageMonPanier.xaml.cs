@@ -24,7 +24,7 @@ namespace newPizza1
 
         public pageMonPanier()
         {
-            DataContext = Mgr.UtilisateurActuel;
+            DataContext = (Mgr.UtilisateurActuel as Client);
             InitializeComponent();
         }
 
