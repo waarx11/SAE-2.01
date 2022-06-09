@@ -7,7 +7,7 @@ namespace Modele
     /// <summary>
     /// Cette fonction permet a un client de passer une commande
     /// </summary>
-    public class Commande /*: IEquatable<Commande>*/
+    public class Commande
     {
         /// <summary>
         /// La liste des pizza présent dans la commande
@@ -69,26 +69,15 @@ namespace Modele
 
         public override string ToString()
         {
-            string txt = $"{clientActu.Pseudo}, ";
+            string txt = $"{ClientActu.Pseudo}, ";
             foreach (Pizza p in ListPizza)
             {
                 txt += $"{p}, ";
             }
-            txt += $"{statut}";
+            txt += $"{Statut}";
 
             return txt;
         }
-        // IEquatable
-        /*public bool Equals(Commande other)
-        {
-            if (this.ListPizza == other.ListPizza && this.ClientActu == other.ClientActu)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }*/
+
     }
 }
