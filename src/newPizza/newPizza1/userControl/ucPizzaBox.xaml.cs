@@ -55,10 +55,12 @@ namespace newPizza1
 
         public void AddPanier(object sender, RoutedEventArgs e)
         {
-            /*int m = Int32.Parse(TextB.Text);*/
-            int m = 5;
-            (Mgr.UtilisateurActuel as Client).ajouterPizzaCommande(Mgr.PizzaActuelle);
-            (Mgr.UtilisateurActuel as Client).ListPizzaClient[(Mgr.UtilisateurActuel as Client).ListPizzaClient.Count() - 1].Quantité = Mgr.PizzaActuelle.modifQte(m);
+            int m = 1;//= TextB.Text;
+            if (m >= 1)
+            {
+                (Mgr.UtilisateurActuel as Client).ajouterPizzaCommande(Mgr.PizzaActuelle);
+                (Mgr.UtilisateurActuel as Client).ListPizzaClient[(Mgr.UtilisateurActuel as Client).ListPizzaClient.Count() - 1].Quantité = Mgr.PizzaActuelle.modifQte(m);
+            }
         }
 
         public string Texte
@@ -83,15 +85,16 @@ namespace newPizza1
 
 
 
-        public int qtePiz
+        public int QtePizza
         {
-            get { return (int)GetValue(qtePizProperty); }
-            set { SetValue(qtePizProperty, value); }
+            get { return (int)GetValue(QtePizzaProperty); }
+            set { SetValue(QtePizzaProperty, value); }
         }
 
-        // Using a DependencyProperty as the backing store for qtePiz.  This enables animation, styling, binding, etc...
-        public static readonly DependencyProperty qtePizProperty =
-            DependencyProperty.Register("qtePiz", typeof(int), typeof(ucPizzaBox), new PropertyMetadata(1));
+        // Using a DependencyProperty as the backing store for QtePizza.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty QtePizzaProperty =
+            DependencyProperty.Register("QtePizza", typeof(int), typeof(ucPizzaBox), new PropertyMetadata(1));
+
 
 
         private void btnPlusInfo(object sender, RoutedEventArgs e)
