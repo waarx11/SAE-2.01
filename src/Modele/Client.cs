@@ -13,9 +13,9 @@ namespace Modele
     /*[DataContract]*/
     public class Client : Utilisateur, INotifyPropertyChanged
     {
-        public new event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler PropertyChanged2;
         void OnPropertyChanged(string propertyName)
-            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            => PropertyChanged2?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         /// <summary>
         /// Pseudo de l'utilisateur
         /// </summary>
@@ -47,7 +47,18 @@ namespace Modele
         /// </summary>
         private List<Pizza> listPizzaClient;
         /*[DataMember(EmitDefaultValue = false, Order = 10)]*/
-        public List<Pizza> ListPizzaClient { get => listPizzaClient; private set => listPizzaClient = value; }
+        public List<Pizza> ListPizzaClient
+        {
+            get => listPizzaClient;
+            set
+            {
+                if (ListPizzaClient != value)
+                {
+                    listPizzaClient = value;
+                    OnPropertyChanged(nameof(ListPizzaClient));
+                }
+            }
+        }
 
         /// <summary>
         /// Constructeur de la classe Client

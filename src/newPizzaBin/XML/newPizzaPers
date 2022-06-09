@@ -683,7 +683,7 @@
   <Clients z:Id="211" z:Size="5">
     <ClientDTO z:Id="212">
       <Nom z:Id="213">oui</Nom>
-      <Prénom z:Id="214">Baptiste</Prénom>
+      <Prénom z:Id="214">oui</Prénom>
       <Email z:Id="215">baptiste.bonneau@etu.uca.fr</Email>
       <Téléphone z:Id="216">06 07 08 09 10</Téléphone>
       <Adresse z:Id="217">37 rue blaise pascal</Adresse>
@@ -691,7 +691,7 @@
       <Ville z:Id="219">Clermont-Ferrand</Ville>
       <CodePostal z:Id="220">63100</CodePostal>
       <Pseudo z:Ref="218" i:nil="true" />
-      <Photo z:Id="221">IMG_5481_0..png</Photo>
+      <Photo z:Id="221">Organisation2022_partie3_1..png</Photo>
     </ClientDTO>
     <ClientDTO z:Id="222">
       <Nom z:Id="223">Kartal</Nom>

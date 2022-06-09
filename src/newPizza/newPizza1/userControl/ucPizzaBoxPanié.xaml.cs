@@ -47,8 +47,10 @@ namespace newPizza1
 
         public void rmPanier(object sender, RoutedEventArgs e)
         {
-            (Mgr.UtilisateurActuel as Client).ListPizzaClient.Remove(Mgr.PizzaActuelle);
-            int m = Int32.Parse(TextB.Text);
+            if ((Mgr.UtilisateurActuel as Client).ListPizzaClient.Count <= 1)
+                (Mgr.UtilisateurActuel as Client).ListPizzaClient.Clear();
+            else
+                (Mgr.UtilisateurActuel as Client).ListPizzaClient.Remove(Mgr.PizzaActuelle);
         }
 
         public string Texte

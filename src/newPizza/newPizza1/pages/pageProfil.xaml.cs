@@ -61,7 +61,7 @@ namespace newPizza1
         public void BTN_addImage(object sender, RoutedEventArgs e)
         {
 
-            /*// Configure open file dialog box
+            // Configure open file dialog box
             Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
             dlg.InitialDirectory = "C:\\Users\\Public\\Pictures\\Sample Pictures";
             dlg.FileName = "Images"; // Default file name
@@ -78,7 +78,7 @@ namespace newPizza1
                 FileInfo fi = new FileInfo(dlg.FileName);
                 string filename = fi.Name;
                 int i = 0;
-               *//* mImage.Source = new BitmapImage(new Uri(filename, UriKind.Absolute));*//*
+               //mImage.Source = new BitmapImage(new Uri(filename, UriKind.Absolute));
 
 
                 while ( File.Exists(System.IO.Path.Combine(String2ImageConverter.ImagesPath, filename)))
@@ -88,7 +88,7 @@ namespace newPizza1
                 }
                 File.Copy(dlg.FileName, System.IO.Path.Combine(String2ImageConverter.ImagesPath, filename));
                 ((Client)Mgr.UtilisateurActuel).Photo = filename;
-            }*/
+            }
 
         }
 

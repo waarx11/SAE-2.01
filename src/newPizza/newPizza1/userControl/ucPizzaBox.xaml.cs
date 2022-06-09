@@ -55,8 +55,9 @@ namespace newPizza1
 
         public void AddPanier(object sender, RoutedEventArgs e)
         {
-            (Mgr.UtilisateurActuel as Client).ListPizzaClient.Add(Mgr.PizzaActuelle);
+            bool ajout;
             int m = Int32.Parse(TextB.Text);
+            ajout=(Mgr.UtilisateurActuel as Client).ajouterPizzaCommande(Mgr.PizzaActuelle);
         }
 
         public string Texte
