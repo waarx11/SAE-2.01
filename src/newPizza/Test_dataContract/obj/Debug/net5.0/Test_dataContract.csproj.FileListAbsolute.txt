@@ -21,3 +21,8 @@ U:\sae202\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.dll
 U:\sae202\src\newPizza\Test_dataContract\obj\Debug\net5.0\ref\Test_dataContract.dll
 U:\sae202\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.pdb
 U:\sae202\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.genruntimeconfig.cache
+C:\Users\bapti\Desktop\2.01\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.csproj.AssemblyReference.cache
+C:\Users\bapti\Desktop\2.01\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bapti\Desktop\2.01\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.AssemblyInfoInputs.cache
+C:\Users\bapti\Desktop\2.01\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.AssemblyInfo.cs
+C:\Users\bapti\Desktop\2.01\src\newPizza\Test_dataContract\obj\Debug\net5.0\Test_dataContract.csproj.CoreCompileInputs.cache

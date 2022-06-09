@@ -197,7 +197,7 @@ namespace Modele
 
             if (string.IsNullOrWhiteSpace(adresse))
             {
-                Adresse = "Non-renseigné";
+                Adresse = "Non renseignée";
             }
             else
             {
