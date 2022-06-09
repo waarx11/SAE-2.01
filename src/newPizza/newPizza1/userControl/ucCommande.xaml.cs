@@ -36,15 +36,15 @@ namespace newPizza1
 
             //Changer le btn et le message:
 
-            /*if (cmd.Statut == Status.Commencer)
-            {
+            //if (cmd.Statut == Status.Commencer)
+            //{
                 TxtEnCours.Visibility = Visibility.Visible;
                 OUI.Content = "Finir";
-            }
-            else if (cmd.Statut == Status.EnCours)
-            {
+            //}
+            //else if (cmd.Statut == Status.EnCours)
+            //{
                 // Supprimer la commande & refresh
-            }*/
+            //}
 
 
 

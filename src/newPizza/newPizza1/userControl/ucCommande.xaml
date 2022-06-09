@@ -15,7 +15,7 @@
                     <RowDefinition/>
                 </Grid.RowDefinitions>
                 <WrapPanel Grid.Row="99999999" HorizontalAlignment="Right" Margin="20">
-                    <TextBlock x:Name="TxtEnCours" Text="En cours..." HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20" FontSize="20"></TextBlock>
+                    <TextBlock Visibility="Hidden" x:Name="TxtEnCours" Text="En cours..." HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20" FontSize="20"></TextBlock>
                     <Button  Foreground="{StaticResource couleurTexte}"  Name="OUI"  Width="200" Height="50" Cursor="Hand" FontSize="25" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" Click="Button_Click">COMMENCER</Button>
                 </WrapPanel>
             </Grid>
