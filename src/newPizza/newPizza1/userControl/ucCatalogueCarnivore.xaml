@@ -11,7 +11,7 @@
             <local:ucTopBar setTitle="Carnivores"/>
         </DockPanel>
 
-        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding C1.CatalogueCarnivore}" SelectedItem="{Binding SelectedPizza}">
+        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding C1.CatalogueCarnivore}" SelectedItem="{Binding PizzaActuelle}">
             <ListBox.ItemsPanel >
                 <ItemsPanelTemplate>
                     <WrapPanel  Margin="5" />
