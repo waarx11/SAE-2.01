@@ -12,6 +12,9 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="100"/>
             </Grid.RowDefinitions>
+
+            <!--<TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" Margin="0,0,100,0" Text="Voici la comande de : "/>
+            <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" Margin="100,0,0,0" Text="{Binding ClientActu.Pseudo}"/>-->
             <ListBox Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="auto" Height="auto" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListPizza}">
                 <ListBox.ItemsPanel >
                     <ItemsPanelTemplate>
