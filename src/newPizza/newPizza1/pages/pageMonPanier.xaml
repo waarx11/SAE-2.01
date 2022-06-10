@@ -18,7 +18,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="300"/>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.4*"/>
         </Grid.ColumnDefinitions>
 
         <Grid Background="{StaticResource couleurPrincipale}">
@@ -44,19 +44,7 @@
             </StackPanel>
         </Grid>
 
-        <ScrollViewer Grid.Column="1" Background="{StaticResource couleurFond}">
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
+        <DockPanel Grid.Column="1" Background="{StaticResource couleurFond}">
 
             <!--<local:ucPizzaBox Grid.Row="0" Grid.Column="0" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
             <local:ucPizzaBox Grid.Row="0" Grid.Column="1" setNomPizza="3 Salumi" setImage="..\img\pizzas\carnivore\3_salumi.png"/>
@@ -75,8 +63,7 @@
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
-            </Grid>
-        </ScrollViewer>
+        </DockPanel>
 
         
         <Grid Background="{StaticResource couleurPrincipale}" Grid.Column="2">

@@ -33,9 +33,12 @@ namespace newPizza1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             /*Debug.Write(Mgr.CommandeActuelle.Statut);*/
-            ((Administrateur)Mgr.UtilisateurActuel).ChangerStatusCommande(Mgr.CommandeActuelle);
-            TextB.Visibility = Visibility.Visible;
-            bName.Content = "FINIT";
+            //((Administrateur)Mgr.UtilisateurActuel).ChangerStatusCommande(Mgr.CommandeActuelle);
+            //if (Mgr.CommandeActuelle != null)
+            //{
+                TextB.Visibility = Visibility.Visible;
+                bName.Content = "FINIT";
+            //}
             /*Debug.Write(Mgr.CommandeActuelle.Statut.ToString());*/
         }
 

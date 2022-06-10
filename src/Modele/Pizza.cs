@@ -143,24 +143,12 @@ namespace Modele
        public int modifQte(int valeur)
        {
             int qteTmp = Quantité;
-            if (valeur == 1 || valeur == -1)
-            {
-                qteTmp += valeur;
+            qteTmp = valeur;
 
-                if (qteTmp >= 0)
-                    Quantité = qteTmp;
+            if (qteTmp >= 0)
+                Quantité = qteTmp;
 
-                return Quantité;
-            }
-            else
-            {
-                qteTmp = valeur;
-
-                if (qteTmp >= 0)
-                    Quantité = qteTmp;
-
-                return Quantité;
-            }
+            return Quantité;
         }
 
         public override string ToString()

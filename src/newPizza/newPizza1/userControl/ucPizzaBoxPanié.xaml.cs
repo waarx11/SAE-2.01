@@ -51,31 +51,32 @@ namespace newPizza1
 
         public void BtnMoin(object sender, RoutedEventArgs e)
         {
-            Client p1 = (Mgr.UtilisateurActuel as Client);
+            Pizza p1 = Mgr.PizzaActuelle;
             if (p1 != null)
             {
-                foreach (Pizza piz in p1.ListPizzaClient)
+                int m = p1.Quantité;
+                if (m > 1)
                 {
-                    if (piz == Mgr.PizzaActuelle)
-                    {
-                        int m = piz.Quantité;
-                        if (m > 1)
-                        {
-                            m -= 1;
-                            int pos = (Mgr.UtilisateurActuel as Client).ListPizzaClient.BinarySearch(piz);
-                            (Mgr.UtilisateurActuel as Client).ListPizzaClient[pos].Quantité = m;
-                        }
-                    }
+                    m -= 1;
+                    Mgr.PizzaActuelle.Quantité = m;
                 }
             }
         }
 
         public void rmPanier(object sender, RoutedEventArgs e)
         {
-            if ((Mgr.UtilisateurActuel as Client).ListPizzaClient.Count <= 1)
-                (Mgr.UtilisateurActuel as Client).ListPizzaClient.Clear();
+            if (((Client)Mgr.UtilisateurActuel).ListPizzaClient.Count <= 1)
+                ((Client)Mgr.UtilisateurActuel).ListPizzaClient = new List<Pizza>();
             else
-                (Mgr.UtilisateurActuel as Client).ListPizzaClient.Remove(Mgr.PizzaActuelle);
+            {
+                List<Pizza> Piz = new List<Pizza>();
+                ((Client)Mgr.UtilisateurActuel).ListPizzaClient.Remove(Mgr.PizzaActuelle);
+                foreach (Pizza list in ((Client)Mgr.UtilisateurActuel).ListPizzaClient)
+                {
+                    Piz.Add(list);
+                }
+                ((Client)Mgr.UtilisateurActuel).ListPizzaClient = new List<Pizza>(Piz);
+            }
         }
 
         public string Texte
