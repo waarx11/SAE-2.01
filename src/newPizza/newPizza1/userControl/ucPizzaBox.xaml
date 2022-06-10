@@ -48,9 +48,9 @@
                     </Grid.ColumnDefinitions>
                     <Button Click="AddPanier" Grid.Column="0" Height="50" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Width="70" Margin="10,0,0,0">
                         <StackPanel Orientation="Vertical">
-                            <TextBlock Text="AJOUTER" HorizontalAlignment="Center"/>
-                            <TextBlock Text="AU" HorizontalAlignment="Center"/>
-                            <TextBlock Text="PANIER" HorizontalAlignment="Center"/>
+                            <TextBlock Foreground="{StaticResource couleurTexte}" Text="AJOUTER" HorizontalAlignment="Center"/>
+                            <TextBlock Foreground="{StaticResource couleurTexte}" Text="AU" HorizontalAlignment="Center"/>
+                            <TextBlock Foreground="{StaticResource couleurTexte}" Text="PANIER" HorizontalAlignment="Center"/>
                         </StackPanel>
                         
                         

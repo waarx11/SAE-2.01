@@ -29,7 +29,7 @@
                 <local:ucMenuBouton setMessage=" ✦ Végétariennes" CLICKMENU="MenuBouton_Vegetariennes"/>
             </ListBox>
             <DockPanel Grid.Row="2">
-                <local:ucMenuBouton setMessage=" ✘ Déconnexion" setImage="..\img2\buttons\quitter.png" CLICKMENU="MenuBouton_Deconnexion" HorizontalAlignment="Center"/>
+                <local:ucMenuBouton setMessage=" ✘ Déconnexion" CLICKMENU="MenuBouton_Deconnexion" HorizontalAlignment="Center"/>
             </DockPanel>
         </Grid>
     

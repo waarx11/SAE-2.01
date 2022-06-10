@@ -663,7 +663,7 @@
       </d2p1:Pizza>
     </d2p1:CatalogueEpice>
   </Catalogues>
-  <Clients z:Id="214" z:Size="4">
+  <Clients z:Id="214" z:Size="5">
     <ClientDTO z:Id="215">
       <Nom z:Id="216">Kartal</Nom>
       <Prénom z:Id="217">Emre</Prénom>
@@ -711,6 +711,18 @@
       <CodePostal z:Ref="11" i:nil="true" />
       <Pseudo z:Id="238">nojii</Pseudo>
       <Photo z:Id="239">default\noImg.png</Photo>
+    </ClientDTO>
+    <ClientDTO z:Id="240">
+      <Nom z:Id="241">Non-renseigné</Nom>
+      <Prénom z:Ref="241" i:nil="true" />
+      <Email z:Id="242">00@00</Email>
+      <Téléphone z:Ref="241" i:nil="true" />
+      <Adresse z:Id="243">Non renseignée</Adresse>
+      <Mdp z:Id="244">00</Mdp>
+      <Ville z:Ref="241" i:nil="true" />
+      <CodePostal z:Id="245">00000</CodePostal>
+      <Pseudo z:Id="246">00</Pseudo>
+      <Photo z:Id="247">..\img\default\noPP.jpg</Photo>
     </ClientDTO>
   </Clients>
 </DataToPersist>

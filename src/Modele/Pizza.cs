@@ -68,14 +68,15 @@ namespace Modele
         [DataMember(EmitDefaultValue = false, Order = 5)]
         public List<Ingredients> listIngredient { get => ListIngredient; set => ListIngredient = value; }
 
+
         /// <summary>
         /// Constructeur de la classe pizza
         /// </summary>
         /// <param name="nom">Nom de cette pizza</param>
         /// <param name="description">Description de cette pizza</param>
         /// <param name="image">Image de cette pizza</param>
+        /// <param name="lIng">Liste ingrédient</param>
         /// <param name="prix">Prix de cette pizza</param>
-
         public Pizza(string nom, string description, string image, List<Ingredients> lIng, int prix=12)
         {
 
