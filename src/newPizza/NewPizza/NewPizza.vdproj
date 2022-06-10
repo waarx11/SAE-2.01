@@ -39,6 +39,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_09CCAACB78F3470C943E8F9AD4DB31DA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0A0032CC5A364EFB97A98FD1117B2A59"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -46,6 +52,12 @@
         "Entry"
         {
         "MsmKey" = "8:_0FA9299C2979474CBF20BC45A7B8274E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_10BFD00DE4774B6BB4236B0D85DC3283"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -63,7 +75,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_1490A0B33D364499890A895EFD775F39"
+        "MsmKey" = "8:_13E9C5AD7E7B4DC8B8A9F3F0A2835844"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -76,12 +88,6 @@
         "Entry"
         {
         "MsmKey" = "8:_1A02B416D34F428AA1F20FC63AAC2384"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_1A99BA590D814C38AC558E190C9EE949"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -141,13 +147,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_281DB00979B44323BDA4D0FFF16BBDA5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_293E3F26B7F1449A86BBEB0B75C927E8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_2994AA6CA1634494BB4B491A25B57FF6"
+        "MsmKey" = "8:_2BE8090220EE4B488C5B6380A0735758"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -189,6 +201,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_37497B649A7640FA93B718590B9F88C2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3814223665A34F97A206FBEA7C24A170"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -196,6 +214,12 @@
         "Entry"
         {
         "MsmKey" = "8:_3AF0077B413A4F3B817761307A55B637"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3BF1F73A9FB5419BB0078FE1E826C350"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -267,13 +291,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_67FE669D8226442E970C0CC7A977985A"
+        "MsmKey" = "8:_6505F04EEABE420488DB7C391E1AA262"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_69ED7BEBFDD849629A8BDB81C7156EB7"
+        "MsmKey" = "8:_67F546EA2A5449D78A3CAE3A37B35B04"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_67FE669D8226442E970C0CC7A977985A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -345,6 +375,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_83F5B55D814148B79614994CC39463D1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_850B8465489340F981BCA42A35C1486A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -399,13 +435,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_94C50DEE13494C798C76FC37075F85BA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_97210E9DD846483BB1731F5DF9293704"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_97DD9555610248F49C4A9599084857D2"
+        "MsmKey" = "8:_9780538E2C6B4A77A2C6B3FCAF6D4D14"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -418,12 +460,6 @@
         "Entry"
         {
         "MsmKey" = "8:_9EE0169066624161AE7CD9946C0B0342"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A1E99A1445D649AA9682EC4106D7BBD2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -453,6 +489,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_A82CEF043A9947B1943A70CD3D0026D5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_AA198B90EB76452A8625D7FEFBFC6E50"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -465,13 +507,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_ADE58EFCD45F4B21BF25171EDDD676CE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_AEAB2A80E21E4E6D8BB03B604697581C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_AF17DACB62EE4FF7B32F492B06C58490"
+        "MsmKey" = "8:_B0DB3EA5BFA9445CAD4743E851C17AB7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -483,7 +531,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BDEAFBE9AF2E4F9EB7BDB781667629BD"
+        "MsmKey" = "8:_B5DD2E9925EA447D9E5AA5437382D2E3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C34F2F27561C4234B74639FA2B462924"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -495,13 +549,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C51063FA92864C03A2C500A2C940FF4C"
+        "MsmKey" = "8:_C3FA32ABA7F84B15B35FF9E8F2BAB773"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C528D391D809434E910A2C5C8715BA43"
+        "MsmKey" = "8:_C51063FA92864C03A2C500A2C940FF4C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -537,7 +591,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_D2C2858494EF4D71817B83AAD971458B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_D4F120D237D04C1CA2D3AE4EDD37CCD2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D6411A3C552B44EFB5F4DFEA001BA2D2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -555,6 +621,24 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_DD5958D981F14F7E84081AC9190709F0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DFCD52CD10A64E53A8856C0CC2C10C49"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E27C5195E2AB4D3C89EE6A4F816975D9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E2B0847036414E238D8775EA2742A688"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -567,19 +651,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E63CE7C3EDF1443DA80B6D233CB585F1"
+        "MsmKey" = "8:_EB8FC6DD18144FC8B810D37BAF7D21AE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_EDEACBC847DC47B4969DA14BA94EF912"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EF6C7A79ED6D4A339D3CB9425E78D596"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -621,19 +699,19 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_F7611EA25B8D4E10BF7B871839E0F083"
+        "MsmKey" = "8:_F76F34214EEC48ECB3208431A5579B8D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F84CFF86B6C443668B565438A01A0FB4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_FBB7516B870F4891B7435046A35290D8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FBC7DA7AA50D4824A04EDBBBF284B1DD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -713,6 +791,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -824,6 +910,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_09CCAACB78F3470C943E8F9AD4DB31DA"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\news.png"
+            "TargetName" = "8:news.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0A0032CC5A364EFB97A98FD1117B2A59"
             {
             "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\pizzas\\epicees\\provencale.jpeg"
@@ -850,6 +956,26 @@
             "TargetName" = "8:daan-tech-logo-final-final-01-2.png"
             "Tag" = "8:"
             "Folder" = "8:_89C2DF37EBD84796B44E05F2D7A6A81F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_10BFD00DE4774B6BB4236B0D85DC3283"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img\\buttons\\news.png"
+            "TargetName" = "8:news.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -904,12 +1030,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1490A0B33D364499890A895EFD775F39"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_13E9C5AD7E7B4DC8B8A9F3F0A2835844"
             {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\buttons\\news.png"
-            "TargetName" = "8:news.png"
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\info.png"
+            "TargetName" = "8:info.png"
             "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -950,26 +1076,6 @@
             "TargetName" = "8:Thumbs.db"
             "Tag" = "8:"
             "Folder" = "8:_63C3ADACADBB4C008E4D92862DF6ECC6"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1A99BA590D814C38AC558E190C9EE949"
-            {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\img2\\buttons\\sauvegarder.png"
-            "TargetName" = "8:sauvegarder.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1164,6 +1270,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_281DB00979B44323BDA4D0FFF16BBDA5"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img\\buttons\\pizzeta.png"
+            "TargetName" = "8:pizzeta.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_293E3F26B7F1449A86BBEB0B75C927E8"
             {
             "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\Organisation2022_partie3_3..png"
@@ -1184,10 +1310,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2994AA6CA1634494BB4B491A25B57FF6"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2BE8090220EE4B488C5B6380A0735758"
             {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\buttons\\viande.png"
-            "TargetName" = "8:viande.png"
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img\\buttons\\paypal.png"
+            "TargetName" = "8:paypal.png"
             "Tag" = "8:"
             "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
             "Condition" = "8:"
@@ -1324,6 +1450,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_37497B649A7640FA93B718590B9F88C2"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\panier.png"
+            "TargetName" = "8:panier.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3814223665A34F97A206FBEA7C24A170"
             {
             "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\pizzas\\carnivore\\burrata_e_mortadella.png"
@@ -1350,6 +1496,26 @@
             "TargetName" = "8:IMG_5481_0..png"
             "Tag" = "8:"
             "Folder" = "8:_89C2DF37EBD84796B44E05F2D7A6A81F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3BF1F73A9FB5419BB0078FE1E826C350"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img\\buttons\\panier.png"
+            "TargetName" = "8:panier.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1584,12 +1750,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_67FE669D8226442E970C0CC7A977985A"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6505F04EEABE420488DB7C391E1AA262"
             {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\retour.png"
-            "TargetName" = "8:retour.png"
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img\\buttons\\spicy.png"
+            "TargetName" = "8:spicy.png"
             "Tag" = "8:"
-            "Folder" = "8:_89C2DF37EBD84796B44E05F2D7A6A81F"
+            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1604,12 +1770,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_69ED7BEBFDD849629A8BDB81C7156EB7"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_67F546EA2A5449D78A3CAE3A37B35B04"
             {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\img2\\buttons\\croix.png"
-            "TargetName" = "8:croix.png"
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\viande.png"
+            "TargetName" = "8:viande.png"
             "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_67FE669D8226442E970C0CC7A977985A"
+            {
+            "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\retour.png"
+            "TargetName" = "8:retour.png"
+            "Tag" = "8:"
+            "Folder" = "8:_89C2DF37EBD84796B44E05F2D7A6A81F"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -1844,6 +2030,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_83F5B55D814148B79614994CC39463D1"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\autre\\IdPageSmile.jpg"
+            "TargetName" = "8:IdPageSmile.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_AC7C7BB089604A58B574B5081CDC433E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_850B8465489340F981BCA42A35C1486A"
             {
             "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\Organisation2022_partie3_1..png"
@@ -2024,6 +2230,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_94C50DEE13494C798C76FC37075F85BA"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\pizzeta.png"
+            "TargetName" = "8:pizzeta.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_97210E9DD846483BB1731F5DF9293704"
             {
             "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\fC2aHZO7_400x400.jpg"
@@ -2044,12 +2270,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_97DD9555610248F49C4A9599084857D2"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9780538E2C6B4A77A2C6B3FCAF6D4D14"
             {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\img2\\buttons\\commandes.png"
-            "TargetName" = "8:commandes.png"
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\autre\\fondCatalogue3.png"
+            "TargetName" = "8:fondCatalogue3.png"
             "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
+            "Folder" = "8:_AC7C7BB089604A58B574B5081CDC433E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2090,26 +2316,6 @@
             "TargetName" = "8:diagramm_1..png"
             "Tag" = "8:"
             "Folder" = "8:_89C2DF37EBD84796B44E05F2D7A6A81F"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A1E99A1445D649AA9682EC4106D7BBD2"
-            {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\img2\\buttons\\panier.png"
-            "TargetName" = "8:panier.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2184,6 +2390,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A82CEF043A9947B1943A70CD3D0026D5"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\vegan.png"
+            "TargetName" = "8:vegan.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AA198B90EB76452A8625D7FEFBFC6E50"
             {
             "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\retour_2..png"
@@ -2224,6 +2450,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ADE58EFCD45F4B21BF25171EDDD676CE"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\sauvegarder.png"
+            "TargetName" = "8:sauvegarder.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AEAB2A80E21E4E6D8BB03B604697581C"
             {
             "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\pizzas\\carnivore\\speciale_pizzaiolo.png"
@@ -2244,12 +2490,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AF17DACB62EE4FF7B32F492B06C58490"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B0DB3EA5BFA9445CAD4743E851C17AB7"
             {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\img2\\buttons\\spicy.png"
-            "TargetName" = "8:spicy.png"
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\autre\\fondCatalogue.png"
+            "TargetName" = "8:fondCatalogue.png"
             "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
+            "Folder" = "8:_AC7C7BB089604A58B574B5081CDC433E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2284,12 +2530,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BDEAFBE9AF2E4F9EB7BDB781667629BD"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B5DD2E9925EA447D9E5AA5437382D2E3"
             {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\img2\\buttons\\info.png"
-            "TargetName" = "8:info.png"
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\croix.png"
+            "TargetName" = "8:croix.png"
             "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C34F2F27561C4234B74639FA2B462924"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\retour.png"
+            "TargetName" = "8:retour.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2324,12 +2590,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C51063FA92864C03A2C500A2C940FF4C"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C3FA32ABA7F84B15B35FF9E8F2BAB773"
             {
-            "SourcePath" = "8:..\\..\\..\\..\\..\\..\\Downloads\\fondCatalogue3.ico"
-            "TargetName" = "8:fondCatalogue3.ico"
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img\\buttons\\vegan.png"
+            "TargetName" = "8:vegan.png"
             "Tag" = "8:"
-            "Folder" = "8:_715AD6376CA94B0D85AD11AF4C21EDB4"
+            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2344,12 +2610,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C528D391D809434E910A2C5C8715BA43"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C51063FA92864C03A2C500A2C940FF4C"
             {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\buttons\\quitter.png"
-            "TargetName" = "8:quitter.png"
+            "SourcePath" = "8:..\\..\\..\\..\\..\\..\\Downloads\\fondCatalogue3.ico"
+            "TargetName" = "8:fondCatalogue3.ico"
             "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
+            "Folder" = "8:_715AD6376CA94B0D85AD11AF4C21EDB4"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2464,12 +2730,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D2C2858494EF4D71817B83AAD971458B"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img\\buttons\\sauvegarder.png"
+            "TargetName" = "8:sauvegarder.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D4F120D237D04C1CA2D3AE4EDD37CCD2"
             {
             "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\pizzas\\vegetariennes\\vegetarienne.jpeg"
             "TargetName" = "8:vegetarienne.jpeg"
             "Tag" = "8:"
             "Folder" = "8:_63C3ADACADBB4C008E4D92862DF6ECC6"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D6411A3C552B44EFB5F4DFEA001BA2D2"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img\\buttons\\quitter.png"
+            "TargetName" = "8:quitter.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2524,6 +2830,66 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DD5958D981F14F7E84081AC9190709F0"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\commandes.png"
+            "TargetName" = "8:commandes.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DFCD52CD10A64E53A8856C0CC2C10C49"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\autre\\fondCatalogue2.jpg"
+            "TargetName" = "8:fondCatalogue2.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_AC7C7BB089604A58B574B5081CDC433E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E27C5195E2AB4D3C89EE6A4F816975D9"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\spicy.png"
+            "TargetName" = "8:spicy.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E2B0847036414E238D8775EA2742A688"
             {
             "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\pizzas\\carnivore\\nordique.jpeg"
@@ -2564,12 +2930,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E63CE7C3EDF1443DA80B6D233CB585F1"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EB8FC6DD18144FC8B810D37BAF7D21AE"
             {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\img2\\buttons\\pizzeta.png"
-            "TargetName" = "8:pizzeta.png"
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\paypal.png"
+            "TargetName" = "8:paypal.png"
             "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2590,26 +2956,6 @@
             "TargetName" = "8:3_fromages.jpg"
             "Tag" = "8:"
             "Folder" = "8:_63C3ADACADBB4C008E4D92862DF6ECC6"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EF6C7A79ED6D4A339D3CB9425E78D596"
-            {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\img2\\buttons\\paypal.png"
-            "TargetName" = "8:paypal.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2744,12 +3090,32 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F7611EA25B8D4E10BF7B871839E0F083"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F76F34214EEC48ECB3208431A5579B8D"
             {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\img2\\buttons\\retour.png"
-            "TargetName" = "8:retour.png"
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img\\buttons\\viande.png"
+            "TargetName" = "8:viande.png"
             "Tag" = "8:"
             "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F84CFF86B6C443668B565438A01A0FB4"
+            {
+            "SourcePath" = "8:..\\newPizza1\\newPizzaBin\\Release\\net6.0-windows\\publish\\img2\\buttons\\quitter.png"
+            "TargetName" = "8:quitter.png"
+            "Tag" = "8:"
+            "Folder" = "8:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2770,26 +3136,6 @@
             "TargetName" = "8:texane_barbecue.jpeg"
             "Tag" = "8:"
             "Folder" = "8:_27FF63383CB84779958081AD3400C281"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FBC7DA7AA50D4824A04EDBBBF284B1DD"
-            {
-            "SourcePath" = "8:..\\..\\newPizzaBin\\net6.0-windows\\img\\buttons\\vegan.png"
-            "TargetName" = "8:vegan.png"
-            "Tag" = "8:"
-            "Folder" = "8:_1DA92B77F4714D7C80BA9CECA1E1E752"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2860,6 +3206,39 @@
                     "Property" = "8:_C618A0DAD57C45A79A98B7AC7022BED2"
                         "Folders"
                         {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_70B604E7965A4A5A9DAF1242B5E3DAEE"
+                    {
+                    "Name" = "8:img2"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_105708E5AE2D43D19239FCE836E6B99C"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_1CBDB1315E1A4FE39DED2FAF337DF1F5"
+                            {
+                            "Name" = "8:buttons"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_09538FA15CE54545A55706060C831994"
+                                "Folders"
+                                {
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_AC7C7BB089604A58B574B5081CDC433E"
+                            {
+                            "Name" = "8:autre"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_D05B6DB38D874F1BA325201C32C99D63"
+                                "Folders"
+                                {
+                                }
+                            }
                         }
                     }
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_89C2DF37EBD84796B44E05F2D7A6A81F"
