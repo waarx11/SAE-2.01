@@ -26,8 +26,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataContractPersistance", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test_dataContract", "Test_dataContract\Test_dataContract.csproj", "{7DD1E0EB-05E3-4B65-990D-9A5CF5E96042}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NewPizza", "NewPizza\NewPizza.vdproj", "{DA5A95A8-FBEA-40A1-954D-775D7F7BA56C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -70,8 +68,6 @@ Global
 		{7DD1E0EB-05E3-4B65-990D-9A5CF5E96042}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DD1E0EB-05E3-4B65-990D-9A5CF5E96042}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DD1E0EB-05E3-4B65-990D-9A5CF5E96042}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA5A95A8-FBEA-40A1-954D-775D7F7BA56C}.Debug|Any CPU.ActiveCfg = Debug
-		{DA5A95A8-FBEA-40A1-954D-775D7F7BA56C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
