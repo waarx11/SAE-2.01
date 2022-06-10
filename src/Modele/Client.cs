@@ -31,7 +31,6 @@ namespace Modele
             {
                 if (Photo != value)
                 {
-
                     photo = value;
                     OnPropertyChanged(nameof(Photo));
                 }

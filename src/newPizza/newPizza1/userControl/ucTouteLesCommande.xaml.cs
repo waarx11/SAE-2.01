@@ -32,9 +32,9 @@ namespace newPizza1
         {
             try
             {
-                if (e.AddedItems[0] is Pizza)
+                if (e.AddedItems[0] is Commande)
                 {
-                    Mgr.PizzaActuelle = e.AddedItems[0] as Pizza;
+                    Mgr.CommandeActuelle = e.AddedItems[0] as Commande;
                 }
             }
             catch
