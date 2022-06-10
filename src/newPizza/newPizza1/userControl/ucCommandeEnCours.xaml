@@ -5,8 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:newPizza1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="200" d:DesignWidth="1000"
-             Height="200" Width="1000"
+             d:DesignHeight="250" d:DesignWidth="1200"
+             
              x:Name="thisCom"
              xmlns:conv="clr-namespace:newPizza1.converters"
              Style="{x:Null}">
@@ -14,29 +14,30 @@
     <UserControl.Resources>
         <conv:String2ImageConverter x:Key="string2ImageConverter"/>
     </UserControl.Resources>
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="4*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="1.2*"/>
+            <RowDefinition Height="0.7*"/>
             <RowDefinition Height="3*"/>
-            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
         <Border BorderThickness="1" BorderBrush="{StaticResource couleurArrierePlan}" Background="{StaticResource couleurPrincipale}" Grid.ColumnSpan="2" Grid.RowSpan="3" CornerRadius="25"/>
 
-        <Image Grid.Row="1" Margin="10,0,10,0" Source="{Binding ImageName, ElementName=thisCom}" Stretch="UniformToFill"/>
+        <Viewbox Grid.Row="1" MaxWidth="205" MaxHeight="205">
+            <Image Margin="15,0,15,15" Source="{Binding ImageName, ElementName=thisCom}" Stretch="Fill"/>
+        </Viewbox>
         <WrapPanel Margin="0,0,200,0" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="10" Text="Voici les ingrédients de la pizza : "/>
-            <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="10" Text="{Binding nomPizz, ElementName=thisCom}"/>
-            <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="10" Text="   Quantité : "/>
-            <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="10" Text="{Binding qtePiz, ElementName=thisCom}"/>
+            <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="20" Text="Voici les ingrédients de la pizza : "/>
+            <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="20" Text="{Binding nomPizz, ElementName=thisCom}"/>
+            <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="20" Text="   Quantité : "/>
+            <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="20" Text="{Binding qtePiz, ElementName=thisCom}"/>
         </WrapPanel>
         <Border Margin="0,20,10,0" Grid.Row="1" Grid.Column="1" BorderThickness="0" HorizontalAlignment="Left">
             <ScrollViewer>
-                <TextBlock Foreground="{StaticResource couleurTexte}" Margin="0,0,20,0" TextWrapping="Wrap" Text="{Binding TextDes, ElementName=thisCom}"/>
+                <TextBlock Foreground="{StaticResource couleurTexte}" Margin="0,0,20,0" TextWrapping="Wrap" Text="{Binding TextDes, ElementName=thisCom}" FontSize="15"/>
             </ScrollViewer>
         </Border>
     </Grid>

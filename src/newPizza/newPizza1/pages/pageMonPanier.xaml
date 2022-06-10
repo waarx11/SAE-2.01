@@ -87,7 +87,10 @@
 
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="50">
                     <TextBlock FontSize="35" Text="PRIX TOTAL" HorizontalAlignment="Center" Foreground="{StaticResource couleurTexte}"/>
-                    <TextBlock FontSize="35" x:Name="PrixTotal" Text="XX.XX €" HorizontalAlignment="Center" Foreground="{StaticResource couleurTexte}"/>
+                    <WrapPanel HorizontalAlignment="Center">
+                        <TextBlock FontSize="35" x:Name="PrixTotal" Text="XX.XX"  Foreground="{StaticResource couleurTexte}"/>
+                        <TextBlock FontSize="35" Text=" €" Foreground="{StaticResource couleurTexte}"/>
+                    </WrapPanel>
                 </StackPanel>
             </StackPanel>
 

@@ -1,38 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "U:\\sae201\\src\\newPizza\\Test_Commande\\Test_Commande.csproj": {}
+    "C:\\Users\\bapti\\Desktop\\2.01\\src\\newPizza\\Test_Commande\\Test_Commande.csproj": {}
   },
   "projects": {
-    "U:\\sae201\\src\\Modele\\Modele.csproj": {
+    "C:\\Users\\bapti\\Desktop\\2.01\\src\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "U:\\sae201\\src\\Modele\\Modele.csproj",
+        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\2.01\\src\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "U:\\sae201\\src\\Modele\\Modele.csproj",
-        "packagesPath": "C:\\Users\\naverdier\\.nuget\\packages\\",
-        "outputPath": "U:\\sae201\\src\\Modele\\obj\\",
+        "projectPath": "C:\\Users\\bapti\\Desktop\\2.01\\src\\Modele\\Modele.csproj",
+        "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bapti\\Desktop\\2.01\\src\\Modele\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\naverdier\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -43,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -60,42 +54,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "U:\\sae201\\src\\newPizza\\Test_Commande\\Test_Commande.csproj": {
+    "C:\\Users\\bapti\\Desktop\\2.01\\src\\newPizza\\Test_Commande\\Test_Commande.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "U:\\sae201\\src\\newPizza\\Test_Commande\\Test_Commande.csproj",
+        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\2.01\\src\\newPizza\\Test_Commande\\Test_Commande.csproj",
         "projectName": "Test_Commande",
-        "projectPath": "U:\\sae201\\src\\newPizza\\Test_Commande\\Test_Commande.csproj",
-        "packagesPath": "C:\\Users\\naverdier\\.nuget\\packages\\",
-        "outputPath": "U:\\sae201\\src\\newPizza\\Test_Commande\\obj\\",
+        "projectPath": "C:\\Users\\bapti\\Desktop\\2.01\\src\\newPizza\\Test_Commande\\Test_Commande.csproj",
+        "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bapti\\Desktop\\2.01\\src\\newPizza\\Test_Commande\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\naverdier\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "U:\\sae201\\src\\Modele\\Modele.csproj": {
-                "projectPath": "U:\\sae201\\src\\Modele\\Modele.csproj"
+              "C:\\Users\\bapti\\Desktop\\2.01\\src\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\bapti\\Desktop\\2.01\\src\\Modele\\Modele.csproj"
               }
             }
           }
@@ -107,8 +95,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -124,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
