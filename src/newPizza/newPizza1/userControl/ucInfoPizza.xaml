@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:newPizza1" xmlns:modele="clr-namespace:Modele;assembly=Modele" xmlns:conv="clr-namespace:newPizza1.converters" d:DataContext="{d:DesignInstance Type=modele:Pizza}"
+             xmlns:local="clr-namespace:newPizza1" xmlns:modele="clr-namespace:Modele;assembly=Modele" xmlns:conv="clr-namespace:newPizza1.converters"
              mc:Ignorable="d" 
              d:DesignHeight="1080" d:DesignWidth="1620">
 
