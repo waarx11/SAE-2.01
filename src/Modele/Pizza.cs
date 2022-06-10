@@ -142,14 +142,13 @@ namespace Modele
         /// <returns>La quantité souhaiter de cette pizza</returns>
        public int modifQte(int valeur)
        {
-            int qteTmp = Quantité;
-            qteTmp = valeur;
+            int qteTmp = valeur;
 
             if (qteTmp >= 0)
                 Quantité = qteTmp;
 
             return Quantité;
-        }
+       }
 
         public override string ToString()
         {

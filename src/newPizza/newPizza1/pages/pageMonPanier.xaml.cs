@@ -79,7 +79,15 @@ namespace newPizza1
         private void SlctPaypal(object sender, RoutedEventArgs e)
         {
             paypal.Foreground = new SolidColorBrush(Colors.Red);
-            cb.Foreground = new SolidColorBrush(Colors.Black);
+            object v = Application.Current.Resources["couleurPrincipale"];
+            if (v.ToString() == "#FF68A7AD")
+            {
+                cb.Foreground = new SolidColorBrush(Colors.Black);
+            }
+            else
+            {
+                cb.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+            }
             ChoixPaiement = 1;
         }
 
@@ -87,13 +95,24 @@ namespace newPizza1
         private void SlctCB(object sender, RoutedEventArgs e)
         {
             cb.Foreground = new SolidColorBrush(Colors.Red);
-            paypal.Foreground = new SolidColorBrush(Colors.Black);
-            ChoixPaiement = 2;
+            object v = Application.Current.Resources["couleurPrincipale"];
+            if (v.ToString() == "#FF68A7AD")
+            {
+                paypal.Foreground = new SolidColorBrush(Colors.Black);
+            }
+            else
+            {
+                paypal.Foreground = new SolidColorBrush(Color.FromRgb(255, 255, 255));
+            }
+                ChoixPaiement = 2;
         }
 
         private void Paid(object sender, RoutedEventArgs e)
         {
-            if (ChoixPaiement != 1 && ChoixPaiement != 2)
+
+
+
+            if (ChoixPaiement != 1 && ChoixPaiement != 2 || ((Client)Mgr.UtilisateurActuel).ListPizzaClient.Count == 0 )
             {
                 return;
             }

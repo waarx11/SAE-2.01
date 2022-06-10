@@ -143,7 +143,7 @@
     <d2p1:CataloguePizzeta z:Id="54" z:Size="8">
       <d2p1:Pizza z:Id="55">
         <d2p1:Nom z:Ref="20" i:nil="true" />
-        <d2p1:Quantité>5</d2p1:Quantité>
+        <d2p1:Quantité>7</d2p1:Quantité>
         <d2p1:Description z:Ref="21" i:nil="true" />
         <d2p1:ImageName z:Id="56">pizzas/pizzeta/pizzeta_5_fromaggi.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>
@@ -159,7 +159,7 @@
       </d2p1:Pizza>
       <d2p1:Pizza z:Id="58">
         <d2p1:Nom z:Ref="30" i:nil="true" />
-        <d2p1:Quantité>7</d2p1:Quantité>
+        <d2p1:Quantité>4</d2p1:Quantité>
         <d2p1:Description z:Id="59">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, pancetta, oeuf</d2p1:Description>
         <d2p1:ImageName z:Id="60">pizzas/pizzeta/pizzeta_carbonara.png</d2p1:ImageName>
@@ -175,7 +175,7 @@
       </d2p1:Pizza>
       <d2p1:Pizza z:Id="62">
         <d2p1:Nom z:Id="63">Chèvre Miel</d2p1:Nom>
-        <d2p1:Quantité>4</d2p1:Quantité>
+        <d2p1:Quantité>5</d2p1:Quantité>
         <d2p1:Description z:Id="64">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, fromage de chèvre, speck, roquette, miel</d2p1:Description>
         <d2p1:ImageName z:Id="65">pizzas/pizzeta/pizzeta_chevre_miel.png</d2p1:ImageName>
@@ -225,7 +225,7 @@
       </d2p1:Pizza>
       <d2p1:Pizza z:Id="74">
         <d2p1:Nom z:Id="75">Saumon</d2p1:Nom>
-        <d2p1:Quantité>2</d2p1:Quantité>
+        <d2p1:Quantité>3</d2p1:Quantité>
         <d2p1:Description z:Id="76">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, saumon fumé, pousses d’épinard, sauce balsamique blanc</d2p1:Description>
         <d2p1:ImageName z:Id="77">pizzas/pizzeta/pizzeta_salmone.png</d2p1:ImageName>
@@ -325,7 +325,7 @@
       </d2p1:Pizza>
       <d2p1:Pizza z:Id="105">
         <d2p1:Nom z:Id="106">BPM</d2p1:Nom>
-        <d2p1:Quantité>2</d2p1:Quantité>
+        <d2p1:Quantité>5</d2p1:Quantité>
         <d2p1:Description z:Id="107">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate moyenne, sauce barbecue, mozzarella, emietté au boeuf, filet de poulet rôti et merguez</d2p1:Description>
         <d2p1:ImageName z:Id="108">pizzas/carnivore/BPM.jpeg</d2p1:ImageName>
