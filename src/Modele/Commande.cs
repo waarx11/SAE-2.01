@@ -9,6 +9,7 @@ namespace Modele
     /// </summary>
     public class Commande
     {
+
         /// <summary>
         /// La liste des pizza présent dans la commande
         /// </summary>

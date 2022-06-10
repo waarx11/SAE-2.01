@@ -44,14 +44,12 @@ namespace newPizza1
         /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            /*Debug.Write(Mgr.CommandeActuelle.Statut);*/
-            //((Administrateur)Mgr.UtilisateurActuel).ChangerStatusCommande(Mgr.CommandeActuelle);
-            //if (Mgr.CommandeActuelle != null)
-            //{
+            ((Administrateur)Mgr.UtilisateurActuel).ChangerStatusCommande(Mgr.CommandeActuelle);
+            if (Mgr.CommandeActuelle != null)
+            {
                 TextB.Visibility = Visibility.Visible;
-                bName.Content = "FINIR";
-            //}
-            /*Debug.Write(Mgr.CommandeActuelle.Statut.ToString());*/
+                bName.Content = "FINIT";
+            }
         }
 
     }

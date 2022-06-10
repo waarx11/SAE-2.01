@@ -10,7 +10,6 @@ namespace Modele
     /// </summary>
 
     public class Administrateur : Utilisateur
-
     {
         /// <summary>
         /// nom de la pizzeria 
@@ -25,7 +24,18 @@ namespace Modele
         /// </summary>
         private List<Commande> listCommandeAdmin;
         /*[DataMember(EmitDefaultValue = false, Order = 9)]*/
-        public List<Commande> ListCommandeAdmin { get => listCommandeAdmin; private set => listCommandeAdmin = value; }
+        public List<Commande> ListCommandeAdmin
+        {
+            get => listCommandeAdmin;
+            set
+            {
+                if (ListCommandeAdmin != value)
+                {
+                    listCommandeAdmin = value;
+                    OnPropertyChanged(nameof(ListCommandeAdmin));
+                }
+            }
+        }
 
         /// <summary>
         /// Construteur de la classe Administrateur
