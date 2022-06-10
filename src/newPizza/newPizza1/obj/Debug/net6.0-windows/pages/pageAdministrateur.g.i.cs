@@ -86,7 +86,7 @@ namespace newPizza1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/newPizza1;component/pages/pageadministrateur.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/newPizza1;V1.0.0.0;component/pages/pageadministrateur.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\pages\pageAdministrateur.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

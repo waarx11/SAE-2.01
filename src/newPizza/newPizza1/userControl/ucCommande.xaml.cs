@@ -48,7 +48,7 @@ namespace newPizza1
             if (Mgr.CommandeActuelle != null)
             {
                 TextB.Visibility = Visibility.Visible;
-                bName.Content = "FINIT";
+                bName.Content = "FINIR";
             }
         }
 
