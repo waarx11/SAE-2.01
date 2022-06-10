@@ -39,7 +39,6 @@
             <Button Content="X" Foreground="{DynamicResource couleurTexte}" Width="41" Height="41" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,1,0" BorderBrush="{DynamicResource couleurSecondaire}" Background="{DynamicResource couleurPrincipale}" Click="CloseMenu"/>
 
             <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1">
-                <Image Source="..\img2\autre\IdPageSmile.jpg" Margin="0,20,20,20" />
                 <TextBlock Text="new Pizza()" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" FontFamily="{DynamicResource TITLE}" Foreground="{DynamicResource couleurTexte}"/>
             </WrapPanel>
 

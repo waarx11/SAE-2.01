@@ -46,8 +46,14 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Click="AddPanier" Grid.Column="0" Height="50" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Width="50" Margin="30,0,0,0">
-                        <Image Source="..\img2\buttons\panier.png" Margin="5"/>
+                    <Button Click="AddPanier" Grid.Column="0" Height="50" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Width="70" Margin="10,0,0,0">
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Text="AJOUTER" HorizontalAlignment="Center"/>
+                            <TextBlock Text="AU" HorizontalAlignment="Center"/>
+                            <TextBlock Text="PANIER" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                        
+                        
                     </Button>
                     <Button Click="BtnMoin" Grid.Column="1" FontSize="15" FontWeight="Medium" Height="25" BorderThickness="0" Background="{StaticResource couleurPrincipale}" Style="{x:Null}" Foreground="{StaticResource couleurTexte}">-</Button>
                     <TextBlock x:Name="TextB" Foreground="{StaticResource couleurTexte}" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="15" FontWeight="Medium" Text="{Binding QtePizza,ElementName=thisPizza}"/>
