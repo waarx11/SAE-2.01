@@ -28,17 +28,14 @@ namespace TestsUnitaires
 
 
         [Theory]
-        [InlineData(1)] // tout bon
-        [InlineData(0)] // valeur nulle
-        [InlineData(-1)] // valeur négative
-        public void TEST_modifQte(int valeur)
+        [InlineData(7, 7)] // tout bon
+        [InlineData(0, 0)] // valeur nulle
+        public void TEST_modifQte(int valeur, int expQte)
         {
             List<Ingredients> liste = new List<Ingredients> { (Ingredients)53, (Ingredients)0 };
             Pizza p = new Pizza("Salmone", "Une pizza au saumon d'origine normande", "default\noImg.png", liste, 13);
-            int lastQte = p.Quantité;
             p.modifQte(valeur);
-            Assert.Equal(lastQte + valeur, p.Quantité);
-            Assert.DoesNotContain("-", p.Quantité.ToString());
+            Assert.Equal(expQte, p.Quantité);
         }
 
         [Theory]
