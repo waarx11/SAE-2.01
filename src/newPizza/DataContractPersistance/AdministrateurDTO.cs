@@ -1,6 +1,7 @@
 ﻿using Modele;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -30,7 +31,7 @@ namespace DataContractPersistance
         [DataMember(EmitDefaultValue = false, Order = 8)]
         public string NomPizzeria { get; set; }
         [DataMember(EmitDefaultValue = false, Order = 9)]
-        public List<Commande> ListCommandeAdmin { get; set; }
+        public ObservableCollection<Commande> ListCommandeAdmin { get; set; }
     }
 
     static class AdministrateurExtensions

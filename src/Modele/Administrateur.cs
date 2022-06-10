@@ -56,14 +56,6 @@ namespace Modele
             ListCommandeAdmin = new ObservableCollection<Commande>();
         }
 
-        public Administrateur(string nom, string prénom, string email, string téléphone, string adresse, string ville, string codePostal, string mdp, string nomPizzeria, ObservableCollection<Commande> listCo)
-            : base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
-        {
-            NomPizzeria = nomPizzeria;
-            ListCommandeAdmin = new ObservableCollection<Commande>(listCo);
-        }
-
-
         /// <summary>
         /// Permet de modifier le status d'une commande
         /// </summary>

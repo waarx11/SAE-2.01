@@ -31,7 +31,7 @@
                     </ListBox.ItemTemplate>
                 </ListBox>
             <DockPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="70" Grid.Row="1">
-                <TextBlock x:Name="TextB" Visibility="Hidden" VerticalAlignment="Center" Text="En cours..." FontSize="30" Margin="0,0,20,0"/>
+                <TextBlock x:Name="TextB" Visibility="Hidden" VerticalAlignment="Center" Text="En cours..." FontSize="30" Margin="0,0,20,0" Foreground="{StaticResource couleurTexte}"/>
                 <Button Foreground="{StaticResource couleurTexte}" Margin="0,0,20,0" Width="200" Height="50" Cursor="Hand" FontSize="25" BorderBrush="{StaticResource couleurSecondaire}" x:Name="bName" Background="{StaticResource couleurPrincipale}" Click="Button_Click" Content="COMMENCER"/>
             </DockPanel>
         </Grid>
