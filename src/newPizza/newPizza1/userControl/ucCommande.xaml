@@ -5,10 +5,10 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:newPizza1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="1000">
+             d:DesignHeight="1000" d:DesignWidth="1000">
     <Border BorderThickness="1" BorderBrush="{StaticResource couleurArrierePlan}" Background="{StaticResource couleurPrincipale}" CornerRadius="25">
         <DockPanel>
-            <ListBox HorizontalAlignment="Center" VerticalAlignment="Top" Width="auto" Height="auto" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListCommandeAdmin.ListPizza}" SelectedItem="{Binding CommandeActuelle}">
+            <ListBox HorizontalAlignment="Center" VerticalAlignment="Top" Width="800" Height="800" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListPizza}" SelectedItem="{Binding CommandeActuelle}">
                 <ListBox.ItemsPanel >
                     <ItemsPanelTemplate>
                         <WrapPanel  Margin="5"/>
@@ -17,7 +17,7 @@
                 <ListBox.ItemTemplate >
                     <DataTemplate >
                         <StackPanel>
-                            <local:ucCommandeEnCours nomPizz="{Binding Nom}" ImageName="{Binding ImageName}" qtePiz="{Binding Quantité}" TextDes="{Binding Description}"/>
+                            <local:ucCommandeEnCours/>
                         </StackPanel>
                     </DataTemplate>
                     </ListBox.ItemTemplate>

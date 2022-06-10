@@ -24,7 +24,7 @@ namespace newPizza1
         public Manager Mgr => ((App)App.Current).LeManager;
         public ucTouteLesCommande()
         {
-            DataContext = (Mgr.UtilisateurActuel as Administrateur);
+            DataContext = Mgr.UtilisateurActuel as Administrateur;
             InitializeComponent();
         }
     }

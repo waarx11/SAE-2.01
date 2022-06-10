@@ -49,7 +49,7 @@ namespace newPizza1
 
         // Using a DependencyProperty as the backing store for ImageName.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty ImageNameProperty =
-            DependencyProperty.Register("ImageName", typeof(string), typeof(ucCommandeEnCours), new PropertyMetadata(""));
+            DependencyProperty.Register("ImageName", typeof(string), typeof(ucCommandeEnCours), new PropertyMetadata("nolmg.png"));
 
 
 

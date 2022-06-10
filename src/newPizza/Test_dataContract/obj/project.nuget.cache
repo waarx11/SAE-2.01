@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Q02ZJYSwH/vxACUxsDfVlTTw+wwlaGahy4dk/tjX9RZEL8O7UF5xhVqo15HtZr7GFaYSTZ8EYRSdRo2FavWxA==",
+  "dgSpecHash": "jfFCSnje8F0unr1j6R1aszy28WgdZ9oI0Zsn2Ij8dUFlz3OeuSQ+FerOIPkOgRF2jGkNdDPKhiOndiVYxUT2og==",
   "success": true,
-  "projectFilePath": "C:\\Users\\natha\\Desktop\\proj\\sae-2.01\\src\\newPizza\\Test_dataContract\\Test_dataContract.csproj",
+  "projectFilePath": "U:\\sae201\\src\\newPizza\\Test_dataContract\\Test_dataContract.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

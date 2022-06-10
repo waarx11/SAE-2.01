@@ -175,7 +175,7 @@
       </d2p1:Pizza>
       <d2p1:Pizza z:Id="62">
         <d2p1:Nom z:Id="63">Chèvre Miel</d2p1:Nom>
-        <d2p1:Quantité>3</d2p1:Quantité>
+        <d2p1:Quantité>4</d2p1:Quantité>
         <d2p1:Description z:Id="64">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, fromage de chèvre, speck, roquette, miel</d2p1:Description>
         <d2p1:ImageName z:Id="65">pizzas/pizzeta/pizzeta_chevre_miel.png</d2p1:ImageName>

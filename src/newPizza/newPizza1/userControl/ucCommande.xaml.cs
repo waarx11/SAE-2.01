@@ -26,7 +26,7 @@ namespace newPizza1
         public Manager Mgr => ((App)App.Current).LeManager;
         public ucCommande()
         {
-            DataContext = (Mgr.UtilisateurActuel as Administrateur);
+            DataContext = ((Administrateur)Mgr.UtilisateurActuel).ListCommandeAdmin;
             InitializeComponent();
         }
 
@@ -35,7 +35,7 @@ namespace newPizza1
             // Récupérer la commande:
             //Commande cmd = ..... ;
             // Changer son statut:
-            var test = (Mgr.UtilisateurActuel as Administrateur).ListCommandeAdmin.Last();
+            var test = ((Administrateur)Mgr.UtilisateurActuel).ListCommandeAdmin.Last();
             int test2 = (Mgr.UtilisateurActuel as Administrateur).ListCommandeAdmin.Count();
             int litee = test.ListPizza.Count();
             Debug.Write("-------------------------\n" + test2 + "----------------------------");

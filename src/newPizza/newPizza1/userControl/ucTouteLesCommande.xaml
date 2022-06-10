@@ -10,10 +10,10 @@
         <ListBox HorizontalAlignment="Center" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListCommandeAdmin}">
                 <ListBox.ItemsPanel >
                     <ItemsPanelTemplate>
-                        <WrapPanel  Margin="5"/>
-                    </ItemsPanelTemplate>
+                    <WrapPanel  Margin="5"/>
+                </ItemsPanelTemplate>
                 </ListBox.ItemsPanel>
-                <ListBox.ItemTemplate >
+                <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
                             <local:ucCommande/>
