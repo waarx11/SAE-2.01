@@ -22,13 +22,25 @@ namespace newPizza1
     /// </summary>
     public partial class pageProfil : Window
     {
+        /// <summary>
+        /// Appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
+
+        /// <summary>
+        /// Initialise & récupère l'utilisateur
+        /// </summary>
         public pageProfil()
         {
             DataContext = Mgr.UtilisateurActuel;
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Bouton retour
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void RetourWindow(object sender, RoutedEventArgs e)
         {
             pageCatalogue catalo = new pageCatalogue();
@@ -36,6 +48,11 @@ namespace newPizza1
             catalo.Show();
         }
 
+        /// <summary>
+        /// Bouton déconnexion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void DecoWindow(object sender, RoutedEventArgs e)
         {
             MessageBoxResult result = MessageBox.Show( "Voulez-vous vraiment vous  déconnecter", "Déconnexion", MessageBoxButton.YesNo, MessageBoxImage.Question);
@@ -47,7 +64,9 @@ namespace newPizza1
             }
         }
 
-
+        /// <summary>
+        /// Définition Photo
+        /// </summary>
         public string Photo
         {
             get { return (string)GetValue(PhotoProperty); }
@@ -58,6 +77,11 @@ namespace newPizza1
         public static readonly DependencyProperty PhotoProperty =
             DependencyProperty.Register("Photo", typeof(string), typeof(pageProfil), new PropertyMetadata("..\\img\\default\\noPP.jpg"));
 
+        /// <summary>
+        /// Changer sa photo de profil
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void BTN_addImage(object sender, RoutedEventArgs e)
         {
 

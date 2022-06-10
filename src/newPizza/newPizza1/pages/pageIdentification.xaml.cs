@@ -19,7 +19,14 @@ namespace newPizza1
     /// </summary>
     public partial class pageIdentification : Window
     {
+        /// <summary>
+        /// Appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
+
+        /// <summary>
+        /// Initialise & vérification du thème
+        /// </summary>
         public pageIdentification()
         {
             InitializeComponent();
@@ -29,11 +36,22 @@ namespace newPizza1
             else
                 BtnTheme.Content = "Thème : Sombre";
         }
+
+        /// <summary>
+        /// Bouton fermeture du menu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CloseMenu(object sender, RoutedEventArgs e)
         {
             Close();
         }
 
+        /// <summary>
+        /// Changement du thème
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void changeColorGlobal(object sender, RoutedEventArgs e)
         {
             object v = Application.Current.Resources["couleurPrincipale"];
@@ -58,6 +76,11 @@ namespace newPizza1
 
         }
 
+        /// <summary>
+        /// Bouton de connexion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
@@ -99,18 +122,31 @@ namespace newPizza1
             }
         }
 
+        /// <summary>
+        /// Message d'erreur
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void idTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             message.Visibility = Visibility.Hidden;
 
         }
-
+        /// <summary>
+        /// Message d'erreur
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
         {
             message.Visibility = Visibility.Hidden;
 
         }
-
+        /// <summary>
+        /// Page d'inscription
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CreateCompte(object sender, RoutedEventArgs e)
         {
             var p = new pageNewCompte();

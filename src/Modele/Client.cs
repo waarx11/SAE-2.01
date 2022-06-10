@@ -94,6 +94,10 @@ namespace Modele
             : this("", "", email, "", "", "", "", mdp, pseudo, "")
         { }
 
+        /// <summary>
+        /// Affiche les informations du client
+        /// </summary>
+        /// <returns>chaine de caractère</returns>
         public override string ToString()
         {
             return $"{base.ToString()} {Pseudo} {Photo}";

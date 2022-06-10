@@ -7,7 +7,7 @@ namespace Modele
     public partial class Manager
     {
         /// <summary>
-        /// Cette vriable permet de connaitre l'utilisateur actuelle
+        /// Cette variable permet de connaitre l'utilisateur actuelle
         /// </summary>
         public Utilisateur UtilisateurActuel
         {
@@ -24,7 +24,9 @@ namespace Modele
         private Utilisateur utilisateurActuel;
 
 
-
+        /// <summary>
+        /// Cette variable permet de connaitre la pizza actuelle
+        /// </summary>
         public Pizza PizzaActuelle
         {
             get => pizzaActuelle;
@@ -40,7 +42,9 @@ namespace Modele
         private Pizza pizzaActuelle;
 
 
-
+        /// <summary>
+        /// Cette variable permet de connaitre la commande actuelle
+        /// </summary>
         public Commande CommandeActuelle
         {
             get => commandeActuelle;

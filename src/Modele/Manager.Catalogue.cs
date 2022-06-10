@@ -22,7 +22,7 @@ namespace Modele
         /// Ajouter une pizza au catalogue pizzeta vegetarien
         /// </summary>
         /// <param name="pizz"></param>
-        /// <returns>true si sa a fonctionnner false sinon</returns>
+        /// <returns>true si ca a fonctionnné false sinon</returns>
         public bool AjouteCatalogueVegetarien(Pizza pizz)
         {
             if (pizz == null)
@@ -42,7 +42,7 @@ namespace Modele
         /// Ajouter une pizza au catalogue pizzeta
         /// </summary>
         /// <param name="pizz"></param>
-        /// <returns>true si sa a fonctionnner false sinon</returns>
+        /// <returns>true si ca a fonctionnné false sinon</returns>
         public bool AjouteCataloguePizzeta(Pizza pizz)
         {
             if (pizz == null)
@@ -62,7 +62,7 @@ namespace Modele
         /// Ajouter une pizza au catalogue carnivore
         /// </summary>
         /// <param name="pizz"></param>
-        /// <returns>true si sa a fonctionnner false sinon</returns>
+        /// <returns>true si ca a fonctionnné false sinon</returns>
         public bool AjouteCatalogueCarnivore(Pizza pizz)
         {
             if (pizz == null)
@@ -82,7 +82,7 @@ namespace Modele
         /// Ajouter une pizza au catalogue epice
         /// </summary>
         /// <param name="pizz"></param>
-        /// <returns>true si sa a fonctionnner false sinon</returns>
+        /// <returns>true si ca a fonctionnné false sinon</returns>
         public bool AjouteCatalogueEpice(Pizza pizz)
         {
             if (pizz == null)
@@ -102,7 +102,7 @@ namespace Modele
         /// Supprime une pizza au catalogue vegetarien
         /// </summary>
         /// <param name="pizz"></param>
-        /// <returns>true si sa a fonctionnner false sinon</returns>
+        /// <returns>true si ca a fonctionnné false sinon</returns>
         public bool SuppCatalogueVegetarien(Pizza pizz)
         {
             if (pizz == null)
@@ -122,7 +122,7 @@ namespace Modele
         /// Supprime une pizza au catalogue pizzeta
         /// </summary>
         /// <param name="pizz"></param>
-        /// <returns>true si sa a fonctionnner false sinon</returns>
+        /// <returns>true si ca a fonctionnné false sinon</returns>
         public bool SuppCataloguePizzeta(Pizza pizz)
         {
             if (pizz == null)
@@ -142,7 +142,7 @@ namespace Modele
         /// Supprime une pizza au catalogue carnivore
         /// </summary>
         /// <param name="pizz"></param>
-        /// <returns>true si sa a fonctionnner false sinon</returns>
+        /// <returns>true si ca a fonctionnné false sinon</returns>
         public bool SuppCatalogueCarnivore(Pizza pizz)
         {
             if (pizz == null)
@@ -162,7 +162,7 @@ namespace Modele
         /// Supprime une pizza au catalogue epice
         /// </summary>
         /// <param name="pizz"></param>
-        /// <returns>true si sa a fonctionnner false sinon</returns>
+        /// <returns>true si ca a fonctionnné false sinon</returns>
         public bool SuppCatalogueEpice(Pizza pizz)
         {
             if (pizz == null)
@@ -183,7 +183,7 @@ namespace Modele
         /// </summary>
         /// <param name="adOld"></param>
         /// <param name="adNew"></param>
-        /// <returns>Le catalogue modifier</returns>
+        /// <returns>Le catalogue modifié</returns>
         public Catalogue ModifieCatalogue(Catalogue adOld, Catalogue adNew)
         {
             return null;

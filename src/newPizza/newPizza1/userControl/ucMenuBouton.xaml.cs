@@ -21,11 +21,18 @@ namespace newPizza1
     /// </summary>
     public partial class ucMenuBouton : UserControl
     {
+
+        /// <summary>
+        /// initialise
+        /// </summary>
         public ucMenuBouton()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// change le message
+        /// </summary>
         public string setMessage
         {
             set
@@ -33,7 +40,9 @@ namespace newPizza1
                 ucBoutonMenuTEXT.Text = value;
             }
         }
-
+        /// <summary>
+        /// change l'image
+        /// </summary>
         public string setImage
         {
             set
@@ -42,6 +51,9 @@ namespace newPizza1
             }
         }
 
+        /// <summary>
+        /// Evenement bouton
+        /// </summary>
         public event RoutedEventHandler? CLICKMENU;
         private void MenuBouton_Click(object sender, RoutedEventArgs e)
         {

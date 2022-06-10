@@ -21,13 +21,22 @@ namespace newPizza1
     /// </summary>
     public partial class ucCatalogueEpicees : UserControl
     {
+        /// <summary>
+        /// appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
+
+        /// <summary>
+        /// initialise & récupère le manager
+        /// </summary>
         public ucCatalogueEpicees()
         {
             DataContext = Mgr;
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Evenement bouton
+        /// </summary>
         public event RoutedEventHandler? CLICKEPICEE;
         private void MenuBouton_Click(object sender, RoutedEventArgs e)
         {

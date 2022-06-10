@@ -21,13 +21,25 @@ namespace newPizza1
     /// </summary>
     public partial class ucAdmninistration : UserControl
     {
+        /// <summary>
+        /// Appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
+
+        /// <summary>
+        /// Initialise & récupère l'utilisateur
+        /// </summary>
         public ucAdmninistration()
         {
             InitializeComponent();
             DataContext = Mgr.UtilisateurActuel;
         }
 
+        /// <summary>
+        /// Bouton Enregistrer modif
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string nom, prénom, email, téléphone, adresse, ville, codePostal;
