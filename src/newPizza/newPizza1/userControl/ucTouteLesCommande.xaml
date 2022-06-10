@@ -7,12 +7,19 @@
              mc:Ignorable="d" 
              d:DesignHeight="1080" d:DesignWidth="1920">
     <DockPanel>
-
-        <ScrollViewer Height = "auto" Width = "auto" VerticalScrollBarVisibility = "Auto">
-            <Grid>
-                <local:ucCommande Margin="50" Height="auto"/>
-            </Grid>
-        </ScrollViewer>
-
+        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListCommandeAdmin}" SelectedItem="{Binding CommandeActuelle}" >
+            <ListBox.ItemsPanel >
+                <ItemsPanelTemplate>
+                    <WrapPanel  Margin="5" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBox.ItemTemplate >
+                <DataTemplate >
+                    <StackPanel>
+                        <local:uccommande/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
     </DockPanel>
 </UserControl>

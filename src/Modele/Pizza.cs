@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Runtime.Serialization;
 using System.Text;
 
@@ -9,8 +10,11 @@ namespace Modele
     /// Représente une Pizza
     /// </summary>
     [DataContract]
-    public class Pizza
+    public class Pizza : INotifyPropertyChanged
     {
+        public event PropertyChangedEventHandler PropertyChanged;
+        void OnPropertyChanged(string propertyName)
+            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         /// <summary>
         /// Nom de la pizaa
         /// </summary>
@@ -22,7 +26,18 @@ namespace Modele
         /// Quantité de pizza a commander
         /// </summary>
         [DataMember(EmitDefaultValue = false, Order = 1)]
-        public int Quantité { get => quantité; set => quantité = value; }
+        public int Quantité
+        {
+            get => quantité;
+            set
+            {
+                if (quantité != value)
+                {
+                    quantité = value;
+                    OnPropertyChanged(nameof(Quantité));
+                }
+            }
+        }
         private int quantité = 1;
 
         /// <summary>

@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Modele;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +14,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Modele;
 
 namespace newPizza1
 {
@@ -21,12 +22,12 @@ namespace newPizza1
     /// </summary>
     public partial class ucCommande : UserControl
     {
+        public Manager Mgr => ((App)App.Current).LeManager;
         public ucCommande()
         {
+            DataContext = Mgr.CommandeActuelle;
             InitializeComponent();
         }
-
-        List<ucPizzaCommande> ucPizzaCommandeList = new List<ucPizzaCommande>();
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -38,15 +39,11 @@ namespace newPizza1
 
             //if (cmd.Statut == Status.Commencer)
             //{
-                TxtEnCours.Visibility = Visibility.Visible;
-                OUI.Content = "Finir";
             //}
             //else if (cmd.Statut == Status.EnCours)
             //{
                 // Supprimer la commande & refresh
             //}
-
-
 
 
         }

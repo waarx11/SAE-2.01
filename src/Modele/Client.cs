@@ -106,7 +106,7 @@ namespace Modele
         public void envoyerListeCommande(Commande c, Administrateur admin)
         {
             admin.ListCommandeAdmin.Add(c);
-            //ListPizzaClient.Clear();
+            ListPizzaClient.Clear();
         }
 
         /// <summary>
@@ -119,10 +119,11 @@ namespace Modele
             if (p == null)
                 return;
 
-
+            
             else if (!ListPizzaClient.Contains(p))
             {
-                ListPizzaClient.Add(p);
+                Pizza p2 = new Pizza(p.Nom, p.Description, p.ImageName, p.listIngredient, p.Prix);
+                ListPizzaClient.Add(p2);
             }
             else if (ListPizzaClient.Contains(p))
             {

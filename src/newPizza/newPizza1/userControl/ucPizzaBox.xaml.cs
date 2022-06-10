@@ -38,28 +38,39 @@ namespace newPizza1
 
         public void BtnPlus(object sender, RoutedEventArgs e)
         {
-            int m = Int32.Parse(TextB.Text);
-            m += 1;
-            TextB.Text = m.ToString();
+            Pizza p1 = Mgr.PizzaActuelle;
+            if (p1 != null)
+            {
+                int m = p1.Quantité;
+                Mgr.PizzaActuelle.Quantité = m + 1;
+            }
         }
 
         public void BtnMoin(object sender, RoutedEventArgs e)
         {
-            int m = Int32.Parse(TextB.Text);
-            if (m > 1)
+            Pizza p1 = Mgr.PizzaActuelle;
+            if (p1 != null)
             {
-                m -= 1;
-                TextB.Text = m.ToString();
+                int m = p1.Quantité;
+                if (m > 1)
+                {
+                    m -= 1;
+                    Mgr.PizzaActuelle.Quantité = m;
+                }
             }
         }
 
         public void AddPanier(object sender, RoutedEventArgs e)
         {
-            int m = 1;//= TextB.Text;
-            if (m >= 1)
+            Pizza p1 = Mgr.PizzaActuelle;
+            if (p1 != null)
             {
-                (Mgr.UtilisateurActuel as Client).ajouterPizzaCommande(Mgr.PizzaActuelle);
-                (Mgr.UtilisateurActuel as Client).ListPizzaClient[(Mgr.UtilisateurActuel as Client).ListPizzaClient.Count() - 1].Quantité = Mgr.PizzaActuelle.modifQte(m);
+                int m = p1.Quantité;
+                if (m >= 1)
+                {
+                    (Mgr.UtilisateurActuel as Client).ajouterPizzaCommande(Mgr.PizzaActuelle);
+                    (Mgr.UtilisateurActuel as Client).ListPizzaClient[(Mgr.UtilisateurActuel as Client).ListPizzaClient.Count() - 1].Quantité = Mgr.PizzaActuelle.modifQte(m);
+                }
             }
         }
 

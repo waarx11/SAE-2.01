@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modele;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,8 +21,10 @@ namespace newPizza1
     /// </summary>
     public partial class ucTouteLesCommande : UserControl
     {
+        public Manager Mgr => ((App)App.Current).LeManager;
         public ucTouteLesCommande()
         {
+            DataContext = (Mgr.UtilisateurActuel as Administrateur);
             InitializeComponent();
         }
     }
