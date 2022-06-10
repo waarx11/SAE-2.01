@@ -1,6 +1,7 @@
 ﻿using Modele;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -25,7 +26,7 @@ namespace newPizza1
         public Manager Mgr => ((App)App.Current).LeManager;
         public ucCommande()
         {
-            DataContext = Mgr.CommandeActuelle;
+            DataContext = (Mgr.UtilisateurActuel as Administrateur);
             InitializeComponent();
         }
 
@@ -34,7 +35,11 @@ namespace newPizza1
             // Récupérer la commande:
             //Commande cmd = ..... ;
             // Changer son statut:
-
+            var test = (Mgr.UtilisateurActuel as Administrateur).ListCommandeAdmin.Last();
+            int test2 = (Mgr.UtilisateurActuel as Administrateur).ListCommandeAdmin.Count();
+            int litee = test.ListPizza.Count();
+            Debug.Write("-------------------------\n" + test2 + "----------------------------");
+            Debug.Write("-------------------------\n" + litee + "----------------------------");
             //Changer le btn et le message:
 
             //if (cmd.Statut == Status.Commencer)
@@ -42,7 +47,7 @@ namespace newPizza1
             //}
             //else if (cmd.Statut == Status.EnCours)
             //{
-                // Supprimer la commande & refresh
+            // Supprimer la commande & refresh
             //}
 
 

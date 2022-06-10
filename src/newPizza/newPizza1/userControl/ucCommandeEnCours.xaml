@@ -5,10 +5,17 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:newPizza1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="200" d:DesignWidth="1000"
-             x:Name="thisCom">
-    <Grid>
+             d:DesignHeight="500" d:DesignWidth="500"
+             Height="200" Width="1000"
+             x:Name="thisCom"
+             xmlns:conv="clr-namespace:newPizza1.converters"
+             Style="{x:Null}">
 
+    <UserControl.Resources>
+        <conv:String2ImageConverter x:Key="string2ImageConverter"/>
+    </UserControl.Resources>
+    
+    <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
             <ColumnDefinition Width="4*"/>
@@ -20,7 +27,7 @@
         </Grid.RowDefinitions>
         <Border BorderThickness="1" BorderBrush="{StaticResource couleurArrierePlan}" Background="{StaticResource couleurPrincipale}" Grid.ColumnSpan="2" Grid.RowSpan="3" CornerRadius="25"/>
 
-        <Image Grid.Row="1" Margin="10,0,10,0" Source="{Binding ImageName, ElementName=thisCom}" Stretch="UniformToFill"/>
+        <Image Grid.Row="1" Source="{Binding ImageName, ElementName=thisCom, Converter={StaticResource string2ImageConverter}}" />
         <WrapPanel Margin="0,0,200,0" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="20" Text="Voici les ingrédients de la pizza : "/>
             <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="20" Text="{Binding nomPizz, ElementName=thisCom}"/>

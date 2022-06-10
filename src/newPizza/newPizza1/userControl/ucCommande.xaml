@@ -5,24 +5,27 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:newPizza1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="200" d:DesignWidth="1000">
-    
+             d:DesignHeight="300" d:DesignWidth="1000">
     <Border BorderThickness="1" BorderBrush="{StaticResource couleurArrierePlan}" Background="{StaticResource couleurPrincipale}" CornerRadius="25">
-        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListPizza}">
-            <ListBox.ItemsPanel >
-                <ItemsPanelTemplate>
-                    <WrapPanel  Margin="5" />
-                </ItemsPanelTemplate>
-            </ListBox.ItemsPanel>
-            <ListBox.ItemTemplate >
-                <DataTemplate >
-                    <StackPanel>
-                        <local:ucCommandeEnCours nomPizz="{Binding Nom}" ImageName="{Binding ImageName}" qtePiz="{Binding Quantité}" TextDes="{Binding Description}"/>
-                    </StackPanel>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-            <TextBlock Visibility="Hidden" x:Name="TxtEnCours" Text="En cours..." HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20" FontSize="20"/>
-            <Button  Foreground="{StaticResource couleurTexte}"  Name="OUI"  Width="200" Height="50" Cursor="Hand" FontSize="25" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" Click="Button_Click" Content="COMMENCER"/>
-        </ListBox>
+        <DockPanel>
+            <ListBox HorizontalAlignment="Center" VerticalAlignment="Top" Width="auto" Height="auto" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListCommandeAdmin.ListPizza}" SelectedItem="{Binding CommandeActuelle}">
+                <ListBox.ItemsPanel >
+                    <ItemsPanelTemplate>
+                        <WrapPanel  Margin="5"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.ItemTemplate >
+                    <DataTemplate >
+                        <StackPanel>
+                            <local:ucCommandeEnCours nomPizz="{Binding Nom}" ImageName="{Binding ImageName}" qtePiz="{Binding Quantité}" TextDes="{Binding Description}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            <DockPanel DockPanel.Dock="Bottom" Height="70">
+                <TextBlock Visibility="Hidden" Text="En cours..." HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="20"/>
+                <Button Foreground="{StaticResource couleurTexte}" Name="OUI" HorizontalAlignment="Right" Margin="0,0,20,0" VerticalAlignment="Bottom" Width="200" Height="50" Cursor="Hand" FontSize="25" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" Click="Button_Click" Content="COMMENCER"/>
+            </DockPanel>
+        </DockPanel>
     </Border>
 </UserControl>

@@ -6,20 +6,21 @@
              xmlns:local="clr-namespace:newPizza1"
              mc:Ignorable="d" 
              d:DesignHeight="1080" d:DesignWidth="1920">
-    <DockPanel>
-        <ListBox HorizontalAlignment="Left" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListCommandeAdmin}" SelectedItem="{Binding CommandeActuelle}" >
-            <ListBox.ItemsPanel >
-                <ItemsPanelTemplate>
-                    <WrapPanel  Margin="5" />
-                </ItemsPanelTemplate>
-            </ListBox.ItemsPanel>
-            <ListBox.ItemTemplate >
-                <DataTemplate >
-                    <StackPanel>
-                        <local:uccommande/>
-                    </StackPanel>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
+    <DockPanel Background="{StaticResource couleurFond}">
+        <ListBox HorizontalAlignment="Center" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListCommandeAdmin}">
+                <ListBox.ItemsPanel >
+                    <ItemsPanelTemplate>
+                        <WrapPanel  Margin="5"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+                <ListBox.ItemTemplate >
+                    <DataTemplate>
+                        <StackPanel>
+                            <local:ucCommande/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
     </DockPanel>
 </UserControl>

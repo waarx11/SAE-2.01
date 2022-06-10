@@ -27,6 +27,12 @@ namespace newPizza1
         {
             DataContext = (Mgr.UtilisateurActuel as Client);
             InitializeComponent();
+            int prixT = 0;
+            foreach ( Pizza val in ((Client)Mgr.UtilisateurActuel).ListPizzaClient)
+            {
+                prixT += (val.Prix * val.Quantité);
+            }
+            PrixTotal.Text= prixT.ToString();
         }
 
         public void RetourWindow(object sender, RoutedEventArgs e)

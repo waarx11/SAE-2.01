@@ -106,7 +106,7 @@ namespace Modele
         public void envoyerListeCommande(Commande c, Administrateur admin)
         {
             admin.ListCommandeAdmin.Add(c);
-            ListPizzaClient.Clear();
+            //ListPizzaClient.Clear();
         }
 
         /// <summary>
