@@ -12,7 +12,7 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\bapti\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\natha\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\bapti\\.nuget\\packages"
     ],
     "configProperties": {
