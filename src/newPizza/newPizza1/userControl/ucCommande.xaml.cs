@@ -1,6 +1,7 @@
 ﻿using Modele;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -33,7 +34,6 @@ namespace newPizza1
         /// </summary>
         public ucCommande()
         {
-            DataContext = ((Administrateur)Mgr.UtilisateurActuel).ListCommandeAdmin;
             InitializeComponent();
         }
 
@@ -51,6 +51,20 @@ namespace newPizza1
                 bName.Content = "FINIT";
             }
         }
+
+
+
+        public ObservableCollection<Pizza> lisPizza
+        {
+            get { return (ObservableCollection<Pizza>)GetValue(lisPizzaProperty); }
+            set { SetValue(lisPizzaProperty, value); }
+        }
+
+        // Using a DependencyProperty as the backing store for lisComma.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty lisPizzaProperty =
+            DependencyProperty.Register("lisPizza", typeof(ObservableCollection<Pizza>), typeof(ucCommande), new PropertyMetadata());
+
+
 
     }
 }

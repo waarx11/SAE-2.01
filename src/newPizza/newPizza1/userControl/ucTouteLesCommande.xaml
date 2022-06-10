@@ -16,7 +16,7 @@
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>
-                            <local:ucCommande/>
+                        <local:ucCommande lisPizza="{Binding ListPizza}"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>

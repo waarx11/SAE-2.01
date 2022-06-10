@@ -1,6 +1,7 @@
 ﻿using Modele;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -56,6 +57,10 @@ namespace newPizza1
 
         public void AddPanier(object sender, RoutedEventArgs e)
         {
+            if (((Client)Mgr.UtilisateurActuel).ListPizzaClient.Count == 0)
+            {
+               ((Client)Mgr.UtilisateurActuel).ListPizzaClient = new ObservableCollection<Pizza>();
+            }
             Pizza p1 = Mgr.PizzaActuelle;
             if (p1 != null)
             {

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
@@ -41,9 +42,9 @@ namespace Modele
         /// <summary>
         /// Liste des commandes du client
         /// </summary>
-        private List<Pizza> listPizzaClient;
+        private ObservableCollection<Pizza> listPizzaClient;
         /*[DataMember(EmitDefaultValue = false, Order = 10)]*/
-        public List<Pizza> ListPizzaClient
+        public ObservableCollection<Pizza> ListPizzaClient
         {
             get => listPizzaClient;
             set
@@ -80,7 +81,7 @@ namespace Modele
             {
                 Photo = photo;
             }
-            ListPizzaClient = new List<Pizza>();
+            ListPizzaClient = new ObservableCollection<Pizza>();
         }
 
         /// <summary>
@@ -109,7 +110,7 @@ namespace Modele
         public void envoyerListeCommande(Commande c, Administrateur admin)
         {
             admin.ListCommandeAdmin.Add(c);
-            ListPizzaClient = new List<Pizza>();
+            ListPizzaClient = new ObservableCollection<Pizza>();
         }
 
         /// <summary>
@@ -125,8 +126,7 @@ namespace Modele
             
             else if (!ListPizzaClient.Contains(p))
             {
-                Pizza p2 = new Pizza(p.Nom, p.Description, p.ImageName, p.listIngredient, p.Prix);
-                ListPizzaClient.Add(p2);
+                ListPizzaClient.Add(p);
             }
             else if (ListPizzaClient.Contains(p))
             {

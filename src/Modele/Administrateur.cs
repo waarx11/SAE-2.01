@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Runtime.Serialization;
 using System.Text;
 
@@ -22,9 +23,9 @@ namespace Modele
         /// <summary>
         /// Liste de toutes les commandes
         /// </summary>
-        private List<Commande> listCommandeAdmin;
+        private ObservableCollection<Commande> listCommandeAdmin;
         /*[DataMember(EmitDefaultValue = false, Order = 9)]*/
-        public List<Commande> ListCommandeAdmin
+        public ObservableCollection<Commande> ListCommandeAdmin
         {
             get => listCommandeAdmin;
             set
@@ -52,7 +53,7 @@ namespace Modele
             : base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
         {
             NomPizzeria = nomPizzeria;
-            ListCommandeAdmin = new List<Commande>();
+            ListCommandeAdmin = new ObservableCollection<Commande>();
         }
 
 

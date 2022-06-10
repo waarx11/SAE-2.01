@@ -1,6 +1,7 @@
 ﻿using Modele;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -34,7 +35,7 @@ namespace newPizza1
             if (p1 != null)
             {
                 int m = p1.Quantité;
-                if (m > 1)
+                if (m >= 1)
                 {
                     m += 1;
                     Mgr.PizzaActuelle.Quantité = m;
@@ -59,7 +60,7 @@ namespace newPizza1
         public void rmPanier(object sender, RoutedEventArgs e)
         {
             if (((Client)Mgr.UtilisateurActuel).ListPizzaClient.Count <= 1)
-                ((Client)Mgr.UtilisateurActuel).ListPizzaClient = new List<Pizza>();
+                ((Client)Mgr.UtilisateurActuel).ListPizzaClient = new ObservableCollection<Pizza>();
             else
             {
                 List<Pizza> Piz = new List<Pizza>();
@@ -68,7 +69,7 @@ namespace newPizza1
                 {
                     Piz.Add(list);
                 }
-                ((Client)Mgr.UtilisateurActuel).ListPizzaClient = new List<Pizza>(Piz);
+                ((Client)Mgr.UtilisateurActuel).ListPizzaClient = new ObservableCollection<Pizza>(Piz);
             }
         }
 

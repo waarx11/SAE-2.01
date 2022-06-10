@@ -75,7 +75,7 @@ namespace Modele
         /// <param name="clientActu"></param>
         /// <param name="listPizz"></param>
         /// <returns>La commande voulue</returns>
-        public Commande GetCommande(Client clientActu, List<Pizza> listPizz)
+        public Commande GetCommande(Client clientActu, ObservableCollection<Pizza> listPizz)
         {
             return GetCommande(new Commande(clientActu, listPizz));
         }

@@ -174,6 +174,7 @@ namespace newPizza1
                 {
                     MessageBox.Show("Vous venez de payer par Carte Bancaire, votre commande a été transmise pour être préparée", "Commande validée", MessageBoxButton.OK);
                 }
+
                 Commande C1 = new Commande(((Client)Mgr.UtilisateurActuel), ((Client)Mgr.UtilisateurActuel).ListPizzaClient);
                 ((Client)Mgr.UtilisateurActuel).envoyerListeCommande(C1,Mgr.Administrateurs.First());
             }

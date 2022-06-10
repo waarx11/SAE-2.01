@@ -23,6 +23,23 @@ namespace newPizza1
 
         public void App_end(object sender, ExitEventArgs e)
         {
+            foreach (var catVe in LeManager.C1.CatalogueVegetarien)
+            {
+                catVe.Quantité = 1;
+            }
+            foreach (var catEp in LeManager.C1.CatalogueEpice)
+            {
+                catEp.Quantité = 1;
+            }
+            foreach (var catCa in LeManager.C1.CatalogueCarnivore)
+            {
+                catCa.Quantité = 1;
+            }
+            foreach (var catV in LeManager.C1.CataloguePizzeta)
+            {
+                catV.Quantité = 1;
+            }
+
             LeManager.SauvegardeDonnées();
         }
     }

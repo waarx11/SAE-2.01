@@ -5,7 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:newPizza1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="600" d:DesignWidth="1200">
+             d:DesignHeight="600" d:DesignWidth="1200"
+             x:Name="ucLPiz">
     <Border BorderThickness="1" BorderBrush="{StaticResource couleurArrierePlan}" Background="{StaticResource couleurPrincipale}" CornerRadius="25">
         <Grid>
             <Grid.RowDefinitions>
@@ -15,7 +16,7 @@
 
             <!--<TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" Margin="0,0,100,0" Text="Voici la comande de : "/>
             <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" Margin="100,0,0,0" Text="{Binding ClientActu.Pseudo}"/>-->
-            <ListBox Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="auto" Height="auto" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListPizza}">
+            <ListBox Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="auto" Height="auto" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding lisPizza, ElementName=ucLPiz}">
                 <ListBox.ItemsPanel >
                     <ItemsPanelTemplate>
                         <WrapPanel  Margin="5"/>

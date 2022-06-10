@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Text;
 
 namespace Modele
@@ -7,32 +9,67 @@ namespace Modele
     /// <summary>
     /// Cette fonction permet a un client de passer une commande
     /// </summary>
-    public class Commande
+    public class Commande : INotifyPropertyChanged
     {
-
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged(string propertyName)
+            => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         /// <summary>
         /// La liste des pizza présent dans la commande
         /// </summary>
-        private List<Pizza> listPizza;
-        public List<Pizza> ListPizza { get => listPizza; private set => listPizza = value; }
+        private ObservableCollection<Pizza> listPizza;
+        public ObservableCollection<Pizza> ListPizza
+        {
+            get => listPizza;
+            set
+            {
+                if (ListPizza != value)
+                {
+                    listPizza = value;
+                    OnPropertyChanged(nameof(ListPizza));
+                }
+            }
+        }
 
         /// <summary>
         /// Le client actuel qui passe commande
         /// </summary>
         private Client clientActu;
-        public Client ClientActu { get => clientActu; private set => clientActu = value; }
+        public Client ClientActu
+        {
+            get => clientActu;
+            set
+            {
+                if (ClientActu != value)
+                {
+                    clientActu = value;
+                    OnPropertyChanged(nameof(ClientActu));
+                }
+            }
+        }
 
         private Status statut;
-        public Status Statut { get => statut; private set => statut = value; }
+        public Status Statut
+        {
+            get => statut;
+            set
+            {
+                if (Statut != value)
+                {
+                    statut = value;
+                    OnPropertyChanged(nameof(Statut));
+                }
+            }
+        }
 
         /// <summary>
         /// Le constructeur reçois un client actuelle et une liste de pizza
         /// </summary>
         /// <param name="c1"></param>
         /// <param name="listPzz"></param>
-        public Commande(Client c1, List<Pizza> listPzz)
+        public Commande(Client c1, ObservableCollection<Pizza> listPzz)
         {
-            ListPizza = new List<Pizza>();
+            ListPizza = new ObservableCollection<Pizza>();
             ListPizza = listPzz;
             ClientActu = c1;
             Statut = Status.Commencer;
