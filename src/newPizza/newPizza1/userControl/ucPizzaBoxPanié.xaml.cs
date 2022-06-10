@@ -30,21 +30,14 @@ namespace newPizza1
 
         public void BtnPlus(object sender, RoutedEventArgs e)
         {
-            Client p1 = (Mgr.UtilisateurActuel as Client);
+            Pizza p1 = Mgr.PizzaActuelle;
             if (p1 != null)
             {
-                foreach (Pizza piz in p1.ListPizzaClient)
+                int m = p1.Quantité;
+                if (m > 1)
                 {
-                    if (piz == Mgr.PizzaActuelle)
-                    {
-                        int m = piz.Quantité;
-                        if (m > 1)
-                        {
-                            m += 1;
-                            int pos = (Mgr.UtilisateurActuel as Client).ListPizzaClient.BinarySearch(piz);
-                            (Mgr.UtilisateurActuel as Client).ListPizzaClient[pos].Quantité=m;
-                        }
-                    }
+                    m += 1;
+                    Mgr.PizzaActuelle.Quantité = m;
                 }
             }
         }

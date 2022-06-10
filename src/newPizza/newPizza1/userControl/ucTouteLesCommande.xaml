@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="1080" d:DesignWidth="1920">
     <DockPanel Background="{StaticResource couleurFond}">
-        <ListBox HorizontalAlignment="Center" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListCommandeAdmin}" SelectedItem="{Binding CommandeActuelle}">
+        <ListBox HorizontalAlignment="Center" VerticalAlignment="Top"  ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListCommandeAdmin}" SelectionChanged="ListBox_SelectionChanged">
                 <ListBox.ItemsPanel >
                     <ItemsPanelTemplate>
                     <WrapPanel  Margin="5"/>

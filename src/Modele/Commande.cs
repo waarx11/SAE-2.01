@@ -31,7 +31,7 @@ namespace Modele
         /// <param name="listPzz"></param>
         public Commande(Client c1, List<Pizza> listPzz)
         {
-            List<Pizza> listPizza = new List<Pizza>();
+            ListPizza = new List<Pizza>();
             ListPizza = listPzz;
             ClientActu = c1;
             Statut = Status.Commencer;

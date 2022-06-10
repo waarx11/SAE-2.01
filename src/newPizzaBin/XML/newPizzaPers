@@ -143,7 +143,7 @@
     <d2p1:CataloguePizzeta z:Id="54" z:Size="8">
       <d2p1:Pizza z:Id="55">
         <d2p1:Nom z:Ref="20" i:nil="true" />
-        <d2p1:Quantité>29</d2p1:Quantité>
+        <d2p1:Quantité>33</d2p1:Quantité>
         <d2p1:Description z:Ref="21" i:nil="true" />
         <d2p1:ImageName z:Id="56">pizzas/pizzeta/pizzeta_5_fromaggi.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>

@@ -348,3 +348,4 @@ C:\Users\bapti\Desktop\2.01\src\newPizza\newPizza1\obj\Debug\net6.0-windows\newP
 C:\Users\bapti\Desktop\2.01\src\newPizza\newPizza1\obj\Debug\net6.0-windows\newPizza1.genruntimeconfig.cache
 C:\Users\bapti\Desktop\2.01\src\newPizza\newPizza1\obj\Debug\net6.0-windows\ref\newPizza1.dll
 C:\Users\bapti\Desktop\2.01\src\newPizzaBin\net6.0-windows\img2\buttons\croix.png
+C:\Users\natha\Desktop\proj\sae-2.01\src\newPizzaBin\net6.0-windows\img2\buttons\croix.png
