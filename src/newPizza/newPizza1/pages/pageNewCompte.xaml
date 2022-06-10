@@ -30,7 +30,6 @@
             <Button Foreground="{StaticResource couleurTexte}" Content="X" Width="41" Height="41" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,2,0" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" Click="CloseMenu"/>
 
             <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1">
-                <Image Source="..\img2\autre\IdPageSmile.jpg" Margin="0,20,20,20" />
                 <TextBlock Text="new Pizza()" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="60" FontFamily="{StaticResource TITLE}" Foreground="{StaticResource couleurTexte}"/>
             </WrapPanel>
 

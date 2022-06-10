@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:newPizza1" xmlns:modele="clr-namespace:Modele;assembly=Modele" d:DataContext="{d:DesignInstance Type=modele:Administrateur}"
+        xmlns:local="clr-namespace:newPizza1" xmlns:modele="clr-namespace:Modele;assembly=Modele"
         ResizeMode="NoResize"
         WindowState="Maximized"
         WindowStyle="None"
@@ -26,11 +26,11 @@
             <StackPanel Grid.Row="0" Width="300" Grid.RowSpan="3" Background="{StaticResource couleurPrincipale}">
                 <TextBlock Text="Administrateur" Margin="0,20,0,20" HorizontalAlignment="Center" FontSize="35" VerticalAlignment="Center" FontWeight="Bold" TextDecorations="Underline" Foreground="{StaticResource couleurTexte}"/>
                 <ListBox BorderThickness="0">
-            <local:ucMenuBouton setMessage="Restaurant" setImage="..\img2\buttons\info.png" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
-                <local:ucMenuBouton setMessage="Commandes" setImage="..\img2\buttons\commandes.png" CLICKMENU="Bouton_Commandes"/>
+                    <local:ucMenuBouton setMessage=" ✦ Restaurant" BorderThickness="0,2,0,0" BorderBrush="Black" CLICKMENU="Bouton_Admin"/>
+                    <local:ucMenuBouton setMessage=" ✦ Commandes"  CLICKMENU="Bouton_Commandes"/>
             </ListBox>
             </StackPanel>
-            <local:ucMenuBouton setMessage="Déconnexion" setImage="..\img2\buttons\quitter.png" Grid.Row="3" CLICKMENU="Bouton_Deconnexion"/>
+            <local:ucMenuBouton setMessage=" ✘ Déconnexion"  Grid.Row="3" CLICKMENU="Bouton_Deconnexion"/>
 
             <TextBlock x:Name="content_TextBl" FontSize="50" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1" Grid.RowSpan="2" Foreground="{StaticResource couleurTexte}">
                 <Run x:Name="Titre" Text="Informations de mon entreprise : "/>

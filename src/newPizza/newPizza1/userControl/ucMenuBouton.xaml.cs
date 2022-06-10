@@ -40,16 +40,6 @@ namespace newPizza1
                 ucBoutonMenuTEXT.Text = value;
             }
         }
-        /// <summary>
-        /// change l'image
-        /// </summary>
-        public string setImage
-        {
-            set
-            {
-                ucBoutonMenuIMG.Source = new BitmapImage(new Uri(value, UriKind.Relative));
-            }
-        }
 
         /// <summary>
         /// Evenement bouton
