@@ -17,7 +17,7 @@
     <d2p1:CatalogueVegetarien z:Id="13" z:Size="8">
       <d2p1:Pizza z:Id="14">
         <d2p1:Nom z:Id="15">3 Fromages</d2p1:Nom>
-        <d2p1:Quantité>2</d2p1:Quantité>
+        <d2p1:Quantité>1</d2p1:Quantité>
         <d2p1:Description z:Id="16">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, fromage de chèvre, gorgonzola</d2p1:Description>
         <d2p1:ImageName z:Id="17">pizzas/vegetariennes/3_fromages.jpg</d2p1:ImageName>
@@ -143,7 +143,7 @@
     <d2p1:CataloguePizzeta z:Id="54" z:Size="8">
       <d2p1:Pizza z:Id="55">
         <d2p1:Nom z:Ref="20" i:nil="true" />
-        <d2p1:Quantité>4</d2p1:Quantité>
+        <d2p1:Quantité>5</d2p1:Quantité>
         <d2p1:Description z:Ref="21" i:nil="true" />
         <d2p1:ImageName z:Id="56">pizzas/pizzeta/pizzeta_5_fromaggi.png</d2p1:ImageName>
         <d2p1:Prix>10</d2p1:Prix>

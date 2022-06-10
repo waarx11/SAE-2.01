@@ -30,10 +30,43 @@ namespace newPizza1
             DataContext = Mgr.PizzaActuelle;
         }
 
-        // Using a DependencyProperty as the backing store for ImageName.  This enables animation, styling, binding, etc...
-        public static readonly DependencyProperty ImageNameProperty =
-            DependencyProperty.Register("ImageName", typeof(string), typeof(ucInfoPizza), new PropertyMetadata("noImg.png"));
 
+        public void BtnPlus(object sender, RoutedEventArgs e)
+        {
+            Pizza p1 = Mgr.PizzaActuelle;
+            if (p1 != null)
+            {
+                int m = p1.Quantité;
+                Mgr.PizzaActuelle.Quantité = m + 1;
+            }
+        }
 
+        public void BtnMoin(object sender, RoutedEventArgs e)
+        {
+            Pizza p1 = Mgr.PizzaActuelle;
+            if (p1 != null)
+            {
+                int m = p1.Quantité;
+                if (m > 1)
+                {
+                    m -= 1;
+                    Mgr.PizzaActuelle.Quantité = m;
+                }
+            }
+        }
+
+        public void AddPanier(object sender, RoutedEventArgs e)
+        {
+            Pizza p1 = Mgr.PizzaActuelle;
+            if (p1 != null)
+            {
+                int m = p1.Quantité;
+                if (m >= 1)
+                {
+                    ((Client)Mgr.UtilisateurActuel).ajouterPizzaCommande(Mgr.PizzaActuelle);
+                    ((Client)Mgr.UtilisateurActuel).ListPizzaClient[((Client)Mgr.UtilisateurActuel).ListPizzaClient.Count() - 1].Quantité = Mgr.PizzaActuelle.modifQte(m);
+                }
+            }
+        }
     }
 }
