@@ -112,6 +112,21 @@ namespace newPizza1
             }
 
         }
-        
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            try
+            {
+                if (e.AddedItems[0] is Pizza)
+                {
+                    Mgr.PizzaActuelle = e.AddedItems[0] as Pizza;
+                }
+            }
+            catch
+            {
+                return ;
+            }
+        }
+
     }
 }
