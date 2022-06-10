@@ -27,7 +27,7 @@
         </Grid.RowDefinitions>
         <Border BorderThickness="1" BorderBrush="{StaticResource couleurArrierePlan}" Background="{StaticResource couleurPrincipale}" Grid.ColumnSpan="2" Grid.RowSpan="3" CornerRadius="25"/>
 
-        <Image Grid.Row="1" Source="{Binding ImageName, ElementName=thisCom, Converter={StaticResource string2ImageConverter}}" />
+        <Image Grid.Row="1" Margin="10,0,10,0" Source="{Binding ImageName, ElementName=thisCom}" Stretch="UniformToFill"/>
         <WrapPanel Margin="0,0,200,0" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="10" Text="Voici les ingrédients de la pizza : "/>
             <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="10" Text="{Binding nomPizz, ElementName=thisCom}"/>

@@ -9,7 +9,7 @@
       <Adresse z:Id="8">entrepreneur</Adresse>
       <Mdp z:Id="9">0000</Mdp>
       <Ville z:Id="10">!</Ville>
-      <CodePostal z:Id="11">:) oui</CodePostal>
+      <CodePostal z:Id="11">:)</CodePostal>
       <NomPizzeria z:Ref="9" i:nil="true" />
     </AdministrateurDTO>
   </Admin>
@@ -225,7 +225,7 @@
       </d2p1:Pizza>
       <d2p1:Pizza z:Id="74">
         <d2p1:Nom z:Id="75">Saumon</d2p1:Nom>
-        <d2p1:Quantité>4</d2p1:Quantité>
+        <d2p1:Quantité>2</d2p1:Quantité>
         <d2p1:Description z:Id="76">Tous les jours, la pâte à pizza newPizza est préparée et cuite à la commande dans nos restaurants par nos pizzaiolos. Voilà le secret de nos pizzas moelleuses et croustillantes.
  Ingrédients: Pate normale, base crème, mozzarella, saumon fumé, pousses d’épinard, sauce balsamique blanc</d2p1:Description>
         <d2p1:ImageName z:Id="77">pizzas/pizzeta/pizzeta_salmone.png</d2p1:ImageName>

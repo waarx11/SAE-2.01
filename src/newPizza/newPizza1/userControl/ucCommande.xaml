@@ -5,10 +5,14 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:newPizza1" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
-             d:DesignHeight="1000" d:DesignWidth="1000">
+             d:DesignHeight="600" d:DesignWidth="1200">
     <Border BorderThickness="1" BorderBrush="{StaticResource couleurArrierePlan}" Background="{StaticResource couleurPrincipale}" CornerRadius="25">
-        <DockPanel>
-            <ListBox HorizontalAlignment="Center" VerticalAlignment="Top" Width="800" Height="800" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListPizza}" SelectedItem="{Binding CommandeActuelle}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <ListBox Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="auto" Height="auto" ScrollViewer.VerticalScrollBarVisibility="Hidden" ItemsSource="{Binding ListPizza}">
                 <ListBox.ItemsPanel >
                     <ItemsPanelTemplate>
                         <WrapPanel  Margin="5"/>
@@ -17,15 +21,15 @@
                 <ListBox.ItemTemplate >
                     <DataTemplate >
                         <StackPanel>
-                            <local:ucCommandeEnCours/>
+                            <local:ucCommandeEnCours nomPizz="{Binding Nom}" qtePiz="{Binding Quantité}" TextDes="{Binding Description}" ImageName="{Binding ImageName, Converter={StaticResource string2ImageConverter}}"/>
                         </StackPanel>
                     </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
-            <DockPanel DockPanel.Dock="Bottom" Height="70">
-                <TextBlock Visibility="Hidden" Text="En cours..." HorizontalAlignment="Right" VerticalAlignment="Bottom" FontSize="20"/>
-                <Button Foreground="{StaticResource couleurTexte}" Name="OUI" HorizontalAlignment="Right" Margin="0,0,20,0" VerticalAlignment="Bottom" Width="200" Height="50" Cursor="Hand" FontSize="25" BorderBrush="{StaticResource couleurSecondaire}" Background="{StaticResource couleurPrincipale}" Click="Button_Click" Content="COMMENCER"/>
+            <DockPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="70" Grid.Row="1">
+                <TextBlock x:Name="TextB" Visibility="Hidden" VerticalAlignment="Center" Text="En cours..." FontSize="30" Margin="0,0,20,0"/>
+                <Button Foreground="{StaticResource couleurTexte}" Margin="0,0,20,0" Width="200" Height="50" Cursor="Hand" FontSize="25" BorderBrush="{StaticResource couleurSecondaire}" x:Name="bName" Background="{StaticResource couleurPrincipale}" Click="Button_Click" Content="COMMENCER"/>
             </DockPanel>
-        </DockPanel>
+        </Grid>
     </Border>
 </UserControl>

@@ -60,7 +60,7 @@ namespace Modele
                 C1.changerStatus();
                 if (C1.Statut == Status.Finir)
                 {
-                    ListCommandeAdmin.Add(C1);
+                    ListCommandeAdmin.Remove(C1);
                 }
             }
         }

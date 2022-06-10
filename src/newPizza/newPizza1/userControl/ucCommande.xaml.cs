@@ -32,25 +32,11 @@ namespace newPizza1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            // Récupérer la commande:
-            //Commande cmd = ..... ;
-            // Changer son statut:
-            var test = ((Administrateur)Mgr.UtilisateurActuel).ListCommandeAdmin.Last();
-            int test2 = (Mgr.UtilisateurActuel as Administrateur).ListCommandeAdmin.Count();
-            int litee = test.ListPizza.Count();
-            Debug.Write("-------------------------\n" + test2 + "----------------------------");
-            Debug.Write("-------------------------\n" + litee + "----------------------------");
-            //Changer le btn et le message:
-
-            //if (cmd.Statut == Status.Commencer)
-            //{
-            //}
-            //else if (cmd.Statut == Status.EnCours)
-            //{
-            // Supprimer la commande & refresh
-            //}
-
-
+            /*Debug.Write(Mgr.CommandeActuelle.Statut);*/
+            ((Administrateur)Mgr.UtilisateurActuel).ChangerStatusCommande(Mgr.CommandeActuelle);
+            TextB.Visibility = Visibility.Visible;
+            bName.Content = "FINIT";
+            /*Debug.Write(Mgr.CommandeActuelle.Statut.ToString());*/
         }
 
 
