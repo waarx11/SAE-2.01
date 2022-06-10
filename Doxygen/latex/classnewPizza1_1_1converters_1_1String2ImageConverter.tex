@@ -1,0 +1,83 @@
+\hypertarget{classnewPizza1_1_1converters_1_1String2ImageConverter}{}\section{new\+Pizza1.\+converters.\+String2\+Image\+Converter Class Reference}
+\label{classnewPizza1_1_1converters_1_1String2ImageConverter}\index{new\+Pizza1.\+converters.\+String2\+Image\+Converter@{new\+Pizza1.\+converters.\+String2\+Image\+Converter}}
+
+
+Inheritance diagram for new\+Pizza1.\+converters.\+String2\+Image\+Converter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{classnewPizza1_1_1converters_1_1String2ImageConverter__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for new\+Pizza1.\+converters.\+String2\+Image\+Converter\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=227pt]{classnewPizza1_1_1converters_1_1String2ImageConverter__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+object \hyperlink{classnewPizza1_1_1converters_1_1String2ImageConverter_acdb25935515a4953373954bc2e61586d}{Convert} (object value, Type target\+Type, object parameter, Culture\+Info culture)
+\item 
+object \hyperlink{classnewPizza1_1_1converters_1_1String2ImageConverter_a6807873b25db84bc4ac03253528fdc11}{Convert\+Back} (object value, Type target\+Type, object parameter, Culture\+Info culture)
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static string \hyperlink{classnewPizza1_1_1converters_1_1String2ImageConverter_a261c0f45c132518892027c163d88fe0a}{Images\+Path}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnewPizza1_1_1converters_1_1String2ImageConverter_acdb25935515a4953373954bc2e61586d}\label{classnewPizza1_1_1converters_1_1String2ImageConverter_acdb25935515a4953373954bc2e61586d}} 
+\index{new\+Pizza1\+::converters\+::\+String2\+Image\+Converter@{new\+Pizza1\+::converters\+::\+String2\+Image\+Converter}!Convert@{Convert}}
+\index{Convert@{Convert}!new\+Pizza1\+::converters\+::\+String2\+Image\+Converter@{new\+Pizza1\+::converters\+::\+String2\+Image\+Converter}}
+\subsubsection{\texorpdfstring{Convert()}{Convert()}}
+{\footnotesize\ttfamily object new\+Pizza1.\+converters.\+String2\+Image\+Converter.\+Convert (\begin{DoxyParamCaption}\item[{object}]{value,  }\item[{Type}]{target\+Type,  }\item[{object}]{parameter,  }\item[{Culture\+Info}]{culture }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+22         \{
+23             \textcolor{keywordtype}{string} imageName = (string)value;
+24 
+25             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{string}.IsNullOrWhiteSpace(imageName)) \textcolor{keywordflow}{return} \textcolor{keyword}{new} Uri(\textcolor{stringliteral}{"img\(\backslash\)\(\backslash\)default\(\backslash\)\(\backslash\)noImg.png"}, UriKind.
+      Absolute);
+26 
+27             \textcolor{keywordtype}{string} imagePath = Path.Combine(\hyperlink{classnewPizza1_1_1converters_1_1String2ImageConverter_a261c0f45c132518892027c163d88fe0a}{ImagesPath}, imageName);
+28 
+29             \textcolor{keywordflow}{return} \textcolor{keyword}{new} Uri(imagePath, UriKind.Absolute);
+30 
+31         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classnewPizza1_1_1converters_1_1String2ImageConverter_a6807873b25db84bc4ac03253528fdc11}\label{classnewPizza1_1_1converters_1_1String2ImageConverter_a6807873b25db84bc4ac03253528fdc11}} 
+\index{new\+Pizza1\+::converters\+::\+String2\+Image\+Converter@{new\+Pizza1\+::converters\+::\+String2\+Image\+Converter}!Convert\+Back@{Convert\+Back}}
+\index{Convert\+Back@{Convert\+Back}!new\+Pizza1\+::converters\+::\+String2\+Image\+Converter@{new\+Pizza1\+::converters\+::\+String2\+Image\+Converter}}
+\subsubsection{\texorpdfstring{Convert\+Back()}{ConvertBack()}}
+{\footnotesize\ttfamily object new\+Pizza1.\+converters.\+String2\+Image\+Converter.\+Convert\+Back (\begin{DoxyParamCaption}\item[{object}]{value,  }\item[{Type}]{target\+Type,  }\item[{object}]{parameter,  }\item[{Culture\+Info}]{culture }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+35         \{
+36             \textcolor{keywordflow}{throw} \textcolor{keyword}{new} NotImplementedException();
+37         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classnewPizza1_1_1converters_1_1String2ImageConverter_a261c0f45c132518892027c163d88fe0a}\label{classnewPizza1_1_1converters_1_1String2ImageConverter_a261c0f45c132518892027c163d88fe0a}} 
+\index{new\+Pizza1\+::converters\+::\+String2\+Image\+Converter@{new\+Pizza1\+::converters\+::\+String2\+Image\+Converter}!Images\+Path@{Images\+Path}}
+\index{Images\+Path@{Images\+Path}!new\+Pizza1\+::converters\+::\+String2\+Image\+Converter@{new\+Pizza1\+::converters\+::\+String2\+Image\+Converter}}
+\subsubsection{\texorpdfstring{Images\+Path}{ImagesPath}}
+{\footnotesize\ttfamily string new\+Pizza1.\+converters.\+String2\+Image\+Converter.\+Images\+Path\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/new\+Pizza/new\+Pizza1/converters/\hyperlink{String2ImageConverter_8cs}{String2\+Image\+Converter.\+cs}\end{DoxyCompactItemize}

@@ -1,0 +1,108 @@
+\hypertarget{classTestsUnitaires_1_1UT__Commande}{}\section{Tests\+Unitaires.\+U\+T\+\_\+\+Commande Class Reference}
+\label{classTestsUnitaires_1_1UT__Commande}\index{Tests\+Unitaires.\+U\+T\+\_\+\+Commande@{Tests\+Unitaires.\+U\+T\+\_\+\+Commande}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classTestsUnitaires_1_1UT__Commande_a67dbb2a4887f937d4aa437d6c16ae02f}{T\+E\+S\+T\+\_\+\+Ctor} ()
+\item 
+void \hyperlink{classTestsUnitaires_1_1UT__Commande_a45b9452b1dd922773da94c52f4ab508d}{T\+E\+S\+T\+\_\+\+Changer\+Statut} ()
+\item 
+void \hyperlink{classTestsUnitaires_1_1UT__Commande_a9d303e2234739a0598ab936dac1ab7be}{T\+E\+S\+T\+\_\+\+To\+String} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classTestsUnitaires_1_1UT__Commande_a45b9452b1dd922773da94c52f4ab508d}\label{classTestsUnitaires_1_1UT__Commande_a45b9452b1dd922773da94c52f4ab508d}} 
+\index{Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande}!T\+E\+S\+T\+\_\+\+Changer\+Statut@{T\+E\+S\+T\+\_\+\+Changer\+Statut}}
+\index{T\+E\+S\+T\+\_\+\+Changer\+Statut@{T\+E\+S\+T\+\_\+\+Changer\+Statut}!Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T\+\_\+\+Changer\+Statut()}{TEST\_ChangerStatut()}}
+{\footnotesize\ttfamily void Tests\+Unitaires.\+U\+T\+\_\+\+Commande.\+T\+E\+S\+T\+\_\+\+Changer\+Statut (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+29         \{
+30             \hyperlink{classModele_1_1Client}{Client} c = \textcolor{keyword}{new} \hyperlink{classModele_1_1Client}{Client}(\textcolor{stringliteral}{"Bonneau"}, \textcolor{stringliteral}{"Baptiste"}, \textcolor{stringliteral}{"baptiste.bonneau@etu.uca.fr"}, \textcolor{stringliteral}{"
+      0606060606"}, \textcolor{stringliteral}{"37 rue mon adresse"}, \textcolor{stringliteral}{"clermont"}, \textcolor{stringliteral}{"password"}, \textcolor{stringliteral}{"pseudo"}, \textcolor{stringliteral}{"photo.png"});
+31             List<Ingredients> listIngre = \textcolor{keyword}{new} List<Ingredients> \{ (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})55, (
+      \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})13, (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})42, (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})21, (
+      \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})36 \};
+32             \hyperlink{classModele_1_1Pizza}{Pizza} p = \textcolor{keyword}{new} \hyperlink{classModele_1_1Pizza}{Pizza}(\textcolor{stringliteral}{"Nom"}, \textcolor{stringliteral}{"Description"}, \textcolor{stringliteral}{"Image"}, listIngre, 8);
+33             c.\hyperlink{classModele_1_1Client_a328e03bcb8a1b69483ae0fa2ee6e188e}{ajouterPizzaCommande}(p);
+34 
+35             \hyperlink{classModele_1_1Commande}{Commande} cmd = \textcolor{keyword}{new} \hyperlink{classModele_1_1Commande}{Commande}(c, c.\hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient});
+36 
+37             \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status} lastStatus = cmd.\hyperlink{classModele_1_1Commande_af468b3432c93b1c7929b2af8154386a6}{Statut};
+38 
+39             cmd.\hyperlink{classModele_1_1Commande_ab3f6329bfa0cf9e06a2fb15184c490c3}{changerStatus}();
+40             \textcolor{keywordflow}{if}(lastStatus == \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.Commencer)
+41             \{
+42                 Assert.Equal(\hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.EnCours, cmd.\hyperlink{classModele_1_1Commande_af468b3432c93b1c7929b2af8154386a6}{Statut});
+43             \}
+44             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (lastStatus == \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.EnCours)
+45             \{
+46                 Assert.Equal(\hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.Finir, cmd.\hyperlink{classModele_1_1Commande_af468b3432c93b1c7929b2af8154386a6}{Statut});
+47             \}
+48             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (lastStatus == \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.Finir)
+49             \{
+50                 Assert.Null(cmd);
+51             \}
+52 
+53         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classTestsUnitaires_1_1UT__Commande_a67dbb2a4887f937d4aa437d6c16ae02f}\label{classTestsUnitaires_1_1UT__Commande_a67dbb2a4887f937d4aa437d6c16ae02f}} 
+\index{Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande}!T\+E\+S\+T\+\_\+\+Ctor@{T\+E\+S\+T\+\_\+\+Ctor}}
+\index{T\+E\+S\+T\+\_\+\+Ctor@{T\+E\+S\+T\+\_\+\+Ctor}!Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T\+\_\+\+Ctor()}{TEST\_Ctor()}}
+{\footnotesize\ttfamily void Tests\+Unitaires.\+U\+T\+\_\+\+Commande.\+T\+E\+S\+T\+\_\+\+Ctor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+13         \{
+14             \hyperlink{classModele_1_1Client}{Client} c = \textcolor{keyword}{new} \hyperlink{classModele_1_1Client}{Client}(\textcolor{stringliteral}{"Bonneau"}, \textcolor{stringliteral}{"Baptiste"}, \textcolor{stringliteral}{"baptiste.bonneau@etu.uca.fr"}, \textcolor{stringliteral}{"
+      0606060606"}, \textcolor{stringliteral}{"37 rue mon adresse"}, \textcolor{stringliteral}{"clermont"}, \textcolor{stringliteral}{"password"}, \textcolor{stringliteral}{"pseudo"}, \textcolor{stringliteral}{"photo.png"});
+15             List<Ingredients> listIngre = \textcolor{keyword}{new} List<Ingredients> \{ (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})55, (
+      \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})13, (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})42, (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})21, (
+      \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})36 \};
+16             \hyperlink{classModele_1_1Pizza}{Pizza} p = \textcolor{keyword}{new} \hyperlink{classModele_1_1Pizza}{Pizza}(\textcolor{stringliteral}{"Nom"}, \textcolor{stringliteral}{"Description"}, \textcolor{stringliteral}{"Image"}, listIngre, 8);
+17             c.\hyperlink{classModele_1_1Client_a328e03bcb8a1b69483ae0fa2ee6e188e}{ajouterPizzaCommande}(p);
+18 
+19             \hyperlink{classModele_1_1Commande}{Commande} cmd = \textcolor{keyword}{new} \hyperlink{classModele_1_1Commande}{Commande}(c, c.\hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient});
+20 
+21             Assert.Equal(cmd.\hyperlink{classModele_1_1Commande_ad9f1418f7febfa94bcb57873d3ac6be4}{ClientActu}, c);
+22             Assert.Equal(cmd.\hyperlink{classModele_1_1Commande_a296c71bf31f1e6383e63d842ceb0bfe6}{ListPizza}, c.\hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient});
+23             Assert.Equal(\hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.Commencer, cmd.\hyperlink{classModele_1_1Commande_af468b3432c93b1c7929b2af8154386a6}{Statut});
+24 
+25         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classTestsUnitaires_1_1UT__Commande_a9d303e2234739a0598ab936dac1ab7be}\label{classTestsUnitaires_1_1UT__Commande_a9d303e2234739a0598ab936dac1ab7be}} 
+\index{Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande}!T\+E\+S\+T\+\_\+\+To\+String@{T\+E\+S\+T\+\_\+\+To\+String}}
+\index{T\+E\+S\+T\+\_\+\+To\+String@{T\+E\+S\+T\+\_\+\+To\+String}!Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Commande}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T\+\_\+\+To\+String()}{TEST\_ToString()}}
+{\footnotesize\ttfamily void Tests\+Unitaires.\+U\+T\+\_\+\+Commande.\+T\+E\+S\+T\+\_\+\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+57         \{
+58             \hyperlink{classModele_1_1Client}{Client} c = \textcolor{keyword}{new} \hyperlink{classModele_1_1Client}{Client}(\textcolor{stringliteral}{"Bonneau"}, \textcolor{stringliteral}{"Baptiste"}, \textcolor{stringliteral}{"baptiste.bonneau@etu.uca.fr"}, \textcolor{stringliteral}{"
+      0606060606"}, \textcolor{stringliteral}{"37 rue mon adresse"}, \textcolor{stringliteral}{"clermont"}, \textcolor{stringliteral}{"password"}, \textcolor{stringliteral}{"pseudo"}, \textcolor{stringliteral}{"photo.png"});
+59             List<Ingredients> listIngre = \textcolor{keyword}{new} List<Ingredients> \{ (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})55, (
+      \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})13, (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})42, (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})21, (
+      \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})36 \};
+60             \hyperlink{classModele_1_1Pizza}{Pizza} p = \textcolor{keyword}{new} \hyperlink{classModele_1_1Pizza}{Pizza}(\textcolor{stringliteral}{"Nom"}, \textcolor{stringliteral}{"Description"}, \textcolor{stringliteral}{"Image"}, listIngre, 8);
+61             c.\hyperlink{classModele_1_1Client_a328e03bcb8a1b69483ae0fa2ee6e188e}{ajouterPizzaCommande}(p);
+62 
+63             \hyperlink{classModele_1_1Commande}{Commande} cmd = \textcolor{keyword}{new} \hyperlink{classModele_1_1Commande}{Commande}(c, c.\hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient});
+64 
+65             \textcolor{keywordtype}{string} expectedTexte = $\textcolor{stringliteral}{"\{cmd.ClientActu.Pseudo\}, "};
+66             \textcolor{keywordflow}{foreach}(\hyperlink{classModele_1_1Pizza}{Pizza} pizz \textcolor{keywordflow}{in} cmd.\hyperlink{classModele_1_1Commande_a296c71bf31f1e6383e63d842ceb0bfe6}{ListPizza})
+67             \{
+68                 expectedTexte += $\textcolor{stringliteral}{"\{pizz\}, "};
+69             \}
+70             expectedTexte += $\textcolor{stringliteral}{"\{cmd.Statut\}"};
+71         \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Tests\+Unitaires/\hyperlink{UT__Commande_8cs}{U\+T\+\_\+\+Commande.\+cs}\end{DoxyCompactItemize}

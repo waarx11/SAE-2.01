@@ -1,0 +1,177 @@
+\hypertarget{classModele_1_1Catalogue}{}\section{Modele.\+Catalogue Class Reference}
+\label{classModele_1_1Catalogue}\index{Modele.\+Catalogue@{Modele.\+Catalogue}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classModele_1_1Catalogue_a93f737e4c7e5e5b4ff8317b899d15d3b}{Catalogue} ()
+\begin{DoxyCompactList}\small\item\em Construteur de la classe catalogue, crée 4 Observable\+Collection \end{DoxyCompactList}\item 
+void \hyperlink{classModele_1_1Catalogue_ab7da274b56b04b968d89d05dbdccf097}{affiche\+Cat\+Precis} (Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$ other)
+\begin{DoxyCompactList}\small\item\em Affiche un catalogue précis préciser en paramètre \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Catalogue_a244cf5ce13ec8127f3585f3b5fa73dc9}{Equals} (\hyperlink{classModele_1_1Catalogue}{Catalogue} other)
+\begin{DoxyCompactList}\small\item\em Permet de savoir si le catalogue passer en paramètre existe déjà ou non \end{DoxyCompactList}\item 
+override string \hyperlink{classModele_1_1Catalogue_a09a355cd9bd72cd019bc7c68dd2d4b0a}{To\+String} ()
+\begin{DoxyCompactList}\small\item\em Affiche la liste des catalogues et leurs pizzas \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$ \hyperlink{classModele_1_1Catalogue_abd7d6d70ddd6ba264c1c91a5b084d9ba}{Catalogue\+Vegetarien}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$ \hyperlink{classModele_1_1Catalogue_ac5490e1026b5b08d43e30b68da893423}{Catalogue\+Pizzeta}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$ \hyperlink{classModele_1_1Catalogue_a4af9ef768f67cef6dfe545e22a6d63af}{Catalogue\+Carnivore}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$ \hyperlink{classModele_1_1Catalogue_a633610212f42551a5755212e21bedbca}{Catalogue\+Epice}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classModele_1_1Catalogue_a93f737e4c7e5e5b4ff8317b899d15d3b}\label{classModele_1_1Catalogue_a93f737e4c7e5e5b4ff8317b899d15d3b}} 
+\index{Modele\+::\+Catalogue@{Modele\+::\+Catalogue}!Catalogue@{Catalogue}}
+\index{Catalogue@{Catalogue}!Modele\+::\+Catalogue@{Modele\+::\+Catalogue}}
+\subsubsection{\texorpdfstring{Catalogue()}{Catalogue()}}
+{\footnotesize\ttfamily Modele.\+Catalogue.\+Catalogue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construteur de la classe catalogue, crée 4 Observable\+Collection 
+
+
+\begin{DoxyCode}
+41         \{ 
+42             catalogueVegetarien = \textcolor{keyword}{new} ObservableCollection<Pizza>();
+43             cataloguePizzeta = \textcolor{keyword}{new} ObservableCollection<Pizza>();
+44             catalogueCarnivore = \textcolor{keyword}{new} ObservableCollection<Pizza>();
+45             catalogueEpice = \textcolor{keyword}{new} ObservableCollection<Pizza>();
+46         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classModele_1_1Catalogue_ab7da274b56b04b968d89d05dbdccf097}\label{classModele_1_1Catalogue_ab7da274b56b04b968d89d05dbdccf097}} 
+\index{Modele\+::\+Catalogue@{Modele\+::\+Catalogue}!affiche\+Cat\+Precis@{affiche\+Cat\+Precis}}
+\index{affiche\+Cat\+Precis@{affiche\+Cat\+Precis}!Modele\+::\+Catalogue@{Modele\+::\+Catalogue}}
+\subsubsection{\texorpdfstring{affiche\+Cat\+Precis()}{afficheCatPrecis()}}
+{\footnotesize\ttfamily void Modele.\+Catalogue.\+affiche\+Cat\+Precis (\begin{DoxyParamCaption}\item[{Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Affiche un catalogue précis préciser en paramètre 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+53         \{
+54             \textcolor{keywordflow}{if}(\hyperlink{classModele_1_1Catalogue_a244cf5ce13ec8127f3585f3b5fa73dc9}{Equals}(other))
+55             \{
+56                 \textcolor{keywordflow}{foreach} (Pizza p1 \textcolor{keywordflow}{in} other)
+57                 \{
+58                     p1.ToString();
+59                 \}
+60             \}
+61         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Catalogue_a244cf5ce13ec8127f3585f3b5fa73dc9}\label{classModele_1_1Catalogue_a244cf5ce13ec8127f3585f3b5fa73dc9}} 
+\index{Modele\+::\+Catalogue@{Modele\+::\+Catalogue}!Equals@{Equals}}
+\index{Equals@{Equals}!Modele\+::\+Catalogue@{Modele\+::\+Catalogue}}
+\subsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily bool Modele.\+Catalogue.\+Equals (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Catalogue}{Catalogue}}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet de savoir si le catalogue passer en paramètre existe déjà ou non 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si le catalogue existe, false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+69         \{
+70             \textcolor{keywordflow}{return} catalogueVegetarien == other.catalogueVegetarien || cataloguePizzeta == other.
+      cataloguePizzeta || catalogueCarnivore == other.catalogueCarnivore || catalogueEpice == other.catalogueEpice;
+71         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Catalogue_a09a355cd9bd72cd019bc7c68dd2d4b0a}\label{classModele_1_1Catalogue_a09a355cd9bd72cd019bc7c68dd2d4b0a}} 
+\index{Modele\+::\+Catalogue@{Modele\+::\+Catalogue}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Modele\+::\+Catalogue@{Modele\+::\+Catalogue}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Modele.\+Catalogue.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Affiche la liste des catalogues et leurs pizzas 
+
+\begin{DoxyReturn}{Returns}
+chaine de caractère
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+79         \{
+80             \textcolor{keywordtype}{string} Afficher = \textcolor{stringliteral}{""};
+81             Afficher += \textcolor{stringliteral}{"Voici les pizza présente dans catalogue des Vegetarien : \(\backslash\)n"};
+82             \textcolor{keywordflow}{foreach} (Pizza element \textcolor{keywordflow}{in} catalogueVegetarien)
+83             \{
+84                 Afficher += $\textcolor{stringliteral}{"\{element\} "};
+85             \}
+86             Afficher += \textcolor{stringliteral}{"\(\backslash\)n\(\backslash\)n"};
+87             Afficher += \textcolor{stringliteral}{"Voici les pizza présente dans catalogue des Pizzeta : \(\backslash\)n"};
+88             \textcolor{keywordflow}{foreach} (Pizza element \textcolor{keywordflow}{in} cataloguePizzeta)
+89             \{
+90                 Afficher += $\textcolor{stringliteral}{"\{element\} "};
+91             \}
+92             Afficher += \textcolor{stringliteral}{"\(\backslash\)n\(\backslash\)n"};
+93             Afficher += \textcolor{stringliteral}{"Voici les pizza présente dans catalogue des Carnivores : \(\backslash\)n"};
+94             \textcolor{keywordflow}{foreach} (Pizza element \textcolor{keywordflow}{in} catalogueCarnivore)
+95             \{
+96                 Afficher += $\textcolor{stringliteral}{"\{element\} "};
+97             \}
+98             Afficher += \textcolor{stringliteral}{"\(\backslash\)n\(\backslash\)n"};
+99             Afficher += \textcolor{stringliteral}{"Voici les pizza présente dans catalogue des Epices : \(\backslash\)n"};
+100             \textcolor{keywordflow}{foreach} (Pizza element \textcolor{keywordflow}{in} catalogueEpice)
+101             \{
+102                 Afficher += $\textcolor{stringliteral}{"\{element\} "};
+103             \}
+104 
+105             \textcolor{keywordflow}{return} Afficher;
+106         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classModele_1_1Catalogue_a4af9ef768f67cef6dfe545e22a6d63af}\label{classModele_1_1Catalogue_a4af9ef768f67cef6dfe545e22a6d63af}} 
+\index{Modele\+::\+Catalogue@{Modele\+::\+Catalogue}!Catalogue\+Carnivore@{Catalogue\+Carnivore}}
+\index{Catalogue\+Carnivore@{Catalogue\+Carnivore}!Modele\+::\+Catalogue@{Modele\+::\+Catalogue}}
+\subsubsection{\texorpdfstring{Catalogue\+Carnivore}{CatalogueCarnivore}}
+{\footnotesize\ttfamily Observable\+Collection$<$\hyperlink{classModele_1_1Pizza}{Pizza}$>$ Modele.\+Catalogue.\+Catalogue\+Carnivore\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{classModele_1_1Catalogue_a633610212f42551a5755212e21bedbca}\label{classModele_1_1Catalogue_a633610212f42551a5755212e21bedbca}} 
+\index{Modele\+::\+Catalogue@{Modele\+::\+Catalogue}!Catalogue\+Epice@{Catalogue\+Epice}}
+\index{Catalogue\+Epice@{Catalogue\+Epice}!Modele\+::\+Catalogue@{Modele\+::\+Catalogue}}
+\subsubsection{\texorpdfstring{Catalogue\+Epice}{CatalogueEpice}}
+{\footnotesize\ttfamily Observable\+Collection$<$\hyperlink{classModele_1_1Pizza}{Pizza}$>$ Modele.\+Catalogue.\+Catalogue\+Epice\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{classModele_1_1Catalogue_ac5490e1026b5b08d43e30b68da893423}\label{classModele_1_1Catalogue_ac5490e1026b5b08d43e30b68da893423}} 
+\index{Modele\+::\+Catalogue@{Modele\+::\+Catalogue}!Catalogue\+Pizzeta@{Catalogue\+Pizzeta}}
+\index{Catalogue\+Pizzeta@{Catalogue\+Pizzeta}!Modele\+::\+Catalogue@{Modele\+::\+Catalogue}}
+\subsubsection{\texorpdfstring{Catalogue\+Pizzeta}{CataloguePizzeta}}
+{\footnotesize\ttfamily Observable\+Collection$<$\hyperlink{classModele_1_1Pizza}{Pizza}$>$ Modele.\+Catalogue.\+Catalogue\+Pizzeta\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{classModele_1_1Catalogue_abd7d6d70ddd6ba264c1c91a5b084d9ba}\label{classModele_1_1Catalogue_abd7d6d70ddd6ba264c1c91a5b084d9ba}} 
+\index{Modele\+::\+Catalogue@{Modele\+::\+Catalogue}!Catalogue\+Vegetarien@{Catalogue\+Vegetarien}}
+\index{Catalogue\+Vegetarien@{Catalogue\+Vegetarien}!Modele\+::\+Catalogue@{Modele\+::\+Catalogue}}
+\subsubsection{\texorpdfstring{Catalogue\+Vegetarien}{CatalogueVegetarien}}
+{\footnotesize\ttfamily Observable\+Collection$<$\hyperlink{classModele_1_1Pizza}{Pizza}$>$ Modele.\+Catalogue.\+Catalogue\+Vegetarien\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Modele/\hyperlink{Catalogue_8cs}{Catalogue.\+cs}\end{DoxyCompactItemize}

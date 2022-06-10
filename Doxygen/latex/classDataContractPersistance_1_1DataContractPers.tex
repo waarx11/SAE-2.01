@@ -1,0 +1,113 @@
+\hypertarget{classDataContractPersistance_1_1DataContractPers}{}\section{Data\+Contract\+Persistance.\+Data\+Contract\+Pers Class Reference}
+\label{classDataContractPersistance_1_1DataContractPers}\index{Data\+Contract\+Persistance.\+Data\+Contract\+Pers@{Data\+Contract\+Persistance.\+Data\+Contract\+Pers}}
+
+
+Inheritance diagram for Data\+Contract\+Persistance.\+Data\+Contract\+Pers\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classDataContractPersistance_1_1DataContractPers__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Data\+Contract\+Persistance.\+Data\+Contract\+Pers\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classDataContractPersistance_1_1DataContractPers__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classDataContractPersistance_1_1DataContractPers_aa2ef70839fd63f14fab9aca02bd42528}{Sauvegarde\+Données} (I\+Enumerable$<$ \hyperlink{classModele_1_1Client}{Client} $>$ \hyperlink{classDataContractPersistance_1_1DataContractPers_a397297f0e263edc3771ed782292666ae}{client}, I\+Enumerable$<$ \hyperlink{classModele_1_1Administrateur}{Administrateur} $>$ admin, \hyperlink{classModele_1_1Catalogue}{Catalogue} C1)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+I\+Enumerable$<$ \hyperlink{classModele_1_1Client}{Client} $>$ \hyperlink{classDataContractPersistance_1_1DataContractPers_a397297f0e263edc3771ed782292666ae}{client}
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{classDataContractPersistance_1_1DataContractPers_ad82c0f6387b133099f996fe0f05e24ce}{File\+Path}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+string \hyperlink{classDataContractPersistance_1_1DataContractPers_a172cb757062bfbe80c8dfdca16fc368c}{File\+Name} = Path.\+Combine(Directory.\+Get\+Current\+Directory(), \char`\"{}X\+ML\char`\"{})\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classDataContractPersistance_1_1DataContractPers_aa2ef70839fd63f14fab9aca02bd42528}\label{classDataContractPersistance_1_1DataContractPers_aa2ef70839fd63f14fab9aca02bd42528}} 
+\index{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers@{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers}!Sauvegarde\+Données@{Sauvegarde\+Données}}
+\index{Sauvegarde\+Données@{Sauvegarde\+Données}!Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers@{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers}}
+\subsubsection{\texorpdfstring{Sauvegarde\+Données()}{SauvegardeDonnées()}}
+{\footnotesize\ttfamily void Data\+Contract\+Persistance.\+Data\+Contract\+Pers.\+Sauvegarde\+Données (\begin{DoxyParamCaption}\item[{I\+Enumerable$<$ \hyperlink{classModele_1_1Client}{Client} $>$}]{client,  }\item[{I\+Enumerable$<$ \hyperlink{classModele_1_1Administrateur}{Administrateur} $>$}]{admin,  }\item[{\hyperlink{classModele_1_1Catalogue}{Catalogue}}]{C1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Implements \hyperlink{interfaceModele_1_1IPersistanceManager_a1b1fcf75cf99ef247ad7f83b1e816ea4}{Modele.\+I\+Persistance\+Manager}.
+
+
+\begin{DoxyCode}
+46         \{
+47             
+48             \textcolor{keywordflow}{if}(!Directory.Exists(\hyperlink{classDataContractPersistance_1_1DataContractPers_ad82c0f6387b133099f996fe0f05e24ce}{FilePath}))
+49             \{
+50                 Directory.CreateDirectory(\hyperlink{classDataContractPersistance_1_1DataContractPers_ad82c0f6387b133099f996fe0f05e24ce}{FilePath});
+51             \}
+52 
+53             DataToPersist data = \textcolor{keyword}{new} DataToPersist();
+54             data.Clients.AddRange(\hyperlink{classDataContractPersistance_1_1DataContractPers_a397297f0e263edc3771ed782292666ae}{client}.ToDTOs());
+55             data.Admin.AddRange(admin.ToDTOs());
+56             data.Catalogues = C1;
+57 
+58             var settings = \textcolor{keyword}{new} XmlWriterSettings() \{ Indent = \textcolor{keyword}{true} \};
+59             \textcolor{keyword}{using} (TextWriter tw = File.CreateText(PersFile))
+60             \{
+61                 \textcolor{keyword}{using} (XmlWriter writer = XmlWriter.Create(tw, settings))
+62                 \{
+63                     Serializer.WriteObject(writer, data);
+64                 \}
+65             \}
+66         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classDataContractPersistance_1_1DataContractPers_a397297f0e263edc3771ed782292666ae}\label{classDataContractPersistance_1_1DataContractPers_a397297f0e263edc3771ed782292666ae}} 
+\index{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers@{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers}!client@{client}}
+\index{client@{client}!Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers@{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers}}
+\subsubsection{\texorpdfstring{client}{client}}
+{\footnotesize\ttfamily I\+Enumerable$<$\hyperlink{classModele_1_1Client}{Client}$>$ Data\+Contract\+Persistance.\+Data\+Contract\+Pers.\+client}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \textcolor{keyword}{new} DataContractSerializer(typeof(DataToPersist),
+                                                    \textcolor{keyword}{new} DataContractSerializerSettings()
+                                                    \{
+                                                        PreserveObjectReferences = \textcolor{keyword}{true}
+                                                    \})
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classDataContractPersistance_1_1DataContractPers_a172cb757062bfbe80c8dfdca16fc368c}\label{classDataContractPersistance_1_1DataContractPers_a172cb757062bfbe80c8dfdca16fc368c}} 
+\index{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers@{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers}!File\+Name@{File\+Name}}
+\index{File\+Name@{File\+Name}!Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers@{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers}}
+\subsubsection{\texorpdfstring{File\+Name}{FileName}}
+{\footnotesize\ttfamily string Data\+Contract\+Persistance.\+Data\+Contract\+Pers.\+File\+Name = Path.\+Combine(Directory.\+Get\+Current\+Directory(), \char`\"{}X\+ML\char`\"{})\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classDataContractPersistance_1_1DataContractPers_ad82c0f6387b133099f996fe0f05e24ce}\label{classDataContractPersistance_1_1DataContractPers_ad82c0f6387b133099f996fe0f05e24ce}} 
+\index{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers@{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers}!File\+Path@{File\+Path}}
+\index{File\+Path@{File\+Path}!Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers@{Data\+Contract\+Persistance\+::\+Data\+Contract\+Pers}}
+\subsubsection{\texorpdfstring{File\+Path}{FilePath}}
+{\footnotesize\ttfamily string Data\+Contract\+Persistance.\+Data\+Contract\+Pers.\+File\+Path\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/new\+Pizza/\+Data\+Contract\+Persistance/\hyperlink{DataContractPers_8cs}{Data\+Contract\+Pers.\+cs}\end{DoxyCompactItemize}

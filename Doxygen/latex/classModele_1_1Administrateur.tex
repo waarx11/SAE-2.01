@@ -1,0 +1,178 @@
+\hypertarget{classModele_1_1Administrateur}{}\section{Modele.\+Administrateur Class Reference}
+\label{classModele_1_1Administrateur}\index{Modele.\+Administrateur@{Modele.\+Administrateur}}
+
+
+Cette class permet de crée un administrateur et elle hérite de la class utilisateur  
+
+
+
+
+Inheritance diagram for Modele.\+Administrateur\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{classModele_1_1Administrateur__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Modele.\+Administrateur\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{classModele_1_1Administrateur__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classModele_1_1Administrateur_a40c3109f24be95eb818d4be43e77371d}{Administrateur} (string nom, string prénom, string email, string téléphone, string adresse, string ville, string code\+Postal, string mdp, string nom\+Pizzeria)
+\begin{DoxyCompactList}\small\item\em Construteur de la classe \hyperlink{classModele_1_1Administrateur}{Administrateur} \end{DoxyCompactList}\item 
+void \hyperlink{classModele_1_1Administrateur_a8a5f3e9868bb6c19d0b62f572d9d997d}{Changer\+Status\+Commande} (\hyperlink{classModele_1_1Commande}{Commande} C1)
+\begin{DoxyCompactList}\small\item\em Permet de modifier le status d\textquotesingle{}une commande \end{DoxyCompactList}\item 
+void \hyperlink{classModele_1_1Administrateur_af58fa8152718abdae5eb6e9b1bb01017}{Supp\+Commande} (\hyperlink{classModele_1_1Commande}{Commande} C1)
+\begin{DoxyCompactList}\small\item\em Permet de supprimer une commande \end{DoxyCompactList}\item 
+override string \hyperlink{classModele_1_1Administrateur_a71e57f381897a6adf83b43cdd1e47cde}{To\+String} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{classModele_1_1Administrateur_addbed2fd93cf904a6703d8debd758313}{Nom\+Pizzeria}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Observable\+Collection$<$ \hyperlink{classModele_1_1Commande}{Commande} $>$ \hyperlink{classModele_1_1Administrateur_ad73b7b5b20cd940be7176a42cffda851}{List\+Commande\+Admin}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Cette class permet de crée un administrateur et elle hérite de la class utilisateur 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classModele_1_1Administrateur_a40c3109f24be95eb818d4be43e77371d}\label{classModele_1_1Administrateur_a40c3109f24be95eb818d4be43e77371d}} 
+\index{Modele\+::\+Administrateur@{Modele\+::\+Administrateur}!Administrateur@{Administrateur}}
+\index{Administrateur@{Administrateur}!Modele\+::\+Administrateur@{Modele\+::\+Administrateur}}
+\subsubsection{\texorpdfstring{Administrateur()}{Administrateur()}}
+{\footnotesize\ttfamily Modele.\+Administrateur.\+Administrateur (\begin{DoxyParamCaption}\item[{string}]{nom,  }\item[{string}]{prénom,  }\item[{string}]{email,  }\item[{string}]{téléphone,  }\item[{string}]{adresse,  }\item[{string}]{ville,  }\item[{string}]{code\+Postal,  }\item[{string}]{mdp,  }\item[{string}]{nom\+Pizzeria }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construteur de la classe \hyperlink{classModele_1_1Administrateur}{Administrateur} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nom} & \\
+\hline
+{\em prénom} & \\
+\hline
+{\em email} & \\
+\hline
+{\em téléphone} & \\
+\hline
+{\em adresse} & \\
+\hline
+{\em ville} & \\
+\hline
+{\em code\+Postal} & \\
+\hline
+{\em nom\+Pizzeria} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+53             : base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
+54         \{
+55             \hyperlink{classModele_1_1Administrateur_addbed2fd93cf904a6703d8debd758313}{NomPizzeria} = nomPizzeria;
+56             \hyperlink{classModele_1_1Administrateur_ad73b7b5b20cd940be7176a42cffda851}{ListCommandeAdmin} = \textcolor{keyword}{new} ObservableCollection<Commande>();
+57         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classModele_1_1Administrateur_a8a5f3e9868bb6c19d0b62f572d9d997d}\label{classModele_1_1Administrateur_a8a5f3e9868bb6c19d0b62f572d9d997d}} 
+\index{Modele\+::\+Administrateur@{Modele\+::\+Administrateur}!Changer\+Status\+Commande@{Changer\+Status\+Commande}}
+\index{Changer\+Status\+Commande@{Changer\+Status\+Commande}!Modele\+::\+Administrateur@{Modele\+::\+Administrateur}}
+\subsubsection{\texorpdfstring{Changer\+Status\+Commande()}{ChangerStatusCommande()}}
+{\footnotesize\ttfamily void Modele.\+Administrateur.\+Changer\+Status\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Commande}{Commande}}]{C1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet de modifier le status d\textquotesingle{}une commande 
+
+
+\begin{DoxyParams}{Parameters}
+{\em C1} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+64         \{
+65             \textcolor{keywordflow}{if} (C1 == null)
+66                 \textcolor{keywordflow}{return};
+67 
+68             \textcolor{keywordflow}{if} (\hyperlink{classModele_1_1Administrateur_ad73b7b5b20cd940be7176a42cffda851}{ListCommandeAdmin}.Contains(C1))
+69             \{
+70                 C1.changerStatus();
+71                 \textcolor{keywordflow}{if} (C1.Statut == \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.Finir)
+72                 \{
+73                     \hyperlink{classModele_1_1Administrateur_ad73b7b5b20cd940be7176a42cffda851}{ListCommandeAdmin}.Remove(C1);
+74                 \}
+75             \}
+76         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Administrateur_af58fa8152718abdae5eb6e9b1bb01017}\label{classModele_1_1Administrateur_af58fa8152718abdae5eb6e9b1bb01017}} 
+\index{Modele\+::\+Administrateur@{Modele\+::\+Administrateur}!Supp\+Commande@{Supp\+Commande}}
+\index{Supp\+Commande@{Supp\+Commande}!Modele\+::\+Administrateur@{Modele\+::\+Administrateur}}
+\subsubsection{\texorpdfstring{Supp\+Commande()}{SuppCommande()}}
+{\footnotesize\ttfamily void Modele.\+Administrateur.\+Supp\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Commande}{Commande}}]{C1 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet de supprimer une commande 
+
+
+\begin{DoxyParams}{Parameters}
+{\em C1} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+83         \{
+84             \hyperlink{classModele_1_1Administrateur_ad73b7b5b20cd940be7176a42cffda851}{ListCommandeAdmin}.Remove(C1);
+85         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Administrateur_a71e57f381897a6adf83b43cdd1e47cde}\label{classModele_1_1Administrateur_a71e57f381897a6adf83b43cdd1e47cde}} 
+\index{Modele\+::\+Administrateur@{Modele\+::\+Administrateur}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Modele\+::\+Administrateur@{Modele\+::\+Administrateur}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Modele.\+Administrateur.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+88         \{
+89             \textcolor{keywordflow}{return} $\textcolor{stringliteral}{"\{base.ToString()\} \{nomPizzeria\}"};
+90         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classModele_1_1Administrateur_ad73b7b5b20cd940be7176a42cffda851}\label{classModele_1_1Administrateur_ad73b7b5b20cd940be7176a42cffda851}} 
+\index{Modele\+::\+Administrateur@{Modele\+::\+Administrateur}!List\+Commande\+Admin@{List\+Commande\+Admin}}
+\index{List\+Commande\+Admin@{List\+Commande\+Admin}!Modele\+::\+Administrateur@{Modele\+::\+Administrateur}}
+\subsubsection{\texorpdfstring{List\+Commande\+Admin}{ListCommandeAdmin}}
+{\footnotesize\ttfamily Observable\+Collection$<$\hyperlink{classModele_1_1Commande}{Commande}$>$ Modele.\+Administrateur.\+List\+Commande\+Admin\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classModele_1_1Administrateur_addbed2fd93cf904a6703d8debd758313}\label{classModele_1_1Administrateur_addbed2fd93cf904a6703d8debd758313}} 
+\index{Modele\+::\+Administrateur@{Modele\+::\+Administrateur}!Nom\+Pizzeria@{Nom\+Pizzeria}}
+\index{Nom\+Pizzeria@{Nom\+Pizzeria}!Modele\+::\+Administrateur@{Modele\+::\+Administrateur}}
+\subsubsection{\texorpdfstring{Nom\+Pizzeria}{NomPizzeria}}
+{\footnotesize\ttfamily string Modele.\+Administrateur.\+Nom\+Pizzeria\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Modele/\hyperlink{Administrateur_8cs}{Administrateur.\+cs}\end{DoxyCompactItemize}

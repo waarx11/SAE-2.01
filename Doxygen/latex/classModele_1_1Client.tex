@@ -1,0 +1,267 @@
+\hypertarget{classModele_1_1Client}{}\section{Modele.\+Client Class Reference}
+\label{classModele_1_1Client}\index{Modele.\+Client@{Modele.\+Client}}
+
+
+Cette class permet de crée un client et elle hérite de la class utilisateur  
+
+
+
+
+Inheritance diagram for Modele.\+Client\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{classModele_1_1Client__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Modele.\+Client\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{classModele_1_1Client__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classModele_1_1Client_a3799aa993898124e3be733ea75b4993b}{Client} (string nom, string prénom, string email, string téléphone, string adresse, string ville, string code\+Postal, string mdp, string pseudo, string photo=null)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \hyperlink{classModele_1_1Client}{Client} \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Client_aa2311a3633592b4b5e1910f2be4c632d}{Client} (string email, string pseudo, string mdp)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \hyperlink{classModele_1_1Client}{Client} \end{DoxyCompactList}\item 
+override string \hyperlink{classModele_1_1Client_a2b501ef9cac78e16336bef494ac6a7d8}{To\+String} ()
+\begin{DoxyCompactList}\small\item\em Affiche les informations du client \end{DoxyCompactList}\item 
+void \hyperlink{classModele_1_1Client_a7c4008e301891dd0d1f9e00f44e7adea}{envoyer\+Liste\+Commande} (\hyperlink{classModele_1_1Commande}{Commande} c, \hyperlink{classModele_1_1Administrateur}{Administrateur} admin)
+\begin{DoxyCompactList}\small\item\em Envoie la liste de commande du client à l\textquotesingle{}administrateur et la vide une fois fait \end{DoxyCompactList}\item 
+void \hyperlink{classModele_1_1Client_a328e03bcb8a1b69483ae0fa2ee6e188e}{ajouter\+Pizza\+Commande} (\hyperlink{classModele_1_1Pizza}{Pizza} p)
+\begin{DoxyCompactList}\small\item\em Ajoute une pizza a la liste des commande du client \end{DoxyCompactList}\item 
+void \hyperlink{classModele_1_1Client_ab99de8213e703e5742b1f2c7505fd1ea}{supprimer\+Pizza\+Commande} (\hyperlink{classModele_1_1Pizza}{Pizza} p)
+\begin{DoxyCompactList}\small\item\em Supprime une pizza de la liste des commande du client \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{classModele_1_1Client_a56ea6461c998b196068f435e003d48d3}{Pseudo}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Pseudo de l\textquotesingle{}utilisateur \end{DoxyCompactList}\item 
+string \hyperlink{classModele_1_1Client_a631e7a15fd8974dd434d5801ee95cafa}{Photo}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$ \hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{List\+Pizza\+Client}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Cette class permet de crée un client et elle hérite de la class utilisateur 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classModele_1_1Client_a3799aa993898124e3be733ea75b4993b}\label{classModele_1_1Client_a3799aa993898124e3be733ea75b4993b}} 
+\index{Modele\+::\+Client@{Modele\+::\+Client}!Client@{Client}}
+\index{Client@{Client}!Modele\+::\+Client@{Modele\+::\+Client}}
+\subsubsection{\texorpdfstring{Client()}{Client()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Modele.\+Client.\+Client (\begin{DoxyParamCaption}\item[{string}]{nom,  }\item[{string}]{prénom,  }\item[{string}]{email,  }\item[{string}]{téléphone,  }\item[{string}]{adresse,  }\item[{string}]{ville,  }\item[{string}]{code\+Postal,  }\item[{string}]{mdp,  }\item[{string}]{pseudo,  }\item[{string}]{photo = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructeur de la classe \hyperlink{classModele_1_1Client}{Client} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nom} & \\
+\hline
+{\em prénom} & \\
+\hline
+{\em email} & \\
+\hline
+{\em téléphone} & \\
+\hline
+{\em adresse} & \\
+\hline
+{\em ville} & \\
+\hline
+{\em code\+Postal} & \\
+\hline
+{\em pseudo} & \\
+\hline
+{\em photo} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+73             : base(nom, prénom, email, téléphone, adresse, ville, codePostal, mdp)
+74         \{
+75             \hyperlink{classModele_1_1Client_a56ea6461c998b196068f435e003d48d3}{Pseudo} = pseudo;
+76             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{string}.IsNullOrWhiteSpace(photo))
+77             \{
+78                 \hyperlink{classModele_1_1Client_a631e7a15fd8974dd434d5801ee95cafa}{Photo} = \textcolor{stringliteral}{"..\(\backslash\)\(\backslash\)img\(\backslash\)\(\backslash\)default\(\backslash\)\(\backslash\)noPP.jpg"};
+79             \}
+80             \textcolor{keywordflow}{else}
+81             \{
+82                 \hyperlink{classModele_1_1Client_a631e7a15fd8974dd434d5801ee95cafa}{Photo} = photo;
+83             \}
+84             \hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient} = \textcolor{keyword}{new} ObservableCollection<Pizza>();
+85         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Client_aa2311a3633592b4b5e1910f2be4c632d}\label{classModele_1_1Client_aa2311a3633592b4b5e1910f2be4c632d}} 
+\index{Modele\+::\+Client@{Modele\+::\+Client}!Client@{Client}}
+\index{Client@{Client}!Modele\+::\+Client@{Modele\+::\+Client}}
+\subsubsection{\texorpdfstring{Client()}{Client()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Modele.\+Client.\+Client (\begin{DoxyParamCaption}\item[{string}]{email,  }\item[{string}]{pseudo,  }\item[{string}]{mdp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructeur de la classe \hyperlink{classModele_1_1Client}{Client} 
+
+
+\begin{DoxyParams}{Parameters}
+{\em email} & \\
+\hline
+{\em pseudo} & \\
+\hline
+{\em mdp} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+94             : \textcolor{keyword}{this}(\textcolor{stringliteral}{""}, \textcolor{stringliteral}{""}, email, \textcolor{stringliteral}{""}, \textcolor{stringliteral}{""}, \textcolor{stringliteral}{""}, \textcolor{stringliteral}{""}, mdp, pseudo, \textcolor{stringliteral}{""})
+95         \{ \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classModele_1_1Client_a328e03bcb8a1b69483ae0fa2ee6e188e}\label{classModele_1_1Client_a328e03bcb8a1b69483ae0fa2ee6e188e}} 
+\index{Modele\+::\+Client@{Modele\+::\+Client}!ajouter\+Pizza\+Commande@{ajouter\+Pizza\+Commande}}
+\index{ajouter\+Pizza\+Commande@{ajouter\+Pizza\+Commande}!Modele\+::\+Client@{Modele\+::\+Client}}
+\subsubsection{\texorpdfstring{ajouter\+Pizza\+Commande()}{ajouterPizzaCommande()}}
+{\footnotesize\ttfamily void Modele.\+Client.\+ajouter\+Pizza\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajoute une pizza a la liste des commande du client 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+122         \{
+123             \textcolor{keywordflow}{if} (p == null)
+124                 \textcolor{keywordflow}{return};
+125 
+126             
+127             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (!\hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient}.Contains(p))
+128             \{
+129                 \hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient}.Add(p);
+130             \}
+131             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient}.Contains(p))
+132             \{
+133                 p.modifQte(1);
+134             \}
+135         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Client_a7c4008e301891dd0d1f9e00f44e7adea}\label{classModele_1_1Client_a7c4008e301891dd0d1f9e00f44e7adea}} 
+\index{Modele\+::\+Client@{Modele\+::\+Client}!envoyer\+Liste\+Commande@{envoyer\+Liste\+Commande}}
+\index{envoyer\+Liste\+Commande@{envoyer\+Liste\+Commande}!Modele\+::\+Client@{Modele\+::\+Client}}
+\subsubsection{\texorpdfstring{envoyer\+Liste\+Commande()}{envoyerListeCommande()}}
+{\footnotesize\ttfamily void Modele.\+Client.\+envoyer\+Liste\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Commande}{Commande}}]{c,  }\item[{\hyperlink{classModele_1_1Administrateur}{Administrateur}}]{admin }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Envoie la liste de commande du client à l\textquotesingle{}administrateur et la vide une fois fait 
+
+
+\begin{DoxyParams}{Parameters}
+{\em admin} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+111         \{
+112             admin.ListCommandeAdmin.Add(c);
+113             \hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient} = \textcolor{keyword}{new} ObservableCollection<Pizza>();
+114         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Client_ab99de8213e703e5742b1f2c7505fd1ea}\label{classModele_1_1Client_ab99de8213e703e5742b1f2c7505fd1ea}} 
+\index{Modele\+::\+Client@{Modele\+::\+Client}!supprimer\+Pizza\+Commande@{supprimer\+Pizza\+Commande}}
+\index{supprimer\+Pizza\+Commande@{supprimer\+Pizza\+Commande}!Modele\+::\+Client@{Modele\+::\+Client}}
+\subsubsection{\texorpdfstring{supprimer\+Pizza\+Commande()}{supprimerPizzaCommande()}}
+{\footnotesize\ttfamily void Modele.\+Client.\+supprimer\+Pizza\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Supprime une pizza de la liste des commande du client 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+143         \{
+144             \textcolor{keywordflow}{if} (\hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient}.Contains(p))
+145             \{
+146                 \hyperlink{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}{ListPizzaClient}.Remove(p);
+147             \}
+148         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Client_a2b501ef9cac78e16336bef494ac6a7d8}\label{classModele_1_1Client_a2b501ef9cac78e16336bef494ac6a7d8}} 
+\index{Modele\+::\+Client@{Modele\+::\+Client}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Modele\+::\+Client@{Modele\+::\+Client}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Modele.\+Client.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Affiche les informations du client 
+
+\begin{DoxyReturn}{Returns}
+chaine de caractère
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+102         \{
+103             \textcolor{keywordflow}{return} $\textcolor{stringliteral}{"\{base.ToString()\} \{Pseudo\} \{Photo\}"};
+104         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}\label{classModele_1_1Client_a14c37e4b9ab856a1e36b7c1610a0536c}} 
+\index{Modele\+::\+Client@{Modele\+::\+Client}!List\+Pizza\+Client@{List\+Pizza\+Client}}
+\index{List\+Pizza\+Client@{List\+Pizza\+Client}!Modele\+::\+Client@{Modele\+::\+Client}}
+\subsubsection{\texorpdfstring{List\+Pizza\+Client}{ListPizzaClient}}
+{\footnotesize\ttfamily Observable\+Collection$<$\hyperlink{classModele_1_1Pizza}{Pizza}$>$ Modele.\+Client.\+List\+Pizza\+Client\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classModele_1_1Client_a631e7a15fd8974dd434d5801ee95cafa}\label{classModele_1_1Client_a631e7a15fd8974dd434d5801ee95cafa}} 
+\index{Modele\+::\+Client@{Modele\+::\+Client}!Photo@{Photo}}
+\index{Photo@{Photo}!Modele\+::\+Client@{Modele\+::\+Client}}
+\subsubsection{\texorpdfstring{Photo}{Photo}}
+{\footnotesize\ttfamily string Modele.\+Client.\+Photo\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classModele_1_1Client_a56ea6461c998b196068f435e003d48d3}\label{classModele_1_1Client_a56ea6461c998b196068f435e003d48d3}} 
+\index{Modele\+::\+Client@{Modele\+::\+Client}!Pseudo@{Pseudo}}
+\index{Pseudo@{Pseudo}!Modele\+::\+Client@{Modele\+::\+Client}}
+\subsubsection{\texorpdfstring{Pseudo}{Pseudo}}
+{\footnotesize\ttfamily string Modele.\+Client.\+Pseudo\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Pseudo de l\textquotesingle{}utilisateur 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Modele/\hyperlink{Client_8cs}{Client.\+cs}\end{DoxyCompactItemize}

@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classModele_1_1Utilisateur.html" title="Modele.Utilisateur" alt="" coords="220,5,347,32"/>
+<area shape="rect" id="node3" href="$classModele_1_1Administrateur.html" title="Cette class permet de crée un administrateur et elle hérite de la class utilisateur ..." alt="" coords="399,5,551,32"/>
+<area shape="rect" id="node4" href="$classModele_1_1Client.html" title="Cette class permet de crée un client et elle hérite de la class utilisateur " alt="" coords="423,56,526,83"/>
+<area shape="rect" id="node6" href="$classModele_1_1Commande.html" title="Cette fonction permet a un client de passer une commande " alt="" coords="216,107,351,133"/>
+<area shape="rect" id="node7" href="$classModele_1_1Manager.html" title="Ceci est une partie du manager et il correspond a la partie Catalogue de pizza " alt="" coords="224,157,343,184"/>
+<area shape="rect" id="node8" href="$classModele_1_1Pizza.html" title="Représente une Pizza " alt="" coords="233,208,334,235"/>
+</map>

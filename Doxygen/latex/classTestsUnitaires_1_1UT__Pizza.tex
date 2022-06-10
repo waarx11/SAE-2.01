@@ -1,0 +1,118 @@
+\hypertarget{classTestsUnitaires_1_1UT__Pizza}{}\section{Tests\+Unitaires.\+U\+T\+\_\+\+Pizza Class Reference}
+\label{classTestsUnitaires_1_1UT__Pizza}\index{Tests\+Unitaires.\+U\+T\+\_\+\+Pizza@{Tests\+Unitaires.\+U\+T\+\_\+\+Pizza}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classTestsUnitaires_1_1UT__Pizza_a53db9a1f04d1836cb6355ee8276a35c3}{T\+E\+S\+T\+\_\+\+Ctor} (string nom, string description, string image, int prix, string expect\+Nom, string expect\+Desc, string expect\+Image, int expect\+Prix)
+\item 
+void \hyperlink{classTestsUnitaires_1_1UT__Pizza_a77cfc68a92a325bc22628fbe4bcd33d3}{T\+E\+S\+T\+\_\+modif\+Qte} (int valeur, int exp\+Qte)
+\item 
+void \hyperlink{classTestsUnitaires_1_1UT__Pizza_a3c9f2881e18fb4133216ce0b53422279}{T\+E\+S\+T\+\_\+\+To\+String} (string nom, string description, string image, int prix, string expect\+Nom, string expect\+Desc, string expect\+Image, int expect\+Prix)
+\item 
+void \hyperlink{classTestsUnitaires_1_1UT__Pizza_ae20325fca683e14a79d53554b3655298}{T\+E\+S\+T\+\_\+\+Equals} (string nom1, string nom2, bool expect\+Result)
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classTestsUnitaires_1_1UT__Pizza_a53db9a1f04d1836cb6355ee8276a35c3}\label{classTestsUnitaires_1_1UT__Pizza_a53db9a1f04d1836cb6355ee8276a35c3}} 
+\index{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza}!T\+E\+S\+T\+\_\+\+Ctor@{T\+E\+S\+T\+\_\+\+Ctor}}
+\index{T\+E\+S\+T\+\_\+\+Ctor@{T\+E\+S\+T\+\_\+\+Ctor}!Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T\+\_\+\+Ctor()}{TEST\_Ctor()}}
+{\footnotesize\ttfamily void Tests\+Unitaires.\+U\+T\+\_\+\+Pizza.\+T\+E\+S\+T\+\_\+\+Ctor (\begin{DoxyParamCaption}\item[{string}]{nom,  }\item[{string}]{description,  }\item[{string}]{image,  }\item[{int}]{prix,  }\item[{string}]{expect\+Nom,  }\item[{string}]{expect\+Desc,  }\item[{string}]{expect\+Image,  }\item[{int}]{expect\+Prix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+19         \{
+20             List<Ingredients> liste = \textcolor{keyword}{new} List<Ingredients> \{ (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})53, (
+      \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})0 \};
+21             \hyperlink{classModele_1_1Pizza}{Pizza} p = \textcolor{keyword}{new} \hyperlink{classModele_1_1Pizza}{Pizza}(nom, description, image, liste, prix);
+22             Assert.Equal(expectNom, p.\hyperlink{classModele_1_1Pizza_acd4ac908946cc662e4d4dc6e77b302d1}{Nom});
+23             Assert.Equal(expectDesc, p.\hyperlink{classModele_1_1Pizza_a5e6e4375e83eebb37581adcbebf9b045}{Description});
+24             Assert.Equal(expectImage, p.\hyperlink{classModele_1_1Pizza_ababa571729fe09ebe01cf875451999ea}{ImageName});
+25             Assert.Equal(expectPrix, p.\hyperlink{classModele_1_1Pizza_a8a8c0efc22d46be85489d220228733ca}{Prix});
+26             Assert.Equal(liste, p.\hyperlink{classModele_1_1Pizza_ae05b1d6e08e5f801e3902c9c572a530b}{listIngredient});
+27         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classTestsUnitaires_1_1UT__Pizza_ae20325fca683e14a79d53554b3655298}\label{classTestsUnitaires_1_1UT__Pizza_ae20325fca683e14a79d53554b3655298}} 
+\index{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza}!T\+E\+S\+T\+\_\+\+Equals@{T\+E\+S\+T\+\_\+\+Equals}}
+\index{T\+E\+S\+T\+\_\+\+Equals@{T\+E\+S\+T\+\_\+\+Equals}!Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T\+\_\+\+Equals()}{TEST\_Equals()}}
+{\footnotesize\ttfamily void Tests\+Unitaires.\+U\+T\+\_\+\+Pizza.\+T\+E\+S\+T\+\_\+\+Equals (\begin{DoxyParamCaption}\item[{string}]{nom1,  }\item[{string}]{nom2,  }\item[{bool}]{expect\+Result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+76         \{
+77             List<Ingredients> liste = \textcolor{keyword}{new} List<Ingredients> \{ (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})53, (
+      \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})0 \};
+78             \hyperlink{classModele_1_1Pizza}{Pizza} p1 = \textcolor{keyword}{new} \hyperlink{classModele_1_1Pizza}{Pizza}(nom1, \textcolor{stringliteral}{"Description"}, \textcolor{stringliteral}{"Image"}, liste, 10);
+79             \hyperlink{classModele_1_1Pizza}{Pizza} p2 = \textcolor{keyword}{new} \hyperlink{classModele_1_1Pizza}{Pizza}(nom2, \textcolor{stringliteral}{"Description"}, \textcolor{stringliteral}{"Image"}, liste, 10);
+80             \textcolor{keywordtype}{bool} result = p1.\hyperlink{classModele_1_1Pizza_aae4081338f65215bfcdc7845de6429e9}{Equals}(p2);
+81             Assert.Equal(expectResult, result);
+82 
+83         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classTestsUnitaires_1_1UT__Pizza_a77cfc68a92a325bc22628fbe4bcd33d3}\label{classTestsUnitaires_1_1UT__Pizza_a77cfc68a92a325bc22628fbe4bcd33d3}} 
+\index{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza}!T\+E\+S\+T\+\_\+modif\+Qte@{T\+E\+S\+T\+\_\+modif\+Qte}}
+\index{T\+E\+S\+T\+\_\+modif\+Qte@{T\+E\+S\+T\+\_\+modif\+Qte}!Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T\+\_\+modif\+Qte()}{TEST\_modifQte()}}
+{\footnotesize\ttfamily void Tests\+Unitaires.\+U\+T\+\_\+\+Pizza.\+T\+E\+S\+T\+\_\+modif\+Qte (\begin{DoxyParamCaption}\item[{int}]{valeur,  }\item[{int}]{exp\+Qte }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+34         \{
+35             List<Ingredients> liste = \textcolor{keyword}{new} List<Ingredients> \{ (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})53, (
+      \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})0 \};
+36             \hyperlink{classModele_1_1Pizza}{Pizza} p = \textcolor{keyword}{new} \hyperlink{classModele_1_1Pizza}{Pizza}(\textcolor{stringliteral}{"Salmone"}, \textcolor{stringliteral}{"Une pizza au saumon d'origine normande"}, \textcolor{stringliteral}{"default\(\backslash\)n
+      oImg.png"}, liste, 13);
+37             p.\hyperlink{classModele_1_1Pizza_a86b98da27e7ada45355e8576792d75c5}{modifQte}(valeur);
+38             Assert.Equal(expQte, p.Quantité
+        \}
+);
+39         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classTestsUnitaires_1_1UT__Pizza_a3c9f2881e18fb4133216ce0b53422279}\label{classTestsUnitaires_1_1UT__Pizza_a3c9f2881e18fb4133216ce0b53422279}} 
+\index{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza}!T\+E\+S\+T\+\_\+\+To\+String@{T\+E\+S\+T\+\_\+\+To\+String}}
+\index{T\+E\+S\+T\+\_\+\+To\+String@{T\+E\+S\+T\+\_\+\+To\+String}!Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza@{Tests\+Unitaires\+::\+U\+T\+\_\+\+Pizza}}
+\subsubsection{\texorpdfstring{T\+E\+S\+T\+\_\+\+To\+String()}{TEST\_ToString()}}
+{\footnotesize\ttfamily void Tests\+Unitaires.\+U\+T\+\_\+\+Pizza.\+T\+E\+S\+T\+\_\+\+To\+String (\begin{DoxyParamCaption}\item[{string}]{nom,  }\item[{string}]{description,  }\item[{string}]{image,  }\item[{int}]{prix,  }\item[{string}]{expect\+Nom,  }\item[{string}]{expect\+Desc,  }\item[{string}]{expect\+Image,  }\item[{int}]{expect\+Prix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+50         \{
+51             List<Ingredients> liste = \textcolor{keyword}{new} List<Ingredients> \{ (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})53, (
+      \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients})0 \};
+52             \hyperlink{classModele_1_1Pizza}{Pizza} p = \textcolor{keyword}{new} \hyperlink{classModele_1_1Pizza}{Pizza}(nom, description, image, liste, prix);
+53             \textcolor{comment}{//p.Quantité = quantité;            string expectedAfficher = $"\{expectNom\} \{expectDesc\}
+       \{expectImage\} ";
+            foreach (Ingredients element in liste)
+            \{
+                expectedAfficher += $"\{element\} ";
+            \}
+            expectedAfficher += $"\{expectPrix\} \{p.Quantité\} ";
+
+            Assert.Equal(expectedAfficher, p.ToString());
+
+            Console.WriteLine(expectedAfficher);
+            Console.WriteLine(p.ToString());
+
+        \}
+}
+54             \textcolor{keywordtype}{string} expectedAfficher = $\textcolor{stringliteral}{"\{expectNom\} \{expectDesc\} \{expectImage\} "};
+55             \textcolor{keywordflow}{foreach} (\hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients} element \textcolor{keywordflow}{in} liste)
+56             \{
+57                 expectedAfficher += $\textcolor{stringliteral}{"\{element\} "};
+58             \}
+59             expectedAfficher += $\textcolor{stringliteral}{"\{expectPrix\} \{p.Quantité\} "};
+60 
+61             Assert.Equal(expectedAfficher, p.\hyperlink{classModele_1_1Pizza_a5bcf4dd5b39ed12e3085aa2c92e9d33b}{ToString}());
+62 
+63             Console.WriteLine(expectedAfficher);
+64             Console.WriteLine(p.\hyperlink{classModele_1_1Pizza_a5bcf4dd5b39ed12e3085aa2c92e9d33b}{ToString}());
+65 
+66         \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Tests\+Unitaires/\hyperlink{UT__Pizza_8cs}{U\+T\+\_\+\+Pizza.\+cs}\end{DoxyCompactItemize}

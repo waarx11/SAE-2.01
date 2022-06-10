@@ -1,0 +1,234 @@
+\hypertarget{classnewPizza1_1_1App}{}\section{new\+Pizza1.\+App Class Reference}
+\label{classnewPizza1_1_1App}\index{new\+Pizza1.\+App@{new\+Pizza1.\+App}}
+
+
+Interaction logic for App.\+xaml  
+
+
+
+
+Inheritance diagram for new\+Pizza1.\+App\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{classnewPizza1_1_1App__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for new\+Pizza1.\+App\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{classnewPizza1_1_1App__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classnewPizza1_1_1App_aa51871ad89d5c680db7878c58c80e98e}{App} ()
+\item 
+void \hyperlink{classnewPizza1_1_1App_adb889537b1e18b9309daa743947fd0db}{App\+\_\+end} (object sender, Exit\+Event\+Args e)
+\item 
+void \hyperlink{classnewPizza1_1_1App_a437c6582c386ee3f9ee1419133aae6be}{Initialize\+Component} ()
+\begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
+void \hyperlink{classnewPizza1_1_1App_a437c6582c386ee3f9ee1419133aae6be}{Initialize\+Component} ()
+\begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classnewPizza1_1_1App_ab05f0e942749365a0b09024da23f09c4}{Main} ()
+\begin{DoxyCompactList}\small\item\em Application Entry Point. \end{DoxyCompactList}\item 
+static void \hyperlink{classnewPizza1_1_1App_ab05f0e942749365a0b09024da23f09c4}{Main} ()
+\begin{DoxyCompactList}\small\item\em Application Entry Point. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classModele_1_1Manager}{Manager} \hyperlink{classnewPizza1_1_1App_a40f3adef1e0176c5730f8d9ba525c010}{Le\+Manager}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interaction logic for App.\+xaml 
+
+\hyperlink{classnewPizza1_1_1App}{App} 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnewPizza1_1_1App_aa51871ad89d5c680db7878c58c80e98e}\label{classnewPizza1_1_1App_aa51871ad89d5c680db7878c58c80e98e}} 
+\index{new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}!App@{App}}
+\index{App@{App}!new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}}
+\subsubsection{\texorpdfstring{App()}{App()}}
+{\footnotesize\ttfamily new\+Pizza1.\+App.\+App (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+19                      :base()
+20         \{
+21             \hyperlink{classnewPizza1_1_1App_a40f3adef1e0176c5730f8d9ba525c010}{LeManager}.\hyperlink{classModele_1_1Manager_af864593f2ec5d93e298e54c838316bd6}{ChargeDonnées}();
+22         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnewPizza1_1_1App_adb889537b1e18b9309daa743947fd0db}\label{classnewPizza1_1_1App_adb889537b1e18b9309daa743947fd0db}} 
+\index{new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}!App\+\_\+end@{App\+\_\+end}}
+\index{App\+\_\+end@{App\+\_\+end}!new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}}
+\subsubsection{\texorpdfstring{App\+\_\+end()}{App\_end()}}
+{\footnotesize\ttfamily void new\+Pizza1.\+App.\+App\+\_\+end (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Exit\+Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+25         \{
+26             \textcolor{keywordflow}{foreach} (var catVe \textcolor{keywordflow}{in} \hyperlink{classnewPizza1_1_1App_a40f3adef1e0176c5730f8d9ba525c010}{LeManager}.\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_abd7d6d70ddd6ba264c1c91a5b084d9ba}{CatalogueVegetarien})
+27             \{
+28                 catVe.Quantité = 1;
+29             \}
+30             \textcolor{keywordflow}{foreach} (var catEp \textcolor{keywordflow}{in} \hyperlink{classnewPizza1_1_1App_a40f3adef1e0176c5730f8d9ba525c010}{LeManager}.\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a633610212f42551a5755212e21bedbca}{CatalogueEpice})
+31             \{
+32                 catEp.Quantité = 1;
+33             \}
+34             \textcolor{keywordflow}{foreach} (var catCa \textcolor{keywordflow}{in} \hyperlink{classnewPizza1_1_1App_a40f3adef1e0176c5730f8d9ba525c010}{LeManager}.\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a4af9ef768f67cef6dfe545e22a6d63af}{CatalogueCarnivore})
+35             \{
+36                 catCa.Quantité = 1;
+37             \}
+38             \textcolor{keywordflow}{foreach} (var catV \textcolor{keywordflow}{in} \hyperlink{classnewPizza1_1_1App_a40f3adef1e0176c5730f8d9ba525c010}{LeManager}.\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_ac5490e1026b5b08d43e30b68da893423}{CataloguePizzeta})
+39             \{
+40                 catV.Quantité = 1;
+41             \}
+42 
+43             \hyperlink{classnewPizza1_1_1App_a40f3adef1e0176c5730f8d9ba525c010}{LeManager}.\hyperlink{classModele_1_1Manager_a1401389e33f047e9fd896ee0383fd01f}{SauvegardeDonnées}();
+44         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classnewPizza1_1_1App_a437c6582c386ee3f9ee1419133aae6be}\label{classnewPizza1_1_1App_a437c6582c386ee3f9ee1419133aae6be}} 
+\index{new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}!Initialize\+Component@{Initialize\+Component}}
+\index{Initialize\+Component@{Initialize\+Component}!new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}}
+\subsubsection{\texorpdfstring{Initialize\+Component()}{InitializeComponent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void new\+Pizza1.\+App.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialize\+Component 
+
+
+\begin{DoxyCode}
+54                                           \{
+55             \textcolor{keywordflow}{if} (\_contentLoaded) \{
+56                 \textcolor{keywordflow}{return};
+57             \}
+58             \_contentLoaded = \textcolor{keyword}{true};
+59             
+60 \textcolor{preprocessor}{            #line 6 "..\(\backslash\)..\(\backslash\)..\(\backslash\)App.xaml"}
+61             this.Exit += \textcolor{keyword}{new} \hyperlink{namespaceSystem}{System}.Windows.ExitEventHandler(this.\hyperlink{classnewPizza1_1_1App_adb889537b1e18b9309daa743947fd0db}{App\_end});
+62             
+63 \textcolor{preprocessor}{            #line default}
+64 \textcolor{preprocessor}{            #line hidden}
+65             
+66 \textcolor{preprocessor}{            #line 5 "..\(\backslash\)..\(\backslash\)..\(\backslash\)App.xaml"}
+67             this.StartupUri = \textcolor{keyword}{new} \hyperlink{namespaceSystem}{System}.Uri(\textcolor{stringliteral}{"pages\(\backslash\)\(\backslash\)pageIdentification.xaml"}, 
+      \hyperlink{namespaceSystem}{System}.UriKind.Relative);
+68             
+69 \textcolor{preprocessor}{            #line default}
+70 \textcolor{preprocessor}{            #line hidden}
+71             \hyperlink{namespaceSystem}{System}.Uri resourceLocater = \textcolor{keyword}{new} \hyperlink{namespaceSystem}{System}.Uri(\textcolor{stringliteral}{"/newPizza1;V1.0.0.0;component/app.xaml
+      "}, \hyperlink{namespaceSystem}{System}.UriKind.Relative);
+72             
+73 \textcolor{preprocessor}{            #line 1 "..\(\backslash\)..\(\backslash\)..\(\backslash\)App.xaml"}
+74             \hyperlink{namespaceSystem}{System}.Windows.Application.LoadComponent(\textcolor{keyword}{this}, resourceLocater);
+75             
+76 \textcolor{preprocessor}{            #line default}
+77 \textcolor{preprocessor}{            #line hidden}
+78         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classnewPizza1_1_1App_a437c6582c386ee3f9ee1419133aae6be}\label{classnewPizza1_1_1App_a437c6582c386ee3f9ee1419133aae6be}} 
+\index{new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}!Initialize\+Component@{Initialize\+Component}}
+\index{Initialize\+Component@{Initialize\+Component}!new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}}
+\subsubsection{\texorpdfstring{Initialize\+Component()}{InitializeComponent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void new\+Pizza1.\+App.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialize\+Component 
+
+
+\begin{DoxyCode}
+54                                           \{
+55             \textcolor{keywordflow}{if} (\_contentLoaded) \{
+56                 \textcolor{keywordflow}{return};
+57             \}
+58             \_contentLoaded = \textcolor{keyword}{true};
+59             
+60 \textcolor{preprocessor}{            #line 6 "..\(\backslash\)..\(\backslash\)..\(\backslash\)App.xaml"}
+61             this.Exit += \textcolor{keyword}{new} \hyperlink{namespaceSystem}{System}.Windows.ExitEventHandler(this.\hyperlink{classnewPizza1_1_1App_adb889537b1e18b9309daa743947fd0db}{App\_end});
+62             
+63 \textcolor{preprocessor}{            #line default}
+64 \textcolor{preprocessor}{            #line hidden}
+65             
+66 \textcolor{preprocessor}{            #line 5 "..\(\backslash\)..\(\backslash\)..\(\backslash\)App.xaml"}
+67             this.StartupUri = \textcolor{keyword}{new} \hyperlink{namespaceSystem}{System}.Uri(\textcolor{stringliteral}{"pages\(\backslash\)\(\backslash\)pageIdentification.xaml"}, 
+      \hyperlink{namespaceSystem}{System}.UriKind.Relative);
+68             
+69 \textcolor{preprocessor}{            #line default}
+70 \textcolor{preprocessor}{            #line hidden}
+71             \hyperlink{namespaceSystem}{System}.Uri resourceLocater = \textcolor{keyword}{new} \hyperlink{namespaceSystem}{System}.Uri(\textcolor{stringliteral}{"/newPizza1;V1.0.0.0;component/app.xaml
+      "}, \hyperlink{namespaceSystem}{System}.UriKind.Relative);
+72             
+73 \textcolor{preprocessor}{            #line 1 "..\(\backslash\)..\(\backslash\)..\(\backslash\)App.xaml"}
+74             \hyperlink{namespaceSystem}{System}.Windows.Application.LoadComponent(\textcolor{keyword}{this}, resourceLocater);
+75             
+76 \textcolor{preprocessor}{            #line default}
+77 \textcolor{preprocessor}{            #line hidden}
+78         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classnewPizza1_1_1App_ab05f0e942749365a0b09024da23f09c4}\label{classnewPizza1_1_1App_ab05f0e942749365a0b09024da23f09c4}} 
+\index{new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}!Main@{Main}}
+\index{Main@{Main}!new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}}
+\subsubsection{\texorpdfstring{Main()}{Main()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static void new\+Pizza1.\+App.\+Main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Application Entry Point. 
+
+
+\begin{DoxyCode}
+86                                   \{
+87             \hyperlink{namespacenewPizza1}{newPizza1}.\hyperlink{classnewPizza1_1_1App}{App} app = \textcolor{keyword}{new} \hyperlink{namespacenewPizza1}{newPizza1}.\hyperlink{classnewPizza1_1_1App}{App}();
+88             app.\hyperlink{classnewPizza1_1_1App_a437c6582c386ee3f9ee1419133aae6be}{InitializeComponent}();
+89             app.Run();
+90         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classnewPizza1_1_1App_ab05f0e942749365a0b09024da23f09c4}\label{classnewPizza1_1_1App_ab05f0e942749365a0b09024da23f09c4}} 
+\index{new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}!Main@{Main}}
+\index{Main@{Main}!new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}}
+\subsubsection{\texorpdfstring{Main()}{Main()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static void new\+Pizza1.\+App.\+Main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Application Entry Point. 
+
+
+\begin{DoxyCode}
+86                                   \{
+87             \hyperlink{namespacenewPizza1}{newPizza1}.\hyperlink{classnewPizza1_1_1App}{App} app = \textcolor{keyword}{new} \hyperlink{namespacenewPizza1}{newPizza1}.\hyperlink{classnewPizza1_1_1App}{App}();
+88             app.\hyperlink{classnewPizza1_1_1App_a437c6582c386ee3f9ee1419133aae6be}{InitializeComponent}();
+89             app.Run();
+90         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classnewPizza1_1_1App_a40f3adef1e0176c5730f8d9ba525c010}\label{classnewPizza1_1_1App_a40f3adef1e0176c5730f8d9ba525c010}} 
+\index{new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}!Le\+Manager@{Le\+Manager}}
+\index{Le\+Manager@{Le\+Manager}!new\+Pizza1\+::\+App@{new\+Pizza1\+::\+App}}
+\subsubsection{\texorpdfstring{Le\+Manager}{LeManager}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Manager}{Manager} new\+Pizza1.\+App.\+Le\+Manager\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/new\+Pizza/new\+Pizza1/\hyperlink{newPizza1_2App_8xaml_8cs}{App.\+xaml.\+cs}\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/new\+Pizza/new\+Pizza1/obj/\+Debug/net5.\+0-\/windows/\hyperlink{net5_80-windows_2App_8g_8i_8cs}{App.\+g.\+i.\+cs}\end{DoxyCompactItemize}

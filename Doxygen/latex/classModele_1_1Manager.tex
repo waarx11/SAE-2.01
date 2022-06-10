@@ -1,0 +1,1331 @@
+\hypertarget{classModele_1_1Manager}{}\section{Modele.\+Manager Class Reference}
+\label{classModele_1_1Manager}\index{Modele.\+Manager@{Modele.\+Manager}}
+
+
+Ceci est une partie du manager et il correspond a la partie \hyperlink{classModele_1_1Catalogue}{Catalogue} de pizza  
+
+
+
+
+Inheritance diagram for Modele.\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classModele_1_1Manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Modele.\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classModele_1_1Manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classModele_1_1Manager_a43cd3536e67ca0ec0c4da3c8d8498d7d}{Ajoute\+Catalogue\+Vegetarien} (\hyperlink{classModele_1_1Pizza}{Pizza} pizz)
+\begin{DoxyCompactList}\small\item\em Ajouter une pizza au catalogue pizzeta vegetarien \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_a154dceeeebd915d9f132e056ce3f0753}{Ajoute\+Catalogue\+Pizzeta} (\hyperlink{classModele_1_1Pizza}{Pizza} pizz)
+\begin{DoxyCompactList}\small\item\em Ajouter une pizza au catalogue pizzeta \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_a713c89e0b2559c78652315a5c3e9da8c}{Ajoute\+Catalogue\+Carnivore} (\hyperlink{classModele_1_1Pizza}{Pizza} pizz)
+\begin{DoxyCompactList}\small\item\em Ajouter une pizza au catalogue carnivore \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_a902832a7e3612ef3699a66ca6c4db0c5}{Ajoute\+Catalogue\+Epice} (\hyperlink{classModele_1_1Pizza}{Pizza} pizz)
+\begin{DoxyCompactList}\small\item\em Ajouter une pizza au catalogue epice \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_a9f7374e98fcff11bea2dc069f2623e41}{Supp\+Catalogue\+Vegetarien} (\hyperlink{classModele_1_1Pizza}{Pizza} pizz)
+\begin{DoxyCompactList}\small\item\em Supprime une pizza au catalogue vegetarien \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_ac0e999997599e5694fa82a678c4d2fbe}{Supp\+Catalogue\+Pizzeta} (\hyperlink{classModele_1_1Pizza}{Pizza} pizz)
+\begin{DoxyCompactList}\small\item\em Supprime une pizza au catalogue pizzeta \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_aac1f92fbb473703125ba41e9903f808e}{Supp\+Catalogue\+Carnivore} (\hyperlink{classModele_1_1Pizza}{Pizza} pizz)
+\begin{DoxyCompactList}\small\item\em Supprime une pizza au catalogue carnivore \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_a88f23540b7d8952994f3bbdf9e7d9e51}{Supp\+Catalogue\+Epice} (\hyperlink{classModele_1_1Pizza}{Pizza} pizz)
+\begin{DoxyCompactList}\small\item\em Supprime une pizza au catalogue epice \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Catalogue}{Catalogue} \hyperlink{classModele_1_1Manager_a62c5004c6c46fb13f010669ea2e4937a}{Modifie\+Catalogue} (\hyperlink{classModele_1_1Catalogue}{Catalogue} ad\+Old, \hyperlink{classModele_1_1Catalogue}{Catalogue} ad\+New)
+\begin{DoxyCompactList}\small\item\em Modifie un catalogue \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_a4353e79d770294bd16ecdbbbdde48e2e}{Ajoute\+Commande} (\hyperlink{classModele_1_1Commande}{Commande} cmd)
+\begin{DoxyCompactList}\small\item\em Ajouter une commande \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_a2c5255bdd1628cbe62c8d72cba13de83}{Sup\+Commande} (\hyperlink{classModele_1_1Commande}{Commande} cmd)
+\begin{DoxyCompactList}\small\item\em Supprime une commande \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Commande}{Commande} \hyperlink{classModele_1_1Manager_a66c28c0c613264bb1e0b0abc1d0fc97f}{Get\+Commande} (\hyperlink{classModele_1_1Commande}{Commande} cmd)
+\begin{DoxyCompactList}\small\item\em Récupérer une commande \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Commande}{Commande} \hyperlink{classModele_1_1Manager_aaa9cb4ae995548ff3f12823c4f08e4a8}{Get\+Commande} (\hyperlink{classModele_1_1Client}{Client} client\+Actu, Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$ list\+Pizz)
+\begin{DoxyCompactList}\small\item\em Récupérer une commande \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Commande}{Commande} \hyperlink{classModele_1_1Manager_a4baa269969e367de8472b7521ab3fa93}{Modifie\+Commande} (\hyperlink{classModele_1_1Commande}{Commande} cmd\+Old, \hyperlink{classModele_1_1Pizza}{Pizza} cmd\+New)
+\begin{DoxyCompactList}\small\item\em Modifie une commande \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Manager_aa088a20e96bca5adaa3305f2245f99f3}{Manager} (\hyperlink{interfaceModele_1_1IPersistanceManager}{I\+Persistance\+Manager} p)
+\item 
+void \hyperlink{classModele_1_1Manager_af864593f2ec5d93e298e54c838316bd6}{Charge\+Données} ()
+\begin{DoxyCompactList}\small\item\em Cette fonction permet de charger les donnée de l\textquotesingle{}application \end{DoxyCompactList}\item 
+void \hyperlink{classModele_1_1Manager_a1401389e33f047e9fd896ee0383fd01f}{Sauvegarde\+Données} ()
+\begin{DoxyCompactList}\small\item\em Cette fonction permet de sauvegardé les données de l\textquotesingle{}application \end{DoxyCompactList}\item 
+int \hyperlink{classModele_1_1Manager_ad2af53ab1af0c7def106a31ea70dd1e9}{connecter\+Utilisateur} (string log, string pass)
+\begin{DoxyCompactList}\small\item\em Cette fonction permet de gérée la connection d\textquotesingle{}un client et d\textquotesingle{}un administrateur \end{DoxyCompactList}\item 
+int \hyperlink{classModele_1_1Manager_ab8af03a34711cbfec2f0cf3a1ee8fbac}{creation\+Utilisateur} (string id, string email, string mdp)
+\begin{DoxyCompactList}\small\item\em Créer une utilisateur \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_a91d346733b3a19baa89d09e4c5599345}{Ajoute\+Pizza} (\hyperlink{classModele_1_1Pizza}{Pizza} pizza)
+\begin{DoxyCompactList}\small\item\em Ajouter une pizza \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_ae68e67c9a17910118dd74fa2230383b0}{Sup\+Pizza} (\hyperlink{classModele_1_1Pizza}{Pizza} pizza)
+\begin{DoxyCompactList}\small\item\em Supprimer une pizza \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Pizza}{Pizza} \hyperlink{classModele_1_1Manager_a8c2edb35d4e642e0478beda5f7855ca5}{Get\+Pizza} (\hyperlink{classModele_1_1Pizza}{Pizza} pizza)
+\begin{DoxyCompactList}\small\item\em Récupérer une pizza \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Pizza}{Pizza} \hyperlink{classModele_1_1Manager_af439d9ef7292920762fc57a97c334716}{Get\+Pizza} (string nom, List$<$ \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients} $>$ list, string description, string image, int prix)
+\begin{DoxyCompactList}\small\item\em Récupérer une pizza \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Pizza}{Pizza} \hyperlink{classModele_1_1Manager_ab9995ba4bcc7203db156eb2096655036}{Modifie\+Pizza} (\hyperlink{classModele_1_1Pizza}{Pizza} pizz\+Old, \hyperlink{classModele_1_1Pizza}{Pizza} pizz\+New)
+\begin{DoxyCompactList}\small\item\em Modifie une pizza \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_ac039c39ae05fd7b3ef9fae78d2332330}{Ajoute\+Client} (\hyperlink{classModele_1_1Client}{Client} client)
+\begin{DoxyCompactList}\small\item\em Ajout un client \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_a4e1ad1318c129128b7c375aa7c6a42e7}{Ajoute\+Administrateur} (\hyperlink{classModele_1_1Administrateur}{Administrateur} administrateur)
+\begin{DoxyCompactList}\small\item\em Ajout un administrateur \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_a27aa5c5077667211da410d55fd6c17b9}{Supp\+Client} (\hyperlink{classModele_1_1Client}{Client} client)
+\begin{DoxyCompactList}\small\item\em Supprime un client \end{DoxyCompactList}\item 
+bool \hyperlink{classModele_1_1Manager_ac06a3ffe203cb1ae9b91928bdb54e63f}{Supp\+Administrateur} (\hyperlink{classModele_1_1Administrateur}{Administrateur} administrateur)
+\begin{DoxyCompactList}\small\item\em Supprime un client \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Administrateur}{Administrateur} \hyperlink{classModele_1_1Manager_a48bd7f374cd7f0875a99145a2fe22089}{Get\+Administrateur} (\hyperlink{classModele_1_1Administrateur}{Administrateur} administrateur)
+\begin{DoxyCompactList}\small\item\em Permet l\textquotesingle{}affichage d\textquotesingle{}un administrateur \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Client}{Client} \hyperlink{classModele_1_1Manager_a4c99d9b62a7d210103d5590d79781f41}{Get\+Client} (\hyperlink{classModele_1_1Client}{Client} client)
+\begin{DoxyCompactList}\small\item\em Permet l\textquotesingle{}affichage d\textquotesingle{}un client \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Administrateur}{Administrateur} \hyperlink{classModele_1_1Manager_a013250c8b389540f4ed1683a00354118}{Get\+Administrateur} (string nom, string prénom, string email, string téléphone, string adresse, string ville, string code\+Postal, string mdp, string nom\+Pizzeria)
+\begin{DoxyCompactList}\small\item\em Permet l\textquotesingle{}affichage d\textquotesingle{}un administrateur via toute ces information personnel \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Client}{Client} \hyperlink{classModele_1_1Manager_ac9e68b03d52226cb7a4c91864b67226a}{Get\+Client} (string nom, string prénom, string email, string téléphone, string adresse, string ville, string code\+Postal, string mdp, string pseudo, string photo=null)
+\begin{DoxyCompactList}\small\item\em Permet l\textquotesingle{}affichage d\textquotesingle{}un client via toute ces information personnel \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Administrateur}{Administrateur} \hyperlink{classModele_1_1Manager_a155917f6e891c65745f967b80e384141}{Modifie\+Admin} (\hyperlink{classModele_1_1Administrateur}{Administrateur} ad\+Old, \hyperlink{classModele_1_1Administrateur}{Administrateur} ad\+New)
+\begin{DoxyCompactList}\small\item\em Modifier un administrateur \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Client}{Client} \hyperlink{classModele_1_1Manager_a77509aff7cf7e4ada30cb64a2389f53b}{Modifie\+Client} (\hyperlink{classModele_1_1Client}{Client} cl\+Old, \hyperlink{classModele_1_1Client}{Client} cl\+New)
+\begin{DoxyCompactList}\small\item\em Modifier un client \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classModele_1_1Catalogue}{Catalogue} \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Crée un catalogue et une variable readonly qui sera égale a ce catalogue \end{DoxyCompactList}\item 
+Read\+Only\+Collection$<$ \hyperlink{classModele_1_1Commande}{Commande} $>$ \hyperlink{classModele_1_1Manager_a0c0ba218c22011e46bdeddff3f6ca5d0}{Commandes}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Crée une commande et une variable readonly qui sera égale a cette commande \end{DoxyCompactList}\item 
+\hyperlink{interfaceModele_1_1IPersistanceManager}{I\+Persistance\+Manager} \hyperlink{classModele_1_1Manager_a29b4f8c42f993178aac1d16da7942324}{Persistance}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Read\+Only\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$ \hyperlink{classModele_1_1Manager_a01701f7ed04aac12fd6a623c2e382d0c}{Pizzas}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Crée une commande et une variable readonly qui sera égale a cette pizza \end{DoxyCompactList}\item 
+Read\+Only\+Collection$<$ \hyperlink{classModele_1_1Client}{Client} $>$ \hyperlink{classModele_1_1Manager_aa91d850a379289e56012fc9b3912a7fe}{Clients}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Crée une liste clients et une Read\+Only\+Collection Clients qui sera égale à clients \end{DoxyCompactList}\item 
+Read\+Only\+Collection$<$ \hyperlink{classModele_1_1Administrateur}{Administrateur} $>$ \hyperlink{classModele_1_1Manager_ac8440a9781b104ad429965fcd460bf2f}{Administrateurs}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Crée une liste administrateurs et une Read\+Only\+Collection Administrateurs qui sera égale à administrateurs \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Utilisateur}{Utilisateur} \hyperlink{classModele_1_1Manager_aa00c4632bd15b247d6b6793a6797dc82}{Utilisateur\+Actuel}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Cette variable permet de connaitre l\textquotesingle{}utilisateur actuelle \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Pizza}{Pizza} \hyperlink{classModele_1_1Manager_a7e69844aeeebbc80144850efc0d2b94c}{Pizza\+Actuelle}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Cette variable permet de connaitre la pizza actuelle \end{DoxyCompactList}\item 
+\hyperlink{classModele_1_1Commande}{Commande} \hyperlink{classModele_1_1Manager_a4b53ccf46b594f580933c26c59892dd7}{Commande\+Actuelle}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Cette variable permet de connaitre la commande actuelle \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Property\+Changed\+Event\+Handler \hyperlink{classModele_1_1Manager_aebe3fac90190bcb0f688187821705730}{Property\+Changed}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Ceci est une partie du manager et il correspond a la partie \hyperlink{classModele_1_1Catalogue}{Catalogue} de pizza 
+
+Ceci est une partie du manager et il correspond a la partie utilisateur 
+
+Ceci est une partie du manager et il correspond a la partie \hyperlink{classModele_1_1Pizza}{Pizza} 
+
+Ceci est une partie du manager mais il globalise tout 
+
+Ceci est une partie du manager et il correspond a la partie \hyperlink{classModele_1_1Commande}{Commande} 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classModele_1_1Manager_aa088a20e96bca5adaa3305f2245f99f3}\label{classModele_1_1Manager_aa088a20e96bca5adaa3305f2245f99f3}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Manager@{Manager}}
+\index{Manager@{Manager}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Manager()}{Manager()}}
+{\footnotesize\ttfamily Modele.\+Manager.\+Manager (\begin{DoxyParamCaption}\item[{\hyperlink{interfaceModele_1_1IPersistanceManager}{I\+Persistance\+Manager}}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+20         \{
+21             \hyperlink{classModele_1_1Manager_a29b4f8c42f993178aac1d16da7942324}{Persistance} = p;
+22             \hyperlink{classModele_1_1Manager_ac8440a9781b104ad429965fcd460bf2f}{Administrateurs} = \textcolor{keyword}{new} ReadOnlyCollection<Administrateur>(administrateurs);
+23             \hyperlink{classModele_1_1Manager_aa91d850a379289e56012fc9b3912a7fe}{Clients} = \textcolor{keyword}{new} ReadOnlyCollection<Client>(clients);
+24         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classModele_1_1Manager_a4e1ad1318c129128b7c375aa7c6a42e7}\label{classModele_1_1Manager_a4e1ad1318c129128b7c375aa7c6a42e7}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Ajoute\+Administrateur@{Ajoute\+Administrateur}}
+\index{Ajoute\+Administrateur@{Ajoute\+Administrateur}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Ajoute\+Administrateur()}{AjouteAdministrateur()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Ajoute\+Administrateur (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Administrateur}{Administrateur}}]{administrateur }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajout un administrateur 
+
+
+\begin{DoxyParams}{Parameters}
+{\em administrateur} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si sa a fonctionnner false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+55         \{
+56             \textcolor{keywordflow}{if} (administrateur == null)
+57             \{
+58                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+59             \}
+60 
+61             \textcolor{keywordflow}{if} (administrateurs.Contains(administrateur))
+62             \{
+63                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+64             \}
+65             administrateurs.Add(administrateur);
+66             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+67         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a713c89e0b2559c78652315a5c3e9da8c}\label{classModele_1_1Manager_a713c89e0b2559c78652315a5c3e9da8c}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Ajoute\+Catalogue\+Carnivore@{Ajoute\+Catalogue\+Carnivore}}
+\index{Ajoute\+Catalogue\+Carnivore@{Ajoute\+Catalogue\+Carnivore}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Ajoute\+Catalogue\+Carnivore()}{AjouteCatalogueCarnivore()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Ajoute\+Catalogue\+Carnivore (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajouter une pizza au catalogue carnivore 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizz} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+67         \{
+68             \textcolor{keywordflow}{if} (pizz == null)
+69             \{
+70                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+71             \}
+72 
+73             \textcolor{keywordflow}{if} (\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a4af9ef768f67cef6dfe545e22a6d63af}{CatalogueCarnivore}.Contains(pizz))
+74             \{
+75                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+76             \}
+77             \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a4af9ef768f67cef6dfe545e22a6d63af}{CatalogueCarnivore}.Add(pizz);
+78             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+79         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a902832a7e3612ef3699a66ca6c4db0c5}\label{classModele_1_1Manager_a902832a7e3612ef3699a66ca6c4db0c5}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Ajoute\+Catalogue\+Epice@{Ajoute\+Catalogue\+Epice}}
+\index{Ajoute\+Catalogue\+Epice@{Ajoute\+Catalogue\+Epice}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Ajoute\+Catalogue\+Epice()}{AjouteCatalogueEpice()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Ajoute\+Catalogue\+Epice (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajouter une pizza au catalogue epice 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizz} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+87         \{
+88             \textcolor{keywordflow}{if} (pizz == null)
+89             \{
+90                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+91             \}
+92 
+93             \textcolor{keywordflow}{if} (\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a633610212f42551a5755212e21bedbca}{CatalogueEpice}.Contains(pizz))
+94             \{
+95                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+96             \}
+97             \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a633610212f42551a5755212e21bedbca}{CatalogueEpice}.Add(pizz);
+98             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+99         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a154dceeeebd915d9f132e056ce3f0753}\label{classModele_1_1Manager_a154dceeeebd915d9f132e056ce3f0753}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Ajoute\+Catalogue\+Pizzeta@{Ajoute\+Catalogue\+Pizzeta}}
+\index{Ajoute\+Catalogue\+Pizzeta@{Ajoute\+Catalogue\+Pizzeta}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Ajoute\+Catalogue\+Pizzeta()}{AjouteCataloguePizzeta()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Ajoute\+Catalogue\+Pizzeta (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajouter une pizza au catalogue pizzeta 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizz} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+47         \{
+48             \textcolor{keywordflow}{if} (pizz == null)
+49             \{
+50                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+51             \}
+52 
+53             \textcolor{keywordflow}{if} (\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_ac5490e1026b5b08d43e30b68da893423}{CataloguePizzeta}.Contains(pizz))
+54             \{
+55                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+56             \}
+57             \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_ac5490e1026b5b08d43e30b68da893423}{CataloguePizzeta}.Add(pizz);
+58             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+59         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a43cd3536e67ca0ec0c4da3c8d8498d7d}\label{classModele_1_1Manager_a43cd3536e67ca0ec0c4da3c8d8498d7d}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Ajoute\+Catalogue\+Vegetarien@{Ajoute\+Catalogue\+Vegetarien}}
+\index{Ajoute\+Catalogue\+Vegetarien@{Ajoute\+Catalogue\+Vegetarien}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Ajoute\+Catalogue\+Vegetarien()}{AjouteCatalogueVegetarien()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Ajoute\+Catalogue\+Vegetarien (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajouter une pizza au catalogue pizzeta vegetarien 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizz} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+27         \{
+28             \textcolor{keywordflow}{if} (pizz == null)
+29             \{
+30                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+31             \}
+32 
+33             \textcolor{keywordflow}{if} (\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_abd7d6d70ddd6ba264c1c91a5b084d9ba}{CatalogueVegetarien}.Contains(pizz))
+34             \{
+35                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+36             \}
+37             \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_abd7d6d70ddd6ba264c1c91a5b084d9ba}{CatalogueVegetarien}.Add(pizz);
+38             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+39         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_ac039c39ae05fd7b3ef9fae78d2332330}\label{classModele_1_1Manager_ac039c39ae05fd7b3ef9fae78d2332330}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Ajoute\+Client@{Ajoute\+Client}}
+\index{Ajoute\+Client@{Ajoute\+Client}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Ajoute\+Client()}{AjouteClient()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Ajoute\+Client (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Client}{Client}}]{client }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajout un client 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si sa a fonctionnner false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+35         \{
+36             \textcolor{keywordflow}{if} (client == null)
+37             \{
+38                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+39             \}
+40 
+41             \textcolor{keywordflow}{if} (clients.Contains(client))
+42             \{
+43                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+44             \}
+45             clients.Add(client);
+46             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+47         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a4353e79d770294bd16ecdbbbdde48e2e}\label{classModele_1_1Manager_a4353e79d770294bd16ecdbbbdde48e2e}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Ajoute\+Commande@{Ajoute\+Commande}}
+\index{Ajoute\+Commande@{Ajoute\+Commande}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Ajoute\+Commande()}{AjouteCommande()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Ajoute\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Commande}{Commande}}]{cmd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajouter une commande 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cmd} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+28         \{
+29             \textcolor{keywordflow}{if} (cmd == null)
+30             \{
+31                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+32             \}
+33 
+34             \textcolor{keywordflow}{if} (commandes.Contains(cmd))
+35             \{
+36                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+37             \}
+38             commandes.Add(cmd);
+39             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+40         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a91d346733b3a19baa89d09e4c5599345}\label{classModele_1_1Manager_a91d346733b3a19baa89d09e4c5599345}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Ajoute\+Pizza@{Ajoute\+Pizza}}
+\index{Ajoute\+Pizza@{Ajoute\+Pizza}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Ajoute\+Pizza()}{AjoutePizza()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Ajoute\+Pizza (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizza }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Ajouter une pizza 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizza} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+28         \{
+29             \textcolor{keywordflow}{if} (pizza == null)
+30             \{
+31                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+32             \}
+33 
+34             \textcolor{keywordflow}{if} (pizzas.Contains(pizza))
+35             \{
+36                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+37             \}
+38             pizzas.Add(pizza);
+39             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+40         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_af864593f2ec5d93e298e54c838316bd6}\label{classModele_1_1Manager_af864593f2ec5d93e298e54c838316bd6}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Charge\+Données@{Charge\+Données}}
+\index{Charge\+Données@{Charge\+Données}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Charge\+Données()}{ChargeDonnées()}}
+{\footnotesize\ttfamily void Modele.\+Manager.\+Charge\+Données (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Cette fonction permet de charger les donnée de l\textquotesingle{}application 
+
+
+\begin{DoxyCode}
+35         \{
+36             var donnee = \hyperlink{classModele_1_1Manager_a29b4f8c42f993178aac1d16da7942324}{Persistance}.\hyperlink{interfaceModele_1_1IPersistanceManager_af5ae97787e17b1c24fe878ed3d381873}{ChargeDonnées}();
+37             \textcolor{keywordflow}{foreach} (var us \textcolor{keywordflow}{in} donnee.client)
+38             \{
+39                 clients.Add(us);
+40             \}
+41             \textcolor{keywordflow}{foreach} (var adm \textcolor{keywordflow}{in} donnee.admin)
+42             \{
+43                 administrateurs.Add(adm);
+44             \}
+45             var cat = donnee.catalogue;
+46             \textcolor{keywordflow}{foreach} (var catV \textcolor{keywordflow}{in} cat.CatalogueVegetarien)
+47             \{
+48                 \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_abd7d6d70ddd6ba264c1c91a5b084d9ba}{CatalogueVegetarien}.Add(catV);
+49             \}
+50                 
+51             \textcolor{keywordflow}{foreach} (var catV \textcolor{keywordflow}{in} cat.CatalogueEpice)
+52             \{
+53                 \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a633610212f42551a5755212e21bedbca}{CatalogueEpice}.Add(catV);
+54             \}
+55             \textcolor{keywordflow}{foreach} (var catV \textcolor{keywordflow}{in} cat.CatalogueCarnivore)
+56             \{
+57                 \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a4af9ef768f67cef6dfe545e22a6d63af}{CatalogueCarnivore}.Add(catV);
+58             \}
+59             \textcolor{keywordflow}{foreach} (var catV \textcolor{keywordflow}{in} cat.CataloguePizzeta)
+60             \{
+61                 \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_ac5490e1026b5b08d43e30b68da893423}{CataloguePizzeta}.Add(catV);
+62             \}
+63         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_ad2af53ab1af0c7def106a31ea70dd1e9}\label{classModele_1_1Manager_ad2af53ab1af0c7def106a31ea70dd1e9}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!connecter\+Utilisateur@{connecter\+Utilisateur}}
+\index{connecter\+Utilisateur@{connecter\+Utilisateur}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{connecter\+Utilisateur()}{connecterUtilisateur()}}
+{\footnotesize\ttfamily int Modele.\+Manager.\+connecter\+Utilisateur (\begin{DoxyParamCaption}\item[{string}]{log,  }\item[{string}]{pass }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Cette fonction permet de gérée la connection d\textquotesingle{}un client et d\textquotesingle{}un administrateur 
+
+
+\begin{DoxyParams}{Parameters}
+{\em log} & \\
+\hline
+{\em pass} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 si l\textquotesingle{}administrateur peut ce connecter, 2 si l\textquotesingle{}administrateur n\textquotesingle{}a pas saisie le bon mot de passe, 3 si le client peut ce connecter, 4 si le client n\textquotesingle{}a pas saisie le bon mot de passe
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+80         \{
+81             \textcolor{keywordflow}{foreach}(Administrateur u1 \textcolor{keywordflow}{in} \hyperlink{classModele_1_1Manager_ac8440a9781b104ad429965fcd460bf2f}{Administrateurs})
+82             \{
+83                 \textcolor{keywordflow}{if}(u1.Email== log || u1.NomPizzeria==log)
+84                 \{
+85                     \textcolor{keywordflow}{if} (u1.Mdp == pass)
+86                     \{
+87                         \hyperlink{classModele_1_1Manager_aa00c4632bd15b247d6b6793a6797dc82}{UtilisateurActuel} = u1;
+88                         \textcolor{keywordflow}{return} 1;
+89                     \}
+90                         
+91                     \textcolor{keywordflow}{return} 2;
+92                 \}
+93 
+94             \}
+95             \textcolor{keywordflow}{foreach} (Client c1 \textcolor{keywordflow}{in} \hyperlink{classModele_1_1Manager_aa91d850a379289e56012fc9b3912a7fe}{Clients})
+96             \{
+97                 \textcolor{keywordflow}{if} (c1.Email == log || c1.Pseudo == log)
+98                 \{
+99                     \textcolor{keywordflow}{if} (c1.Mdp == pass)
+100                     \{
+101                         \hyperlink{classModele_1_1Manager_aa00c4632bd15b247d6b6793a6797dc82}{UtilisateurActuel} = c1;
+102                         \textcolor{keywordflow}{return} 3;
+103                     \}
+104                     \textcolor{keywordflow}{return} 4;
+105                 \}
+106             \}
+107             \textcolor{keywordflow}{return} -1;
+108         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_ab8af03a34711cbfec2f0cf3a1ee8fbac}\label{classModele_1_1Manager_ab8af03a34711cbfec2f0cf3a1ee8fbac}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!creation\+Utilisateur@{creation\+Utilisateur}}
+\index{creation\+Utilisateur@{creation\+Utilisateur}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{creation\+Utilisateur()}{creationUtilisateur()}}
+{\footnotesize\ttfamily int Modele.\+Manager.\+creation\+Utilisateur (\begin{DoxyParamCaption}\item[{string}]{id,  }\item[{string}]{email,  }\item[{string}]{mdp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Créer une utilisateur 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+{\em email} & \\
+\hline
+{\em mdp} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+code de retour
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+117         \{
+118             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{string}.IsNullOrEmpty(\textcolor{keywordtype}{id}) || \textcolor{keywordtype}{string}.IsNullOrEmpty(email) || \textcolor{keywordtype}{string}.IsNullOrEmpty(mdp))
+119                 \textcolor{keywordflow}{return} 0;\textcolor{comment}{//Tout les information doivent etre rentre}
+120             \textcolor{keywordflow}{foreach} (Client c1 \textcolor{keywordflow}{in} \hyperlink{classModele_1_1Manager_aa91d850a379289e56012fc9b3912a7fe}{Clients})
+121             \{
+122                 \textcolor{keywordflow}{if} (c1.Pseudo == \textcolor{keywordtype}{id})
+123                 \{
+124                     \textcolor{keywordflow}{if} (c1.Email == email)
+125                     \{
+126                         \textcolor{keywordflow}{return} -1;\textcolor{comment}{//Pseudo et email deja existant}
+127                     \}
+128                     \textcolor{keywordflow}{return} -2;\textcolor{comment}{//Pseudo deja existant }
+129                 \}
+130 
+131                 \textcolor{keywordflow}{if} (c1.Email == email || !email.Contains(\textcolor{stringliteral}{"@"}))
+132                     \textcolor{keywordflow}{return} -3;\textcolor{comment}{//Email déja existant}
+133             \}
+134             clients.Add(\textcolor{keyword}{new} Client(email, \textcolor{keywordtype}{id}, mdp));
+135             \textcolor{keywordflow}{return} 1;
+136         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a48bd7f374cd7f0875a99145a2fe22089}\label{classModele_1_1Manager_a48bd7f374cd7f0875a99145a2fe22089}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Get\+Administrateur@{Get\+Administrateur}}
+\index{Get\+Administrateur@{Get\+Administrateur}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Get\+Administrateur()}{GetAdministrateur()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Administrateur}{Administrateur} Modele.\+Manager.\+Get\+Administrateur (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Administrateur}{Administrateur}}]{administrateur }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet l\textquotesingle{}affichage d\textquotesingle{}un administrateur 
+
+
+\begin{DoxyParams}{Parameters}
+{\em administrateur} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+L\textquotesingle{}administrateur voulue
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+115         \{
+116             \textcolor{keywordflow}{return} administrateurs.SingleOrDefault(a => a.Equals(administrateur));
+117         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a013250c8b389540f4ed1683a00354118}\label{classModele_1_1Manager_a013250c8b389540f4ed1683a00354118}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Get\+Administrateur@{Get\+Administrateur}}
+\index{Get\+Administrateur@{Get\+Administrateur}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Get\+Administrateur()}{GetAdministrateur()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Administrateur}{Administrateur} Modele.\+Manager.\+Get\+Administrateur (\begin{DoxyParamCaption}\item[{string}]{nom,  }\item[{string}]{prénom,  }\item[{string}]{email,  }\item[{string}]{téléphone,  }\item[{string}]{adresse,  }\item[{string}]{ville,  }\item[{string}]{code\+Postal,  }\item[{string}]{mdp,  }\item[{string}]{nom\+Pizzeria }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet l\textquotesingle{}affichage d\textquotesingle{}un administrateur via toute ces information personnel 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nom} & \\
+\hline
+{\em prénom} & \\
+\hline
+{\em email} & \\
+\hline
+{\em téléphone} & \\
+\hline
+{\em adresse} & \\
+\hline
+{\em ville} & \\
+\hline
+{\em code\+Postal} & \\
+\hline
+{\em mdp} & \\
+\hline
+{\em nom\+Pizzeria} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+L\textquotesingle{}administrateur voulue
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+143         \{
+144             \textcolor{keywordflow}{return} \hyperlink{classModele_1_1Manager_a48bd7f374cd7f0875a99145a2fe22089}{GetAdministrateur}(\textcolor{keyword}{new} Administrateur(nom, prénom, email, téléphone, 
+      adresse, ville, codePostal, mdp, nomPizzeria));
+145         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a4c99d9b62a7d210103d5590d79781f41}\label{classModele_1_1Manager_a4c99d9b62a7d210103d5590d79781f41}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Get\+Client@{Get\+Client}}
+\index{Get\+Client@{Get\+Client}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Get\+Client()}{GetClient()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Client}{Client} Modele.\+Manager.\+Get\+Client (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Client}{Client}}]{client }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet l\textquotesingle{}affichage d\textquotesingle{}un client 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Le client voulue
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+125         \{
+126             \textcolor{keywordflow}{return} clients.SingleOrDefault(a => a.Equals(client));
+127         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_ac9e68b03d52226cb7a4c91864b67226a}\label{classModele_1_1Manager_ac9e68b03d52226cb7a4c91864b67226a}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Get\+Client@{Get\+Client}}
+\index{Get\+Client@{Get\+Client}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Get\+Client()}{GetClient()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Client}{Client} Modele.\+Manager.\+Get\+Client (\begin{DoxyParamCaption}\item[{string}]{nom,  }\item[{string}]{prénom,  }\item[{string}]{email,  }\item[{string}]{téléphone,  }\item[{string}]{adresse,  }\item[{string}]{ville,  }\item[{string}]{code\+Postal,  }\item[{string}]{mdp,  }\item[{string}]{pseudo,  }\item[{string}]{photo = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet l\textquotesingle{}affichage d\textquotesingle{}un client via toute ces information personnel 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nom} & \\
+\hline
+{\em prénom} & \\
+\hline
+{\em email} & \\
+\hline
+{\em téléphone} & \\
+\hline
+{\em adresse} & \\
+\hline
+{\em ville} & \\
+\hline
+{\em code\+Postal} & \\
+\hline
+{\em mdp} & \\
+\hline
+{\em pseudo} & \\
+\hline
+{\em photo} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Le client voulue
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+162         \{
+163             \textcolor{keywordflow}{return} \hyperlink{classModele_1_1Manager_a4c99d9b62a7d210103d5590d79781f41}{GetClient}(\textcolor{keyword}{new} Client(nom, prénom, email, téléphone, adresse, ville, codePostal,
+       mdp, pseudo, photo));
+164         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a66c28c0c613264bb1e0b0abc1d0fc97f}\label{classModele_1_1Manager_a66c28c0c613264bb1e0b0abc1d0fc97f}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Get\+Commande@{Get\+Commande}}
+\index{Get\+Commande@{Get\+Commande}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Get\+Commande()}{GetCommande()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Commande}{Commande} Modele.\+Manager.\+Get\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Commande}{Commande}}]{cmd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Récupérer une commande 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cmd} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+La commande voulue
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+68         \{
+69             \textcolor{keywordflow}{return} commandes.SingleOrDefault(c => c.Equals(cmd));
+70         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_aaa9cb4ae995548ff3f12823c4f08e4a8}\label{classModele_1_1Manager_aaa9cb4ae995548ff3f12823c4f08e4a8}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Get\+Commande@{Get\+Commande}}
+\index{Get\+Commande@{Get\+Commande}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Get\+Commande()}{GetCommande()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Commande}{Commande} Modele.\+Manager.\+Get\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Client}{Client}}]{client\+Actu,  }\item[{Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$}]{list\+Pizz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Récupérer une commande 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client\+Actu} & \\
+\hline
+{\em list\+Pizz} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+La commande voulue
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+79         \{
+80             \textcolor{keywordflow}{return} \hyperlink{classModele_1_1Manager_a66c28c0c613264bb1e0b0abc1d0fc97f}{GetCommande}(\textcolor{keyword}{new} Commande(clientActu, listPizz));
+81         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a8c2edb35d4e642e0478beda5f7855ca5}\label{classModele_1_1Manager_a8c2edb35d4e642e0478beda5f7855ca5}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Get\+Pizza@{Get\+Pizza}}
+\index{Get\+Pizza@{Get\+Pizza}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Get\+Pizza()}{GetPizza()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Pizza}{Pizza} Modele.\+Manager.\+Get\+Pizza (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizza }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Récupérer une pizza 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizza} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+La pizza voulue
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+68         \{
+69             \textcolor{keywordflow}{return} pizzas.SingleOrDefault(p => p.Equals(pizza));
+70         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_af439d9ef7292920762fc57a97c334716}\label{classModele_1_1Manager_af439d9ef7292920762fc57a97c334716}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Get\+Pizza@{Get\+Pizza}}
+\index{Get\+Pizza@{Get\+Pizza}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Get\+Pizza()}{GetPizza()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Pizza}{Pizza} Modele.\+Manager.\+Get\+Pizza (\begin{DoxyParamCaption}\item[{string}]{nom,  }\item[{List$<$ \hyperlink{namespaceModele_a001a8e89e56a724f24a249ba98080d41}{Ingredients} $>$}]{list,  }\item[{string}]{description,  }\item[{string}]{image,  }\item[{int}]{prix }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Récupérer une pizza 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nom} & \\
+\hline
+{\em list} & \\
+\hline
+{\em description} & \\
+\hline
+{\em image} & \\
+\hline
+{\em prix} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+La pizza voulue
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+82         \{
+83             \textcolor{keywordflow}{return} \hyperlink{classModele_1_1Manager_a8c2edb35d4e642e0478beda5f7855ca5}{GetPizza}(\textcolor{keyword}{new} Pizza(nom, description, image, list, prix));
+84         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a155917f6e891c65745f967b80e384141}\label{classModele_1_1Manager_a155917f6e891c65745f967b80e384141}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Modifie\+Admin@{Modifie\+Admin}}
+\index{Modifie\+Admin@{Modifie\+Admin}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Modifie\+Admin()}{ModifieAdmin()}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Administrateur}{Administrateur} Modele.\+Manager.\+Modifie\+Admin (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Administrateur}{Administrateur}}]{ad\+Old,  }\item[{\hyperlink{classModele_1_1Administrateur}{Administrateur}}]{ad\+New }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Modifier un administrateur 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ad\+Old} & \\
+\hline
+{\em ad\+New} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+return un administrateur modifier
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+173         \{
+174             \textcolor{keywordflow}{return} null;
+175         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a62c5004c6c46fb13f010669ea2e4937a}\label{classModele_1_1Manager_a62c5004c6c46fb13f010669ea2e4937a}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Modifie\+Catalogue@{Modifie\+Catalogue}}
+\index{Modifie\+Catalogue@{Modifie\+Catalogue}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Modifie\+Catalogue()}{ModifieCatalogue()}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Catalogue}{Catalogue} Modele.\+Manager.\+Modifie\+Catalogue (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Catalogue}{Catalogue}}]{ad\+Old,  }\item[{\hyperlink{classModele_1_1Catalogue}{Catalogue}}]{ad\+New }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Modifie un catalogue 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ad\+Old} & \\
+\hline
+{\em ad\+New} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Le catalogue modifié
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+188         \{
+189             \textcolor{keywordflow}{return} null;
+190         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a77509aff7cf7e4ada30cb64a2389f53b}\label{classModele_1_1Manager_a77509aff7cf7e4ada30cb64a2389f53b}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Modifie\+Client@{Modifie\+Client}}
+\index{Modifie\+Client@{Modifie\+Client}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Modifie\+Client()}{ModifieClient()}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Client}{Client} Modele.\+Manager.\+Modifie\+Client (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Client}{Client}}]{cl\+Old,  }\item[{\hyperlink{classModele_1_1Client}{Client}}]{cl\+New }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Modifier un client 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cl\+Old} & \\
+\hline
+{\em cl\+New} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+return un client modifier
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+184         \{
+185             \textcolor{keywordflow}{return} null;
+186         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a4baa269969e367de8472b7521ab3fa93}\label{classModele_1_1Manager_a4baa269969e367de8472b7521ab3fa93}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Modifie\+Commande@{Modifie\+Commande}}
+\index{Modifie\+Commande@{Modifie\+Commande}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Modifie\+Commande()}{ModifieCommande()}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Commande}{Commande} Modele.\+Manager.\+Modifie\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Commande}{Commande}}]{cmd\+Old,  }\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{cmd\+New }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Modifie une commande 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cmd\+Old} & \\
+\hline
+{\em cmd\+New} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+null
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+90         \{
+91             \textcolor{keywordflow}{return} null;
+92         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_ab9995ba4bcc7203db156eb2096655036}\label{classModele_1_1Manager_ab9995ba4bcc7203db156eb2096655036}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Modifie\+Pizza@{Modifie\+Pizza}}
+\index{Modifie\+Pizza@{Modifie\+Pizza}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Modifie\+Pizza()}{ModifiePizza()}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Pizza}{Pizza} Modele.\+Manager.\+Modifie\+Pizza (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizz\+Old,  }\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizz\+New }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Modifie une pizza 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizz\+Old} & \\
+\hline
+{\em pizz\+New} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+null
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+92         \{
+93             \textcolor{keywordflow}{return} null;
+94         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a1401389e33f047e9fd896ee0383fd01f}\label{classModele_1_1Manager_a1401389e33f047e9fd896ee0383fd01f}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Sauvegarde\+Données@{Sauvegarde\+Données}}
+\index{Sauvegarde\+Données@{Sauvegarde\+Données}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Sauvegarde\+Données()}{SauvegardeDonnées()}}
+{\footnotesize\ttfamily void Modele.\+Manager.\+Sauvegarde\+Données (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Cette fonction permet de sauvegardé les données de l\textquotesingle{}application 
+
+
+\begin{DoxyCode}
+69         \{
+70             \hyperlink{classModele_1_1Manager_a29b4f8c42f993178aac1d16da7942324}{Persistance}.\hyperlink{interfaceModele_1_1IPersistanceManager_a1b1fcf75cf99ef247ad7f83b1e816ea4}{SauvegardeDonnées}(\hyperlink{classModele_1_1Manager_aa91d850a379289e56012fc9b3912a7fe}{Clients}, 
+      \hyperlink{classModele_1_1Manager_ac8440a9781b104ad429965fcd460bf2f}{Administrateurs}, \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}); \textcolor{comment}{// <=== dépendance}
+71         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a2c5255bdd1628cbe62c8d72cba13de83}\label{classModele_1_1Manager_a2c5255bdd1628cbe62c8d72cba13de83}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Sup\+Commande@{Sup\+Commande}}
+\index{Sup\+Commande@{Sup\+Commande}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Sup\+Commande()}{SupCommande()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Sup\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Commande}{Commande}}]{cmd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Supprime une commande 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cmd} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+48         \{
+49             \textcolor{keywordflow}{if} (cmd == null)
+50             \{
+51                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+52             \}
+53 
+54             \textcolor{keywordflow}{if} (commandes.Contains(cmd))
+55             \{
+56                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+57             \}
+58             commandes.Remove(cmd);
+59             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+60         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_ac06a3ffe203cb1ae9b91928bdb54e63f}\label{classModele_1_1Manager_ac06a3ffe203cb1ae9b91928bdb54e63f}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Supp\+Administrateur@{Supp\+Administrateur}}
+\index{Supp\+Administrateur@{Supp\+Administrateur}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Supp\+Administrateur()}{SuppAdministrateur()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Supp\+Administrateur (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Administrateur}{Administrateur}}]{administrateur }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Supprime un client 
+
+
+\begin{DoxyParams}{Parameters}
+{\em administrateur} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si sa a fonctionnner false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+95         \{
+96             \textcolor{keywordflow}{if} (administrateur == null)
+97             \{
+98                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+99             \}
+100 
+101             \textcolor{keywordflow}{if} (administrateurs.Contains(administrateur))
+102             \{
+103                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+104             \}
+105             administrateurs.Remove(administrateur);
+106             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+107         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_aac1f92fbb473703125ba41e9903f808e}\label{classModele_1_1Manager_aac1f92fbb473703125ba41e9903f808e}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Supp\+Catalogue\+Carnivore@{Supp\+Catalogue\+Carnivore}}
+\index{Supp\+Catalogue\+Carnivore@{Supp\+Catalogue\+Carnivore}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Supp\+Catalogue\+Carnivore()}{SuppCatalogueCarnivore()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Supp\+Catalogue\+Carnivore (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Supprime une pizza au catalogue carnivore 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizz} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+147         \{
+148             \textcolor{keywordflow}{if} (pizz == null)
+149             \{
+150                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+151             \}
+152 
+153             \textcolor{keywordflow}{if} (!\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a4af9ef768f67cef6dfe545e22a6d63af}{CatalogueCarnivore}.Contains(pizz))
+154             \{
+155                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+156             \}
+157             \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a4af9ef768f67cef6dfe545e22a6d63af}{CatalogueCarnivore}.Remove(pizz);
+158             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+159         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a88f23540b7d8952994f3bbdf9e7d9e51}\label{classModele_1_1Manager_a88f23540b7d8952994f3bbdf9e7d9e51}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Supp\+Catalogue\+Epice@{Supp\+Catalogue\+Epice}}
+\index{Supp\+Catalogue\+Epice@{Supp\+Catalogue\+Epice}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Supp\+Catalogue\+Epice()}{SuppCatalogueEpice()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Supp\+Catalogue\+Epice (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Supprime une pizza au catalogue epice 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizz} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+167         \{
+168             \textcolor{keywordflow}{if} (pizz == null)
+169             \{
+170                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+171             \}
+172 
+173             \textcolor{keywordflow}{if} (!\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a633610212f42551a5755212e21bedbca}{CatalogueEpice}.Contains(pizz))
+174             \{
+175                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+176             \}
+177             \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_a633610212f42551a5755212e21bedbca}{CatalogueEpice}.Remove(pizz);
+178             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+179         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_ac0e999997599e5694fa82a678c4d2fbe}\label{classModele_1_1Manager_ac0e999997599e5694fa82a678c4d2fbe}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Supp\+Catalogue\+Pizzeta@{Supp\+Catalogue\+Pizzeta}}
+\index{Supp\+Catalogue\+Pizzeta@{Supp\+Catalogue\+Pizzeta}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Supp\+Catalogue\+Pizzeta()}{SuppCataloguePizzeta()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Supp\+Catalogue\+Pizzeta (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Supprime une pizza au catalogue pizzeta 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizz} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+127         \{
+128             \textcolor{keywordflow}{if} (pizz == null)
+129             \{
+130                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+131             \}
+132 
+133             \textcolor{keywordflow}{if} (!\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_ac5490e1026b5b08d43e30b68da893423}{CataloguePizzeta}.Contains(pizz))
+134             \{
+135                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+136             \}
+137             \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_ac5490e1026b5b08d43e30b68da893423}{CataloguePizzeta}.Remove(pizz);
+138             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+139         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a9f7374e98fcff11bea2dc069f2623e41}\label{classModele_1_1Manager_a9f7374e98fcff11bea2dc069f2623e41}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Supp\+Catalogue\+Vegetarien@{Supp\+Catalogue\+Vegetarien}}
+\index{Supp\+Catalogue\+Vegetarien@{Supp\+Catalogue\+Vegetarien}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Supp\+Catalogue\+Vegetarien()}{SuppCatalogueVegetarien()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Supp\+Catalogue\+Vegetarien (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Supprime une pizza au catalogue vegetarien 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizz} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+107         \{
+108             \textcolor{keywordflow}{if} (pizz == null)
+109             \{
+110                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+111             \}
+112 
+113             \textcolor{keywordflow}{if} (!\hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_abd7d6d70ddd6ba264c1c91a5b084d9ba}{CatalogueVegetarien}.Contains(pizz))
+114             \{
+115                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+116             \}
+117             \hyperlink{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}{C1}.\hyperlink{classModele_1_1Catalogue_abd7d6d70ddd6ba264c1c91a5b084d9ba}{CatalogueVegetarien}.Remove(pizz);
+118             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+119         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_a27aa5c5077667211da410d55fd6c17b9}\label{classModele_1_1Manager_a27aa5c5077667211da410d55fd6c17b9}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Supp\+Client@{Supp\+Client}}
+\index{Supp\+Client@{Supp\+Client}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Supp\+Client()}{SuppClient()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Supp\+Client (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Client}{Client}}]{client }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Supprime un client 
+
+
+\begin{DoxyParams}{Parameters}
+{\em client} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si sa a fonctionnner false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+75         \{
+76             \textcolor{keywordflow}{if} (client == null)
+77             \{
+78                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+79             \}
+80 
+81             \textcolor{keywordflow}{if} (clients.Contains(client))
+82             \{
+83                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+84             \}
+85             clients.Remove(client);
+86             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+87         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Manager_ae68e67c9a17910118dd74fa2230383b0}\label{classModele_1_1Manager_ae68e67c9a17910118dd74fa2230383b0}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Sup\+Pizza@{Sup\+Pizza}}
+\index{Sup\+Pizza@{Sup\+Pizza}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Sup\+Pizza()}{SupPizza()}}
+{\footnotesize\ttfamily bool Modele.\+Manager.\+Sup\+Pizza (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Pizza}{Pizza}}]{pizza }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Supprimer une pizza 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pizza} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si ca a fonctionnné false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+48         \{
+49             \textcolor{keywordflow}{if} (pizza == null)
+50             \{
+51                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+52             \}
+53 
+54             \textcolor{keywordflow}{if} (pizzas.Contains(pizza))
+55             \{
+56                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+57             \}
+58             pizzas.Remove(pizza);
+59             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+60         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classModele_1_1Manager_ac8440a9781b104ad429965fcd460bf2f}\label{classModele_1_1Manager_ac8440a9781b104ad429965fcd460bf2f}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Administrateurs@{Administrateurs}}
+\index{Administrateurs@{Administrateurs}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Administrateurs}{Administrateurs}}
+{\footnotesize\ttfamily Read\+Only\+Collection$<$\hyperlink{classModele_1_1Administrateur}{Administrateur}$>$ Modele.\+Manager.\+Administrateurs\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Crée une liste administrateurs et une Read\+Only\+Collection Administrateurs qui sera égale à administrateurs 
+
+\mbox{\Hypertarget{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}\label{classModele_1_1Manager_a54bbc7bd646fcaa0f1a590310dd3c02c}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!C1@{C1}}
+\index{C1@{C1}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{C1}{C1}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Catalogue}{Catalogue} Modele.\+Manager.\+C1\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Crée un catalogue et une variable readonly qui sera égale a ce catalogue 
+
+\mbox{\Hypertarget{classModele_1_1Manager_aa91d850a379289e56012fc9b3912a7fe}\label{classModele_1_1Manager_aa91d850a379289e56012fc9b3912a7fe}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Clients@{Clients}}
+\index{Clients@{Clients}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Clients}{Clients}}
+{\footnotesize\ttfamily Read\+Only\+Collection$<$\hyperlink{classModele_1_1Client}{Client}$>$ Modele.\+Manager.\+Clients\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Crée une liste clients et une Read\+Only\+Collection Clients qui sera égale à clients 
+
+\mbox{\Hypertarget{classModele_1_1Manager_a4b53ccf46b594f580933c26c59892dd7}\label{classModele_1_1Manager_a4b53ccf46b594f580933c26c59892dd7}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Commande\+Actuelle@{Commande\+Actuelle}}
+\index{Commande\+Actuelle@{Commande\+Actuelle}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Commande\+Actuelle}{CommandeActuelle}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Commande}{Commande} Modele.\+Manager.\+Commande\+Actuelle\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Cette variable permet de connaitre la commande actuelle 
+
+\mbox{\Hypertarget{classModele_1_1Manager_a0c0ba218c22011e46bdeddff3f6ca5d0}\label{classModele_1_1Manager_a0c0ba218c22011e46bdeddff3f6ca5d0}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Commandes@{Commandes}}
+\index{Commandes@{Commandes}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Commandes}{Commandes}}
+{\footnotesize\ttfamily Read\+Only\+Collection$<$\hyperlink{classModele_1_1Commande}{Commande}$>$ Modele.\+Manager.\+Commandes\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Crée une commande et une variable readonly qui sera égale a cette commande 
+
+\mbox{\Hypertarget{classModele_1_1Manager_a29b4f8c42f993178aac1d16da7942324}\label{classModele_1_1Manager_a29b4f8c42f993178aac1d16da7942324}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Persistance@{Persistance}}
+\index{Persistance@{Persistance}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Persistance}{Persistance}}
+{\footnotesize\ttfamily \hyperlink{interfaceModele_1_1IPersistanceManager}{I\+Persistance\+Manager} Modele.\+Manager.\+Persistance\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classModele_1_1Manager_a7e69844aeeebbc80144850efc0d2b94c}\label{classModele_1_1Manager_a7e69844aeeebbc80144850efc0d2b94c}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Pizza\+Actuelle@{Pizza\+Actuelle}}
+\index{Pizza\+Actuelle@{Pizza\+Actuelle}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Pizza\+Actuelle}{PizzaActuelle}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Pizza}{Pizza} Modele.\+Manager.\+Pizza\+Actuelle\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Cette variable permet de connaitre la pizza actuelle 
+
+\mbox{\Hypertarget{classModele_1_1Manager_a01701f7ed04aac12fd6a623c2e382d0c}\label{classModele_1_1Manager_a01701f7ed04aac12fd6a623c2e382d0c}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Pizzas@{Pizzas}}
+\index{Pizzas@{Pizzas}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Pizzas}{Pizzas}}
+{\footnotesize\ttfamily Read\+Only\+Collection$<$\hyperlink{classModele_1_1Pizza}{Pizza}$>$ Modele.\+Manager.\+Pizzas\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Crée une commande et une variable readonly qui sera égale a cette pizza 
+
+\mbox{\Hypertarget{classModele_1_1Manager_aa00c4632bd15b247d6b6793a6797dc82}\label{classModele_1_1Manager_aa00c4632bd15b247d6b6793a6797dc82}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Utilisateur\+Actuel@{Utilisateur\+Actuel}}
+\index{Utilisateur\+Actuel@{Utilisateur\+Actuel}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Utilisateur\+Actuel}{UtilisateurActuel}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Utilisateur}{Utilisateur} Modele.\+Manager.\+Utilisateur\+Actuel\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Cette variable permet de connaitre l\textquotesingle{}utilisateur actuelle 
+
+
+
+\subsection{Event Documentation}
+\mbox{\Hypertarget{classModele_1_1Manager_aebe3fac90190bcb0f688187821705730}\label{classModele_1_1Manager_aebe3fac90190bcb0f688187821705730}} 
+\index{Modele\+::\+Manager@{Modele\+::\+Manager}!Property\+Changed@{Property\+Changed}}
+\index{Property\+Changed@{Property\+Changed}!Modele\+::\+Manager@{Modele\+::\+Manager}}
+\subsubsection{\texorpdfstring{Property\+Changed}{PropertyChanged}}
+{\footnotesize\ttfamily Property\+Changed\+Event\+Handler Modele.\+Manager.\+Property\+Changed}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Modele/\hyperlink{Manager_8Catalogue_8cs}{Manager.\+Catalogue.\+cs}\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Modele/\hyperlink{Manager_8Commande_8cs}{Manager.\+Commande.\+cs}\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Modele/\hyperlink{Manager_8cs}{Manager.\+cs}\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Modele/\hyperlink{Manager_8Pizza_8cs}{Manager.\+Pizza.\+cs}\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Modele/\hyperlink{Manager_8Utilisateur_8cs}{Manager.\+Utilisateur.\+cs}\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Modele/\hyperlink{Manager_8Vue_8cs}{Manager.\+Vue.\+cs}\end{DoxyCompactItemize}

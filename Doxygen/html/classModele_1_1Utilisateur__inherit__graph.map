@@ -1,0 +1,4 @@
+<map id="Modele.Utilisateur" name="Modele.Utilisateur">
+<area shape="rect" id="node4" href="$classModele_1_1Administrateur.html" title="Cette class permet de crée un administrateur et elle hérite de la class utilisateur ..." alt="" coords="31,155,183,181"/>
+<area shape="rect" id="node5" href="$classModele_1_1Client.html" title="Cette class permet de crée un client et elle hérite de la class utilisateur " alt="" coords="208,155,311,181"/>
+</map>

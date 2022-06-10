@@ -1,0 +1,146 @@
+\hypertarget{classnewPizza1_1_1pageIdentification}{}\section{new\+Pizza1.\+page\+Identification Class Reference}
+\label{classnewPizza1_1_1pageIdentification}\index{new\+Pizza1.\+page\+Identification@{new\+Pizza1.\+page\+Identification}}
+
+
+\hyperlink{classnewPizza1_1_1pageIdentification}{page\+Identification}  
+
+
+
+
+Inheritance diagram for new\+Pizza1.\+page\+Identification\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnewPizza1_1_1pageIdentification__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for new\+Pizza1.\+page\+Identification\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classnewPizza1_1_1pageIdentification__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classnewPizza1_1_1pageIdentification_adfe48959ae9c294c657f21027deed65f}{Initialize\+Component} ()
+\begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
+void \hyperlink{classnewPizza1_1_1pageIdentification_adfe48959ae9c294c657f21027deed65f}{Initialize\+Component} ()
+\begin{DoxyCompactList}\small\item\em Initialize\+Component \end{DoxyCompactList}\item 
+\hyperlink{classnewPizza1_1_1pageIdentification_a2c052fba1b9dbd52a6490af85f6edab1}{page\+Identification} ()
+\begin{DoxyCompactList}\small\item\em Initialise \& vérification du thème \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classModele_1_1Manager}{Manager} \hyperlink{classnewPizza1_1_1pageIdentification_aa9d52ac6d4d3d35b3ce1947e999a5465}{Mgr} =$>$ ((\hyperlink{classnewPizza1_1_1App}{App})App.\+Current).Le\+Manager
+\begin{DoxyCompactList}\small\item\em Appel du manager \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classnewPizza1_1_1pageIdentification}{page\+Identification} 
+
+Logique d\textquotesingle{}interaction pour page\+Identification.\+xaml 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classnewPizza1_1_1pageIdentification_a2c052fba1b9dbd52a6490af85f6edab1}\label{classnewPizza1_1_1pageIdentification_a2c052fba1b9dbd52a6490af85f6edab1}} 
+\index{new\+Pizza1\+::page\+Identification@{new\+Pizza1\+::page\+Identification}!page\+Identification@{page\+Identification}}
+\index{page\+Identification@{page\+Identification}!new\+Pizza1\+::page\+Identification@{new\+Pizza1\+::page\+Identification}}
+\subsubsection{\texorpdfstring{page\+Identification()}{pageIdentification()}}
+{\footnotesize\ttfamily new\+Pizza1.\+page\+Identification.\+page\+Identification (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialise \& vérification du thème 
+
+
+\begin{DoxyCode}
+31         \{
+32             \hyperlink{classnewPizza1_1_1pageIdentification_adfe48959ae9c294c657f21027deed65f}{InitializeComponent}();
+33             \textcolor{keywordtype}{object} v = Application.Current.Resources[\textcolor{stringliteral}{"couleurPrincipale"}];
+34             \textcolor{keywordflow}{if} (v.ToString() == \textcolor{stringliteral}{"#FF68A7AD"})
+35                 BtnTheme.Content = \textcolor{stringliteral}{"Thème : Clair"};
+36             \textcolor{keywordflow}{else}
+37                 BtnTheme.Content = \textcolor{stringliteral}{"Thème : Sombre"};
+38         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classnewPizza1_1_1pageIdentification_adfe48959ae9c294c657f21027deed65f}\label{classnewPizza1_1_1pageIdentification_adfe48959ae9c294c657f21027deed65f}} 
+\index{new\+Pizza1\+::page\+Identification@{new\+Pizza1\+::page\+Identification}!Initialize\+Component@{Initialize\+Component}}
+\index{Initialize\+Component@{Initialize\+Component}!new\+Pizza1\+::page\+Identification@{new\+Pizza1\+::page\+Identification}}
+\subsubsection{\texorpdfstring{Initialize\+Component()}{InitializeComponent()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void new\+Pizza1.\+page\+Identification.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialize\+Component 
+
+
+\begin{DoxyCode}
+86                                           \{
+87             \textcolor{keywordflow}{if} (\_contentLoaded) \{
+88                 \textcolor{keywordflow}{return};
+89             \}
+90             \_contentLoaded = \textcolor{keyword}{true};
+91             \hyperlink{namespaceSystem}{System}.Uri resourceLocater = \textcolor{keyword}{new} \hyperlink{namespaceSystem}{System}.Uri(\textcolor{stringliteral}{"
+      /newPizza1;V1.0.0.0;component/pages/pageidentification.xaml"}, \hyperlink{namespaceSystem}{System}.UriKind.Relative);
+92             
+93 \textcolor{preprocessor}{            #line 1 "..\(\backslash\)..\(\backslash\)..\(\backslash\)..\(\backslash\)pages\(\backslash\)pageIdentification.xaml"}
+94             \hyperlink{namespaceSystem}{System}.Windows.Application.LoadComponent(\textcolor{keyword}{this}, resourceLocater);
+95             
+96 \textcolor{preprocessor}{            #line default}
+97 \textcolor{preprocessor}{            #line hidden}
+98         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classnewPizza1_1_1pageIdentification_adfe48959ae9c294c657f21027deed65f}\label{classnewPizza1_1_1pageIdentification_adfe48959ae9c294c657f21027deed65f}} 
+\index{new\+Pizza1\+::page\+Identification@{new\+Pizza1\+::page\+Identification}!Initialize\+Component@{Initialize\+Component}}
+\index{Initialize\+Component@{Initialize\+Component}!new\+Pizza1\+::page\+Identification@{new\+Pizza1\+::page\+Identification}}
+\subsubsection{\texorpdfstring{Initialize\+Component()}{InitializeComponent()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void new\+Pizza1.\+page\+Identification.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initialize\+Component 
+
+
+\begin{DoxyCode}
+86                                           \{
+87             \textcolor{keywordflow}{if} (\_contentLoaded) \{
+88                 \textcolor{keywordflow}{return};
+89             \}
+90             \_contentLoaded = \textcolor{keyword}{true};
+91             \hyperlink{namespaceSystem}{System}.Uri resourceLocater = \textcolor{keyword}{new} \hyperlink{namespaceSystem}{System}.Uri(\textcolor{stringliteral}{"
+      /newPizza1;V1.0.0.0;component/pages/pageidentification.xaml"}, \hyperlink{namespaceSystem}{System}.UriKind.Relative);
+92             
+93 \textcolor{preprocessor}{            #line 1 "..\(\backslash\)..\(\backslash\)..\(\backslash\)..\(\backslash\)pages\(\backslash\)pageIdentification.xaml"}
+94             \hyperlink{namespaceSystem}{System}.Windows.Application.LoadComponent(\textcolor{keyword}{this}, resourceLocater);
+95             
+96 \textcolor{preprocessor}{            #line default}
+97 \textcolor{preprocessor}{            #line hidden}
+98         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classnewPizza1_1_1pageIdentification_aa9d52ac6d4d3d35b3ce1947e999a5465}\label{classnewPizza1_1_1pageIdentification_aa9d52ac6d4d3d35b3ce1947e999a5465}} 
+\index{new\+Pizza1\+::page\+Identification@{new\+Pizza1\+::page\+Identification}!Mgr@{Mgr}}
+\index{Mgr@{Mgr}!new\+Pizza1\+::page\+Identification@{new\+Pizza1\+::page\+Identification}}
+\subsubsection{\texorpdfstring{Mgr}{Mgr}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Manager}{Manager} new\+Pizza1.\+page\+Identification.\+Mgr =$>$ ((\hyperlink{classnewPizza1_1_1App}{App})App.\+Current).Le\+Manager}
+
+
+
+Appel du manager 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/new\+Pizza/new\+Pizza1/obj/\+Debug/net5.\+0-\/windows/pages/\hyperlink{net5_80-windows_2pages_2pageIdentification_8g_8i_8cs}{page\+Identification.\+g.\+i.\+cs}\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/new\+Pizza/new\+Pizza1/pages/\hyperlink{pageIdentification_8xaml_8cs}{page\+Identification.\+xaml.\+cs}\end{DoxyCompactItemize}

@@ -1,0 +1,230 @@
+\hypertarget{classModele_1_1Commande}{}\section{Modele.\+Commande Class Reference}
+\label{classModele_1_1Commande}\index{Modele.\+Commande@{Modele.\+Commande}}
+
+
+Cette fonction permet a un client de passer une commande  
+
+
+
+
+Inheritance diagram for Modele.\+Commande\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classModele_1_1Commande__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Modele.\+Commande\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{classModele_1_1Commande__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classModele_1_1Commande_a998dd9a12105bc2fe0f78764a8eb2306}{Commande} (\hyperlink{classModele_1_1Client}{Client} c1, Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$ list\+Pzz)
+\begin{DoxyCompactList}\small\item\em Le constructeur reçois un client actuelle et une liste de pizza \end{DoxyCompactList}\item 
+void \hyperlink{classModele_1_1Commande_ab3f6329bfa0cf9e06a2fb15184c490c3}{changer\+Status} ()
+\begin{DoxyCompactList}\small\item\em Permet de changer le statut d\textquotesingle{}une commande \end{DoxyCompactList}\item 
+override bool \hyperlink{classModele_1_1Commande_a0a87dd164ca4c925c15fc4ec122f39a7}{Equals} (object obj)
+\begin{DoxyCompactList}\small\item\em Vérifie si deux pizzas sont égales \end{DoxyCompactList}\item 
+override int \hyperlink{classModele_1_1Commande_a1e9a7e7bd98ad29127d0a228378568be}{Get\+Hash\+Code} ()
+\item 
+override string \hyperlink{classModele_1_1Commande_a4a4798336c80ca5656360983348472b0}{To\+String} ()
+\begin{DoxyCompactList}\small\item\em Affiche le contenu d\textquotesingle{}une commande \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classModele_1_1Commande_a81e35543bb9d8de1b01f8dd4ba0d3f38}{On\+Property\+Changed} (string property\+Name)
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$ \hyperlink{classModele_1_1Commande_a296c71bf31f1e6383e63d842ceb0bfe6}{List\+Pizza}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\hyperlink{classModele_1_1Client}{Client} \hyperlink{classModele_1_1Commande_ad9f1418f7febfa94bcb57873d3ac6be4}{Client\+Actu}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status} \hyperlink{classModele_1_1Commande_af468b3432c93b1c7929b2af8154386a6}{Statut}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+Property\+Changed\+Event\+Handler \hyperlink{classModele_1_1Commande_a6022a80a486b9612bb124e6fef5a3373}{Property\+Changed}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Cette fonction permet a un client de passer une commande 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classModele_1_1Commande_a998dd9a12105bc2fe0f78764a8eb2306}\label{classModele_1_1Commande_a998dd9a12105bc2fe0f78764a8eb2306}} 
+\index{Modele\+::\+Commande@{Modele\+::\+Commande}!Commande@{Commande}}
+\index{Commande@{Commande}!Modele\+::\+Commande@{Modele\+::\+Commande}}
+\subsubsection{\texorpdfstring{Commande()}{Commande()}}
+{\footnotesize\ttfamily Modele.\+Commande.\+Commande (\begin{DoxyParamCaption}\item[{\hyperlink{classModele_1_1Client}{Client}}]{c1,  }\item[{Observable\+Collection$<$ \hyperlink{classModele_1_1Pizza}{Pizza} $>$}]{list\+Pzz }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Le constructeur reçois un client actuelle et une liste de pizza 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c1} & \\
+\hline
+{\em list\+Pzz} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+71         \{
+72             \hyperlink{classModele_1_1Commande_a296c71bf31f1e6383e63d842ceb0bfe6}{ListPizza} = \textcolor{keyword}{new} ObservableCollection<Pizza>();
+73             \hyperlink{classModele_1_1Commande_a296c71bf31f1e6383e63d842ceb0bfe6}{ListPizza} = listPzz;
+74             \hyperlink{classModele_1_1Commande_ad9f1418f7febfa94bcb57873d3ac6be4}{ClientActu} = c1;
+75             \hyperlink{classModele_1_1Commande_af468b3432c93b1c7929b2af8154386a6}{Statut} = \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.Commencer;
+76         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classModele_1_1Commande_ab3f6329bfa0cf9e06a2fb15184c490c3}\label{classModele_1_1Commande_ab3f6329bfa0cf9e06a2fb15184c490c3}} 
+\index{Modele\+::\+Commande@{Modele\+::\+Commande}!changer\+Status@{changer\+Status}}
+\index{changer\+Status@{changer\+Status}!Modele\+::\+Commande@{Modele\+::\+Commande}}
+\subsubsection{\texorpdfstring{changer\+Status()}{changerStatus()}}
+{\footnotesize\ttfamily void Modele.\+Commande.\+changer\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Permet de changer le statut d\textquotesingle{}une commande 
+
+
+\begin{DoxyCode}
+83         \{
+84             \textcolor{keywordflow}{if} (statut == \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.Commencer)
+85             \{
+86                 statut = \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.EnCours;
+87                 \textcolor{keywordflow}{return};
+88             \}
+89 
+90             \textcolor{keywordflow}{if} (statut == \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.EnCours)
+91             \{
+92                 statut = \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status}.Finir;
+93                 \textcolor{keywordflow}{return};
+94             \}
+95         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Commande_a0a87dd164ca4c925c15fc4ec122f39a7}\label{classModele_1_1Commande_a0a87dd164ca4c925c15fc4ec122f39a7}} 
+\index{Modele\+::\+Commande@{Modele\+::\+Commande}!Equals@{Equals}}
+\index{Equals@{Equals}!Modele\+::\+Commande@{Modele\+::\+Commande}}
+\subsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily override bool Modele.\+Commande.\+Equals (\begin{DoxyParamCaption}\item[{object}]{obj }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Vérifie si deux pizzas sont égales 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true si les deux pizzas sont égales, false sinon
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+104         \{
+105             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{object}.ReferenceEquals(obj, null)) \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+106             \textcolor{keywordflow}{if} (\textcolor{keywordtype}{object}.ReferenceEquals(\textcolor{keyword}{this}, obj)) \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+107             \textcolor{keywordflow}{if} (this.GetType() != obj.GetType()) \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+108             \textcolor{comment}{/*return this.Equals(obj as Commande);*/}
+109             \hyperlink{classModele_1_1Commande_a998dd9a12105bc2fe0f78764a8eb2306}{Commande} cmd = (\hyperlink{classModele_1_1Commande_a998dd9a12105bc2fe0f78764a8eb2306}{Commande})obj;
+110             \textcolor{keywordflow}{return} \hyperlink{classModele_1_1Commande_a296c71bf31f1e6383e63d842ceb0bfe6}{ListPizza} == cmd.ListPizza && \hyperlink{classModele_1_1Commande_ad9f1418f7febfa94bcb57873d3ac6be4}{ClientActu} == cmd.ClientActu;
+111         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Commande_a1e9a7e7bd98ad29127d0a228378568be}\label{classModele_1_1Commande_a1e9a7e7bd98ad29127d0a228378568be}} 
+\index{Modele\+::\+Commande@{Modele\+::\+Commande}!Get\+Hash\+Code@{Get\+Hash\+Code}}
+\index{Get\+Hash\+Code@{Get\+Hash\+Code}!Modele\+::\+Commande@{Modele\+::\+Commande}}
+\subsubsection{\texorpdfstring{Get\+Hash\+Code()}{GetHashCode()}}
+{\footnotesize\ttfamily override int Modele.\+Commande.\+Get\+Hash\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyCode}
+114         \{
+115             \textcolor{keywordflow}{return} \hyperlink{classModele_1_1Commande_a296c71bf31f1e6383e63d842ceb0bfe6}{ListPizza}.GetHashCode();
+116         \}
+\end{DoxyCode}
+\mbox{\Hypertarget{classModele_1_1Commande_a81e35543bb9d8de1b01f8dd4ba0d3f38}\label{classModele_1_1Commande_a81e35543bb9d8de1b01f8dd4ba0d3f38}} 
+\index{Modele\+::\+Commande@{Modele\+::\+Commande}!On\+Property\+Changed@{On\+Property\+Changed}}
+\index{On\+Property\+Changed@{On\+Property\+Changed}!Modele\+::\+Commande@{Modele\+::\+Commande}}
+\subsubsection{\texorpdfstring{On\+Property\+Changed()}{OnPropertyChanged()}}
+{\footnotesize\ttfamily void Modele.\+Commande.\+On\+Property\+Changed (\begin{DoxyParamCaption}\item[{string}]{property\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{classModele_1_1Commande_a4a4798336c80ca5656360983348472b0}\label{classModele_1_1Commande_a4a4798336c80ca5656360983348472b0}} 
+\index{Modele\+::\+Commande@{Modele\+::\+Commande}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Modele\+::\+Commande@{Modele\+::\+Commande}}
+\subsubsection{\texorpdfstring{To\+String()}{ToString()}}
+{\footnotesize\ttfamily override string Modele.\+Commande.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Affiche le contenu d\textquotesingle{}une commande 
+
+\begin{DoxyReturn}{Returns}
+chaine de caractère
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+123         \{
+124             \textcolor{keywordtype}{string} txt = $\textcolor{stringliteral}{"\{ClientActu.Pseudo\}, "};
+125             \textcolor{keywordflow}{foreach} (Pizza p \textcolor{keywordflow}{in} \hyperlink{classModele_1_1Commande_a296c71bf31f1e6383e63d842ceb0bfe6}{ListPizza})
+126             \{
+127                 txt += $\textcolor{stringliteral}{"\{p\}, "};
+128             \}
+129             txt += $\textcolor{stringliteral}{"\{Statut\}"};
+130 
+131             \textcolor{keywordflow}{return} txt;
+132         \}
+\end{DoxyCode}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{classModele_1_1Commande_ad9f1418f7febfa94bcb57873d3ac6be4}\label{classModele_1_1Commande_ad9f1418f7febfa94bcb57873d3ac6be4}} 
+\index{Modele\+::\+Commande@{Modele\+::\+Commande}!Client\+Actu@{Client\+Actu}}
+\index{Client\+Actu@{Client\+Actu}!Modele\+::\+Commande@{Modele\+::\+Commande}}
+\subsubsection{\texorpdfstring{Client\+Actu}{ClientActu}}
+{\footnotesize\ttfamily \hyperlink{classModele_1_1Client}{Client} Modele.\+Commande.\+Client\+Actu\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classModele_1_1Commande_a296c71bf31f1e6383e63d842ceb0bfe6}\label{classModele_1_1Commande_a296c71bf31f1e6383e63d842ceb0bfe6}} 
+\index{Modele\+::\+Commande@{Modele\+::\+Commande}!List\+Pizza@{List\+Pizza}}
+\index{List\+Pizza@{List\+Pizza}!Modele\+::\+Commande@{Modele\+::\+Commande}}
+\subsubsection{\texorpdfstring{List\+Pizza}{ListPizza}}
+{\footnotesize\ttfamily Observable\+Collection$<$\hyperlink{classModele_1_1Pizza}{Pizza}$>$ Modele.\+Commande.\+List\+Pizza\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{classModele_1_1Commande_af468b3432c93b1c7929b2af8154386a6}\label{classModele_1_1Commande_af468b3432c93b1c7929b2af8154386a6}} 
+\index{Modele\+::\+Commande@{Modele\+::\+Commande}!Statut@{Statut}}
+\index{Statut@{Statut}!Modele\+::\+Commande@{Modele\+::\+Commande}}
+\subsubsection{\texorpdfstring{Statut}{Statut}}
+{\footnotesize\ttfamily \hyperlink{namespaceModele_a7de67c7bf55b42ee1c5fea81ed793eb1}{Status} Modele.\+Commande.\+Statut\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+\subsection{Event Documentation}
+\mbox{\Hypertarget{classModele_1_1Commande_a6022a80a486b9612bb124e6fef5a3373}\label{classModele_1_1Commande_a6022a80a486b9612bb124e6fef5a3373}} 
+\index{Modele\+::\+Commande@{Modele\+::\+Commande}!Property\+Changed@{Property\+Changed}}
+\index{Property\+Changed@{Property\+Changed}!Modele\+::\+Commande@{Modele\+::\+Commande}}
+\subsubsection{\texorpdfstring{Property\+Changed}{PropertyChanged}}
+{\footnotesize\ttfamily Property\+Changed\+Event\+Handler Modele.\+Commande.\+Property\+Changed}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/etud/babonneau/\+Documents/fdsfsdfqs/sae-\/2.\+01/src/\+Modele/\hyperlink{Commande_8cs}{Commande.\+cs}\end{DoxyCompactItemize}
