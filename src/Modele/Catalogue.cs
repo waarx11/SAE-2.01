@@ -70,6 +70,11 @@ namespace Modele
             return catalogueVegetarien == other.catalogueVegetarien || cataloguePizzeta == other.cataloguePizzeta || catalogueCarnivore == other.catalogueCarnivore || catalogueEpice == other.catalogueEpice;
         }
 
+
+        /// <summary>
+        /// Affiche la liste des catalogues et leurs pizzas
+        /// </summary>
+        /// <returns>chaine de caractère</returns>
         public override string ToString()
         {
             string Afficher = "";

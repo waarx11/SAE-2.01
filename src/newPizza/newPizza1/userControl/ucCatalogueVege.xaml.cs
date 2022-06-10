@@ -21,7 +21,14 @@ namespace newPizza1
     /// </summary>
     public partial class ucCatalogueVege : UserControl
     {
+        /// <summary>
+        /// appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
+
+        /// <summary>
+        /// initialise & récupère le manager
+        /// </summary>
 
         public ucCatalogueVege()
         {
@@ -29,6 +36,9 @@ namespace newPizza1
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Evenement bouton
+        /// </summary>
         public event RoutedEventHandler? CLICKVEGE;
         private void MenuBouton_Click(object sender, RoutedEventArgs e)
         {

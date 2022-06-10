@@ -8,7 +8,7 @@ namespace Modele
     /// <summary>
     /// Cette class permet de crée un administrateur et elle hérite de la class utilisateur
     /// </summary>
-    /*[DataContract]*/
+
     public class Administrateur : Utilisateur
     {
         /// <summary>

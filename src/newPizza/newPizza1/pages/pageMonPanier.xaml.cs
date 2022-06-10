@@ -21,8 +21,14 @@ namespace newPizza1
     /// </summary>
     public partial class pageMonPanier : Window
     {
+        /// <summary>
+        /// Appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
 
+        /// <summary>
+        /// Initialise & récupère l'utilisateur et ses commandes
+        /// </summary>
         public pageMonPanier()
         {
             DataContext = (Mgr.UtilisateurActuel as Client);
@@ -35,6 +41,11 @@ namespace newPizza1
             PrixTotal.Text= prixT.ToString();
         }
 
+        /// <summary>
+        /// bouton retour
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void RetourWindow(object sender, RoutedEventArgs e)
         {
             pageCatalogue pClinet = new pageCatalogue();
@@ -42,6 +53,11 @@ namespace newPizza1
             pClinet.Show();
         }
 
+        /// <summary>
+        /// bouton deconnexion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void DecoWindow(object sender, RoutedEventArgs e)
         {
             MessageBoxResult result = MessageBox.Show("Voulez-vous vraiment vous déconnecter", "Déconnexion", MessageBoxButton.YesNo, MessageBoxImage.Question);
@@ -53,6 +69,9 @@ namespace newPizza1
             }
         }
 
+        /// <summary>
+        /// Définition Photo
+        /// </summary>
         public string Photo
         {
             get { return (string)GetValue(PhotoProperty); }
@@ -63,7 +82,9 @@ namespace newPizza1
         public static readonly DependencyProperty PhotoProperty =
             DependencyProperty.Register("Photo", typeof(string), typeof(pageMonPanier), new PropertyMetadata("..\\img\\default\\noPP.jpg"));
 
-
+        /// <summary>
+        /// Définition Pseudo
+        /// </summary>
         public string Pseudo
         {
             get { return (string)GetValue(PseudoProperty); }
@@ -74,8 +95,16 @@ namespace newPizza1
         public static readonly DependencyProperty PseudoProperty =
             DependencyProperty.Register("Pseudo", typeof(string), typeof(pageMonPanier), new PropertyMetadata("Erreur de récupération"));
 
+        /// <summary>
+        /// Choix paiement
+        /// </summary>
         public int ChoixPaiement { get; set; }
 
+        /// <summary>
+        /// selection du mode de paiement Paypal 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SlctPaypal(object sender, RoutedEventArgs e)
         {
             paypal.Foreground = new SolidColorBrush(Colors.Red);
@@ -97,7 +126,11 @@ namespace newPizza1
             ChoixPaiement = 1;
         }
 
-
+        /// <summary>
+        /// selection du mode de paiement CB
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SlctCB(object sender, RoutedEventArgs e)
         {
             cb.Foreground = new SolidColorBrush(Colors.Red);
@@ -119,6 +152,11 @@ namespace newPizza1
             ChoixPaiement = 2;
         }
 
+        /// <summary>
+        /// Bouton Payer
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Paid(object sender, RoutedEventArgs e)
         {
 
@@ -141,6 +179,12 @@ namespace newPizza1
             }
 
         }
+
+        /// <summary>
+        /// Selection du pizza actuelle
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
 
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

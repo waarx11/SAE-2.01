@@ -21,16 +21,25 @@ namespace newPizza1
     /// </summary>
     public partial class ucInfoPizza : UserControl
     {
-
+        /// <summary>
+        /// appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
 
+        /// <summary>
+        /// Initialise & récupère la pizza actuelle
+        /// </summary>
         public ucInfoPizza()
         {
             InitializeComponent();
             DataContext = Mgr.PizzaActuelle;
         }
 
-
+        /// <summary>
+        /// Bouton +
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void BtnPlus(object sender, RoutedEventArgs e)
         {
             Pizza p1 = Mgr.PizzaActuelle;
@@ -40,7 +49,11 @@ namespace newPizza1
                 Mgr.PizzaActuelle.Quantité = m + 1;
             }
         }
-
+        /// <summary>
+        /// Bouton -
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void BtnMoin(object sender, RoutedEventArgs e)
         {
             Pizza p1 = Mgr.PizzaActuelle;
@@ -55,6 +68,11 @@ namespace newPizza1
             }
         }
 
+        /// <summary>
+        /// Bouton Ajouter au panier
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void AddPanier(object sender, RoutedEventArgs e)
         {
             Pizza p1 = Mgr.PizzaActuelle;

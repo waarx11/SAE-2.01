@@ -108,7 +108,13 @@ namespace Modele
             }
             return -1;
         }
-
+        /// <summary>
+        /// Créer une utilisateur
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="email"></param>
+        /// <param name="mdp"></param>
+        /// <returns>code de retour</returns>
         public int creationUtilisateur(string id, string email, string mdp)
         {
             if (string.IsNullOrEmpty(id) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(mdp))

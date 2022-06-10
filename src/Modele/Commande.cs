@@ -38,6 +38,10 @@ namespace Modele
             Statut = Status.Commencer;
         }
 
+
+        /// <summary>
+        /// Permet de changer le statut d'une commande
+        /// </summary>
         public void changerStatus()
         {
             if (statut == Status.Commencer)
@@ -53,6 +57,12 @@ namespace Modele
             }
         }
 
+
+        /// <summary>
+        /// Vérifie si deux pizzas sont égales
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns>true si les deux pizzas sont égales, false sinon</returns>
         public override bool Equals(object obj)
         {
             if (object.ReferenceEquals(obj, null)) return false;
@@ -68,6 +78,10 @@ namespace Modele
             return ListPizza.GetHashCode();
         }
 
+        /// <summary>
+        /// Affiche le contenu d'une commande
+        /// </summary>
+        /// <returns>chaine de caractère</returns>
         public override string ToString()
         {
             string txt = $"{ClientActu.Pseudo}, ";

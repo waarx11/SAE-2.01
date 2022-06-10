@@ -24,11 +24,22 @@ namespace newPizza1
 
     public partial class pageCatalogue : Window
     {
+        /// <summary>
+        /// Appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
+        /// <summary>
+        /// Initialise
+        /// </summary>
         public pageCatalogue()
         {
             InitializeComponent();
         }
+        /// <summary>
+        /// Affiche la page pizzeta
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuBouton_Pizzetas(object sender, RoutedEventArgs e)
         {
             ctPizzeta.Visibility = Visibility.Visible;
@@ -37,6 +48,11 @@ namespace newPizza1
             ctVege.Visibility = Visibility.Hidden;
             ccCatalogue.Visibility = Visibility.Hidden;
         }
+        /// <summary>
+        /// Affiche la page epicees
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuBouton_Epicees(object sender, RoutedEventArgs e)
         {
             ctPizzeta.Visibility = Visibility.Hidden;
@@ -46,6 +62,11 @@ namespace newPizza1
             ccCatalogue.Visibility = Visibility.Hidden;
         }
 
+        /// <summary>
+        /// Affiche la page carnivore
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuBouton_Carnivores(object sender, RoutedEventArgs e)
         {
             ctPizzeta.Visibility = Visibility.Hidden;
@@ -55,6 +76,11 @@ namespace newPizza1
             ccCatalogue.Visibility = Visibility.Hidden;
         }
 
+        /// <summary>
+        /// Affiche la page vegetarienne
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuBouton_Vegetariennes(object sender, RoutedEventArgs e)
         {
             ctPizzeta.Visibility = Visibility.Hidden;
@@ -63,7 +89,11 @@ namespace newPizza1
             ctVege.Visibility = Visibility.Visible;
             ccCatalogue.Visibility = Visibility.Hidden;
         }
-
+        /// <summary>
+        /// Bouton de deconnexion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MenuBouton_Deconnexion(object sender, RoutedEventArgs e)
         {
             MessageBoxResult result = MessageBox.Show("Voulez-vous vraiment vous déconnecter", "Déconnexion", MessageBoxButton.YesNo, MessageBoxImage.Question);
@@ -75,6 +105,11 @@ namespace newPizza1
             }
         }
 
+        /// <summary>
+        /// Affiche la page d'information
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void PlusInfo(object sender, RoutedEventArgs e)
         {
             ctPizzeta.Visibility = Visibility.Hidden;

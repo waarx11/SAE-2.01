@@ -22,13 +22,23 @@ namespace newPizza1
     /// </summary>
     public partial class ucCommandeEnCours : UserControl
     {
+
+        /// <summary>
+        /// appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
+
+        /// <summary>
+        /// initialise
+        /// </summary>
         public ucCommandeEnCours()
         {
             InitializeComponent();
         }
 
-
+        /// <summary>
+        /// Définition du nom de la pizza
+        /// </summary>
         public string nomPizz
         {
             get { return (string)GetValue(nomPizzProperty); }
@@ -40,7 +50,9 @@ namespace newPizza1
             DependencyProperty.Register("nomPizz", typeof(string), typeof(ucCommandeEnCours), new PropertyMetadata("Inconnue"));
 
 
-
+        /// <summary>
+        /// Définition de la photo de la pizza
+        /// </summary>
         public string ImageName
         {
             get { return (string)GetValue(ImageNameProperty); }
@@ -52,7 +64,9 @@ namespace newPizza1
             DependencyProperty.Register("ImageName", typeof(string), typeof(ucCommandeEnCours), new PropertyMetadata("nolmg.png"));
 
 
-
+        /// <summary>
+        /// Définition de la quantité de la pizza
+        /// </summary>
         public int qtePiz
         {
             get { return (int)GetValue(qtePizProperty); }
@@ -64,7 +78,9 @@ namespace newPizza1
             DependencyProperty.Register("qtePiz", typeof(int), typeof(ucCommandeEnCours), new PropertyMetadata(1));
 
 
-
+        /// <summary>
+        /// Définition de la description de la pizza
+        /// </summary>
         public string TextDes
         {
             get { return (string)GetValue(TextDesProperty); }

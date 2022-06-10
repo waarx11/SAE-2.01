@@ -150,6 +150,10 @@ namespace Modele
             return Quantité;
        }
 
+        /// <summary>
+        /// Affiche le contenu d'une pizza
+        /// </summary>
+        /// <returns>chaine de caractère</returns>
         public override string ToString()
         {
             string Afficher = "";
@@ -185,7 +189,7 @@ namespace Modele
         /// <summary>
         /// Fonction de hashage
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Nom hashé</returns>
         public override int GetHashCode()
         {
             return Nom.GetHashCode();

@@ -20,13 +20,24 @@ namespace newPizza1
     /// </summary>
     public partial class pageAdministrateur : Window
     {
+        /// <summary>
+        /// appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
+        /// <summary>
+        /// Initialise et défini l'utilisateur actuelle
+        /// </summary>
         public pageAdministrateur()
         {
             DataContext = Mgr.UtilisateurActuel;
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Bouton de déconnexion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Bouton_Deconnexion(object sender, RoutedEventArgs e)
         {
             MessageBoxResult result = MessageBox.Show("Déconnexion", "Voulez-vous vraiment vous  déconnecter", MessageBoxButton.YesNo, MessageBoxImage.Question);
@@ -38,6 +49,11 @@ namespace newPizza1
             }
         }
 
+        /// <summary>
+        /// Affiche la page d'information de l'entreprise
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Bouton_Admin(object sender, RoutedEventArgs e)
         {
             var windows = new ucAdmninistration();
@@ -46,6 +62,11 @@ namespace newPizza1
             TextBun.Text = ((Administrateur)Mgr.UtilisateurActuel).NomPizzeria;
         }
 
+        /// <summary>
+        /// Affiche la page des commandes
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Bouton_Commandes(object sender, RoutedEventArgs e)
         {
             var windows = new ucTouteLesCommande();

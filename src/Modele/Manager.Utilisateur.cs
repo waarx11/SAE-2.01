@@ -177,8 +177,8 @@ namespace Modele
         /// <summary>
         /// Modifier un client
         /// </summary>
-        /// <param name="adOld"></param>
-        /// <param name="adNew"></param>
+        /// <param name="clOld"></param>
+        /// <param name="clNew"></param>
         /// <returns>return un client modifier</returns>
         public Client ModifieClient(Client clOld, Client clNew)
         {

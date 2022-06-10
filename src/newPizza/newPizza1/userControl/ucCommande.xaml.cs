@@ -23,44 +23,34 @@ namespace newPizza1
     /// </summary>
     public partial class ucCommande : UserControl
     {
+        /// <summary>
+        /// appel du manager
+        /// </summary>
         public Manager Mgr => ((App)App.Current).LeManager;
+
+        /// <summary>
+        /// initialise & récupère la liste de commande de l'utilisateur (admin)
+        /// </summary>
         public ucCommande()
         {
             DataContext = ((Administrateur)Mgr.UtilisateurActuel).ListCommandeAdmin;
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Bouton qui change le statut de la commande
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ((Administrateur)Mgr.UtilisateurActuel).ChangerStatusCommande(Mgr.CommandeActuelle);
             if (Mgr.CommandeActuelle != null)
             {
                 TextB.Visibility = Visibility.Visible;
-                bName.Content = "FINIR";
+                bName.Content = "FINIT";
             }
         }
-
-
-        // Créer une nvlle commande:
-        /*
-            //on crée un nouveau player settings
-            ucPizzaCommande pSettings = new ucPizzaCommande();
-            //on incrémente l'identifiant pour lui donner la bonne valeur
-            pSettings.Id = ucPizzaCommandeList.Count + 1;
-            //on ajoute quelques propriétés
-            pSettings.HorizontalAlignment = System.Windows.HorizontalAlignment.Stretch;
-            pSettings.VerticalAlignment = System.Windows.VerticalAlignment.Center;
-
-            //on ajoute une nouvelle ligne à la grille
-            ucPizzaCommandeGrid.RowDefinitions.Add(new RowDefinition());
-            //on ajoute le player settings à la grille en le plaçant sur la nouvelle ligne
-            ucPizzaCommandeGrid.Children.Add(pSettings);
-            pSettings.SetValue(Grid.RowProperty, pSettings.Id);
-
-            //on ajoute notre player settings à la liste privée
-            ucPizzaCommandeList.Add(pSettings);
-         */
-
 
     }
 }
