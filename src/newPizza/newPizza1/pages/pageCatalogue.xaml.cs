@@ -112,12 +112,16 @@ namespace newPizza1
         /// <param name="e"></param>
         private void PlusInfo(object sender, RoutedEventArgs e)
         {
-            ctPizzeta.Visibility = Visibility.Hidden;
-            ctCarnivore.Visibility = Visibility.Hidden;
-            ctEpicee.Visibility = Visibility.Hidden;
-            ctVege.Visibility = Visibility.Hidden;
-            ccCatalogue.Visibility = Visibility.Visible;
-            ccCatalogue.Content = new ucInfoPizza();
+            Pizza p1 = Mgr.PizzaActuelle;
+            if (p1 != null)
+            {
+                ctPizzeta.Visibility = Visibility.Hidden;
+                ctCarnivore.Visibility = Visibility.Hidden;
+                ctEpicee.Visibility = Visibility.Hidden;
+                ctVege.Visibility = Visibility.Hidden;
+                ccCatalogue.Visibility = Visibility.Visible;
+                ccCatalogue.Content = new ucInfoPizza();
+            }
         }
 
     }

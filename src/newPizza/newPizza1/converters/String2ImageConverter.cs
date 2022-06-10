@@ -14,7 +14,7 @@ namespace newPizza1.converters
 
         static String2ImageConverter()
         {
-            ImagesPath = Path.Combine(Directory.GetCurrentDirectory() , "..\\img\\");
+            ImagesPath = Path.Combine(Directory.GetCurrentDirectory() , "img\\");
         }
 
 
@@ -22,7 +22,7 @@ namespace newPizza1.converters
         {
             string imageName = (string)value;
 
-            if (string.IsNullOrWhiteSpace(imageName)) return new Uri("..\\img\\default\\noImg.png", UriKind.Absolute);
+            if (string.IsNullOrWhiteSpace(imageName)) return new Uri("img\\default\\noImg.png", UriKind.Absolute);
 
             string imagePath = Path.Combine(ImagesPath, imageName);
 

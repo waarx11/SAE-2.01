@@ -21,8 +21,6 @@ namespace Modele
             Persistance = p;
             Administrateurs = new ReadOnlyCollection<Administrateur>(administrateurs);
             Clients = new ReadOnlyCollection<Client>(clients);
-            Pizzas = new ReadOnlyCollection<Pizza>(pizzas);
-            Commandes = new ReadOnlyCollection<Commande>(commandes);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

@@ -11,7 +11,7 @@ namespace DataContractPersistance
 {
     public class DataContractPers : IPersistanceManager
     {
-        public string FilePath { get; set; } = Path.Combine(Directory.GetCurrentDirectory(), "..//XML");
+        public string FilePath { get; set; } = Path.Combine(Directory.GetCurrentDirectory(), "XML");
         public string FileName { get; set; } = "newPizzaPers";
         string PersFile => Path.Combine(FilePath, FileName);
         internal List<Client> LesClients { get; set; } = new List<Client>();

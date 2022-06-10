@@ -13,6 +13,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img2/autre/fondcatalogue3.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img2/autre/idpagesmile.jpg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img2/buttons/commandes.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img2/buttons/croix.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img2/buttons/info.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img2/buttons/news.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("img2/buttons/panier.png")]
