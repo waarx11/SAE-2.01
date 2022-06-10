@@ -28,5 +28,14 @@ namespace newPizza1
             InitializeComponent();
         }
 
+        public event RoutedEventHandler? CLICKEPICEE;
+        private void MenuBouton_Click(object sender, RoutedEventArgs e)
+        {
+            if (CLICKEPICEE != null)
+            {
+                CLICKEPICEE(this, e);
+            }
+        }
+
     }
 }

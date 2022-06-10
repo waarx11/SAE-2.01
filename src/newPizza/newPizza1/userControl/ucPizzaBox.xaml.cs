@@ -30,12 +30,6 @@ namespace newPizza1
             InitializeComponent();
         }
 
-        public void BTN_PLUS_DINFO(object sender, RoutedEventArgs e)
-        {
-            var plusInfo = new ucInfoPizza();
-            //contControl.Content = plusInfo;
-        }
-
         public void BtnPlus(object sender, RoutedEventArgs e)
         {
             Pizza p1 = Mgr.PizzaActuelle;
@@ -68,8 +62,8 @@ namespace newPizza1
                 int m = p1.Quantité;
                 if (m >= 1)
                 {
-                    (Mgr.UtilisateurActuel as Client).ajouterPizzaCommande(Mgr.PizzaActuelle);
-                    (Mgr.UtilisateurActuel as Client).ListPizzaClient[(Mgr.UtilisateurActuel as Client).ListPizzaClient.Count() - 1].Quantité = Mgr.PizzaActuelle.modifQte(m);
+                    ((Client)Mgr.UtilisateurActuel).ajouterPizzaCommande(Mgr.PizzaActuelle);
+                    ((Client)Mgr.UtilisateurActuel).ListPizzaClient[((Client)Mgr.UtilisateurActuel).ListPizzaClient.Count() - 1].Quantité = Mgr.PizzaActuelle.modifQte(m);
                 }
             }
         }
@@ -92,7 +86,7 @@ namespace newPizza1
 
         // Using a DependencyProperty as the backing store for ImageName.  This enables animation, styling, binding, etc...
         public static readonly DependencyProperty ImageNameProperty =
-            DependencyProperty.Register("ImageName", typeof(string), typeof(ucPizzaBox), new PropertyMetadata("nolmg.png"));
+            DependencyProperty.Register("ImageName", typeof(string), typeof(ucPizzaBox), new PropertyMetadata("noImg.png"));
 
 
 
@@ -106,13 +100,18 @@ namespace newPizza1
         public static readonly DependencyProperty QtePizzaProperty =
             DependencyProperty.Register("QtePizza", typeof(int), typeof(ucPizzaBox), new PropertyMetadata(1));
 
-
-
-        private void btnPlusInfo(object sender, RoutedEventArgs e)
+        
+        public event RoutedEventHandler? CLICKPLUSINFO;
+        private void MenuBouton_Click(object sender, RoutedEventArgs e)
         {
-            // Récupérer la pizza cliquée :
-            //int rep = Mgr.selectionnerPizza(/*mettre le nom ici*/);
-            
+            if (CLICKPLUSINFO != null)
+            {
+                CLICKPLUSINFO(this, e);
+            }
+        }
+
+        /*private void btnPlusInfo(object sender, RoutedEventArgs e)
+        { 
             // Récupérer la page actuelle & pageCatalogue:
             //Catalogue pageCatalogue = ..........; a completer
             
@@ -124,6 +123,9 @@ namespace newPizza1
             // - setNom
             // - setDescription
             // - setPrix
-        }
+
+
+
+        }*/
     }
 }

@@ -27,42 +27,13 @@ namespace newPizza1
         public ucInfoPizza()
         {
             InitializeComponent();
+            DataContext = Mgr.PizzaActuelle;
         }
 
+        // Using a DependencyProperty as the backing store for ImageName.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty ImageNameProperty =
+            DependencyProperty.Register("ImageName", typeof(string), typeof(ucInfoPizza), new PropertyMetadata("noImg.png"));
 
-        public string setNom
-        {
-            set
-            {
-                NomPizza.Text = value;
-            }
-        }
-
-        public string setDescription
-        {
-            set
-            {
-                DescriptionPizza.Text = value;
-            }
-        }
-
-        public string setPrix
-        {
-            set
-            {
-                PrixPizza.Text = value;
-            }
-        }
-
-
-
-        public string setImage
-        {
-            set
-            {
-                Image.Source = new BitmapImage(new Uri(value, UriKind.Relative));
-            }
-        }
 
     }
 }

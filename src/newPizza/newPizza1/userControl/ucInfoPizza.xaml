@@ -3,24 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:newPizza1"
+             xmlns:local="clr-namespace:newPizza1" xmlns:modele="clr-namespace:Modele;assembly=Modele" xmlns:conv="clr-namespace:newPizza1.converters" d:DataContext="{d:DesignInstance Type=modele:Pizza}"
              mc:Ignorable="d" 
              d:DesignHeight="1080" d:DesignWidth="1620">
+
+    <UserControl.Resources>
+        <conv:String2ImageConverter x:Key="string2ImageConverter"/>
+    </UserControl.Resources>
+    
     <DockPanel>
         <DockPanel DockPanel.Dock="Top" Height="70" Background="{StaticResource couleurSecondaire}">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="0.2*"/>
-                    <ColumnDefinition Width="0.8*"/>
-                    <ColumnDefinition Width="0.2*"/>
-                </Grid.ColumnDefinitions>
-
-                <TextBlock Foreground="{StaticResource couleurTexte}" x:Name="NomPizza" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
-                <Button Foreground="{StaticResource couleurTexte}" Content="Retour"  Grid.Column="2" Width="150" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            </Grid>
+            <TextBlock Foreground="{StaticResource couleurTexte}" Text="{Binding Nom}" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="30" FontWeight="Bold"/>
         </DockPanel>
         <DockPanel>
-            <Grid>
+            <Grid Background="{StaticResource couleurFond}">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="0.8*"/>
                     <RowDefinition Height="0.2*"/>
@@ -33,8 +29,8 @@
                         <ColumnDefinition Width="0.2*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Image x:Name="Image" Margin="0,50,0,50" Grid.Column="0"/>
-                    <TextBlock x:Name="DescriptionPizza" Foreground="{StaticResource couleurTexte}" FontSize="20" TextWrapping="Wrap" Grid.Column="1" VerticalAlignment="Center" Margin="0,0,50,0"/>
+                    <Image Source="{Binding ImageName, Converter={StaticResource string2ImageConverter}}" Margin="0,50,0,50" Grid.Column="0"/>
+                    <TextBlock Foreground="{StaticResource couleurTexte}" FontSize="20" TextWrapping="Wrap" Grid.Column="1" VerticalAlignment="Center" Margin="0,0,50,0" Text="{Binding Description}"/>
                 </Grid>
 
                 <Grid Grid.Row="1">
@@ -70,7 +66,8 @@
                     </Border>
                     <WrapPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,100,0">
                         <TextBlock Foreground="{StaticResource couleurTexte}" Text="Prix: " FontSize="35"></TextBlock>
-                        <TextBlock Foreground="{StaticResource couleurTexte}" x:Name="PrixPizza" Text="12.00" FontSize="35"></TextBlock>
+                        <TextBlock Foreground="{StaticResource couleurTexte}" x:Name="PrixPizza" Text="{Binding Prix}" FontSize="35"></TextBlock>
+                        <TextBlock Foreground="{StaticResource couleurTexte}" Text=" €" FontSize="35"></TextBlock>
                     </WrapPanel>
 
                 </Grid>

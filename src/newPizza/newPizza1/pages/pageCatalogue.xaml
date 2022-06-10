@@ -33,11 +33,15 @@
             </DockPanel>
         </Grid>
     
-        <DockPanel>
-            <ContentControl x:Name="ccCatalogue">
-                <local:ucCataloguePizzeta/>
+        <Grid>
+            <local:ucCataloguePizzeta CLICKPIZZETA="PlusInfo" Visibility="Visible" x:Name="ctPizzeta"/>
+            <local:ucCatalogueCarnivore CLICKCARNIVORE="PlusInfo" Visibility="Hidden" x:Name="ctCarnivore" />
+            <local:ucCatalogueEpicees CLICKEPICEE="PlusInfo" Visibility="Hidden" x:Name="ctEpicee" />
+            <local:ucCatalogueVege CLICKVEGE="PlusInfo" Visibility="Hidden" x:Name="ctVege" />
+            <ContentControl x:Name="ccCatalogue" Visibility="Hidden">
+                
             </ContentControl>
-        </DockPanel>
+        </Grid>
 
     </DockPanel>
 </Window>

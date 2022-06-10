@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,22 +31,37 @@ namespace newPizza1
         }
         private void MenuBouton_Pizzetas(object sender, RoutedEventArgs e)
         {
-            ccCatalogue.Content = new ucCataloguePizzeta();
+            ctPizzeta.Visibility = Visibility.Visible;
+            ctCarnivore.Visibility = Visibility.Hidden;
+            ctEpicee.Visibility = Visibility.Hidden;
+            ctVege.Visibility = Visibility.Hidden;
+            ccCatalogue.Visibility = Visibility.Hidden;
         }
-
         private void MenuBouton_Epicees(object sender, RoutedEventArgs e)
         {
-            ccCatalogue.Content = new ucCatalogueEpicees();
+            ctPizzeta.Visibility = Visibility.Hidden;
+            ctCarnivore.Visibility = Visibility.Hidden;
+            ctEpicee.Visibility = Visibility.Visible;
+            ctVege.Visibility = Visibility.Hidden;
+            ccCatalogue.Visibility = Visibility.Hidden;
         }
 
         private void MenuBouton_Carnivores(object sender, RoutedEventArgs e)
         {
-            ccCatalogue.Content = new ucCatalogueCarnivore();
+            ctPizzeta.Visibility = Visibility.Hidden;
+            ctCarnivore.Visibility = Visibility.Visible;
+            ctEpicee.Visibility = Visibility.Hidden;
+            ctVege.Visibility = Visibility.Hidden;
+            ccCatalogue.Visibility = Visibility.Hidden;
         }
 
         private void MenuBouton_Vegetariennes(object sender, RoutedEventArgs e)
         {
-            ccCatalogue.Content = new ucCatalogueVege();
+            ctPizzeta.Visibility = Visibility.Hidden;
+            ctCarnivore.Visibility = Visibility.Hidden;
+            ctEpicee.Visibility = Visibility.Hidden;
+            ctVege.Visibility = Visibility.Visible;
+            ccCatalogue.Visibility = Visibility.Hidden;
         }
 
         private void MenuBouton_Deconnexion(object sender, RoutedEventArgs e)
@@ -57,6 +73,16 @@ namespace newPizza1
                 this.Close();
                 identif.Show();
             }
+        }
+
+        private void PlusInfo(object sender, RoutedEventArgs e)
+        {
+            ctPizzeta.Visibility = Visibility.Hidden;
+            ctCarnivore.Visibility = Visibility.Hidden;
+            ctEpicee.Visibility = Visibility.Hidden;
+            ctVege.Visibility = Visibility.Hidden;
+            ccCatalogue.Visibility = Visibility.Visible;
+            ccCatalogue.Content = new ucInfoPizza();
         }
 
     }

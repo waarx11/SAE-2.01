@@ -27,5 +27,16 @@ namespace newPizza1
             DataContext = Mgr;
             InitializeComponent();
         }
+
+        public event RoutedEventHandler? CLICKCARNIVORE;
+        private void MenuBouton_Click(object sender, RoutedEventArgs e)
+        {
+            if (CLICKCARNIVORE != null)
+            {
+                CLICKCARNIVORE(this, e);
+            }
+        }
+
+
     }
 }
