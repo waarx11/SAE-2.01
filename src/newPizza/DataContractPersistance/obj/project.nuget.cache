@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k8O400OFn63dfykLnFBXVC/93Dekr2QVzOtQbeD0I0wZeaVLkQ/ENsKTSgmBpch9prxJo4joEr2k/LCI7AnXZg==",
+  "dgSpecHash": "ns+0RNOSGnr7DZ7/m08LOjWATynyYVbyy6CWQmFdTXjq056NWRf+7J+xBhVVruS/YUpFXZrKK5EgXlZA4kt7CQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj",
+  "projectFilePath": "C:\\Users\\babonneau\\Source\\Repos\\sae-2.01\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
