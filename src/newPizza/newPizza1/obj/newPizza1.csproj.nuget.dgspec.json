@@ -1,32 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\newPizza1\\newPizza1.csproj": {}
+    "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\newPizza1\\newPizza1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bapti\\Desktop\\201\\src\\Modele\\Modele.csproj": {
+    "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\Modele\\Modele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\201\\src\\Modele\\Modele.csproj",
+        "projectUniqueName": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\Modele\\Modele.csproj",
         "projectName": "Modele",
-        "projectPath": "C:\\Users\\bapti\\Desktop\\201\\src\\Modele\\Modele.csproj",
-        "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bapti\\Desktop\\201\\src\\Modele\\obj\\",
+        "projectPath": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\Modele\\Modele.csproj",
+        "packagesPath": "C:\\Users\\naverdier\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\Modele\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\naverdier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +43,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -54,36 +60,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj": {
+    "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj",
+        "projectUniqueName": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj",
         "projectName": "DataContractPersistance",
-        "projectPath": "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj",
-        "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\DataContractPersistance\\obj\\",
+        "projectPath": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj",
+        "packagesPath": "C:\\Users\\naverdier\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\DataContractPersistance\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\naverdier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\bapti\\Desktop\\201\\src\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\bapti\\Desktop\\201\\src\\Modele\\Modele.csproj"
+              "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\Modele\\Modele.csproj"
               }
             }
           }
@@ -95,8 +107,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -112,39 +124,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\newPizza1\\newPizza1.csproj": {
+    "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\newPizza1\\newPizza1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\newPizza1\\newPizza1.csproj",
+        "projectUniqueName": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\newPizza1\\newPizza1.csproj",
         "projectName": "newPizza1",
-        "projectPath": "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\newPizza1\\newPizza1.csproj",
-        "packagesPath": "C:\\Users\\bapti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\newPizza1\\obj\\",
+        "projectPath": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\newPizza1\\newPizza1.csproj",
+        "packagesPath": "C:\\Users\\naverdier\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\newPizza1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bapti\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\naverdier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net5.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0-windows7.0": {
-            "targetAlias": "net6.0-windows",
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\bapti\\Desktop\\201\\src\\Modele\\Modele.csproj": {
-                "projectPath": "C:\\Users\\bapti\\Desktop\\201\\src\\Modele\\Modele.csproj"
+              "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\Modele\\Modele.csproj": {
+                "projectPath": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\Modele\\Modele.csproj"
               },
-              "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj": {
-                "projectPath": "C:\\Users\\bapti\\Desktop\\201\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj"
+              "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj": {
+                "projectPath": "C:\\Users\\naverdier\\Source\\Repos\\sae-2.01\\src\\newPizza\\DataContractPersistance\\DataContractPersistance.csproj"
               }
             }
           }
@@ -156,8 +174,8 @@
         }
       },
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
           "dependencies": {
             "MaterialDesignColors": {
               "target": "Package",
@@ -190,7 +208,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
