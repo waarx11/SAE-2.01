@@ -674,7 +674,7 @@
       <Ville z:Ref="10" i:nil="true" />
       <CodePostal z:Id="222">63100</CodePostal>
       <Pseudo z:Ref="221" i:nil="true" />
-      <Photo z:Id="223">..\img\default\noPP.jpg</Photo>
+      <Photo z:Id="223">noImg.png</Photo>
     </ClientDTO>
     <ClientDTO z:Id="224">
       <Nom z:Ref="216" i:nil="true" />
@@ -686,31 +686,31 @@
       <Ville z:Ref="10" i:nil="true" />
       <CodePostal z:Ref="222" i:nil="true" />
       <Pseudo z:Id="226">emre</Pseudo>
-      <Photo z:Ref="223" i:nil="true" />
+      <Photo z:Id="227">..\img\default\noPP.jpg</Photo>
     </ClientDTO>
-    <ClientDTO z:Id="227">
-      <Nom z:Id="228">Verdier</Nom>
-      <Prénom z:Id="229">Nathan</Prénom>
-      <Email z:Id="230">Nathan@oui.com</Email>
-      <Téléphone z:Id="231">09.25.25.73.19</Téléphone>
-      <Adresse z:Id="232">27 rue non</Adresse>
+    <ClientDTO z:Id="228">
+      <Nom z:Id="229">Verdier</Nom>
+      <Prénom z:Id="230">Nathan</Prénom>
+      <Email z:Id="231">Nathan@oui.com</Email>
+      <Téléphone z:Id="232">09.25.25.73.19</Téléphone>
+      <Adresse z:Id="233">27 rue non</Adresse>
       <Mdp z:Ref="225" i:nil="true" />
       <Ville z:Ref="10" i:nil="true" />
       <CodePostal z:Ref="11" i:nil="true" />
-      <Pseudo z:Id="233">Waarx</Pseudo>
-      <Photo z:Ref="223" i:nil="true" />
+      <Pseudo z:Id="234">Waarx</Pseudo>
+      <Photo z:Ref="227" i:nil="true" />
     </ClientDTO>
-    <ClientDTO z:Id="234">
-      <Nom z:Id="235">Bonneau</Nom>
-      <Prénom z:Id="236">Baptiste</Prénom>
-      <Email z:Id="237">Baptiste@oui.com</Email>
-      <Téléphone z:Ref="231" i:nil="true" />
-      <Adresse z:Ref="232" i:nil="true" />
+    <ClientDTO z:Id="235">
+      <Nom z:Id="236">Bonneau</Nom>
+      <Prénom z:Id="237">Baptiste</Prénom>
+      <Email z:Id="238">Baptiste@oui.com</Email>
+      <Téléphone z:Ref="232" i:nil="true" />
+      <Adresse z:Ref="233" i:nil="true" />
       <Mdp z:Ref="225" i:nil="true" />
       <Ville z:Ref="10" i:nil="true" />
       <CodePostal z:Ref="11" i:nil="true" />
-      <Pseudo z:Id="238">nojii</Pseudo>
-      <Photo z:Id="239">default\noImg.png</Photo>
+      <Pseudo z:Id="239">nojii</Pseudo>
+      <Photo z:Id="240">default\noImg.png</Photo>
     </ClientDTO>
   </Clients>
 </DataToPersist>
