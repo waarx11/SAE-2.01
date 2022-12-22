@@ -1,2 +1,2 @@
 # SAE 2.01
-Petite page vitrine réaliser avec Bootstrap
+Gros projet master detail réaliser en C# (.NET CORE)
